@@ -1,0 +1,451 @@
+
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
+
+\bibitem{DUNE:flux}
+{\scshape DUNE} collaboration, ``{2016 DUNE fluxes}.'' 2016.
+
+\bibitem{SBNproposal}
+R.~Acciarri et~al., \emph{{A Proposal for a Three Detector Short-Baseline
+  Neutrino Oscillation Program in the Fermilab Booster Neutrino Beam}},
+  \href{https://arxiv.org/abs/1503.01520}{{\ttfamily 1503.01520}}.
+
+\bibitem{nuSTORM2017}
+D.~Adey, R.~Appleby, R.~Bayes, A.~Bogacz, A.~Bross, J.-B. Lagrange et~al.,
+  \emph{Overview of the neutrinos from stored muons facility - nustorm},
+  {\emph{Journal of Instrumentation} {\bfseries 12} (2017) P07020}.
+
+\bibitem{Abe:2015biq}
+{\scshape T2K} collaboration, K.~Abe et~al., \emph{{Measurement of the muon
+  neutrino inclusive charged-current cross section in the energy range of 1–3
+  GeV with the T2K INGRID detector}},
+  \href{https://doi.org/10.1103/PhysRevD.93.072002}{\emph{Phys. Rev.}
+  {\bfseries D93} (2016) 072002},
+  [\href{https://arxiv.org/abs/1509.06940}{{\ttfamily 1509.06940}}].
+
+\bibitem{fluxes:nonLAr}
+L.~Loiacono, ``{Neutrino Flux Simulations with an Evacuated and Helium Gas
+  Filled Decay Pipe }.'' 2007.
+
+\bibitem{Czyz:1964zz}
+W.~Czyz, G.~C. Sheppey and J.~D. Walecka, \emph{{Neutrino production of lepton
+  pairs through the point four-fermion interaction}},
+  \href{https://doi.org/10.1007/BF02734586}{\emph{Nuovo Cim.} {\bfseries 34}
+  (1964) 404--435}.
+
+\bibitem{Lovseth:1971vv}
+J.~Lovseth and M.~Radomiski, \emph{{Kinematical distributions of
+  neutrino-produced lepton triplets}},
+  \href{https://doi.org/10.1103/PhysRevD.3.2686}{\emph{Phys. Rev.} {\bfseries
+  D3} (1971) 2686--2706}.
+
+\bibitem{Fujikawa:1971nx}
+K.~Fujikawa, \emph{{The self-coupling of weak lepton currents in high-energy
+  neutrino and muon reactions}},
+  \href{https://doi.org/10.1016/0003-4916(71)90244-2}{\emph{Annals Phys.}
+  {\bfseries 68} (1971) 102--162}.
+
+\bibitem{Brown:1971qr}
+R.~W. Brown, \emph{{Intermediate boson. i. theoretical production
+  cross-sections in high-energy neutrino and muon experiments}},
+  \href{https://doi.org/10.1103/PhysRevD.3.207}{\emph{Phys. Rev.} {\bfseries
+  D3} (1971) 207--223}.
+
+\bibitem{Koike:1971tu}
+K.~Koike, M.~Konuma, K.~Kurata and K.~Sugano, \emph{{Neutrino production of
+  lepton pairs. 1. -}}, \href{https://doi.org/10.1143/PTP.46.1150}{\emph{Prog.
+  Theor. Phys.} {\bfseries 46} (1971) 1150--1169}.
+
+\bibitem{Magill:2016hgc}
+G.~Magill and R.~Plestid, \emph{{Neutrino Trident Production at the Intensity
+  Frontier}}, \href{https://doi.org/10.1103/PhysRevD.95.073004}{\emph{Phys.
+  Rev.} {\bfseries D95} (2017) 073004},
+  [\href{https://arxiv.org/abs/1612.05642}{{\ttfamily 1612.05642}}].
+
+\bibitem{Geiregat:1990gz}
+{\scshape CHARM-II} collaboration, D.~Geiregat et~al., \emph{{First observation
+  of neutrino trident production}},
+  \href{https://doi.org/10.1016/0370-2693(90)90146-W}{\emph{Phys. Lett.}
+  {\bfseries B245} (1990) 271--275}.
+
+\bibitem{Mishra:1991bv}
+{\scshape CCFR} collaboration, S.~R. Mishra et~al., \emph{{Neutrino tridents
+  and W Z interference}},
+  \href{https://doi.org/10.1103/PhysRevLett.66.3117}{\emph{Phys. Rev. Lett.}
+  {\bfseries 66} (1991) 3117--3120}.
+
+\bibitem{Adams:1998yf}
+{\scshape NuTeV} collaboration, T.~Adams et~al., \emph{{Neutrino trident
+  production from NuTeV}},  in \emph{{High-energy physics. Proceedings, 29th
+  International Conference, ICHEP'98, Vancouver, Canada, July 23-29, 1998. Vol.
+  1, 2}}, pp.~631--634, 1998,
+  \href{https://arxiv.org/abs/hep-ex/9811012}{{\ttfamily hep-ex/9811012}}.
+
+\bibitem{Brown:1973ih}
+R.~W. Brown, R.~H. Hobbs, J.~Smith and N.~Stanko, \emph{{Intermediate boson.
+  iii. virtual-boson effects in neutrino trident production}},
+  \href{https://doi.org/10.1103/PhysRevD.6.3273}{\emph{Phys. Rev.} {\bfseries
+  D6} (1972) 3273--3292}.
+
+\bibitem{Gaidaenko:2000hg}
+I.~V. Gaidaenko, V.~A. Novikov and M.~I. Vysotsky, \emph{{On the production of
+  a lepton pair in the collision of ultrarelativistic neutral particle with
+  nonzero magnetic moment with nuclei}},
+  \href{https://doi.org/10.1016/S0370-2693(00)01305-8}{\emph{Phys. Lett.}
+  {\bfseries B497} (2001) 49--54},
+  [\href{https://arxiv.org/abs/hep-ph/0007204}{{\ttfamily hep-ph/0007204}}].
+
+\bibitem{Altmannshofer:2014pba}
+W.~Altmannshofer, S.~Gori, M.~Pospelov and I.~Yavin, \emph{{Neutrino Trident
+  Production: A Powerful Probe of New Physics with Neutrino Beams}},
+  \href{https://doi.org/10.1103/PhysRevLett.113.091801}{\emph{Phys. Rev. Lett.}
+  {\bfseries 113} (2014) 091801},
+  [\href{https://arxiv.org/abs/1406.2332}{{\ttfamily 1406.2332}}].
+
+\bibitem{Kaneta:2016uyt}
+Y.~Kaneta and T.~Shimomura, \emph{{On the possibility of a search for the
+  $L_\mu - L_\tau$ gauge boson at Belle-II and neutrino beam experiments}},
+  \href{https://doi.org/10.1093/ptep/ptx050}{\emph{PTEP} {\bfseries 2017}
+  (2017) 053B04}, [\href{https://arxiv.org/abs/1701.00156}{{\ttfamily
+  1701.00156}}].
+
+\bibitem{Ge2017}
+S.-F. Ge, M.~Lindner and W.~Rodejohann, \emph{{New Physics and Atmospheric
+  Neutrino Trident Production with PINGU and ORCA}},
+  \href{https://arxiv.org/abs/1702.02617}{{\ttfamily 1702.02617}}.
+
+\bibitem{Magill:2017mps}
+G.~Magill and R.~Plestid, \emph{{Probing new charged scalars with neutrino
+  trident production}},
+  \href{https://doi.org/10.1103/PhysRevD.97.055003}{\emph{Phys. Rev.}
+  {\bfseries D97} (2018) 055003},
+  [\href{https://arxiv.org/abs/1710.08431}{{\ttfamily 1710.08431}}].
+
+\bibitem{Falkowski:2018dmy}
+A.~Falkowski, G.~Grilli~di Cortona and Z.~Tabrizi, \emph{{Future DUNE
+  constraints on EFT}},
+  \href{https://doi.org/10.1007/JHEP04(2018)101}{\emph{JHEP} {\bfseries 04}
+  (2018) 101}, [\href{https://arxiv.org/abs/1802.08296}{{\ttfamily
+  1802.08296}}].
+
+\bibitem{Belusevic:1987cw}
+R.~Belusevic and J.~Smith, \emph{{W - Z Interference in Neutrino - Nucleus
+  Scattering}}, \href{https://doi.org/10.1103/PhysRevD.37.2419}{\emph{Phys.
+  Rev.} {\bfseries D37} (1988) 2419}.
+
+\bibitem{Kozhushner:1962aa}
+M.~A. Kozhushner and E.~P. Shabalin, \emph{{Production of lepton particle pairs
+  on a Coulomb center}}, {\emph{Sov. Phys. JETP} {\bfseries 14} (1962) 676}.
+
+\bibitem{Shabalin:1963aa}
+E.~P. Shabalin, \emph{{The $\mu^+\mu^-$ and $e^+ e^-$ pair production cross
+  sections for neutrinos scattered by nuclei}}, {\emph{Sov. Phys. JETP}
+  {\bfseries 16} (1963) 125}.
+
+\bibitem{Acciarri:2016ooe}
+{\scshape DUNE} collaboration, R.~Acciarri et~al., \emph{{Long-Baseline
+  Neutrino Facility (LBNF) and Deep Underground Neutrino Experiment (DUNE)}},
+  \href{https://arxiv.org/abs/1601.02984}{{\ttfamily 1601.02984}}.
+
+\bibitem{DUNECDRvolII}
+D.~{DUNE Collaboration}, R.~Acciarri et~al., \emph{{Long-Baseline Neutrino
+  Facility (LBNF) and Deep Underground Neutrino Experiment (DUNE) Conceptual
+  Design Report Volume 2: The Physics Program for DUNE at LBNF}},
+  \href{https://arxiv.org/abs/1512.06148}{{\ttfamily 1512.06148}}.
+
+\bibitem{Soler:2015ada}
+F.~J.~P. Soler, \emph{{nuSTORM: Neutrinos from Stored Muons}},  in
+  \emph{{Proceedings, Topical Research Meeting on Prospects in Neutrino Physics
+  (NuPhys2014): London, UK, December 15-17, 2014}}, 2015,
+  \href{https://arxiv.org/abs/1507.08836}{{\ttfamily 1507.08836}}.
+
+\bibitem{Andreopoulos2009}
+C.~Andreopoulos et~al., \emph{{The GENIE Neutrino Monte Carlo Generator}},
+  \href{https://doi.org/10.1016/j.nima.2009.12.009}{\emph{Nucl. Instrum. Meth.}
+  {\bfseries A614} (2010) 87--104},
+  [\href{https://arxiv.org/abs/0905.2517}{{\ttfamily 0905.2517}}].
+
+\bibitem{Abe:2011xv}
+K.~Abe et~al., \emph{{Measurements of the T2K neutrino beam properties using
+  the INGRID on-axis near detector}},
+  \href{https://doi.org/10.1016/j.nima.2012.03.023}{\emph{Nucl. Instrum. Meth.}
+  {\bfseries A694} (2012) 211--223},
+  [\href{https://arxiv.org/abs/1111.3119}{{\ttfamily 1111.3119}}].
+
+\bibitem{Abe:2016fic}
+{\scshape T2K} collaboration, K.~Abe et~al., \emph{{Measurement of Coherent
+  $\pi^{+}$ Production in Low Energy Neutrino-Carbon Scattering}},
+  \href{https://doi.org/10.1103/PhysRevLett.117.192501}{\emph{Phys. Rev. Lett.}
+  {\bfseries 117} (2016) 192501},
+  [\href{https://arxiv.org/abs/1604.04406}{{\ttfamily 1604.04406}}].
+
+\bibitem{Abe:2016tez}
+{\scshape T2K} collaboration, K.~Abe et~al., \emph{{Sensitivity of the T2K
+  accelerator-based neutrino experiment with an Extended run to
+  $20\times10^{21}$ POT}},  \href{https://arxiv.org/abs/1607.08004}{{\ttfamily
+  1607.08004}}.
+
+\bibitem{Altinok:2017xua}
+{\scshape MINERvA} collaboration, O.~Altinok et~al., \emph{{Measurement of
+  $\nu_{\mu}$ charged-current single $\pi^{0}$ production on hydrocarbon in the
+  few-GeV region using MINERvA}},
+  \href{https://doi.org/10.1103/PhysRevD.96.072003}{\emph{Phys. Rev.}
+  {\bfseries D96} (2017) 072003},
+  [\href{https://arxiv.org/abs/1708.03723}{{\ttfamily 1708.03723}}].
+
+\bibitem{MINERvA:2017}
+{\scshape MINERvA} collaboration, ``{MINERvA Status Report and Request for
+  $12\times10^{20}$ POT in Antineutrino Mode}.'' 2017.
+
+\bibitem{Adamson:2014pgc}
+{\scshape MINOS} collaboration, P.~Adamson et~al., \emph{{Study of quasielastic
+  scattering using charged-current νμ -iron interactions in the MINOS near
+  detector}}, \href{https://doi.org/10.1103/PhysRevD.91.012005}{\emph{Phys.
+  Rev.} {\bfseries D91} (2015) 012005},
+  [\href{https://arxiv.org/abs/1410.8613}{{\ttfamily 1410.8613}}].
+
+\bibitem{AlpernBoehm}
+J.~A. Alpern~Boehm, \emph{{A Measurement of Electron Neutrino Appearance with
+  the MINOS Experiment}}, Ph.D. thesis, Harvard University, 2009.
+
+\bibitem{Wang:Biao}
+B.~Wang, \emph{{Muon-Neutrino Electron Elastic Scattering and a Search for the
+  Muon-Neutrino Magnetic Moment in the NOvA Near Detector}}, Ph.D. thesis,
+  Southern Methodist University, 2017.
+
+\bibitem{sanchez_mayly_2018_1286758}
+M.~Sanchez, ``{NOvA Results and Prospects}.'' June, 2018.
+
+\bibitem{Hand:1963bb}
+L.~N. Hand, \emph{{Experimental investigation of pion electroproduction}},
+  \href{https://doi.org/10.1103/PhysRev.129.1834}{\emph{Phys. Rev.} {\bfseries
+  129} (1963) 1834--1846}.
+
+\bibitem{Kniehl:1990iv}
+B.~A. Kniehl, \emph{{Elastic e p scattering and the Weizsacker-Williams
+  approximation}},
+  \href{https://doi.org/10.1016/0370-2693(91)90432-P}{\emph{Phys. Lett.}
+  {\bfseries B254} (1991) 267--273}.
+
+\bibitem{vonWeizsacker:1934nji}
+C.~F. von Weizsacker, \emph{{Radiation emitted in collisions of very fast
+  electrons}}, \href{https://doi.org/10.1007/BF01333110}{\emph{Z. Phys.}
+  {\bfseries 88} (1934) 612--625}.
+
+\bibitem{Williams:1934ad}
+E.~J. Williams, \emph{{Nature of the high-energy particles of penetrating
+  radiation and status of ionization and radiation formulae}},
+  \href{https://doi.org/10.1103/PhysRev.45.729}{\emph{Phys. Rev.} {\bfseries
+  45} (1934) 729--730}.
+
+\bibitem{Fermi:1924tc}
+E.~Fermi, \emph{{On the Theory of the impact between atoms and electrically
+  charged particles}}, \href{https://doi.org/10.1007/BF03184853}{\emph{Z.
+  Phys.} {\bfseries 29} (1924) 315--327}.
+
+\bibitem{Frixione:1993yw}
+S.~Frixione, M.~L. Mangano, P.~Nason and G.~Ridolfi, \emph{{Improving the
+  Weizsacker-Williams approximation in electron - proton collisions}},
+  \href{https://doi.org/10.1016/0370-2693(93)90823-Z}{\emph{Phys. Lett.}
+  {\bfseries B319} (1993) 339--345},
+  [\href{https://arxiv.org/abs/hep-ph/9310350}{{\ttfamily hep-ph/9310350}}].
+
+\bibitem{WeberTalk}
+A.~Weber, ``{ND(s) for DUNE}.'' May, 2018.
+
+\bibitem{DUNE:exposure}
+{\scshape DUNE} collaboration, V.~Papadimitriou, ``{Design of the LBNF
+  Beamline}.'' 2016.
+
+\bibitem{Adey:2014rfv}
+{\scshape $\nu$STORM} collaboration, D.~Adey et~al., \emph{{Light sterile
+  neutrino sensitivity at the nuSTORM facility}},
+  \href{https://doi.org/10.1103/PhysRevD.89.071301}{\emph{Phys. Rev.}
+  {\bfseries D89} (2014) 071301},
+  [\href{https://arxiv.org/abs/1402.5250}{{\ttfamily 1402.5250}}].
+
+\bibitem{Smith:1977nx}
+J.~Smith and J.~A.~M. Vermaseren, \emph{{Electromagnetic Backgrounds in
+  Neutrino Produced Trimuon Events}},
+  \href{https://doi.org/10.1103/PhysRevD.17.2288}{\emph{Phys. Rev.} {\bfseries
+  D17} (1978) 2288}.
+
+\bibitem{Albright:1978mg}
+C.~H. Albright, J.~Smith and J.~A.~M. Vermaseren, \emph{{A Comparison of
+  Trimuon Production Mechanisms}},
+  \href{https://doi.org/10.1103/PhysRevD.18.108}{\emph{Phys. Rev.} {\bfseries
+  D18} (1978) 108}.
+
+\bibitem{Aliaga:2016oaz}
+{\scshape MINERvA} collaboration, L.~Aliaga et~al., \emph{{Neutrino Flux
+  Predictions for the NuMI Beam}},
+  \href{https://doi.org/10.1103/PhysRevD.94.092005,
+  10.1103/PhysRevD.95.039903}{\emph{Phys. Rev.} {\bfseries D94} (2016) 092005},
+  [\href{https://arxiv.org/abs/1607.00704}{{\ttfamily 1607.00704}}].
+
+\bibitem{Boehm:2009zz}
+J.~A.~A. Boehm, \emph{{Measurement of electron neutrino appearance with the
+  MINOS experiment}}, Ph.D. thesis, Harvard U., 2009.
+\newblock 10.2172/957077.
+
+\bibitem{Aurisano}
+A.~Aurisano, ``{Recent Results from MINOS and MINOS+}.'' June, 2018.
+
+\bibitem{NovaII}
+P.~Vahle, ``{NOvA Status and Prospects, 2018 July PUBLIC PAC Meeting}.'' July,
+  2018.
+
+\bibitem{Fricke:1995zz}
+G.~Fricke, C.~Bernhardt, K.~Heilig, L.~A. Schaller, L.~Schellenberg, E.~B.
+  Shera et~al., \emph{{Nuclear Ground State Charge Radii from Electromagnetic
+  Interactions}}, \href{https://doi.org/10.1006/adnd.1995.1007}{\emph{Atom.
+  Data Nucl. Data Tabl.} {\bfseries 60} (1995) 177--285}.
+
+\bibitem{Jentschura2009}
+U.~D. Jentschura and V.~G. Serbo, \emph{{Nuclear form factor, validity of the
+  equivalent photon approximation and Coulomb corrections to muon pair
+  production in photon-nucleus and nucleus-nucleus collisions}},
+  \href{https://doi.org/10.1140/epjc/s10052-009-1147-3}{\emph{European Physical
+  Journal C} {\bfseries 64} (aug, 2009) 309--317},
+  [\href{https://arxiv.org/abs/0908.3853}{{\ttfamily 0908.3853}}].
+
+\bibitem{Anni1994}
+R.~Anni, G.~Co and P.~Pellegrino, \emph{{Nuclear charge density distributions
+  from elastic electron scattering data}},
+  \href{https://doi.org/10.1016/0375-9474(94)00508-K}{\emph{Nucl. Phys.}
+  {\bfseries A584} (1995) 35--59},
+  [\href{https://arxiv.org/abs/nucl-th/9410023}{{\ttfamily nucl-th/9410023}}].
+
+\bibitem{Sprung1997}
+D.~W.~L. Sprung and J.~Martorell, \emph{The symmetrized fermi function and its
+  transforms}, {\emph{Journal of Physics A: Mathematical and General}
+  {\bfseries 30} (1997) 6525}.
+
+\bibitem{Acciarri:2016sli}
+{\scshape ArgoNeuT} collaboration, R.~Acciarri et~al., \emph{{First Observation
+  of Low Energy Electron Neutrinos in a Liquid Argon Time Projection Chamber}},
+  \href{https://doi.org/10.1103/PhysRevD.95.072005}{\emph{Phys. Rev.}
+  {\bfseries D95} (2017) 072005},
+  [\href{https://arxiv.org/abs/1610.04102}{{\ttfamily 1610.04102}}].
+
+\bibitem{REIN198329}
+D.~Rein and L.~M. Sehgal, \emph{Coherent π0 production in neutrino reactions},
+  \href{https://doi.org/https://doi.org/10.1016/0550-3213(83)90090-1}{\emph{Nuclear
+  Physics B} {\bfseries 223} (1983) 29 -- 44}.
+
+\bibitem{Rein:2006di}
+D.~Rein and L.~M. Sehgal, \emph{{PCAC and the Deficit of Forward Muons in pi+
+  Production by Neutrinos}},
+  \href{https://doi.org/10.1016/j.physletb.2007.10.025}{\emph{Phys. Lett.}
+  {\bfseries B657} (2007) 207--209},
+  [\href{https://arxiv.org/abs/hep-ph/0606185}{{\ttfamily hep-ph/0606185}}].
+
+\bibitem{AguilarArevalo:2010xt}
+{\scshape MiniBooNE} collaboration, A.~A. Aguilar-Arevalo et~al.,
+  \emph{{Measurement of $\nu_\mu$-induced charged-current neutral pion
+  production cross sections on mineral oil at $E_\nu\in0.5-2.0$ GeV}},
+  \href{https://doi.org/10.1103/PhysRevD.83.052009}{\emph{Phys. Rev.}
+  {\bfseries D83} (2011) 052009},
+  [\href{https://arxiv.org/abs/1010.3264}{{\ttfamily 1010.3264}}].
+
+\bibitem{Higuera:2014azj}
+{\scshape MINERvA} collaboration, A.~Higuera et~al., \emph{{Measurement of
+  Coherent Production of $\pi^\pm$ in Neutrino and Antineutrino Beams on Carbon
+  from $E_\nu$ of $1.5$ to $20$ GeV}},
+  \href{https://doi.org/10.1103/PhysRevLett.113.261802}{\emph{Phys. Rev. Lett.}
+  {\bfseries 113} (2014) 261802},
+  [\href{https://arxiv.org/abs/1409.3835}{{\ttfamily 1409.3835}}].
+
+\bibitem{Mislivec:2017qfz}
+{\scshape MINERvA} collaboration, A.~Mislivec et~al., \emph{{Measurement of
+  total and differential cross sections of neutrino and antineutrino coherent
+  $\pi^\pm$ production on carbon}},
+  \href{https://doi.org/10.1103/PhysRevD.97.032014}{\emph{Phys. Rev.}
+  {\bfseries D97} (2018) 032014},
+  [\href{https://arxiv.org/abs/1711.01178}{{\ttfamily 1711.01178}}].
+
+\bibitem{Abe:2016aoo}
+{\scshape T2K} collaboration, K.~Abe et~al., \emph{{First measurement of the
+  muon neutrino charged current single pion production cross section on water
+  with the T2K near detector}},
+  \href{https://doi.org/10.1103/PhysRevD.95.012010}{\emph{Phys. Rev.}
+  {\bfseries D95} (2017) 012010},
+  [\href{https://arxiv.org/abs/1605.07964}{{\ttfamily 1605.07964}}].
+
+\bibitem{Acciarri:2014eit}
+{\scshape ArgoNeuT} collaboration, R.~Acciarri et~al., \emph{{First Measurement
+  of Neutrino and Antineutrino Coherent Charged Pion Production on Argon}},
+  \href{https://doi.org/10.1103/PhysRevLett.113.261801,
+  10.1103/PhysRevLett.114.039901}{\emph{Phys. Rev. Lett.} {\bfseries 113}
+  (2014) 261801}, [\href{https://arxiv.org/abs/1408.0598}{{\ttfamily
+  1408.0598}}].
+
+\bibitem{AguilarArevalo:2009ww}
+{\scshape MiniBooNE} collaboration, A.~A. Aguilar-Arevalo et~al.,
+  \emph{{Measurement of $\nu_\mu$ and $\bar{\nu}_\mu$ induced neutral current
+  single $\pi^0$ production cross sections on mineral oil at $E_\nu \sim {\cal
+  O}(1 {\rm GeV})$}},
+  \href{https://doi.org/10.1103/PhysRevD.81.013005}{\emph{Phys. Rev.}
+  {\bfseries D81} (2010) 013005},
+  [\href{https://arxiv.org/abs/0911.2063}{{\ttfamily 0911.2063}}].
+
+\bibitem{Kurimoto:2010rc}
+{\scshape SciBooNE} collaboration, Y.~Kurimoto et~al., \emph{{Improved
+  measurement of neutral current coherent $\pi^0$ production on carbon in a
+  few-GeV neutrino beam}},
+  \href{https://doi.org/10.1103/PhysRevD.81.111102}{\emph{Phys. Rev.}
+  {\bfseries D81} (2010) 111102},
+  [\href{https://arxiv.org/abs/1005.0059}{{\ttfamily 1005.0059}}].
+
+\bibitem{Acciarri:2015ncl}
+{\scshape ArgoNeuT} collaboration, R.~Acciarri et~al., \emph{{Measurement of
+  $\nu_{\mu}$ and $\bar{\nu}_{\mu}$ neutral current $\pi^{0} \rightarrow
+  \gamma\gamma$ production in the ArgoNeuT detector}},
+  \href{https://doi.org/10.1103/PhysRevD.96.012006}{\emph{Phys. Rev.}
+  {\bfseries D96} (2017) 012006},
+  [\href{https://arxiv.org/abs/1511.00941}{{\ttfamily 1511.00941}}].
+
+\bibitem{Rein:1980wg}
+D.~Rein and L.~M. Sehgal, \emph{{Neutrino Excitation of Baryon Resonances and
+  Single Pion Production}},
+  \href{https://doi.org/10.1016/0003-4916(81)90242-6}{\emph{Annals Phys.}
+  {\bfseries 133} (1981) 79--153}.
+
+\bibitem{Mariani:2010ez}
+{\scshape K2K} collaboration, C.~Mariani et~al., \emph{{Measurement of
+  inclusive $\pi^0$ production in the Charged-Current Interactions of Neutrinos
+  in a 1.3-GeV wide band beam}},
+  \href{https://doi.org/10.1103/PhysRevD.83.054023}{\emph{Phys. Rev.}
+  {\bfseries D83} (2011) 054023},
+  [\href{https://arxiv.org/abs/1012.1794}{{\ttfamily 1012.1794}}].
+
+\bibitem{Benvenuti:1975ru}
+A.~C. Benvenuti et~al., \emph{{Observation of New Particle Production by
+  High-Energy Neutrinos and anti-neutrinos}},
+  \href{https://doi.org/10.1103/PhysRevLett.34.419}{\emph{Phys. Rev. Lett.}
+  {\bfseries 34} (1975) 419}.
+
+\bibitem{Lellis:2004yn}
+G.~De~Lellis, P.~Migliozzi and P.~Santorelli, \emph{{Charm physics with
+  neutrinos}}, \href{https://doi.org/10.1016/j.physrep.2005.02.001,
+  10.1016/j.physrep.2004.07.005}{\emph{Phys. Rept.} {\bfseries 399} (2004)
+  227--320}.
+
+\bibitem{Efrosinin:2009zz}
+V.~P. Efrosinin, {\relax Yu}.~G. Kudenko and A.~N. Khotjantsev,
+  \emph{{Single-photon production in neutrino-nucleon interactions}},
+  \href{https://doi.org/10.1134/S1063778809030089}{\emph{Phys. Atom. Nucl.}
+  {\bfseries 72} (2009) 459--464}.
+
+\bibitem{Bodek:2007wb}
+A.~Bodek, \emph{{Muon internal bremsstrahlung: A Conventional explanation for
+  the excess nu(e) events in MiniBoone}},
+  \href{https://arxiv.org/abs/0709.4004}{{\ttfamily 0709.4004}}.
+
+\bibitem{PhysRevLett.108.052505}
+A.~M. Ankowski, O.~Benhar, T.~Mori, R.~Yamaguchi and M.~Sakuda, \emph{Analysis
+  of $\ensuremath{\gamma}$-ray production in neutral-current neutrino-oxygen
+  interactions at energies above 200 mev},
+  \href{https://doi.org/10.1103/PhysRevLett.108.052505}{\emph{Phys. Rev. Lett.}
+  {\bfseries 108} (Feb, 2012) 052505}.
+
+\end{thebibliography}\endgroup

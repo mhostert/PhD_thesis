@@ -1,0 +1,36 @@
+\select@language {british}
+\contentsline {chapter}{Abstract}{3}{section*.1}
+\contentsline {chapter}{List of Figures}{7}{section*.3}
+\contentsline {chapter}{List of Tables}{11}{section*.5}
+\contentsline {chapter}{\numberline {1}Introduction}{21}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introduction}{22}{section.1.1}
+\contentsline {chapter}{\numberline {2}Neutrino Trident Production}{23}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{24}{section.2.1}
+\contentsline {section}{\numberline {2.2}Trident Production Cross Section}{26}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Hadronic Scattering Regimes}{31}{subsection.2.2.1}
+\contentsline {subsubsection}{Coherent Regime (${\rm H}^{\mu \nu }_{\rm c}$)}{31}{section*.12}
+\contentsline {subsubsection}{Diffractive Regime ($\mathrm {H}^{\mu \nu }_\mathrm {d}$)}{32}{section*.14}
+\contentsline {subsection}{\numberline {2.2.2}Breakdown of the EPA }{35}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Coherent versus Diffractive Scattering in Trident Production}{42}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Trident Events in LAr Detectors}{43}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Event Rates}{44}{subsection.2.3.1}
+\contentsline {subsubsection}{The SBN Program}{45}{section*.21}
+\contentsline {subsubsection}{DUNE Near Detector}{46}{section*.22}
+\contentsline {subsubsection}{$\nu $STORM}{47}{section*.24}
+\contentsline {subsection}{\numberline {2.3.2}Kinematical Distributions at DUNE ND}{49}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Background Estimates for Neutrino Trident in LAr}{52}{subsection.2.3.3}
+\contentsline {subsubsection}{Background Candidates}{53}{section*.26}
+\contentsline {subsubsection}{Estimates for the DUNE ND}{54}{section*.28}
+\contentsline {section}{\numberline {2.4}Trident Events in Other Near Detector Facilities}{57}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}INGRID}{58}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}MINOS/MINOS+ Near Detector}{58}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}NO$\nu $A Near Detector}{60}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}MINER$\nu $A}{61}{subsection.2.4.4}
+\contentsline {section}{\numberline {2.5}Conclusions}{62}{section.2.5}
+\contentsline {section}{\numberline {2.6}Form Factors}{64}{section.2.6}
+\contentsline {section}{\numberline {2.7}Kinematical Distributions }{65}{section.2.7}
+\contentsline {section}{\numberline {2.8}Individual Backgrounds}{66}{section.2.8}
+\contentsline {subsection}{\numberline {2.8.1}Pion Production}{67}{subsection.2.8.1}
+\contentsline {subsection}{\numberline {2.8.2}Charm Production}{68}{subsection.2.8.2}
+\contentsline {subsection}{\numberline {2.8.3}CC$\gamma $ and NC$\gamma $}{69}{subsection.2.8.3}
+\contentsline {chapter}{\numberline {3}$Z^\prime $ in Neutrino Scattering}{79}{chapter.3}

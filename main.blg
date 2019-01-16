@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: tridentSM.aux
+The style file: JHEP.bst
+Database file #1: tridentSM/trident.bib
+Warning--empty author in DUNE:flux
+Warning--empty author in MINERvA:2017
+You've used 74 entries,
+            2217 wiz_defined-function locations,
+            1152 strings with 19716 characters,
+and the built_in function-call counts, 21575 in all, are:
+= -- 2287
+> -- 747
+< -- 0
++ -- 229
+- -- 155
+* -- 1741
+:= -- 2967
+add.period$ -- 75
+call.type$ -- 74
+change.case$ -- 71
+chr.to.int$ -- 0
+cite$ -- 76
+duplicate$ -- 1133
+empty$ -- 1895
+format.name$ -- 155
+if$ -- 5661
+int.to.chr$ -- 0
+int.to.str$ -- 74
+missing$ -- 240
+newline$ -- 227
+num.names$ -- 72
+pop$ -- 129
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 933
+stack$ -- 0
+substring$ -- 1064
+swap$ -- 588
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 155
+width$ -- 76
+write$ -- 748
+(There were 2 warnings)

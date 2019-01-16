@@ -1,0 +1,69 @@
+\documentclass[twoside,openright,frontopenright]{ip3thesis}
+\input{preamble}
+
+
+\begin{document}
+\title{Neutrino physics}
+\subtitle{An optional subtitle}
+\author{Author's name}
+\researchgroup{Institute for Particle Physics Phenomenology}
+\maketitlepage*
+
+\begin{abstract}
+%
+	This is some abstract about this thesis.
+%
+\end{abstract}
+
+\disableprotrusion
+\tableofcontents*
+\listoffigures
+\listoftables
+\enableprotrusion
+
+\begin{declaration*}
+%
+	The work in this thesis is based on research carried out in the Department of
+	Physics at Durham University. No part of this thesis has been
+	submitted elsewhere for any degree or qualification.
+%
+\end{declaration*}
+
+\begin{acknowledgements*}
+%
+	I would like to thank\ldots
+%
+\end{acknowledgements*}
+
+\begin{epigraph*}
+%
+	This a place for some profound quote which sums up your work, feelings or
+	life.
+	\source{Some book}{A. Author}
+%
+\end{epigraph*}
+
+%\dedicationtext{This thesis is dedicated to}
+\begin{dedication*}
+%
+	Someone special
+	\also[and]{that other guy}
+%
+\end{dedication*}
+
+\cleardoublepage
+
+%\include{intro}
+%\include{background}
+%\include{paper1}
+%\include{paper2}
+%\include{paper3}
+
+\appendix
+%\include{appendix1}
+%\include{appendix2}
+
+\bibliographystyle{JHEP}
+\bibliography{bibliography}
+
+\end{document}

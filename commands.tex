@@ -1,0 +1,48 @@
+%%% commands %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\marrow}[5]{%
+    \fmfcmd{style_def marrow#1
+    expr p = drawarrow subpath (1/4, 3/4) of p shifted 6 #2 withpen pencircle scaled 0.4;
+    label.#3(btex #4 etex, point 0.5 of p shifted 6 #2);
+    enddef;}
+    \fmf{marrow#1,tension=0}{#5}}
+
+\newcommand{\refeq}[1]{Eq.~(\ref{#1})}
+\newcommand{\refeqs}[2]{Eqs.~(\ref{#1})~and~(\ref{#2})}
+\newcommand{\refeqss}[3]{Eqs.~(\ref{#1}), (\ref{#2})~and~(\ref{#3})}
+\newcommand{\reffig}[1]{Fig.~\ref{#1}}
+\newcommand{\reffigs}[2]{Figs.~\ref{#1}~and~\ref{#2}}
+\newcommand{\refsec}[1]{Section~\ref{#1}}
+\newcommand{\refapp}[1]{Appendix~\ref{#1}}
+\newcommand{\reftab}[1]{Table~\ref{#1}}
+\newcommand{\refref}[1]{Ref.~\cite{#1}}
+\newcommand{\refrefs}[2]{Refs.~\cite{#1}~and~\cite{#2}}
+
+\def\abelian{abelian}
+\def\nonabelian{non-abelian}
+\def\lagrangian{lagrangian}
+\def\eg{\emph{e.g.}}
+\def\ie{\emph{i.e.}}
+\def\aka{\emph{a.k.a.}}
+
+\newcommand{\subsubsubsection}[1]{~\\[-2mm]\noindent {\textbf{#1}}\\[-5mm]\nopagebreak[0]}
+
+\newcommand{\Dslash}{\ensuremath D\hspace{-0.24cm}\raisebox{1pt}{/}\hspace{0.05cm}}
+\newcommand{\Xslash}{\ensuremath X\hspace{-0.26cm}\raisebox{1pt}{/}\hspace{0.06cm}}
+\newcommand{\Wslash}{\ensuremath W\hspace{-0.3cm}\raisebox{1pt}{/}\hspace{0.06cm}}
+\newcommand{\dslash}{\ensuremath \partial\hspace{-0.18cm}\raisebox{1pt}{/}\hspace{0.04cm}}
+\newcommand{\gp}{\ensuremath g^\prime}
+\newcommand{\nutrident}[4]{$\nu_{#1} \to \nu_{#2} {#3}^+ {#4}^-$}
+\newcommand{\nubartrident}[4]{$\overline{\nu}_{#1} \to \overline{\nu}_{#2} {#3}^- {#4}^+$}
+\newcommand*{\pbar}[1]{\accentset{(-)}{#1}}
+
+%%%%%%% A few editorial macros. %%%%%%%
+
+\definecolor{light-gray}{gray}{0.65}
+\newcommand{\filler}[1]{{\color{light-gray}{#1}}}
+
+\newcounter{CommentCount}
+\setcounter{CommentCount}{1}
+
+\newcommand{\marcom}[2]{\textsuperscript{\textcolor{#1}{\theCommentCount}}\marginpar{\textsuperscript{\textcolor{#1}{\theCommentCount}}\textcolor{#1}{{\small#1: #2}}}\stepcounter{CommentCount}}
+
+\newcommand{\newtext}[2]{\textcolor{#1}{\ul{#2}}}
