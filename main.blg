@@ -1,50 +1,54 @@
 This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
+A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: tridentSM.aux
+A level-1 auxiliary file: appendix_PS.aux
+A level-1 auxiliary file: appendices/loop_masses.aux
 The style file: JHEP.bst
 Database file #1: tridentSM/trident.bib
+Database file #2: appendices/loop_masses.bib
 Warning--empty author in DUNE:flux
 Warning--empty author in MINERvA:2017
-You've used 74 entries,
+You've used 77 entries,
             2217 wiz_defined-function locations,
-            1152 strings with 19716 characters,
-and the built_in function-call counts, 21575 in all, are:
-= -- 2287
-> -- 747
+            1185 strings with 20473 characters,
+and the built_in function-call counts, 22561 in all, are:
+= -- 2391
+> -- 777
 < -- 0
-+ -- 229
-- -- 155
-* -- 1741
-:= -- 2967
-add.period$ -- 75
-call.type$ -- 74
-change.case$ -- 71
++ -- 238
+- -- 161
+* -- 1834
+:= -- 3102
+add.period$ -- 78
+call.type$ -- 77
+change.case$ -- 74
 chr.to.int$ -- 0
-cite$ -- 76
-duplicate$ -- 1133
-empty$ -- 1895
-format.name$ -- 155
-if$ -- 5661
+cite$ -- 79
+duplicate$ -- 1180
+empty$ -- 1988
+format.name$ -- 161
+if$ -- 5922
 int.to.chr$ -- 0
-int.to.str$ -- 74
-missing$ -- 240
-newline$ -- 227
-num.names$ -- 72
-pop$ -- 129
+int.to.str$ -- 77
+missing$ -- 252
+newline$ -- 236
+num.names$ -- 75
+pop$ -- 133
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 933
+skip$ -- 971
 stack$ -- 0
-substring$ -- 1064
-swap$ -- 588
+substring$ -- 1118
+swap$ -- 611
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 155
-width$ -- 76
-write$ -- 748
+while$ -- 163
+width$ -- 79
+write$ -- 781
 (There were 2 warnings)

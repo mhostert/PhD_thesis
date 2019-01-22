@@ -1,11 +1,11 @@
 \documentclass[twoside,openright,frontopenright]{ip3thesis}
 \input{preamble}
-
+\input{commands}
 
 \begin{document}
-\title{Neutrino physics}
-\subtitle{An optional subtitle}
-\author{Author's name}
+\title{Novel Interactions, }
+\subtitle{}
+\author{Matheus Hostert}
 \researchgroup{Institute for Particle Physics Phenomenology}
 \maketitlepage*
 
@@ -14,6 +14,13 @@
 	This is some abstract about this thesis.
 %
 \end{abstract}
+
+
+\begin{dedication*}
+%
+B\'arbara, Humberto and Luciana.
+%
+\end{dedication*}
 
 \disableprotrusion
 \tableofcontents*
@@ -35,35 +42,43 @@
 %
 \end{acknowledgements*}
 
-\begin{epigraph*}
-%
-	This a place for some profound quote which sums up your work, feelings or
-	life.
-	\source{Some book}{A. Author}
-%
-\end{epigraph*}
-
 %\dedicationtext{This thesis is dedicated to}
-\begin{dedication*}
-%
-	Someone special
-	\also[and]{that other guy}
-%
-\end{dedication*}
+
 
 \cleardoublepage
 
-%\include{intro}
+\begin{epigraph*}
+%
+	"It seems very pretty," she said when she had finished it, "but it's rather hard to understand!" (You see she didn't like to confess, even to herself, that she couldn't make it out at all.) "Somehow it seems to fill my head with ideas—only I don't exactly know what they are!
+	\source{Through the Looking-Glass, and What Alice Found There}{Lewis Carroll}
+%
+\end{epigraph*}
+
+
+
+\includegraphics[width=\textwidth]{img/Jabberwocky.jpg}
+\chapter{Introduction}
+\include{introduction}
+
+\chapter{Neutrino Trident Production}
+\begin{figure}[th]
+\centering
+\end{figure}
+\include{tridentSM}
+
+\chapter{$Z^\prime$ in Neutrino Scattering}
+
 %\include{background}
 %\include{paper1}
 %\include{paper2}
 %\include{paper3}
 
 \appendix
-%\include{appendix1}
+\chapter{Phase Space}
+\include{appendix_PS}
 %\include{appendix2}
 
 \bibliographystyle{JHEP}
-\bibliography{bibliography}
+\bibliography{tridentSM/trident}
 
 \end{document}
