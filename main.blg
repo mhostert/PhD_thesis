@@ -2,53 +2,74 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 A level-1 auxiliary file: introduction.aux
-A level-1 auxiliary file: tridentSM.aux
-A level-1 auxiliary file: appendix_PS.aux
+A level-1 auxiliary file: theory/theory.aux
+A level-1 auxiliary file: tridentSM/tridentSM.aux
+A level-1 auxiliary file: Zprime_scattering/Zprime_scattering.aux
+A level-1 auxiliary file: nu_masses.aux
+A level-1 auxiliary file: miniboone.aux
+A level-1 auxiliary file: three_portals.aux
+A level-1 auxiliary file: conclusions.aux
+A level-1 auxiliary file: appendices/appendix_PS.aux
 A level-1 auxiliary file: appendices/loop_masses.aux
 The style file: JHEP.bst
-Database file #1: tridentSM/trident.bib
-Database file #2: appendices/loop_masses.bib
+Database file #1: introduction/introduction.bib
+Database file #2: theory/theory.bib
+Database file #3: tridentSM/tridentSM.bib
+Database file #4: miniboone/miniboone.bib
+Repeated entry---line 2879 of file miniboone/miniboone.bib
+ : @article{Magill:2017mps
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4200 of file miniboone/miniboone.bib
+ : @article{Jentschura2009
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6199 of file miniboone/miniboone.bib
+ : @article{Jentschura2009
+ :                        ,
+I'm skipping whatever remains of this entry
+Database file #5: appendices/loop_masses.bib
 Warning--empty author in DUNE:flux
 Warning--empty author in MINERvA:2017
-You've used 77 entries,
+You've used 78 entries,
             2217 wiz_defined-function locations,
-            1185 strings with 20473 characters,
-and the built_in function-call counts, 22561 in all, are:
-= -- 2391
-> -- 777
+            1203 strings with 20892 characters,
+and the built_in function-call counts, 22918 in all, are:
+= -- 2429
+> -- 791
 < -- 0
-+ -- 238
-- -- 161
-* -- 1834
-:= -- 3102
-add.period$ -- 78
-call.type$ -- 77
-change.case$ -- 74
++ -- 242
+- -- 164
+* -- 1864
+:= -- 3148
+add.period$ -- 79
+call.type$ -- 78
+change.case$ -- 75
 chr.to.int$ -- 0
-cite$ -- 79
-duplicate$ -- 1180
-empty$ -- 1988
-format.name$ -- 161
-if$ -- 5922
+cite$ -- 80
+duplicate$ -- 1201
+empty$ -- 2017
+format.name$ -- 164
+if$ -- 6018
 int.to.chr$ -- 0
-int.to.str$ -- 77
-missing$ -- 252
-newline$ -- 236
-num.names$ -- 75
-pop$ -- 133
+int.to.str$ -- 78
+missing$ -- 256
+newline$ -- 239
+num.names$ -- 76
+pop$ -- 135
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 971
+skip$ -- 990
 stack$ -- 0
-substring$ -- 1118
-swap$ -- 611
+substring$ -- 1130
+swap$ -- 624
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 163
-width$ -- 79
-write$ -- 781
-(There were 2 warnings)
+while$ -- 165
+width$ -- 80
+write$ -- 792
+(There were 3 error messages)

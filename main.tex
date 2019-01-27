@@ -48,30 +48,42 @@ B\'arbara, Humberto and Luciana.
 \cleardoublepage
 
 \begin{epigraph*}
-%
-	"It seems very pretty," she said when she had finished it, "but it's rather hard to understand!" (You see she didn't like to confess, even to herself, that she couldn't make it out at all.) "Somehow it seems to fill my head with ideas—only I don't exactly know what they are!
+
+\begin{center}
+\centering 
+\includegraphics[width=1\textwidth]{img/Jabberwocky.jpg}
+
+	%"It seems very pretty," she said when she had finished it, "but it's rather hard to understand!" (You see she didn't like to confess, even to herself, that she couldn't make it out at all.) "Somehow it seems to fill my head with ideas—only I don't exactly know what they are!
+	"It seems very pretty, [...] somehow it seems to fill my head with ideas—only I don't exactly know what they are!
 	\source{Through the Looking-Glass, and What Alice Found There}{Lewis Carroll}
-%
+\end{center}
 \end{epigraph*}
 
 
 
-\includegraphics[width=\textwidth]{img/Jabberwocky.jpg}
 \chapter{Introduction}
 \include{introduction}
 
+\chapter{Theory}
+\include{theory/theory}
+
 \chapter{Neutrino Trident Production}
-\begin{figure}[th]
-\centering
-\end{figure}
-\include{tridentSM}
+\include{tridentSM/tridentSM}
 
 \chapter{$Z^\prime$ in Neutrino Scattering}
+\include{Zprime_scattering/Zprime_scattering}
 
-%\include{background}
-%\include{paper1}
-%\include{paper2}
-%\include{paper3}
+\chapter{Radiative Hidden Neutrino Mass Models}
+\include{nu_masses}
+
+\chapter{Ruling out Hidden Neutrinos as a MiniBooNE explanation}
+\include{miniboone}
+
+\chapter{The three Hidden Portals}
+\include{three_portals}
+
+\chapter{Conclusions}
+\include{conclusions}
 
 \appendix
 \chapter{Phase Space}
@@ -79,6 +91,6 @@ B\'arbara, Humberto and Luciana.
 \include{appendices/loop_masses}
 
 \bibliographystyle{JHEP}
-\bibliography{tridentSM/trident,appendices/loop_masses}
+\bibliography{introduction/introduction,theory/theory,tridentSM/tridentSM,miniboone/miniboone,appendices/loop_masses}
 
 \end{document}

@@ -1,42 +1,48 @@
 \select@language {british}
 \contentsline {chapter}{Abstract}{3}{section*.1}
-\contentsline {chapter}{List of Figures}{9}{section*.3}
-\contentsline {chapter}{List of Tables}{13}{section*.5}
-\contentsline {chapter}{\numberline {1}Introduction}{21}{chapter.1}
-\contentsline {section}{\numberline {1.1}The Standard Model of Particle Physics}{22}{section.1.1}
-\contentsline {section}{\numberline {1.2}Neutrinos and the need to go beyond}{22}{section.1.2}
-\contentsline {chapter}{\numberline {2}Neutrino Trident Production}{23}{chapter.2}
-\contentsline {section}{\numberline {2.1}Introduction}{24}{section.2.1}
-\contentsline {section}{\numberline {2.2}Trident Production Cross Section}{26}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Hadronic Scattering Regimes}{31}{subsection.2.2.1}
-\contentsline {subsubsection}{Coherent Regime (${\rm H}^{\mu \nu }_{\rm c}$)}{31}{section*.12}
-\contentsline {subsubsection}{Diffractive Regime ($\mathrm {H}^{\mu \nu }_\mathrm {d}$)}{32}{section*.14}
-\contentsline {subsection}{\numberline {2.2.2}Breakdown of the EPA }{35}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Coherent versus Diffractive Scattering in Trident Production}{42}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}Trident Events in LAr Detectors}{43}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Event Rates}{44}{subsection.2.3.1}
-\contentsline {subsubsection}{The SBN Program}{45}{section*.21}
-\contentsline {subsubsection}{DUNE Near Detector}{46}{section*.22}
-\contentsline {subsubsection}{$\nu $STORM}{47}{section*.24}
-\contentsline {subsection}{\numberline {2.3.2}Kinematical Distributions at DUNE ND}{49}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Background Estimates for Neutrino Trident in LAr}{52}{subsection.2.3.3}
-\contentsline {subsubsection}{Background Candidates}{53}{section*.26}
-\contentsline {subsubsection}{Estimates for the DUNE ND}{54}{section*.28}
-\contentsline {section}{\numberline {2.4}Trident Events in Other Near Detector Facilities}{57}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}INGRID}{58}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}MINOS/MINOS+ Near Detector}{58}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}NO$\nu $A Near Detector}{60}{subsection.2.4.3}
-\contentsline {subsection}{\numberline {2.4.4}MINER$\nu $A}{61}{subsection.2.4.4}
-\contentsline {section}{\numberline {2.5}Conclusions}{62}{section.2.5}
-\contentsline {section}{\numberline {2.6}Form Factors}{64}{section.2.6}
-\contentsline {section}{\numberline {2.7}Kinematical Distributions }{65}{section.2.7}
-\contentsline {section}{\numberline {2.8}Individual Backgrounds}{66}{section.2.8}
-\contentsline {subsection}{\numberline {2.8.1}Pion Production}{67}{subsection.2.8.1}
-\contentsline {subsection}{\numberline {2.8.2}Charm Production}{68}{subsection.2.8.2}
-\contentsline {subsection}{\numberline {2.8.3}CC$\gamma $ and NC$\gamma $}{69}{subsection.2.8.3}
-\contentsline {chapter}{\numberline {3}$Z^\prime $ in Neutrino Scattering}{79}{chapter.3}
-\contentsline {chapter}{\numberline {A}Phase Space}{81}{appendix.A}
-\contentsline {section}{\numberline {A.1}Factorization into 2PS}{82}{section.A.1}
-\contentsline {section}{\numberline {A.2}Three-body phase space}{82}{section.A.2}
-\contentsline {section}{\numberline {A.3}Four-body phase space}{82}{section.A.3}
-\contentsline {section}{\numberline {A.4}Type-I seesaw neutrino masses in the SM}{83}{section.A.4}
+\contentsline {chapter}{List of Figures}{11}{section*.3}
+\contentsline {chapter}{List of Tables}{15}{section*.5}
+\contentsline {chapter}{\numberline {1}Introduction}{23}{chapter.1}
+\contentsline {chapter}{\numberline {2}Theory}{25}{chapter.2}
+\contentsline {section}{\numberline {2.1}Neutrino Masses}{26}{section.2.1}
+\contentsline {section}{\numberline {2.2}Neutrino Oscillations}{26}{section.2.2}
+\contentsline {section}{\numberline {2.3}Neutrino Scattering}{26}{section.2.3}
+\contentsline {chapter}{\numberline {3}Neutrino Trident Production}{27}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{28}{section.3.1}
+\contentsline {section}{\numberline {3.2}Trident Production Cross Section}{30}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Hadronic Scattering Regimes}{35}{subsection.3.2.1}
+\contentsline {subsubsection}{Coherent Regime (${\rm H}^{\mu \nu }_{\rm c}$)}{35}{section*.11}
+\contentsline {subsubsection}{Diffractive Regime ($\mathrm {H}^{\mu \nu }_\mathrm {d}$)}{36}{section*.13}
+\contentsline {subsection}{\numberline {3.2.2}Breakdown of the EPA }{39}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Coherent versus Diffractive Scattering in Trident Production}{46}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Trident Events in LAr Detectors}{47}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Event Rates}{48}{subsection.3.3.1}
+\contentsline {subsubsection}{The SBN Program}{49}{section*.20}
+\contentsline {subsubsection}{DUNE Near Detector}{50}{section*.21}
+\contentsline {subsubsection}{$\nu $STORM}{51}{section*.23}
+\contentsline {subsection}{\numberline {3.3.2}Kinematical Distributions at DUNE ND}{53}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Background Estimates for Neutrino Trident in LAr}{56}{subsection.3.3.3}
+\contentsline {subsubsection}{Background Candidates}{57}{section*.25}
+\contentsline {subsubsection}{Estimates for the DUNE ND}{58}{section*.27}
+\contentsline {section}{\numberline {3.4}Trident Events in Other Near Detector Facilities}{61}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}INGRID}{62}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}MINOS/MINOS+ Near Detector}{62}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}NO$\nu $A Near Detector}{64}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}MINER$\nu $A}{65}{subsection.3.4.4}
+\contentsline {section}{\numberline {3.5}Conclusions}{66}{section.3.5}
+\contentsline {section}{\numberline {3.6}Form Factors}{68}{section.3.6}
+\contentsline {section}{\numberline {3.7}Kinematical Distributions }{69}{section.3.7}
+\contentsline {section}{\numberline {3.8}Individual Backgrounds}{70}{section.3.8}
+\contentsline {subsection}{\numberline {3.8.1}Pion Production}{71}{subsection.3.8.1}
+\contentsline {subsection}{\numberline {3.8.2}Charm Production}{72}{subsection.3.8.2}
+\contentsline {subsection}{\numberline {3.8.3}CC$\gamma $ and NC$\gamma $}{73}{subsection.3.8.3}
+\contentsline {chapter}{\numberline {4}$Z^\prime $ in Neutrino Scattering}{83}{chapter.4}
+\contentsline {chapter}{\numberline {5}Radiative Hidden Neutrino Mass Models}{85}{chapter.5}
+\contentsline {chapter}{\numberline {6}Ruling out Hidden Neutrinos as a MiniBooNE explanation}{87}{chapter.6}
+\contentsline {chapter}{\numberline {7}The three Hidden Portals}{89}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusions}{91}{chapter.8}
+\contentsline {chapter}{\numberline {A}Phase Space}{93}{appendix.A}
+\contentsline {section}{\numberline {A.1}Factorization into 2PS}{94}{section.A.1}
+\contentsline {section}{\numberline {A.2}Three-body phase space}{94}{section.A.2}
+\contentsline {section}{\numberline {A.3}Four-body phase space}{94}{section.A.3}
+\contentsline {section}{\numberline {A.4}Type-I seesaw neutrino masses in the SM}{95}{section.A.4}
