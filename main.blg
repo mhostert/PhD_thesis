@@ -2,11 +2,6 @@ This is BibTeX, Version 0.99d (TeX Live 2014)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 A level-1 auxiliary file: introduction.aux
-A level-1 auxiliary file: Zprime_scattering/Zprime_scattering.aux
-A level-1 auxiliary file: nu_masses.aux
-A level-1 auxiliary file: miniboone.aux
-A level-1 auxiliary file: three_portals.aux
-A level-1 auxiliary file: conclusions.aux
 A level-1 auxiliary file: appendices/appendix_PS.aux
 A level-1 auxiliary file: appendices/loop_masses.aux
 The style file: JHEP.bst
@@ -17,7 +12,7 @@ Database file #4: miniboone/miniboone.bib
 Database file #5: appendices/loop_masses.bib
 You've used 3 entries,
             2217 wiz_defined-function locations,
-            568 strings with 4450 characters,
+            563 strings with 4353 characters,
 and the built_in function-call counts, 1010 in all, are:
 = -- 104
 > -- 30
