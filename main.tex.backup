@@ -3,7 +3,7 @@
 \input{commands}
 
 \begin{document}
-\title{}
+\title{Neutrinos: probes of a dark sector}
 \subtitle{}
 \author{Matheus Hostert}
 \researchgroup{Institute for Particle Physics Phenomenology}
@@ -38,10 +38,10 @@ B\'arbara, Humberto and Luciana.
 
 \begin{acknowledgements*}
 %
-	I would like to thank my supervisor Silvia Pascoli for her continued support during my studies. I am thankful to have had Peter Ballett as a supervisor and colleague during my studies. Your passion was truly admirable and contagious, thank you.
-	
-	
+	I would like to thank my supervisor Silvia Pascoli for her continued support during my studies. I am thankful to have had Peter Ballett as a supervisor and colleague during my studies. Your passion was truly admirable. 
+		
 %
+	My collaborators Carlos Arg\"uelles, Yuber Perez Gonzalez, Zahra Tabrizi and Yu-Dai Tsai. I am also grateful for the inspiration from  Pedro Machado and Renata Zukanovich Funchal.
 \end{acknowledgements*}
 
 %\dedicationtext{This thesis is dedicated to}
@@ -64,6 +64,14 @@ B\'arbara, Humberto and Luciana.
 
 
 \chapter{Introduction}
+
+% \begin{align}
+% \mathscr{L} &= - \frac{1}{4} F_{\mu \nu} F^{\mu \nu} \\
+%     &\phantom{{}=}+ i \bar{\psi} \cancel{D} \psi + h.c. \\
+%     &\phantom{{}=}+ \bar{\psi}_i y_{ij} \psi_j \phi + h.c. \\
+%     &\phantom{{}=}+ |D_\mu \phi|^2 - V(\phi)
+% \end{align}
+
 \include{introduction/introduction}
 
 \chapter{Aspects of neutrino physics}

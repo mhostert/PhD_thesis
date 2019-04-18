@@ -1,5 +1,49 @@
-\section{The Standard Model of Particle Physics}
+\section{The Standard Model at 51}
 
-\section{Neutrinos and the need to go beyond}
+\subsection{Fields and symmetries}
 
+\subsection{Spontaneous symmetry breaking}
 
+After EWSB, the background higgs field always has a non-zero expectation value. In any isolated process, no matter how large the energies and momentum transfers involved, the relevant degrees of freedom are the ones in the broken phase (\ie $h$). 
+
+\subsection{Shortcomings}
+
+\section{Portals to beyond the Standard Model}
+
+Given the hints that dark sectors beyond the SM may exist, we would like to investigate all the possible ways the particles in this sectir may interact with the SM. One way to tackle this question is using effective field theories, where one studies all operators which are allowed by the content and symmetries of the SM. The idea is to construct a series of $d>4$ operators in $1/\Lambda^{d-4}$, where $\Lambda$ is the scale of the new physics. This approach thrives on its generality, but can become cluttersome very quickly with growing $d$. Most importantly, the scale $\Lambda$ is assumed to be large, so that all new degrees of freedom have been integrated out of the theory. This is suitable for extentions involving particles which are very heavy, but the series is no longer well defined for new physics that is light and kinematically accessible at our experiments. In this case, the dynamics and kinematics of the new particles have to be specified, forcing us to write down the field content and symmetry group of the new physics. This is how we will proceed in this thesis.
+
+We would like our SM extensions to follow specific \emph{guiding principles} and \emph{organise} them in a meaninful way. One way to do so is to study all the low dimension \emph{neutral} operators that the SM has to offer. In contrast to effective field theories, we want \emph{renormalisable} operators with $d<4$ which are also gauge invariant. As it turns only a few such operators exist, which we usually refer to as portals. We dedicate the following sections to understanding these.
+
+\subsection{Neutrino portal} 
+
+Argubly the most motivated portal, this $d=5/2$ operator can be written as
+\begin{equation}
+ \left( \overline{L} \cdot H\right), \quad \mathrm{and}\quad \left( \overline{L} \cdot \tilde{H}\right).
+\end{equation}
+Any fermion field which couples to this operator acquires couplings to charged leptons and neutrinos in the standard model. The latter is particularly important, since it leads to mixing between the new species and the SM neutrinos. The new particle is then commonly called a \emph{sterile neutrino} or a heavy neutral lepton.
+
+\subsection{Vector portal}
+
+Any new vector particle from an abelian gauge may couple to the $d=2$ field strength of the SM hypercharge
+\begin{equation}
+B_{\mu\nu}.
+\end{equation}
+The resulting term, $B_{\mu\nu} X^{\mu\nu}$, is usually referred to as the kinetic mixing operator.
+
+\subsection{Higgs portal}
+
+New scalar particles can mix with the SM higgs boson via 
+\begin{equation}
+ H^\dagger H.
+\end{equation}
+In this case there are more possibilities depending on the nature of the new scalar field. Analogously to the SM, one could write
+\[H^\dagger H \, S^\dagger S, \quad or \quad H^\dagger H\, S.\]
+The second operator has been discussed in detail in Ref.~\cite{Fradette:2018hhl}.
+
+\subsection{Fermion currents}
+
+\subsection{Others}
+
+Other possibilities which we will not discuss in this thesis include the pseudoscalar portal, also known as the axion. This is also a very compelling avenue, as one generally expects light pseudo-Nambu-Goldstones to appear from the breaking of high scale symmetry groups. (see ...). Finally, see the dual...
+
+Another interesting expectation for light new physics is that the new particles be electromagnetically neutral. This is purely empirical constraint may not always hold, a classical example being millicharged particles which have escaped detection purely due to their small charges. The abelian nature of QED and of many of our SM extensions is actually unique in the sense that charge may not be quantized (see \eg ...).
