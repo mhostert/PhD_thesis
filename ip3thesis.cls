@@ -102,8 +102,8 @@
   \@durham@dma@chaprunningheadfalse
 }
 % Default to 12pt font size
-\newcommand\@dmathesisptsize{12pt}
-\DeclareOption{12pt}{\renewcommand\@dmathesisptsize{12pt}}
+\newcommand\@dmathesisptsize{11pt}
+\DeclareOption{11pt}{\renewcommand\@dmathesisptsize{12pt}}
 \DeclareOption{11pt}{\renewcommand\@dmathesisptsize{11pt}}
 \DeclareOption{10pt}{\renewcommand\@dmathesisptsize{10pt}}
 
