@@ -1,9 +1,12 @@
-\documentclass[twoside,openright,frontopenright]{ip3thesis}
+\documentclass[openany,twoside,frontopenright]{ip3thesis}
 \input{preamble}
 \input{commands}
 
+\usepackage[toc,page]{appendix}
+
+
 \begin{document}
-\title{Neutrinos: probes of a dark sector}
+\title{Neutrinos as probes of hidden sectors}
 \subtitle{}
 \author{Matheus Hostert}
 \researchgroup{Institute for Particle Physics Phenomenology}
@@ -38,9 +41,8 @@ B\'arbara, Humberto and Luciana.
 
 \begin{acknowledgements*}
 %
-	I would like to thank my supervisor Silvia Pascoli for her continued support during my studies. I am thankful to have had Peter Ballett as a supervisor and colleague during my studies. Your passion was truly admirable. 
-		
-%
+	I would like to thank my supervisor Silvia Pascoli for her support. I am thankful to have had Peter Ballett as a supervisor and colleague during my studies.
+  %
 	My collaborators Carlos Arg\"uelles, Yuber Perez Gonzalez, Zahra Tabrizi and Yu-Dai Tsai. I am also grateful for the inspiration from  Pedro Machado and Renata Zukanovich Funchal.
 \end{acknowledgements*}
 
@@ -86,11 +88,16 @@ B\'arbara, Humberto and Luciana.
 \chapter{Conclusions}
 \include{conclusions/conclusions}
 
-\appendix
+\appendixpageoff
+\begin{appendices}
+\let\clearpage\relax
 \chapter{Phase Space}
 \include{appendices/appendix_PS}
+
+\cleardoublepage
 \chapter{One loop $\nu$ masses in Type-I seesaw}
 \include{appendices/loop_masses}
+\end{appendices}
 
 \bibliographystyle{JHEP}
 \bibliography{introduction/introduction,theory/theory,tridentSM/tridentSM,miniboone/miniboone,appendices/loop_masses}

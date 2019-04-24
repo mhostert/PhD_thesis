@@ -18,7 +18,8 @@ yields the final results
  \dd \Phi_{N} (P, p_1, \ldots, p_N) = \frac{\dd m_{12}^2}{2 \pi} \dd \Phi_2 (p_{12}, p_1, p_2) \dd \Phi_N (P, p_{12}, p_3,\ldots,p_N). 
 \end{equation}
 
-This result not only lets us factorize any resonant features in phase space, but also provides a recipe to tackle the kinematics of any process. It is worth noting that the 2-body phase-space factors and associated four-momenta in the center-of-mass (CM) framce can always be written as
+This result not only lets us factorize any resonant features in phase space, but also provides a recipe to tackle the kinematics of any process. It is worth noting that the 2-body
+phase-space factors and associated four-momenta can always be written as
 
 \begin{align}
 \dd \Phi_2 (p_{12}, p_1, p_2) &= \frac{\sqrt{\lambda \left( E_{12}^{ {\rm CM} \, 2}, m_1^2, m_2^2 \right)} }{32 \pi^2 E_{12}^{ {\rm CM} \, 2} } \dd \Omega^{\rm CM},\nonumber\\
@@ -26,10 +27,14 @@ p_{12} &= \left(E_{12}^{ {\rm CM}}, \vec{0} \right),\nonumber\\
 p_{1}  &= \left(\frac{E_{12}^{ {\rm CM} \, 2}+m_1^2-m_{2}^2}{2E_{12}^{ {\rm CM} \, 2}}, |\vec{p}_1| \sin{\theta} \cos{\phi}, |\vec{p}_1| \sin{\theta} \sin{\phi} , |\vec{p}_1| \cos{\theta} \right),\nonumber\\
 p_{2}  &= \left(\frac{E_{12}^{ {\rm CM} \, 2}+m_{2}^2 - m_1^2}{2E_{12}^{ {\rm CM} \, 2}}, -\vec{p}_1 \right),
 \end{align}
-so that the general problem reduces to a 2-body phase space treatment provided one can work in the CM frame of every $p_{ij}$ subsystem.
+so that the general problem reduces to a 2-body phase space treatment. Clearly the 
 
-\paragraph{Dark-bremsstrahlung)} Here we take the Dark-Bremsstrahlung (DB) process discussed in \refsec{...} as an example of a 3-body phase space. In this process, the neutrino scatters off the nuclear target with momentum exchange $Q^2=()$. 
+\section{Three-body phase space}
 
-\paragraph{Neutrino trident production)} Here we take the Dark-Bremsstrahlung (DB) process discussed in \refsec{...} as an example of a 3-body phase space. In this process, the neutrino scatters off the nuclear target with momentum exchange $Q^2=()$. 
+
+
+\section{Four-body phase space}
+
+
 
 

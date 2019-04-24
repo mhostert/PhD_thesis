@@ -10,7 +10,7 @@ After EWSB, the background higgs field always has a non-zero expectation value. 
 
 \section{Portals to beyond the Standard Model}
 
-Given the hints that dark sectors beyond the SM may exist, we would like to investigate all the possible ways the particles in this sectir may interact with the SM. One way to tackle this question is using effective field theories, where one studies all operators which are allowed by the content and symmetries of the SM. The idea is to construct a series of $d>4$ operators in $1/\Lambda^{d-4}$, where $\Lambda$ is the scale of the new physics. This approach thrives on its generality, but can become cluttersome very quickly with growing $d$. Most importantly, the scale $\Lambda$ is assumed to be large, so that all new degrees of freedom have been integrated out of the theory. This is suitable for extentions involving particles which are very heavy, but the series is no longer well defined for new physics that is light and kinematically accessible at our experiments. In this case, the dynamics and kinematics of the new particles have to be specified, forcing us to write down the field content and symmetry group of the new physics. This is how we will proceed in this thesis.
+Given the hints that dark sectors beyond the SM may exist, we would like to investigate all the possible ways the particles in this sector may interact with the SM. One way to tackle this question is using effective field theories, where one studies all operators which are allowed by the content and symmetries of the SM. The idea is to construct a series of $d>4$ operators in $1/\Lambda^{d-4}$, where $\Lambda$ is the scale of the new physics. This approach thrives on its generality, but can become complicated very quickly with growing $d$. Most importantly, the scale $\Lambda$ is assumed to be large, so that all new degrees of freedom have been integrated out of the theory. This is suitable for extentions involving particles which are very heavy, but the series is no longer well defined for new physics that is light and kinematically accessible at our experiments. In this case, the dynamics and kinematics of the new particles have to be specified, forcing us to write down the field content and symmetry group of the new physics. This is how we will proceed in this thesis.
 
 We would like our SM extensions to follow specific \emph{guiding principles} and \emph{organise} them in a meaninful way. One way to do so is to study all the low dimension \emph{neutral} operators that the SM has to offer. In contrast to effective field theories, we want \emph{renormalisable} operators with $d<4$ which are also gauge invariant. As it turns only a few such operators exist, which we usually refer to as portals. We dedicate the following sections to understanding these.
 
@@ -36,14 +36,19 @@ New scalar particles can mix with the SM higgs boson via
 \begin{equation}
  H^\dagger H.
 \end{equation}
-In this case there are more possibilities depending on the nature of the new scalar field. Analogously to the SM, one could write
-\[H^\dagger H \, S^\dagger S, \quad or \quad H^\dagger H\, S.\]
-The second operator has been discussed in detail in Ref.~\cite{Fradette:2018hhl}.
+In this case there are more possibilities depending on the nature of the new scalar field. Analogously to the SM, one could write  $H^\dagger H \, S^\dagger S$ or $\quad H^\dagger H\, S $ for a complex scalar. The second operator has been discussed in detail in Ref.~\cite{Fradette:2018hhl} and arises naturally in relaxion models ...).
 
 \subsection{Fermion currents}
 
+A whole set of neutral operators in the SM come from the fermionic currents
+\begin{equation}
+ \overline{\psi} \gamma^\mu \psi,
+\end{equation}
+where $\psi \in \{Q_L, L, u_R, d_R, \ell_R\}$.
+
+
 \subsection{Others}
 
-Other possibilities which we will not discuss in this thesis include the pseudoscalar portal, also known as the axion. This is also a very compelling avenue, as one generally expects light pseudo-Nambu-Goldstones to appear from the breaking of high scale symmetry groups. (see ...). Finally, see the dual...
+Other possibilities which we will not discuss in this thesis include the pseudoscalar portal, also known as the axion. This is also a very compelling avenue, as we generally expect light pseudo-Nambu-Goldstones to appear from the breaking of high scale symmetry groups. (see ...). Finally, see the dual...
 
-Another interesting expectation for light new physics is that the new particles be electromagnetically neutral. This is purely empirical constraint may not always hold, a classical example being millicharged particles which have escaped detection purely due to their small charges. The abelian nature of QED and of many of our SM extensions is actually unique in the sense that charge may not be quantized (see \eg ...).
+Another interesting expectation for light new physics is that the new particles be electromagnetically neutral. This purely empirical constraint may not always hold, a classical example being millicharged particles which have escaped detection purely due to their small charges. The abelian nature of QED and of many of our SM extensions is actually unique in the sense that charge may not be quantized (see \eg ...).

@@ -1,9 +1,12 @@
-\documentclass[twoside,openright,frontopenright]{ip3thesis}
+\documentclass[openany,twoside,frontopenright]{ip3thesis}
 \input{preamble}
 \input{commands}
 
+\usepackage[toc,page]{appendix}
+
+
 \begin{document}
-\title{Neutrinos: probes of a dark sector}
+\title{Neutrinos as probes of hidden sectors}
 \subtitle{}
 \author{Matheus Hostert}
 \researchgroup{Institute for Particle Physics Phenomenology}
@@ -65,21 +68,14 @@ B\'arbara, Humberto and Luciana.
 
 \chapter{Introduction}
 
-% \begin{align}
-% \mathscr{L} &= - \frac{1}{4} F_{\mu \nu} F^{\mu \nu} \\
-%     &\phantom{{}=}+ i \bar{\psi} \cancel{D} \psi + h.c. \\
-%     &\phantom{{}=}+ \bar{\psi}_i y_{ij} \psi_j \phi + h.c. \\
-%     &\phantom{{}=}+ |D_\mu \phi|^2 - V(\phi)
-% \end{align}
-
 \include{introduction/introduction}
 
 \chapter{Aspects of neutrino physics}
 \include{theory/theory}
 
 \chapter{New forces in Neutrino Scattering}
-%\include{tridentSM/tridentSM}
-%\include{Zprime_scattering/Zprime_scattering}
+\include{tridentSM/tridentSM}
+\include{Zprime_scattering/Zprime_scattering}
 
 \chapter{A dark neutrino sector}
 %\include{three_portals}
@@ -93,11 +89,16 @@ B\'arbara, Humberto and Luciana.
 \chapter{Conclusions}
 \include{conclusions/conclusions}
 
-\appendix
+\appendixpageoff
+\begin{appendices}
+\let\clearpage\relax
 \chapter{Phase Space}
 \include{appendices/appendix_PS}
+
+\cleardoublepage
 \chapter{One loop $\nu$ masses in Type-I seesaw}
 \include{appendices/loop_masses}
+\end{appendices}
 
 \bibliographystyle{JHEP}
 \bibliography{introduction/introduction,theory/theory,tridentSM/tridentSM,miniboone/miniboone,appendices/loop_masses}
