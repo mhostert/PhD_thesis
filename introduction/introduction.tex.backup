@@ -2,6 +2,15 @@
 
 \subsection{Fields and symmetries}
 
+
+\begin{table}
+ \begin{tabular}{}
+  ×
+ \end{tabular}
+
+\end{table}
+
+
 \subsection{Spontaneous symmetry breaking}
 
 After EWSB, the background higgs field always has a non-zero expectation value. In any isolated process, no matter how large the energies and momentum transfers involved, the relevant degrees of freedom are the ones in the broken phase (\ie $h$). 
@@ -14,7 +23,7 @@ Given the hints that dark sectors beyond the SM may exist, we would like to inve
 
 We would like our SM extensions to follow specific \emph{guiding principles} and \emph{organise} them in a meaninful way. One way to do so is to study all the low dimension \emph{neutral} operators that the SM has to offer. In contrast to effective field theories, we want \emph{renormalisable} operators with $d<4$ which are also gauge invariant. As it turns only a few such operators exist, which we usually refer to as portals. We dedicate the following sections to understanding these.
 
-\subsection{Neutrino portal} 
+\paragraph{Neutrino portal} 
 
 Argubly the most motivated portal, this $d=5/2$ operator can be written as
 \begin{equation}
@@ -22,7 +31,7 @@ Argubly the most motivated portal, this $d=5/2$ operator can be written as
 \end{equation}
 Any fermion field which couples to this operator acquires couplings to charged leptons and neutrinos in the standard model. The latter is particularly important, since it leads to mixing between the new species and the SM neutrinos. The new particle is then commonly called a \emph{sterile neutrino} or a heavy neutral lepton.
 
-\subsection{Vector portal}
+\paragraph{Vector portal}
 
 Any new vector particle from an abelian gauge may couple to the $d=2$ field strength of the SM hypercharge
 \begin{equation}
@@ -30,25 +39,25 @@ B_{\mu\nu}.
 \end{equation}
 The resulting term, $B_{\mu\nu} X^{\mu\nu}$, is usually referred to as the kinetic mixing operator.
 
-\subsection{Higgs portal}
+\paragraph{Higgs portal}
 
 New scalar particles can mix with the SM higgs boson via 
 \begin{equation}
  H^\dagger H.
 \end{equation}
-In this case there are more possibilities depending on the nature of the new scalar field. Analogously to the SM, one could write  $H^\dagger H \, S^\dagger S$ or $\quad H^\dagger H\, S $ for a complex scalar. The second operator has been discussed in detail in Ref.~\cite{Fradette:2018hhl} and arises naturally in relaxion models ...).
+In this case there are more possibilities depending on the nature of the new scalar field. Analogously to the SM, one could write  $H^\dagger H \, S^\dagger S$ for a charged, or $H^\dagger H\, S $ for a siglet complex scalar. The latter term is the only super-renormalisable operator connecting the SM fields to new physics which is allowed.  The phenomenology can be quite different depending on the charges of the new scalar, but in general The second operator has been discussed in detail in Ref.~\cite{Fradette:2018hhl} and arises naturally in relaxion models ...).
 
-\subsection{Fermion currents}
+\paragraph{Fermionic currents}
 
 A whole set of neutral operators in the SM come from the fermionic currents
 \begin{equation}
- \overline{\psi} \gamma^\mu \psi,
+ J^\mu \equiv \overline{\psi} \gamma^\mu \psi,
 \end{equation}
-where $\psi \in \{Q_L, L, u_R, d_R, \ell_R\}$.
+where $\psi \in \{Q_L, L, u_R, d_R, \ell_R\}$. This provides SM currents which can be associated with new conserved quantities, \eg we can choose to gauge	. with a new vector. The first condition is that it be locally conserved $\dell_\mu J^\mu = 0$. 
 
 
 \subsection{Others}
 
-Other possibilities which we will not discuss in this thesis include the pseudoscalar portal, also known as the axion. This is also a very compelling avenue, as we generally expect light pseudo-Nambu-Goldstones to appear from the breaking of high scale symmetry groups. (see ...). Finally, see the dual...
+Other possibilities for portals which we will not discuss in this thesis include the pseudoscalar portal, also known as the axion. This is also a very compelling avenue, as we generally expect light pseudo-Nambu-Goldstones to appear from the breaking of high scale symmetry groups. (see ...). Finally, see the dual...
 
 Another interesting expectation for light new physics is that the new particles be electromagnetically neutral. This purely empirical constraint may not always hold, a classical example being millicharged particles which have escaped detection purely due to their small charges. The abelian nature of QED and of many of our SM extensions is actually unique in the sense that charge may not be quantized (see \eg ...).
