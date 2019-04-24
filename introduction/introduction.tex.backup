@@ -4,10 +4,12 @@
 
 
 \begin{table}
- \begin{tabular}{}
-  ×
+ \begin{tabular}{ccccccccc}
+  Field & $Q_L$& $L$ & & $u_R$ & $d_R$ & $e_R$ & &$H$\\
+  SU$(3)_c$ & $\mathbb{3}$ & $\mathbb{1}$& & $\mathbb{3}$ & $\mathbb{3}$ & $\mathbb{1}$ & & $\mathbb{1}$ \\
+  SU$(2)_L$& $\mathbb{2}$ & $\mathbb{2}$ & & $\mathbb{1}$ & $\mathbb{1}$& $\mathbb{1}$& & $\mathbb{2}$   \\
+  U(1)$_Y$ & 1/6 & -
  \end{tabular}
-
 \end{table}
 
 

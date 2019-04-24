@@ -32,4 +32,36 @@ so that the general problem reduces to a 2-body phase space treatment provided o
 
 \paragraph{Neutrino trident production)} Here we take the Dark-Bremsstrahlung (DB) process discussed in \refsec{...} as an example of a 3-body phase space. In this process, the neutrino scatters off the nuclear target with momentum exchange $Q^2=()$. 
 
+In this appendix we derive a phase space parametrization for neutrino trident production in terms of the momentum transfer $K^2 =  2 p_1 \vdot p_2$. This is important if one wants to change variables to smooth out the integrand at low $M_{Z^\prime}$ masses. We follow the calculation in \cite{Czyz1964} and \cite{Ballett:2018uuc}, and proceed to define $K^2$ as one of the integration variables. The relevant Lorentz invariant phase space for the $2\to3$ leptonic part of the cross section is given by
 
+
+\begin{align}
+\int \dd^3 & \Pi_{\mathrm{LIPS}} = \nonumber\int \frac{\dd \vec{p_2} }{(2\pi)^32 E_2} \frac{ \dd \vec{p_3} } {(2\pi)^3 2 E_3} \frac{\dd \vec{p_4}}{(2\pi)^32 E_4} \\& (2\pi)^4\delta^{(4)} (p_1 + q - p_2 - p_3 - p_4).
+\end{align}
+%
+
+Following \cite{Czyz1964} we start by working in the frame $\vec{p_1} + \vec{q} - \vec{p_3} = 0$, putting $\vec{p_1}$ along the $\hat{z}$ direction instead. The delta function can be integrated with the $\vec{p_4}$ and $|\vec{p_2}|$ integrals, such that 
+%
+\begin{equation}
+ \int \frac{\dd \vec{p_2} }{2 E_2} \frac{\dd \vec{p_4}}{2 E_4} \, \delta^{(4)} (p_1 + q - p_2 - p_3 - p_4) =  \int \frac{ |\vec{p_2}|}{4 W_c} \, \frac{1}{E_1 E_2} \dd K^2 \, \dd \phi_2,
+\end{equation}
+%
+where we defined
+%
+\begin{align}
+&|\vec{p_2}| = (W_c^2 - m_1^2)/2W_c, \nonumber\\\nonumber &W_c = q^0 + E_1 - E_3, \\ &K^2 = 2 E_1 E_2 (1 - \cos{\theta_2}).
+\end{align}
+%
+Since we conserve energy and momentum in this frame, we can take $-1 \leq \cos{\theta_2} \leq 1$ and $0 \leq \phi_2 \leq 2 \pi$. The remaining $\vec{p_3}$ integral can be performed with the variables defined in \cite{Czyz1964} to yield
+%
+\begin{equation}
+ \int \frac{\dd \vec{p_3} }{2 E_3}  =  \int \frac{2 \pi}{\hat{s}} \, \dd x_5 \, \dd x_3,
+\end{equation}
+%
+where a trivial azimuthal angle was integrated over. Their limits are more easily found in the frame $\vec{p_1} + \vec{q} = 0$, with $\vec{q}$ along the $\hat{z}$ direction. Finally, our main result is given by
+%
+\begin{equation}
+\int \dd^3 \Pi_{\mathrm{LIPS}} = \frac{1}{(2\pi)^4} \int \frac{|\vec{p_2}|}{4 W_c} \, \frac{1}{\hat{s}} \, \frac{1}{E_1 E_2} \, \dd x_5 \, \dd x_3 \, \dd K^2 \, \dd \phi_2 .
+\end{equation}
+%
+There remains two non-trivial integrations to be performed to obtain the full 4-body phase space cross section, namely the ones over $q^2$ and $\hat{s}$. The substitutions suggested in \cite{Lovseth1971} for these two invariants are still convenient, and we make use of them in our numerical integrations.

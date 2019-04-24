@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2014)
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 A level-1 auxiliary file: introduction/introduction.aux
@@ -9,64 +9,281 @@ A level-1 auxiliary file: conclusions/conclusions.aux
 A level-1 auxiliary file: appendices/appendix_PS.aux
 A level-1 auxiliary file: appendices/loop_masses.aux
 The style file: JHEP.bst
+Reallocated field_info (elt_size=4) to 11090 items from 5000.
 Database file #1: introduction/introduction.bib
 Database file #2: theory/theory.bib
 Database file #3: tridentSM/tridentSM.bib
-Database file #4: miniboone/miniboone.bib
+Database file #4: Zprime_scattering/Zprime_scattering.bib
+Repeated entry---line 45 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{Andreopoulos2009
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 59 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{Acciarri:2015ncl
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 77 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{Mislivec:2017qfz
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 95 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{Higuera:2014azj
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 113 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{Acciarri:2014eit
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 587 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{Abe:2015biq
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 795 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{Geiregat:1990gz
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 808 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{Mishra:1991bv
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1324 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{Falkowski:2018dmy
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1373 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{Kaneta:2016uyt
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1390 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{Magill:2017mps
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1480 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{Anni1994
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1510 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{Sprung1997
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1522 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{Hand:1963bb
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1548 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{Shabalin:1963aa
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1557 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{Frixione:1993yw
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1799 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{DUNECDRvolII
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1824 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{Jentschura2009
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1880 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{Ge2017
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1891 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{SBNproposal
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2018 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{Bilmis:2015lja
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2132 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{Benvenuti1977
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2147 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{Barish1977
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2166 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{Smith1978
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2289 of file Zprime_scattering/Zprime_scattering.bib
+ : @unpublished{DUNE:flux
+ :                       ,
+I'm skipping whatever remains of this entry
+Database file #5: miniboone/miniboone.bib
+Repeated entry---line 18 of file miniboone/miniboone.bib
+ : @article{deGouvea:2006hfo
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 102 of file miniboone/miniboone.bib
+ : @article{Bauer:2018onh
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 129 of file miniboone/miniboone.bib
+ : @article{Lindner:2018kjo
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 143 of file miniboone/miniboone.bib
+ : @article{Bellini:2011rx
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 157 of file miniboone/miniboone.bib
+ : @article{Deniz:2009mu
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 211 of file miniboone/miniboone.bib
+ : @article{Aliaga:2013uqz
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 813 of file miniboone/miniboone.bib
+ : @article{Esteban:2018azc
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2339 of file miniboone/miniboone.bib
+ : @article{Hannestad:2013ana
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2356 of file miniboone/miniboone.bib
+ : @article{Dasgupta:2013zpn
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2532 of file miniboone/miniboone.bib
+ : @article{Vilain:1994qy
+ :                       ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 2879 of file miniboone/miniboone.bib
  : @article{Magill:2017mps
  :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3249 of file miniboone/miniboone.bib
+ : @article{Hannestad:2013ana
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3266 of file miniboone/miniboone.bib
+ : @article{Dasgupta:2013zpn
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3366 of file miniboone/miniboone.bib
+ : @article{Asaka:2005pn
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3440 of file miniboone/miniboone.bib
+ : @inproceedings{Alexander:2016aln
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4076 of file miniboone/miniboone.bib
+ : @article{Lovseth1971
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4126 of file miniboone/miniboone.bib
+ : @article{Adams:1999mn
+ :                      ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 4200 of file miniboone/miniboone.bib
  : @article{Jentschura2009
  :                        ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 4350 of file miniboone/miniboone.bib
+ : @article{Altmannshofer2014
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4748 of file miniboone/miniboone.bib
+ : @phdthesis{Park:2013dax
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4806 of file miniboone/miniboone.bib
+ : @article{Park:2015eqa
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4825 of file miniboone/miniboone.bib
+ : @article{Bertuzzo:2018itn
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4837 of file miniboone/miniboone.bib
+ : @article{Ballett:2018ynz
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5295 of file miniboone/miniboone.bib
+ : @article{Hannestad:2013ana
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5312 of file miniboone/miniboone.bib
+ : @article{Dasgupta:2013zpn
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5368 of file miniboone/miniboone.bib
+ : @article{Asaka:2005pn
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5426 of file miniboone/miniboone.bib
+ : @inproceedings{Alexander:2016aln
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6075 of file miniboone/miniboone.bib
+ : @article{Lovseth1971
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6125 of file miniboone/miniboone.bib
+ : @article{Adams:1999mn
+ :                      ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 6199 of file miniboone/miniboone.bib
  : @article{Jentschura2009
  :                        ,
 I'm skipping whatever remains of this entry
-Database file #5: appendices/loop_masses.bib
-Warning--empty author in MINERvA:2017
+Repeated entry---line 6349 of file miniboone/miniboone.bib
+ : @article{Altmannshofer2014
+ :                           ,
+I'm skipping whatever remains of this entry
+Database file #6: appendices/loop_masses.bib
 Warning--empty author in DUNE:flux
-You've used 79 entries,
+Warning--empty author in MINERvA:2017
+Warning--empty booktitle in Alexander:2016aln
+Warning--empty author in DUNE:flux_updated
+Warning--empty author in DUNE:GArOption
+You've used 203 entries,
             2217 wiz_defined-function locations,
-            1210 strings with 21138 characters,
-and the built_in function-call counts, 23290 in all, are:
-= -- 2467
-> -- 809
+            2196 strings with 47852 characters,
+and the built_in function-call counts, 62061 in all, are:
+= -- 6445
+> -- 2461
 < -- 0
-+ -- 247
-- -- 168
-* -- 1896
-:= -- 3197
-add.period$ -- 80
-call.type$ -- 79
-change.case$ -- 76
++ -- 726
+- -- 523
+* -- 5258
+:= -- 8531
+add.period$ -- 206
+call.type$ -- 203
+change.case$ -- 199
 chr.to.int$ -- 0
-cite$ -- 81
-duplicate$ -- 1222
-empty$ -- 2046
-format.name$ -- 168
-if$ -- 6117
+cite$ -- 208
+duplicate$ -- 3212
+empty$ -- 5328
+format.name$ -- 523
+if$ -- 16284
 int.to.chr$ -- 0
-int.to.str$ -- 79
-missing$ -- 260
-newline$ -- 242
-num.names$ -- 77
-pop$ -- 137
+int.to.str$ -- 203
+missing$ -- 709
+newline$ -- 616
+num.names$ -- 199
+pop$ -- 359
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1009
+skip$ -- 2653
 stack$ -- 0
-substring$ -- 1142
-swap$ -- 637
+substring$ -- 2792
+swap$ -- 1699
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 167
-width$ -- 81
-write$ -- 803
-(There were 3 error messages)
+warning$ -- 5
+while$ -- 429
+width$ -- 206
+write$ -- 2083
+(There were 56 error messages)

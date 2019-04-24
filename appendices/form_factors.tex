@@ -1,0 +1,60 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+In the coherent regime, we use a Woods-Saxon (WS) form factor due to its success in reproducing the experimental data \cite{Fricke:1995zz,Jentschura2009}. The WS form factor is the Fourier transform of the nuclear charge distribution, defined as 
+%
+\begin{equation}
+ \rho(r) = \frac{\rho_0}{1+\exp\left(\dfrac{r - r_0}{a}\right)} \, ,
+\end{equation}
+%
+where we take $r_0 = 1.126 \, A^{1/3}$ fm and $a = 0.523$ fm. One can then calculate the WS form factor as
+%
+\begin{equation}
+ F(Q^2) = \frac{1}{\int \rho(r) \, \dd^3r}  \int \rho(r) \, \exp\left( -i \vec{q} \vdot \vec{r}\right) d^3r \, .
+\end{equation}
+%
+Here we use an analytic expression for the symmetrized Fermi function \cite{Anni1994,Sprung1997} instead of calculating the WS form factor numerically. This symmetrized form is found to agree very well with the full calculation and reads
+%
+\begin{equation}
+  F(Q^2) =  \frac{3 \pi  a}{r_0^2 + \pi^2 a^2} \frac{\pi a \coth{(\pi Q a)} \sin{(Q r_0)} - r_0 \cos{(Q r_0)} }{Q r_0 \sinh{(\pi Q a)}}\, .
+\end{equation}
+%
+
+In the diffractive regime, we work with the functions $H_1^{\rm N}(Q^2)$ and $H_2^{\rm N}(Q^2)$, which depend on the Dirac and Pauli form factors of the nucleon ${\rm N}$ as follows
+%
+\begin{equation}
+H_1^{\rm N}(Q^2)= |F_1^{\rm N}(Q^2)|^2 - \tau |F_2^{\rm N}(Q^2)|^2\, , \quad \mathrm{and} \quad H_2^{\rm N}(Q^2) = \left| F_1^{\rm N}(Q^2) + F_2^{\rm N}(Q^2)\right|^2 \, ,
+\end{equation}
+%
+where $\tau = -Q^2/4M^2$. The form factors $F_1^{\rm N}(Q^2)$ and $F_2^{\rm N}(Q^2)$ can be related to the usual Sachs electric $G_\mathrm{E}$ and magnetic $G_{\mathrm{M}}$ form factors. These have a simple dipole parametrization
+%
+\begin{align}
+G^{\rm N}_E(Q^2) =& F^{\rm N}_1 (Q^2) + \tau F^{\rm N}_2 (Q^2) = \begin{cases}
+                                              0,\, &\mathrm{if }\, {\rm N} = n,\\
+                                              G_D(Q^2),\, &\mathrm{if }\, {\rm N} = p,
+                                              \end{cases} \\
+G^{\rm N}_M(Q^2) =& F^{\rm N}_1 (Q^2) + F^{\rm N}_2 (Q^2) = \begin{cases}
+                                              \mu_n  \, G_D(Q^2),\, &\mathrm{if }\, {\rm N} = n,\\
+                                              \mu_p  \, G_D(Q^2),\, &\mathrm{if }\, {\rm N} = p,
+                                              \end{cases}
+\end{align}
+%
+where $\mu_{p,n}$ is the nucleon magnetic moment in units of the nuclear magneton and $G_D(Q^2) = (1 + Q^2/M_V^2)^{-2}$ is a simple dipole form factor with $M_V = 0.84$ GeV.
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Weak form factor}
+\label{app:formfactors}
+
+Here we show our weak hadronic current used in the dark-bremsstrahlung calculation. Similarly to the electromagnetic case, we write the weak hadronic current for a spin-0 nucleus with $Z$ protons and $N$ neutrons as
+%
+\begin{align}
+ {\rm H}_{\rm W}^\mu &= \bra{\mathcal{H}(k_3)} J^\mu_{\rm W} (Q^2) \ket{\mathcal{H}(k_b)} \nonumber\\&= Q_{\rm W} (k_b+k_3)^\mu F_{\rm W}(Q^2),
+\end{align}
+where $Q_{\rm W} = (1-4 s_{\rm w}^2)Z - N$ and $F_{\rm W}(Q^2)$ stands for the weak form factor of the nucleus. We implement the Helm form factor as in \cite{Duda:2006uk}, defined as  
+\begin{equation}
+|F(Q^2)|^2 = \left( \frac{3 j_1(QR)}{QR}\right)^2 e^{-Q^2 s^2},
+\end{equation}
+where $j_1 (x)$ stands for the spherical Bessel function of the first kind, $s = 0.9$ fm and $R = 3.9$~fm for $^{40}$Ar.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
