@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2014)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 A level-1 auxiliary file: introduction/introduction.aux
@@ -7,9 +7,11 @@ A level-1 auxiliary file: tridentSM/tridentSM.aux
 A level-1 auxiliary file: Zprime_scattering/Zprime_scattering.aux
 A level-1 auxiliary file: conclusions/conclusions.aux
 A level-1 auxiliary file: appendices/appendix_PS.aux
+A level-1 auxiliary file: appendices/trident_kinematics.aux
+A level-1 auxiliary file: appendices/trident_rates_other.aux
 A level-1 auxiliary file: appendices/loop_masses.aux
 The style file: JHEP.bst
-Reallocated field_info (elt_size=4) to 11090 items from 5000.
+Reallocated field_info (elt_size=4) to 11000 items from 5000.
 Database file #1: introduction/introduction.bib
 Database file #2: theory/theory.bib
 Database file #3: tridentSM/tridentSM.bib
@@ -58,14 +60,6 @@ Repeated entry---line 1390 of file Zprime_scattering/Zprime_scattering.bib
  : @article{Magill:2017mps
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1480 of file Zprime_scattering/Zprime_scattering.bib
- : @article{Anni1994
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1510 of file Zprime_scattering/Zprime_scattering.bib
- : @article{Sprung1997
- :                    ,
-I'm skipping whatever remains of this entry
 Repeated entry---line 1522 of file Zprime_scattering/Zprime_scattering.bib
  : @article{Hand:1963bb
  :                     ,
@@ -81,10 +75,6 @@ I'm skipping whatever remains of this entry
 Repeated entry---line 1799 of file Zprime_scattering/Zprime_scattering.bib
  : @article{DUNECDRvolII
  :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1824 of file Zprime_scattering/Zprime_scattering.bib
- : @article{Jentschura2009
- :                        ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 1880 of file Zprime_scattering/Zprime_scattering.bib
  : @article{Ge2017
@@ -183,10 +173,6 @@ Repeated entry---line 4126 of file miniboone/miniboone.bib
  : @article{Adams:1999mn
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4200 of file miniboone/miniboone.bib
- : @article{Jentschura2009
- :                        ,
-I'm skipping whatever remains of this entry
 Repeated entry---line 4350 of file miniboone/miniboone.bib
  : @article{Altmannshofer2014
  :                           ,
@@ -231,59 +217,56 @@ Repeated entry---line 6125 of file miniboone/miniboone.bib
  : @article{Adams:1999mn
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6199 of file miniboone/miniboone.bib
- : @article{Jentschura2009
- :                        ,
-I'm skipping whatever remains of this entry
 Repeated entry---line 6349 of file miniboone/miniboone.bib
  : @article{Altmannshofer2014
  :                           ,
 I'm skipping whatever remains of this entry
 Database file #6: appendices/loop_masses.bib
-Warning--empty author in DUNE:flux
+Warning--I didn't find a database entry for ""
 Warning--empty author in MINERvA:2017
 Warning--empty booktitle in Alexander:2016aln
+Warning--empty author in DUNE:flux
 Warning--empty author in DUNE:flux_updated
 Warning--empty author in DUNE:GArOption
-You've used 203 entries,
+You've used 199 entries,
             2217 wiz_defined-function locations,
-            2196 strings with 47852 characters,
-and the built_in function-call counts, 62061 in all, are:
-= -- 6445
-> -- 2461
+            2163 strings with 46684 characters,
+and the built_in function-call counts, 60856 in all, are:
+= -- 6334
+> -- 2385
 < -- 0
-+ -- 726
-- -- 523
-* -- 5258
-:= -- 8531
-add.period$ -- 206
-call.type$ -- 203
-change.case$ -- 199
++ -- 705
+- -- 506
+* -- 5141
+:= -- 8347
+add.period$ -- 202
+call.type$ -- 199
+change.case$ -- 195
 chr.to.int$ -- 0
-cite$ -- 208
-duplicate$ -- 3212
-empty$ -- 5328
-format.name$ -- 523
-if$ -- 16284
+cite$ -- 204
+duplicate$ -- 3165
+empty$ -- 5230
+format.name$ -- 506
+if$ -- 15981
 int.to.chr$ -- 0
-int.to.str$ -- 203
-missing$ -- 709
-newline$ -- 616
-num.names$ -- 199
-pop$ -- 359
+int.to.str$ -- 199
+missing$ -- 694
+newline$ -- 604
+num.names$ -- 195
+pop$ -- 353
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2653
+skip$ -- 2622
 stack$ -- 0
-substring$ -- 2792
-swap$ -- 1699
+substring$ -- 2738
+swap$ -- 1680
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 429
-width$ -- 206
-write$ -- 2083
-(There were 56 error messages)
+while$ -- 419
+width$ -- 202
+write$ -- 2044
+(There were 51 error messages)
