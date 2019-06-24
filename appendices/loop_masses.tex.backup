@@ -1,9 +1,8 @@
 \section{Type-I seesaw neutrino masses in the SM}
 
-In this appendix, we compute the one-loop corrections to the light neutrino masses in the SM, following \cite{Kniehl:1996bd,Grimus:2002nk,AristizabalSierra:2011mn}.
+In this appendix, we compute the one-loop corrections to the light neutrino masses in the SM, following Refs.~\cite{Kniehl:1996bd,Grimus:2002nk,AristizabalSierra:2011mn}.
 
-We will also be making use of the On-Shell (OS) renormalization scheme, known . This is ensured by requiring that the off-diagonal elements of the self-energy be diagonal when the external particles are on their mass shell, and that the residue of the renormalized propagator are 
-
+We work with the on-shell (OS) renormalization scheme. This is ensured by requiring that the off-diagonal elements of the self-energy be diagonal when the external particles are on their mass shell, and that the residue of the renormalized propagator are equal to one. Note this is only applicable to the off-diagonal entries that involve at least one heavy neutrino, and that the light-light entries are all non-zero and finite at one-loop.
 
 Assuming Majorana neutrino fields, one can write the self-energy tensor in its most general form:
 %
@@ -14,10 +13,35 @@ Assuming Majorana neutrino fields, one can write the self-energy tensor in its m
 where by virtue of the Majorana nature the previous terms obey
 \[\Sigma_{ij}^L (q^2) = \Sigma_{ij}^{R*} (q^2), \qquad \Sigma_{ij}^M (q^2) = \Sigma_{ji}^M (q^2). \]
 
+\subsection{Self-energy}
 
+We now compute explicitly the self-energy corrections. The contribution from the scalar fields $s= h^0, \varphi^0$, the goldstones $G = G_h, G_\varphi$ and the vector bosons $V = Z, Z^\prime$ are 
 
-\begin{equation}
-  \delta m_L = 
-\end{equation}
+\begin{align*}
+ -i\,\Sigma^s_{ij} (p^2) &= (-i)^2 \left(\Delta_s P_R + \Delta^*_s P_L \right)_{ik} \times\\&\qquad\qquad \int \frac{d^d k}{(2\pi)^d} \frac{i (\slashed{p} + \slashed{k} + m_k) }{(p+k)^2 - m_k^2} \frac{i}{k^2 - m_s^2} \left( \Delta_s P_R + \Delta^*_s P_L \right)_{kj},\\
+ %
+ -i\,\Sigma^G_{ij} (p^2) &= (-i)^2 \left(i\,\Delta_G P_R + i\,\Delta^*_G P_L \right)_{ik} \times\\&\qquad\qquad\int \frac{d^d k}{(2\pi)^d} \frac{i (\slashed{p} + \slashed{k} + m_k) }{(p+k)^2 - m_k^2} \frac{i}{k^2 - \xi_V m_V^2} \left( i\,\Delta_G P_R + i\,\Delta^*_G P_L  \right)_{kj},\\
+%
+ -i\,\Sigma^G_{ij} (p^2) &= -(-i)^2 \gamma^\mu \left( C_V P_L - C_V^T P_R \right)_{ik} \times \\&\qquad\qquad\int \frac{d^d k}{(2\pi)^d} \frac{i (\slashed{p} + \slashed{k} + m_k) }{(p+k)^2 - m_k^2} \frac{iP_{\mu\nu}}{k^2 - m_V^2} \gamma^\nu \left( C P_L - C^T P_R \right)_{kj},
+\end{align*}
+where in the latter term we define (and rewrite) the vector boson propagator numerator as
+%
+\begin{align*}
+\gamma^\mu P_{\mu\nu} \gamma^\nu &= \gamma^\mu \left[ g_{\mu\nu} - (1-\xi_V) \frac{k_\mu k_\nu}{k^2 - \xi_V m_V^2} \right] \gamma^\nu\\
+&= d - (1-\xi_V) \frac{k^2 - m_k^2}{k^2 - \xi_V m_V^2} - \frac{m_k^2}{m_V^2} \frac{ (k^2 - \xi_V m_V^2) - (k^2 - m_V^2)}{k^2 - \xi_V m_V^2}.
+\end{align*}
+
+This allows us to write the relevant part of the self-energy as functions of the Passarino-Veltmann loop function
+\begin{align}
+  \Sigma^s_{ij} (0) \, P_R =& -\frac{\pi^2}{(2\pi)^4} \mu^{d-4} \left[ (\Delta_s)_{ik} m_k B_0 (0,m_k^2, m_s^2) (\Delta_s)_{kj}\right] \, P_R \\
+%
+ \Sigma^G_{ij} (0) \, P_R =& \frac{\pi^2}{(2\pi)^4} \mu^{d-4} \left[ (\Delta_G)_{ik} m_k B_0 (0,m_k^2, \xi_V m_V^2) (\Delta_G)_{kj}\right] \, P_R \\
+%
+ \Sigma^V_{ij} (0) \, P_R =& -\frac{\pi^2}{(2 \pi)^4} \mu^{d-4} \left[ (C_V)_{ik} m_k \,f( m_k^2, m_V^2, \xi m_V^2) (C_V^*)_{kj} \right] \, P_R,
+\end{align}
+where the rearrangement of the boson propagator allowed us to write $f( m_k^2, m_V^2, \xi m_V^2)$ as
+\begin{align*}
+f( m_k^2, m_V^2, \xi m_V^2) =&\, d\, B_0(0,m_k^2, m_V^2) - (1-\xi_V) B_0 (0,m_V^2, \xi_V m_V^2) +\\ & \frac{m_k^2}{m_V^2} B_0 (0, m_k^2, \xi_V m_V^2) - \frac{m_k^2}{m_V^2} B_0 (0,  m_k^2, m_V^2). 
+\end{align*}
 
 
