@@ -1,3 +1,6 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\graphicspath{{}{introduction/}}
+
 \section{The Standard Model at 51}
 
 
@@ -30,18 +33,21 @@ Higgs questions ? elementary or composite? Natural? Portal to dark sector? All f
 \end{table}
 
 
-\subsection{Spontaneous symmetry breaking}
-
-
 The covariant derivative in the SM is given by
-
+%
 \begin{equation}
  D_\mu = \partial_\mu + ig \,W_\mu^a\tau_a + i\frac{Y}{2} g^\prime \,B_\mu + i\frac{g_s}{2} \,G_\mu^b\lambda_b,
 \end{equation}
+%
+The covariant derivative allows us to \emph{i)} write down kinetic terms for all SM fermions, \emph{ii)} specify all gauge interactions for fermion and bosons. Take a purely electromagnetically interacting field $\psi$, for instance. A gauge transformation yields
+\[\psi \to e^{-i\Lambda} \psi, \quad A_\mu \to A_\mu - \frac{1}{e}\partial_\mu \Lambda \,\,\implies\,\, D_\mu \psi \to e^{-i\Lambda}D_\mu\psi \,\,\implies \,\, \overline{\psi} i\slashed{D}\psi \to \overline{\psi} i \slashed{D} \psi, \]
+explicitly showing the fermion kinetic term is invariant. Similar considerations apply for any gauge transformation within the SM. The invariant term in the relation above is the fermion kinetic term and it does not only allow for fermions to propagate, it also generates all fermion-gauge interactions in the SM. Expanding it we have
+\begin{equation}
+ \overline{\psi}\gamma^\mu\left[ i\partial_\mu  - g \,W_\mu^a\tau_a  - \frac{Y}{2} g^\prime \,B_\mu - \frac{g_s}{2} \,G_\mu^b\lambda_b \right]\psi,
+\end{equation}
 
-Take, for instance, a purely electromagnetically interacting field $\psi$. Gauge invariance is then explicitly manifested
-\[\psi \to e^{-i\Lambda} \psi, \quad A_\mu \to A_\mu - \frac{1}{e}\partial_\mu \Lambda \,\,\implies\,\, D_\mu \psi \to e^{-i\Lambda}D_\mu\psi \,\,\implies \,\, \overline{\psi} D_\mu \psi \to \overline{\psi} D_\mu \psi. \]
-Similar considerations apply for any SM gauge transformation. The theory is then said to be gauge invariant.
+\subsection{Spontaneous symmetry breaking}
+
 
 After EWSB, the background higgs field always has a non-zero expectation value. In any isolated process, no matter how large the energies and momentum transfers involved, the relevant degrees of freedom are the ones in the broken phase (\ie $h$). 
 

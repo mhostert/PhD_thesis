@@ -81,10 +81,10 @@ B\'arbara, Humberto and Luciana.
 \chapter{A dark neutrino sector}
 \include{three_portals/three_portals}
 
-\chapter{Tests of the MiniBooNE explanation}
-\include{miniboone/miniboone}
+\chapter{The MiniBooNE experimental anomaly}
+%\include{three_portals}
 
-\chapter{The future of precision in neutrino scattering}
+\chapter{Future precision neutrino physics}
 %\include{tridentSM/tridentSM}
 
 \chapter{Conclusions}

@@ -232,65 +232,65 @@ of the number of events, we see that axial-vector bosons lead to larger enhancem
 
 
 \subsection{Neutrino-electron scattering}
-% 
-% Neutrino-electron scattering has long been a valuable probe of both the SM and potential new physics \cite{Marciano:2003eq,deGouvea:2006hfo,PhysRevD.93.093019,Lindner:2018kjo}. It is important to note that in the presence of novel leptophilic currents, experiments searching for $e^+e^-$ tridents would also observe anomalous $\nu-e$ event rates. In fact, given the larger statistics present in the $\nu-e$ scattering sample, this channel is expected to provide the leading constraints in our scenarios with tree-level couplings to electrons. 
-% 
-% 
-% In order to compute the $\nu-e$ cross section in the presence of the new leptophilic interactions we need to consider an analogous modification of the NC scattering amplitude
-% % neutrino-electron scattering amplitude in the presence of new physics. This is a purely leptonic amplitude and can be written as
-% \begin{align}
-%     \mathcal{M}_{\rm \nu_\alpha-e} = - \frac{G_F}{\sqrt{2}}  & \left[\bar{u}(k_2)\gamma^\mu(1-\gamma_5)u(k_1)\right] \nonumber\\ & \times \left[\bar{u}(p_2)\gamma_\mu(C^{\rm V}_\alpha-C^{\rm A}_\alpha\gamma_5)u(p_1)\right],
-% \end{align}
-% where the vector ($C_V$) and axial ($C_A$) effective couplings include both the SM and BSM contributions
-% %
-% \begin{subequations}
-% \begin{align}
-% %
-% C^{\rm V}_\alpha &= -\frac{1}{2}+2s^2_{\rm W} + \delta_{\alpha e} + \frac{Q^{\rm V}_{e} Q^{\rm L}_{\alpha} }{2\sqrt{2}G_F} \frac{(g^\prime)^2}{M_{Z^\prime}^2+2m_eT_e},\\
-% %
-% C^{\rm A}_\alpha &= -\frac{1}{2} + \delta_{\alpha e} + \frac{Q^{\rm A}_{e} Q^{\rm L}_{\alpha} }{2\sqrt{2} G_F} \frac{(g^\prime)^2}{ M_{Z^\prime}^2 + 2m_e T_e},
-% \label{eq:c_prescription_nue}
-% %
-% \end{align}
-% \end{subequations}
-% with, as usual, $s_{\rm W}\equiv\sin\theta_{\rm W}$, being $\theta_{\rm W}$ the weak angle and $T_e$ is the kinetic energy of the recoil electron. The loop-induced kinetic mixing in the $L_\mu-L_\tau$ model also induces a $\nu - e$ coupling
-% %
-% \begin{equation}
-% C^{\rm V}_\alpha = -\frac{1}{2}+2s^2_{\rm W} + \delta_{\alpha e} + \frac{1 }{\sqrt{2}G_F} \frac{g^\prime \, e\, \varepsilon(q^2)}{M_{Z^\prime}^2+2m_eT_e}.
-% \end{equation}
-% %
-% The differential cross section is then given by 
-% %
-% \begin{align}\label{nuexsection}
-%   \frac{d\sigma_{\nu_{\alpha}-e}}{dT_e} = \frac{2m_eG_F^2}{\pi} \Bigg[ \left(C^{\rm L}_\alpha\right)^2 &+\left(C^{\rm R}_\alpha\right)^2\left(1-\frac{T_e}{E_\nu}\right)^2\nonumber\\&-C^{\rm L}_\alpha C^{\rm R}_\alpha \, m_e \frac{T_e}{E_\nu^2} \Bigg].
-% \end{align}
-% %
-% where the left and right handed constants are given by
-% %
-% \begin{align*}
-% %
-% C^{\rm L}_\alpha \equiv \frac{1}{2}\left(C^{\rm V}_\alpha + C^{\rm A}_\alpha\right) \qquad\text{and}\qquad
-% %
-% C^{\rm R}_\alpha \equiv \frac{1}{2}\left(C^{\rm V}_\alpha - C^{\rm A}_\alpha\right).
-% %
-% \end{align*}
-% %
-% For antineutrino scattering one obtains the cross section by exchanging $C_{\alpha}^{\rm L} \leftrightarrow C_{\alpha}^{\rm R}$. 
-% 
-% The kinetic energy of the outgoing electron is bounded by kinematics and the energy resolution of the detector, which effectively sets a threshold energy $T_{\rm th}$ such that
-% %
-% \begin{align}
-%   T_{\rm th}  \le T_e \le T_{\rm max},
-% \end{align}
-% %   
-% with $T_{\rm max} = 2E_\nu^2/m_e+2E_\nu$, the maximum kinetic energy attainable. We define the effective total cross section for an initial neutrino energy $E_\nu$ as
-% %
-% \begin{equation}\label{eq:effective_nue_xsec}
-% \sigma_\text{eff}(E_\nu,T_\text{th}) = \int_{T_\text{th}}^{T_{\rm max}} \frac{d\sigma}{dT_e}\,dT_e.
-% \end{equation}
-% %
-% This definition also ensures that the enhancement due to very light mediators becomes constant at around $\sqrt{2 m_e T_\text{th}}$, as discussed in \refref{Lindner:2018kjo}. This is a consequence of the detector threshold and of the 2-body kinematics of the process. Finally, electroweak radiative corrections have been computed in the SM \cite{Bahcall:1995mm,Passera:2000ug}, but 
-% will not be included here. Since they correspond to a change of a few percent we do not expect them to affect very much our results.
+
+Neutrino-electron scattering has long been a valuable probe of both the SM and potential new physics \cite{Marciano:2003eq,deGouvea:2006hfo,PhysRevD.93.093019,Lindner:2018kjo}. It is important to note that in the presence of novel leptophilic currents, experiments searching for $e^+e^-$ tridents would also observe anomalous $\nu-e$ event rates. In fact, given the larger statistics present in the $\nu-e$ scattering sample, this channel is expected to provide the leading constraints in our scenarios with tree-level couplings to electrons. 
+
+
+In order to compute the $\nu-e$ cross section in the presence of the new leptophilic interactions we need to consider an analogous modification of the NC scattering amplitude
+% neutrino-electron scattering amplitude in the presence of new physics. This is a purely leptonic amplitude and can be written as
+\begin{align}
+    \mathcal{M}_{\rm \nu_\alpha-e} = - \frac{G_F}{\sqrt{2}}  & \left[\bar{u}(k_2)\gamma^\mu(1-\gamma_5)u(k_1)\right] \nonumber\\ & \times \left[\bar{u}(p_2)\gamma_\mu(C^{\rm V}_\alpha-C^{\rm A}_\alpha\gamma_5)u(p_1)\right],
+\end{align}
+where the vector ($C_V$) and axial ($C_A$) effective couplings include both the SM and BSM contributions
+%
+\begin{subequations}
+\begin{align}
+%
+C^{\rm V}_\alpha &= -\frac{1}{2}+2s^2_{\rm W} + \delta_{\alpha e} + \frac{Q^{\rm V}_{e} Q^{\rm L}_{\alpha} }{2\sqrt{2}G_F} \frac{(g^\prime)^2}{M_{Z^\prime}^2+2m_eT_e},\\
+%
+C^{\rm A}_\alpha &= -\frac{1}{2} + \delta_{\alpha e} + \frac{Q^{\rm A}_{e} Q^{\rm L}_{\alpha} }{2\sqrt{2} G_F} \frac{(g^\prime)^2}{ M_{Z^\prime}^2 + 2m_e T_e},
+\label{eq:c_prescription_nue}
+%
+\end{align}
+\end{subequations}
+with, as usual, $s_{\rm W}\equiv\sin\theta_{\rm W}$, being $\theta_{\rm W}$ the weak angle and $T_e$ is the kinetic energy of the recoil electron. The loop-induced kinetic mixing in the $L_\mu-L_\tau$ model also induces a $\nu - e$ coupling
+%
+\begin{equation}
+C^{\rm V}_\alpha = -\frac{1}{2}+2s^2_{\rm W} + \delta_{\alpha e} + \frac{1 }{\sqrt{2}G_F} \frac{g^\prime \, e\, \varepsilon(q^2)}{M_{Z^\prime}^2+2m_eT_e}.
+\end{equation}
+%
+The differential cross section is then given by 
+%
+\begin{align}\label{nuexsection}
+  \frac{d\sigma_{\nu_{\alpha}-e}}{dT_e} = \frac{2m_eG_F^2}{\pi} \Bigg[ \left(C^{\rm L}_\alpha\right)^2 &+\left(C^{\rm R}_\alpha\right)^2\left(1-\frac{T_e}{E_\nu}\right)^2\nonumber\\&-C^{\rm L}_\alpha C^{\rm R}_\alpha \, m_e \frac{T_e}{E_\nu^2} \Bigg].
+\end{align}
+%
+where the left and right handed constants are given by
+%
+\begin{align*}
+%
+C^{\rm L}_\alpha \equiv \frac{1}{2}\left(C^{\rm V}_\alpha + C^{\rm A}_\alpha\right) \qquad\text{and}\qquad
+%
+C^{\rm R}_\alpha \equiv \frac{1}{2}\left(C^{\rm V}_\alpha - C^{\rm A}_\alpha\right).
+%
+\end{align*}
+%
+For antineutrino scattering one obtains the cross section by exchanging $C_{\alpha}^{\rm L} \leftrightarrow C_{\alpha}^{\rm R}$. 
+
+The kinetic energy of the outgoing electron is bounded by kinematics and the energy resolution of the detector, which effectively sets a threshold energy $T_{\rm th}$ such that
+%
+\begin{align}
+  T_{\rm th}  \le T_e \le T_{\rm max},
+\end{align}
+%   
+with $T_{\rm max} = 2E_\nu^2/m_e+2E_\nu$, the maximum kinetic energy attainable. We define the effective total cross section for an initial neutrino energy $E_\nu$ as
+%
+\begin{equation}\label{eq:effective_nue_xsec}
+\sigma_\text{eff}(E_\nu,T_\text{th}) = \int_{T_\text{th}}^{T_{\rm max}} \frac{d\sigma}{dT_e}\,dT_e.
+\end{equation}
+%
+This definition also ensures that the enhancement due to very light mediators becomes constant at around $\sqrt{2 m_e T_\text{th}}$, as discussed in \refref{Lindner:2018kjo}. This is a consequence of the detector threshold and of the 2-body kinematics of the process. Finally, electroweak radiative corrections have been computed in the SM \cite{Bahcall:1995mm,Passera:2000ug}, but 
+will not be included here. Since they correspond to a change of a few percent we do not expect them to affect very much our results.
 
 \subsubsection{$\nu-e$ kinematical distributions \label{sec:nue_kinematics}}
 

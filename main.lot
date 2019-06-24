@@ -1,19 +1,21 @@
 \select@language {british}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1.1}{\ignorespaces SM field content}}{17}{table.caption.9}
+\contentsline {table}{\numberline {1.1}{\ignorespaces SM field content}}{19}{table.caption.9}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces (Anti)Neutrino trident processes considered in this paper.\relax }}{28}{table.caption.19}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Total number of \textbf {coherent} (top row) and \textbf {diffractive} (bottom row) trident events expected at different LAr experiments for a given channel. The numbers in parentheses are for the antineutrino running mode, when present. These calculations considered a detector efficiency of 100\%. \relax }}{64}{table.caption.29}
-\contentsline {table}{\numberline {3.3}{\ignorespaces Assumed misID rates for various particles in a LAr detector. We take these values to be constant in energy.\relax }}{65}{table.caption.33}
-\contentsline {table}{\numberline {3.4}{\ignorespaces Reduction of backgrounds at the DUNE ND in neutrino (antineutrino) mode and its impact on the signal for each distinguishable trident final-state. $\mathbf {N^{\mathrm {misID}}_{\mathrm {B}}}$ stands for total backgrounds to trident after only applying misID rates, $\mathbf {N^{\mathrm {had}}_{\mathrm {B}}}$ are the backgrounds after the hadronic veto, and $\mathbf {N^{\mathrm {kin}}_{\mathrm {B}}}$ reduce the latter with detection thresholds and kinematical cuts (see text for the cuts chosen). These quantities are normalized to the total number of CC interactions in the ND $\mathbf {N_{\mathrm {CC}}}$ (flavour inclusive). We also show the impact of our detection thresholds and kinematical cuts on the trident signal via efficiencies for coherent only ($\epsilon _{\mathrm {sig}}^{\mathrm {coh}}$) and diffractive only samples ($\epsilon _{\mathrm {sig}}^{\mathrm {dif}}$). We do not cut on the hadronic activity of diffractive events.\relax }}{65}{table.caption.35}
-\contentsline {table}{\numberline {3.5}{\ignorespaces Summary of the non-LAr detector set-up and values used in our calculations. The POT numbers are given for a neutrino (antineutrino) beam. For T2K-I and II neutrino and antineutrino beams have the same exposure.\relax }}{65}{table.caption.37}
-\contentsline {table}{\numberline {3.6}{\ignorespaces Total number of \textbf {coherent} (top row) and \textbf {diffractive} (bottom row) trident events expected at different non-LAr detectors for each channel. The numbers in parentheses are for the antineutrino running mode, when present. These calculations consider a detection efficiency of 100\%.\relax }}{66}{table.caption.38}
+\contentsline {table}{\numberline {3.1}{\ignorespaces (Anti)Neutrino trident processes considered in this paper.\relax }}{33}{table.caption.20}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Total number of \textbf {coherent} (top row) and \textbf {diffractive} (bottom row) trident events expected at different LAr experiments for a given channel. The numbers in parentheses are for the antineutrino running mode, when present. These calculations considered a detector efficiency of 100\%. \relax }}{62}{table.caption.28}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Assumed misID rates for various particles in a LAr detector. We take these values to be constant in energy.\relax }}{63}{table.caption.33}
+\contentsline {table}{\numberline {3.4}{\ignorespaces Reduction of backgrounds at the DUNE ND in neutrino (antineutrino) mode and its impact on the signal for each distinguishable trident final-state. $\mathbf {N^{\mathrm {misID}}_{\mathrm {B}}}$ stands for total backgrounds to trident after only applying misID rates, $\mathbf {N^{\mathrm {had}}_{\mathrm {B}}}$ are the backgrounds after the hadronic veto, and $\mathbf {N^{\mathrm {kin}}_{\mathrm {B}}}$ reduce the latter with detection thresholds and kinematical cuts (see text for the cuts chosen). These quantities are normalized to the total number of CC interactions in the ND $\mathbf {N_{\mathrm {CC}}}$ (flavour inclusive). We also show the impact of our detection thresholds and kinematical cuts on the trident signal via efficiencies for coherent only ($\epsilon _{\mathrm {sig}}^{\mathrm {coh}}$) and diffractive only samples ($\epsilon _{\mathrm {sig}}^{\mathrm {dif}}$). We do not cut on the hadronic activity of diffractive events.\relax }}{63}{table.caption.35}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces The SM rates for neutrino trident production and neutrino-electron scattering per year at the 75-t DUNE ND after kinematical cuts. \relax }}{86}{table.caption.52}
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces The SM rates for neutrino trident production and neutrino-electron scattering per year at the 75-t DUNE ND after kinematical cuts. \relax }}{82}{table.caption.50}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {C.1}{\ignorespaces Summary of the non-LAr detector set-up and values used in our calculations. The POT numbers are given for a neutrino (antineutrino) beam.\relax }}{115}{table.caption.68}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {C.2}{\ignorespaces Total number of \textbf {coherent} (top row) and \textbf {diffractive} (bottom row) trident events expected at different non-LAr detectors for each channel. The numbers in parentheses are for the antineutrino running mode, when present. These calculations consider a detection efficiency of 100\%.\relax }}{117}{table.caption.73}
 \addvspace {10\p@ }

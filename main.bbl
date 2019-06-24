@@ -1,31 +1,6 @@
 
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{100}
 
-\bibitem{DUNE:flux}
-{\scshape DUNE} collaboration, ``{2016 DUNE fluxes}.'' 2016.
-
-\bibitem{SBNproposal}
-R.~Acciarri et~al., \emph{{A Proposal for a Three Detector Short-Baseline
-  Neutrino Oscillation Program in the Fermilab Booster Neutrino Beam}},
-  \href{https://arxiv.org/abs/1503.01520}{{\ttfamily 1503.01520}}.
-
-\bibitem{nuSTORM2017}
-D.~Adey, R.~Appleby, R.~Bayes, A.~Bogacz, A.~Bross, J.-B. Lagrange et~al.,
-  \emph{Overview of the neutrinos from stored muons facility - nustorm},
-  {\emph{Journal of Instrumentation} {\bfseries 12} (2017) P07020}.
-
-\bibitem{Abe:2015biq}
-{\scshape T2K} collaboration, K.~Abe et~al., \emph{{Measurement of the muon
-  neutrino inclusive charged-current cross section in the energy range of 1–3
-  GeV with the T2K INGRID detector}},
-  \href{https://doi.org/10.1103/PhysRevD.93.072002}{\emph{Phys. Rev.}
-  {\bfseries D93} (2016) 072002},
-  [\href{https://arxiv.org/abs/1509.06940}{{\ttfamily 1509.06940}}].
-
-\bibitem{fluxes:nonLAr}
-L.~Loiacono, ``{Neutrino Flux Simulations with an Evacuated and Helium Gas
-  Filled Decay Pipe }.'' 2007.
-
 \bibitem{Wong:2006nx}
 {\scshape TEXONO} collaboration, H.~T. Wong et~al., \emph{{A Search of Neutrino
   Magnetic Moments with a High-Purity Germanium Detector at the Kuo-Sheng
@@ -110,6 +85,13 @@ M.~Escudero, D.~Hooper, G.~Krnjaic and M.~Pierre, \emph{{Cosmology With a Very
   Light $L_\mu - L_\tau$ Gauge Boson}},
   \href{https://arxiv.org/abs/1901.02010}{{\ttfamily 1901.02010}}.
 
+\bibitem{Bertuzzo:2018itn}
+E.~Bertuzzo, S.~Jana, P.~A.~N. Machado and R.~Zukanovich~Funchal, \emph{{Dark
+  Neutrino Portal to Explain MiniBooNE excess}},
+  \href{https://doi.org/10.1103/PhysRevLett.121.241801}{\emph{Phys. Rev. Lett.}
+  {\bfseries 121} (2018) 241801},
+  [\href{https://arxiv.org/abs/1807.09877}{{\ttfamily 1807.09877}}].
+
 \bibitem{Fradette:2018hhl}
 A.~Fradette, M.~Pospelov, J.~Pradler and A.~Ritz, \emph{{Cosmological beam
   dump: constraints on dark scalars mixed with the Higgs boson}},
@@ -117,11 +99,62 @@ A.~Fradette, M.~Pospelov, J.~Pradler and A.~Ritz, \emph{{Cosmological beam
   {\bfseries D99} (2019) 075004},
   [\href{https://arxiv.org/abs/1812.07585}{{\ttfamily 1812.07585}}].
 
+\bibitem{Silveira:1985rk}
+V.~Silveira and A.~Zee, \emph{{SCALAR PHANTOMS}},
+  \href{https://doi.org/10.1016/0370-2693(85)90624-0}{\emph{Phys. Lett.}
+  {\bfseries 161B} (1985) 136--140}.
+
+\bibitem{Craig:2013xia}
+N.~Craig, C.~Englert and M.~McCullough, \emph{{New Probe of Naturalness}},
+  \href{https://doi.org/10.1103/PhysRevLett.111.121803}{\emph{Phys. Rev. Lett.}
+  {\bfseries 111} (2013) 121803},
+  [\href{https://arxiv.org/abs/1305.5251}{{\ttfamily 1305.5251}}].
+
 \bibitem{Boucenna:2014zba}
 S.~M. Boucenna, S.~Morisi and J.~W.~F. Valle, \emph{{The low-scale approach to
   neutrino masses}}, \href{https://doi.org/10.1155/2014/831598}{\emph{Adv. High
   Energy Phys.} {\bfseries 2014} (2014) 831598},
   [\href{https://arxiv.org/abs/1404.3751}{{\ttfamily 1404.3751}}].
+
+\bibitem{Marciano:2003eq}
+W.~J. Marciano and Z.~Parsa, \emph{{Neutrino electron scattering theory}},
+  \href{https://doi.org/10.1088/0954-3899/29/11/013}{\emph{J. Phys.} {\bfseries
+  G29} (2003) 2629--2645},
+  [\href{https://arxiv.org/abs/hep-ph/0403168}{{\ttfamily hep-ph/0403168}}].
+
+\bibitem{deGouvea:2006hfo}
+A.~de~Gouvea and J.~Jenkins, \emph{{What can we learn from neutrino electron
+  scattering?}}, \href{https://doi.org/10.1103/PhysRevD.74.033004}{\emph{Phys.
+  Rev.} {\bfseries D74} (2006) 033004},
+  [\href{https://arxiv.org/abs/hep-ph/0603036}{{\ttfamily hep-ph/0603036}}].
+
+\bibitem{PhysRevD.93.093019}
+A.~N. Khan, \emph{Global analysis of the source and detector nonstandard
+  interactions using the short baseline $\ensuremath{\nu}\ensuremath{-}e$ and
+  $\overline{\ensuremath{\nu}}\ensuremath{-}e$ scattering data},
+  \href{https://doi.org/10.1103/PhysRevD.93.093019}{\emph{Phys. Rev. D}
+  {\bfseries 93} (May, 2016) 093019}.
+
+\bibitem{Lindner:2018kjo}
+M.~Lindner, F.~S. Queiroz, W.~Rodejohann and X.-J. Xu, \emph{{Neutrino-electron
+  scattering: general constraints on Z$^\prime$ and dark photon models}},
+  \href{https://doi.org/10.1007/JHEP05(2018)098}{\emph{JHEP} {\bfseries 05}
+  (2018) 098}, [\href{https://arxiv.org/abs/1803.00060}{{\ttfamily
+  1803.00060}}].
+
+\bibitem{Bahcall:1995mm}
+J.~N. Bahcall, M.~Kamionkowski and A.~Sirlin, \emph{{Solar neutrinos: Radiative
+  corrections in neutrino - electron scattering experiments}},
+  \href{https://doi.org/10.1103/PhysRevD.51.6146}{\emph{Phys. Rev.} {\bfseries
+  D51} (1995) 6146--6158},
+  [\href{https://arxiv.org/abs/astro-ph/9502003}{{\ttfamily
+  astro-ph/9502003}}].
+
+\bibitem{Passera:2000ug}
+M.~Passera, \emph{{QED corrections to neutrino electron scattering}},
+  \href{https://doi.org/10.1103/PhysRevD.64.113002}{\emph{Phys. Rev.}
+  {\bfseries D64} (2001) 113002},
+  [\href{https://arxiv.org/abs/hep-ph/0011190}{{\ttfamily hep-ph/0011190}}].
 
 \bibitem{Czyz:1964zz}
 W.~Czyz, G.~C. Sheppey and J.~D. Walecka, \emph{{Neutrino production of lepton
@@ -225,6 +258,11 @@ E.~P. Shabalin, \emph{{The $\mu^+\mu^-$ and $e^+ e^-$ pair production cross
   sections for neutrinos scattered by nuclei}}, {\emph{Sov. Phys. JETP}
   {\bfseries 16} (1963) 125}.
 
+\bibitem{SBNproposal}
+R.~Acciarri et~al., \emph{{A Proposal for a Three Detector Short-Baseline
+  Neutrino Oscillation Program in the Fermilab Booster Neutrino Beam}},
+  \href{https://arxiv.org/abs/1503.01520}{{\ttfamily 1503.01520}}.
+
 \bibitem{Acciarri:2016ooe}
 {\scshape DUNE} collaboration, R.~Acciarri et~al., \emph{{Long-Baseline
   Neutrino Facility (LBNF) and Deep Underground Neutrino Experiment (DUNE)}},
@@ -242,6 +280,11 @@ F.~J.~P. Soler, \emph{{nuSTORM: Neutrinos from Stored Muons}},  in
   (NuPhys2014): London, UK, December 15-17, 2014}}, 2015,
   \href{https://arxiv.org/abs/1507.08836}{{\ttfamily 1507.08836}}.
 
+\bibitem{nuSTORM2017}
+D.~Adey, R.~Appleby, R.~Bayes, A.~Bogacz, A.~Bross, J.-B. Lagrange et~al.,
+  \emph{Overview of the neutrinos from stored muons facility - nustorm},
+  {\emph{Journal of Instrumentation} {\bfseries 12} (2017) P07020}.
+
 \bibitem{Andreopoulos2009}
 C.~Andreopoulos et~al., \emph{{The GENIE Neutrino Monte Carlo Generator}},
   \href{https://doi.org/10.1016/j.nima.2009.12.009}{\emph{Nucl. Instrum. Meth.}
@@ -254,6 +297,14 @@ K.~Abe et~al., \emph{{Measurements of the T2K neutrino beam properties using
   \href{https://doi.org/10.1016/j.nima.2012.03.023}{\emph{Nucl. Instrum. Meth.}
   {\bfseries A694} (2012) 211--223},
   [\href{https://arxiv.org/abs/1111.3119}{{\ttfamily 1111.3119}}].
+
+\bibitem{Abe:2015biq}
+{\scshape T2K} collaboration, K.~Abe et~al., \emph{{Measurement of the muon
+  neutrino inclusive charged-current cross section in the energy range of 1–3
+  GeV with the T2K INGRID detector}},
+  \href{https://doi.org/10.1103/PhysRevD.93.072002}{\emph{Phys. Rev.}
+  {\bfseries D93} (2016) 072002},
+  [\href{https://arxiv.org/abs/1509.06940}{{\ttfamily 1509.06940}}].
 
 \bibitem{Abe:2016fic}
 {\scshape T2K} collaboration, K.~Abe et~al., \emph{{Measurement of Coherent
@@ -282,9 +333,10 @@ K.~Abe et~al., \emph{{Measurements of the T2K neutrino beam properties using
 
 \bibitem{Adamson:2014pgc}
 {\scshape MINOS} collaboration, P.~Adamson et~al., \emph{{Study of quasielastic
-  scattering using charged-current $\nu_\mu$ -iron interactions in the MINOS near
-  detector}}, \href{https://doi.org/10.1103/PhysRevD.91.012005}{\emph{Phys.
-  Rev.} {\bfseries D91} (2015) 012005},
+  scattering using charged-current $\nu_\mu$ -iron interactions in the MINOS
+  near detector}},
+  \href{https://doi.org/10.1103/PhysRevD.91.012005}{\emph{Phys. Rev.}
+  {\bfseries D91} (2015) 012005},
   [\href{https://arxiv.org/abs/1410.8613}{{\ttfamily 1410.8613}}].
 
 \bibitem{AlpernBoehm}
@@ -359,51 +411,6 @@ C.~H. Albright, J.~Smith and J.~A.~M. Vermaseren, \emph{{A Comparison of
   \href{https://doi.org/10.1103/PhysRevD.18.108}{\emph{Phys. Rev.} {\bfseries
   D18} (1978) 108}.
 
-\bibitem{Aliaga:2016oaz}
-{\scshape MINERvA} collaboration, L.~Aliaga et~al., \emph{{Neutrino Flux
-  Predictions for the NuMI Beam}},
-  \href{https://doi.org/10.1103/PhysRevD.94.092005,
-  10.1103/PhysRevD.95.039903}{\emph{Phys. Rev.} {\bfseries D94} (2016) 092005},
-  [\href{https://arxiv.org/abs/1607.00704}{{\ttfamily 1607.00704}}].
-
-\bibitem{Boehm:2009zz}
-J.~A.~A. Boehm, \emph{{Measurement of electron neutrino appearance with the
-  MINOS experiment}}, Ph.D. thesis, Harvard U., 2009.
-\newblock 10.2172/957077.
-
-\bibitem{Aurisano}
-A.~Aurisano, ``{Recent Results from MINOS and MINOS+}.'' June, 2018.
-
-\bibitem{NovaII}
-P.~Vahle, ``{NOvA Status and Prospects, 2018 July PUBLIC PAC Meeting}.'' July,
-  2018.
-
-\bibitem{Fricke:1995zz}
-G.~Fricke, C.~Bernhardt, K.~Heilig, L.~A. Schaller, L.~Schellenberg, E.~B.
-  Shera et~al., \emph{{Nuclear Ground State Charge Radii from Electromagnetic
-  Interactions}}, \href{https://doi.org/10.1006/adnd.1995.1007}{\emph{Atom.
-  Data Nucl. Data Tabl.} {\bfseries 60} (1995) 177--285}.
-
-\bibitem{Jentschura2009}
-U.~D. Jentschura and V.~G. Serbo, \emph{{Nuclear form factor, validity of the
-  equivalent photon approximation and Coulomb corrections to muon pair
-  production in photon-nucleus and nucleus-nucleus collisions}},
-  \href{https://doi.org/10.1140/epjc/s10052-009-1147-3}{\emph{European Physical
-  Journal C} {\bfseries 64} (aug, 2009) 309--317},
-  [\href{https://arxiv.org/abs/0908.3853}{{\ttfamily 0908.3853}}].
-
-\bibitem{Anni1994}
-R.~Anni, G.~Co and P.~Pellegrino, \emph{{Nuclear charge density distributions
-  from elastic electron scattering data}},
-  \href{https://doi.org/10.1016/0375-9474(94)00508-K}{\emph{Nucl. Phys.}
-  {\bfseries A584} (1995) 35--59},
-  [\href{https://arxiv.org/abs/nucl-th/9410023}{{\ttfamily nucl-th/9410023}}].
-
-\bibitem{Sprung1997}
-D.~W.~L. Sprung and J.~Martorell, \emph{The symmetrized fermi function and its
-  transforms}, {\emph{Journal of Physics A: Mathematical and General}
-  {\bfseries 30} (1997) 6525}.
-
 \bibitem{Acciarri:2016sli}
 {\scshape ArgoNeuT} collaboration, R.~Acciarri et~al., \emph{{First Observation
   of Low Energy Electron Neutrinos in a Liquid Argon Time Projection Chamber}},
@@ -412,7 +419,8 @@ D.~W.~L. Sprung and J.~Martorell, \emph{The symmetrized fermi function and its
   [\href{https://arxiv.org/abs/1610.04102}{{\ttfamily 1610.04102}}].
 
 \bibitem{REIN198329}
-D.~Rein and L.~M. Sehgal, \emph{Coherent $\pi^0$ production in neutrino reactions},
+D.~Rein and L.~M. Sehgal, \emph{Coherent $\pi^0$ production in neutrino
+  reactions},
   \href{https://doi.org/https://doi.org/10.1016/0550-3213(83)90090-1}{\emph{Nuclear
   Physics B} {\bfseries 223} (1983) 29 -- 44}.
 
@@ -769,13 +777,6 @@ A.~Esmaili and H.~Nunokawa, \emph{{On the robustness of IceCube's bound on
   {\bfseries C79} (2019) 70},
   [\href{https://arxiv.org/abs/1810.11940}{{\ttfamily 1810.11940}}].
 
-\bibitem{Bertuzzo:2018itn}
-E.~Bertuzzo, S.~Jana, P.~A.~N. Machado and R.~Zukanovich~Funchal, \emph{{Dark
-  Neutrino Portal to Explain MiniBooNE excess}},
-  \href{https://doi.org/10.1103/PhysRevLett.121.241801}{\emph{Phys. Rev. Lett.}
-  {\bfseries 121} (2018) 241801},
-  [\href{https://arxiv.org/abs/1807.09877}{{\ttfamily 1807.09877}}].
-
 \bibitem{Ballett:2018ynz}
 P.~Ballett, S.~Pascoli and M.~Ross-Lonergan, \emph{{U(1)' mediated decays of
   heavy sterile neutrinos in MiniBooNE}},
@@ -854,13 +855,6 @@ P.~Ballett, M.~Hostert, S.~Pascoli, Y.~F. Perez-Gonzalez, Z.~Tabrizi and
   {\bfseries 01} (2019) 119},
   [\href{https://arxiv.org/abs/1807.10973}{{\ttfamily 1807.10973}}].
 
-\bibitem{Lindner:2018kjo}
-M.~Lindner, F.~S. Queiroz, W.~Rodejohann and X.-J. Xu, \emph{{Neutrino-electron
-  scattering: general constraints on Z$^\prime$ and dark photon models}},
-  \href{https://doi.org/10.1007/JHEP05(2018)098}{\emph{JHEP} {\bfseries 05}
-  (2018) 098}, [\href{https://arxiv.org/abs/1803.00060}{{\ttfamily
-  1803.00060}}].
-
 \bibitem{Araki:2017wyg}
 T.~Araki, S.~Hoshino, T.~Ota, J.~Sato and T.~Shimomura, \emph{{Detecting the
   $L_{\mu}-L_{\tau}$ gauge boson at Belle II}},
@@ -918,8 +912,8 @@ B.~C. Allanach, J.~Davighi and S.~Melville, \emph{{Anomaly-free,
 \newblock 10.5281/zenodo.1478085.
 
 \bibitem{Ismail:2016tod}
-A.~Ismail, W.-Y. Keung, K.-H. Tsao and J.~Unwin, \emph{{Axial vector $Z′$ and
-  anomaly cancellation}},
+A.~Ismail, W.-Y. Keung, K.-H. Tsao and J.~Unwin, \emph{{Axial vector $Z^\prime$
+  and anomaly cancellation}},
   \href{https://doi.org/10.1016/j.nuclphysb.2017.03.001}{\emph{Nucl. Phys.}
   {\bfseries B918} (2017) 220--244},
   [\href{https://arxiv.org/abs/1609.02188}{{\ttfamily 1609.02188}}].
@@ -1035,39 +1029,6 @@ C.~F. Uhlemann and N.~Kauer, \emph{{Narrow-width approximation accuracy}},
   {\bfseries B814} (2009) 195--211},
   [\href{https://arxiv.org/abs/0807.4112}{{\ttfamily 0807.4112}}].
 
-\bibitem{Marciano:2003eq}
-W.~J. Marciano and Z.~Parsa, \emph{{Neutrino electron scattering theory}},
-  \href{https://doi.org/10.1088/0954-3899/29/11/013}{\emph{J. Phys.} {\bfseries
-  G29} (2003) 2629--2645},
-  [\href{https://arxiv.org/abs/hep-ph/0403168}{{\ttfamily hep-ph/0403168}}].
-
-\bibitem{deGouvea:2006hfo}
-A.~de~Gouvea and J.~Jenkins, \emph{{What can we learn from neutrino electron
-  scattering?}}, \href{https://doi.org/10.1103/PhysRevD.74.033004}{\emph{Phys.
-  Rev.} {\bfseries D74} (2006) 033004},
-  [\href{https://arxiv.org/abs/hep-ph/0603036}{{\ttfamily hep-ph/0603036}}].
-
-\bibitem{PhysRevD.93.093019}
-A.~N. Khan, \emph{Global analysis of the source and detector nonstandard
-  interactions using the short baseline $\ensuremath{\nu}\ensuremath{-}e$ and
-  $\overline{\ensuremath{\nu}}\ensuremath{-}e$ scattering data},
-  \href{https://doi.org/10.1103/PhysRevD.93.093019}{\emph{Phys. Rev. D}
-  {\bfseries 93} (May, 2016) 093019}.
-
-\bibitem{Bahcall:1995mm}
-J.~N. Bahcall, M.~Kamionkowski and A.~Sirlin, \emph{{Solar neutrinos: Radiative
-  corrections in neutrino - electron scattering experiments}},
-  \href{https://doi.org/10.1103/PhysRevD.51.6146}{\emph{Phys. Rev.} {\bfseries
-  D51} (1995) 6146--6158},
-  [\href{https://arxiv.org/abs/astro-ph/9502003}{{\ttfamily
-  astro-ph/9502003}}].
-
-\bibitem{Passera:2000ug}
-M.~Passera, \emph{{QED corrections to neutrino electron scattering}},
-  \href{https://doi.org/10.1103/PhysRevD.64.113002}{\emph{Phys. Rev.}
-  {\bfseries D64} (2001) 113002},
-  [\href{https://arxiv.org/abs/hep-ph/0011190}{{\ttfamily hep-ph/0011190}}].
-
 \bibitem{Brown1973}
 R.~W. Brown, R.~H. Hobbs, J.~Smith and N.~Stanko, \emph{{Intermediate boson.
   iii. virtual-boson effects in neutrino trident production}},
@@ -1079,6 +1040,9 @@ D.~R. Albert, ``{The DUNE Near Detector}.'' Aug., 2018.
 
 \bibitem{Manly:2018}
 M.~Steven, ``{Status of DUNE Near Detector}.'' Oct., 2018.
+
+\bibitem{DUNE:flux}
+{\scshape DUNE} collaboration, ``{2016 DUNE fluxes}.'' 2016.
 
 \bibitem{DUNE:flux_updated}
 {\scshape DUNE} collaboration, ``{2016 DUNE fluxes}.'' 2017.
@@ -1234,18 +1198,435 @@ H.~Duyang, B.~Guo, S.~R. Mishra and R.~Petti, \emph{{A Novel Approach to
   Neutrino-Hydrogen Measurements}},
   \href{https://arxiv.org/abs/1809.08752}{{\ttfamily 1809.08752}}.
 
-\bibitem{Altmannshofer:2019zhy}
-W.~Altmannshofer, S.~Gori, J.~Martin-Albo, A.~Sousa and M.~Wallbank,
-  \emph{{Neutrino Tridents at DUNE}},
-  \href{https://arxiv.org/abs/1902.06765}{{\ttfamily 1902.06765}}.
+\bibitem{Athanassopoulos:1996jb}
+{\scshape LSND} collaboration, C.~Athanassopoulos et~al., \emph{{Evidence for
+  anti-muon-neutrino ---> anti-electron-neutrino oscillations from the LSND
+  experiment at LAMPF}},
+  \href{https://doi.org/10.1103/PhysRevLett.77.3082}{\emph{Phys. Rev. Lett.}
+  {\bfseries 77} (1996) 3082--3085},
+  [\href{https://arxiv.org/abs/nucl-ex/9605003}{{\ttfamily nucl-ex/9605003}}].
 
-\bibitem{Duda:2006uk}
-G.~Duda, A.~Kemper and P.~Gondolo, \emph{{Model Independent Form Factors for
-  Spin Independent Neutralino-Nucleon Scattering from Elastic Electron
-  Scattering Data}},
-  \href{https://doi.org/10.1088/1475-7516/2007/04/012}{\emph{JCAP} {\bfseries
-  0704} (2007) 012}, [\href{https://arxiv.org/abs/hep-ph/0608035}{{\ttfamily
-  hep-ph/0608035}}].
+\bibitem{Aguilar:2001ty}
+{\scshape LSND} collaboration, A.~Aguilar-Arevalo et~al., \emph{{Evidence for
+  neutrino oscillations from the observation of anti-neutrino(electron)
+  appearance in a anti-neutrino(muon) beam}},
+  \href{https://doi.org/10.1103/PhysRevD.64.112007}{\emph{Phys. Rev.}
+  {\bfseries D64} (2001) 112007},
+  [\href{https://arxiv.org/abs/hep-ex/0104049}{{\ttfamily hep-ex/0104049}}].
+
+\bibitem{AguilarArevalo:2007it}
+{\scshape MiniBooNE} collaboration, A.~A. Aguilar-Arevalo et~al., \emph{{A
+  Search for electron neutrino appearance at the $\Delta m^{2} \sim 1$eV$^{2}$
+  scale}}, \href{https://doi.org/10.1103/PhysRevLett.98.231801}{\emph{Phys.
+  Rev. Lett.} {\bfseries 98} (2007) 231801},
+  [\href{https://arxiv.org/abs/0704.1500}{{\ttfamily 0704.1500}}].
+
+\bibitem{Aguilar-Arevalo:2018gpe}
+{\scshape MiniBooNE} collaboration, A.~A. Aguilar-Arevalo et~al.,
+  \emph{{Observation of a Significant Excess of Electron-Like Events in the
+  MiniBooNE Short-Baseline Neutrino Experiment}},
+  \href{https://arxiv.org/abs/1805.12028}{{\ttfamily 1805.12028}}.
+
+\bibitem{ALEPH:2010aa}
+{\scshape ALEPH, CDF, D0, DELPHI, L3, OPAL, SLD, LEP Electroweak Working Group,
+  Tevatron Electroweak Working Group, SLD Electroweak and Heavy Flavour Groups}
+  collaboration, L.~E.~W. Group, \emph{{Precision Electroweak Measurements and
+  Constraints on the Standard Model}},
+  \href{https://arxiv.org/abs/1012.2367}{{\ttfamily 1012.2367}}.
+
+\bibitem{Collin:2016aqd}
+{Collin, G. H. and Arg\"uelles, C. A. and Conrad, J. M. and Shaevitz, M. H.},
+  \emph{{First Constraints on the Complete Neutrino Mixing Matrix with a
+  Sterile Neutrino}},  \href{https://arxiv.org/abs/1607.00011}{{\ttfamily
+  1607.00011}}.
+
+\bibitem{Capozzi:2016vac}
+F.~Capozzi, C.~Giunti, M.~Laveder and A.~Palazzo, \emph{{Joint short- and
+  long-baseline constraints on light sterile neutrinos}},
+  \href{https://doi.org/10.1103/PhysRevD.95.033006}{\emph{Phys. Rev.}
+  {\bfseries D95} (2017) 033006},
+  [\href{https://arxiv.org/abs/1612.07764}{{\ttfamily 1612.07764}}].
+
+\bibitem{Dentler:2018sju}
+M.~Dentler, �.~Hernández-Cabezudo, J.~Kopp, P.~A.~N. Machado, M.~Maltoni,
+  I.~Martinez-Soler et~al., \emph{{Updated Global Analysis of Neutrino
+  Oscillations in the Presence of eV-Scale Sterile Neutrinos}},
+  \href{https://doi.org/10.1007/JHEP08(2018)010}{\emph{JHEP} {\bfseries 08}
+  (2018) 010}, [\href{https://arxiv.org/abs/1803.10661}{{\ttfamily
+  1803.10661}}].
+
+\bibitem{AguilarArevalo:2008rc}
+{\scshape MiniBooNE} collaboration, A.~A. Aguilar-Arevalo et~al.,
+  \emph{{Unexplained Excess of Electron-Like Events From a 1-GeV Neutrino
+  Beam}}, \href{https://doi.org/10.1103/PhysRevLett.102.101802}{\emph{Phys.
+  Rev. Lett.} {\bfseries 102} (2009) 101802},
+  [\href{https://arxiv.org/abs/0812.2243}{{\ttfamily 0812.2243}}].
+
+\bibitem{Aguilar-Arevalo:2012fmn}
+{\scshape MiniBooNE} collaboration, A.~A. Aguilar-Arevalo et~al., \emph{{A
+  Combined $\nu_\mu \rightarrow \nu_e$ and $\bar \nu_\mu \rightarrow \bar
+  \nu_e$ Oscillation Analysis of the MiniBooNE Excesses}},  2012,
+  \href{https://arxiv.org/abs/1207.4809}{{\ttfamily 1207.4809}},
+  \href{http://lss.fnal.gov/archive/2012/pub/fermilab-pub-12-394-ad-ppd.pdf}{http://lss.fnal.gov/archive/2012/pub/fermilab-pub-12-394-ad-ppd.pdf}.
+
+\bibitem{Hill:2010zy}
+R.~J. Hill, \emph{{On the single photon background to $\nu_e$ appearance at
+  MiniBooNE}}, \href{https://doi.org/10.1103/PhysRevD.84.017501}{\emph{Phys.
+  Rev.} {\bfseries D84} (2011) 017501},
+  [\href{https://arxiv.org/abs/1002.4215}{{\ttfamily 1002.4215}}].
+
+\bibitem{Murayama:2000hm}
+H.~Murayama and T.~Yanagida, \emph{{LSND, SN1987A, and CPT violation}},
+  \href{https://doi.org/10.1016/S0370-2693(01)01136-4}{\emph{Phys. Lett.}
+  {\bfseries B520} (2001) 263--268},
+  [\href{https://arxiv.org/abs/hep-ph/0010178}{{\ttfamily hep-ph/0010178}}].
+
+\bibitem{Strumia:2002fw}
+A.~Strumia, \emph{{Interpreting the LSND anomaly: Sterile neutrinos or CPT
+  violation or...?}},
+  \href{https://doi.org/10.1016/S0370-2693(02)02042-7}{\emph{Phys. Lett.}
+  {\bfseries B539} (2002) 91--101},
+  [\href{https://arxiv.org/abs/hep-ph/0201134}{{\ttfamily hep-ph/0201134}}].
+
+\bibitem{Barenboim:2002ah}
+G.~Barenboim, L.~Borissov and J.~D. Lykken, \emph{{CPT violating neutrinos in
+  the light of KamLAND}},
+  \href{https://arxiv.org/abs/hep-ph/0212116}{{\ttfamily hep-ph/0212116}}.
+
+\bibitem{GonzalezGarcia:2003jq}
+M.~C. Gonzalez-Garcia, M.~Maltoni and T.~Schwetz, \emph{{Status of the CPT
+  violating interpretations of the LSND signal}},
+  \href{https://doi.org/10.1103/PhysRevD.68.053007}{\emph{Phys. Rev.}
+  {\bfseries D68} (2003) 053007},
+  [\href{https://arxiv.org/abs/hep-ph/0306226}{{\ttfamily hep-ph/0306226}}].
+
+\bibitem{Barger:2003xm}
+V.~Barger, D.~Marfatia and K.~Whisnant, \emph{{LSND anomaly from CPT violation
+  in four neutrino models}},
+  \href{https://doi.org/10.1016/j.physletb.2003.10.004}{\emph{Phys. Lett.}
+  {\bfseries B576} (2003) 303--308},
+  [\href{https://arxiv.org/abs/hep-ph/0308299}{{\ttfamily hep-ph/0308299}}].
+
+\bibitem{Sorel:2003hf}
+M.~Sorel, J.~M. Conrad and M.~H. Shaevitz, \emph{{A Combined analysis of short
+  baseline neutrino experiments in the (3+1) and (3+2) sterile neutrino
+  oscillation hypotheses}},
+  \href{https://doi.org/10.1103/PhysRevD.70.073004}{\emph{Phys. Rev.}
+  {\bfseries D70} (2004) 073004},
+  [\href{https://arxiv.org/abs/hep-ph/0305255}{{\ttfamily hep-ph/0305255}}].
+
+\bibitem{Barenboim:2004wu}
+G.~Barenboim and N.~E. Mavromatos, \emph{{CPT violating decoherence and LSND: A
+  Possible window to Planck scale physics}},
+  \href{https://doi.org/10.1088/1126-6708/2005/01/034}{\emph{JHEP} {\bfseries
+  01} (2005) 034}, [\href{https://arxiv.org/abs/hep-ph/0404014}{{\ttfamily
+  hep-ph/0404014}}].
+
+\bibitem{Zurek:2004vd}
+K.~M. Zurek, \emph{{New matter effects in neutrino oscillation experiments}},
+  \href{https://doi.org/10.1088/1126-6708/2004/10/058}{\emph{JHEP} {\bfseries
+  10} (2004) 058}, [\href{https://arxiv.org/abs/hep-ph/0405141}{{\ttfamily
+  hep-ph/0405141}}].
+
+\bibitem{Kaplan:2004dq}
+D.~B. Kaplan, A.~E. Nelson and N.~Weiner, \emph{{Neutrino oscillations as a
+  probe of dark energy}},
+  \href{https://doi.org/10.1103/PhysRevLett.93.091801}{\emph{Phys. Rev. Lett.}
+  {\bfseries 93} (2004) 091801},
+  [\href{https://arxiv.org/abs/hep-ph/0401099}{{\ttfamily hep-ph/0401099}}].
+
+\bibitem{Pas:2005rb}
+H.~Pas, S.~Pakvasa and T.~J. Weiler, \emph{{Sterile-active neutrino
+  oscillations and shortcuts in the extra dimension}},
+  \href{https://doi.org/10.1103/PhysRevD.72.095017}{\emph{Phys. Rev.}
+  {\bfseries D72} (2005) 095017},
+  [\href{https://arxiv.org/abs/hep-ph/0504096}{{\ttfamily hep-ph/0504096}}].
+
+\bibitem{deGouvea:2006qd}
+A.~de~Gouvêa and Y.~Grossman, \emph{{A Three-flavor, Lorentz-violating
+  solution to the LSND anomaly}},
+  \href{https://doi.org/10.1103/PhysRevD.74.093008}{\emph{Phys. Rev.}
+  {\bfseries D74} (2006) 093008},
+  [\href{https://arxiv.org/abs/hep-ph/0602237}{{\ttfamily hep-ph/0602237}}].
+
+\bibitem{Schwetz:2007cd}
+T.~Schwetz, \emph{{LSND versus MiniBooNE: Sterile neutrinos with energy
+  dependent masses and mixing?}},
+  \href{https://doi.org/10.1088/1126-6708/2008/02/011}{\emph{JHEP} {\bfseries
+  02} (2008) 011}, [\href{https://arxiv.org/abs/0710.2985}{{\ttfamily
+  0710.2985}}].
+
+\bibitem{Farzan:2008zv}
+Y.~Farzan, T.~Schwetz and A.~Y. Smirnov, \emph{{Reconciling results of LSND,
+  MiniBooNE and other experiments with soft decoherence}},
+  \href{https://doi.org/10.1088/1126-6708/2008/07/067}{\emph{JHEP} {\bfseries
+  07} (2008) 067}, [\href{https://arxiv.org/abs/0805.2098}{{\ttfamily
+  0805.2098}}].
+
+\bibitem{Hollenberg:2009ws}
+S.~Hollenberg, O.~Micu, H.~Pas and T.~J. Weiler, \emph{{Baseline-dependent
+  neutrino oscillations with extra-dimensional shortcuts}},
+  \href{https://doi.org/10.1103/PhysRevD.80.093005}{\emph{Phys. Rev.}
+  {\bfseries D80} (2009) 093005},
+  [\href{https://arxiv.org/abs/0906.0150}{{\ttfamily 0906.0150}}].
+
+\bibitem{Nelson:2010hz}
+A.~E. Nelson, \emph{{Effects of CP Violation from Neutral Heavy Fermions on
+  Neutrino Oscillations, and the LSND/MiniBooNE Anomalies}},
+  \href{https://doi.org/10.1103/PhysRevD.84.053001}{\emph{Phys. Rev.}
+  {\bfseries D84} (2011) 053001},
+  [\href{https://arxiv.org/abs/1010.3970}{{\ttfamily 1010.3970}}].
+
+\bibitem{Akhmedov:2010vy}
+E.~Akhmedov and T.~Schwetz, \emph{{MiniBooNE and LSND data: Non-standard
+  neutrino interactions in a (3+1) scheme versus (3+2) oscillations}},
+  \href{https://doi.org/10.1007/JHEP10(2010)115}{\emph{JHEP} {\bfseries 10}
+  (2010) 115}, [\href{https://arxiv.org/abs/1007.4171}{{\ttfamily 1007.4171}}].
+
+\bibitem{Diaz:2010ft}
+J.~S. Diaz and V.~A. Kostelecky, \emph{{Three-parameter Lorentz-violating
+  texture for neutrino mixing}},
+  \href{https://doi.org/10.1016/j.physletb.2011.04.049}{\emph{Phys. Lett.}
+  {\bfseries B700} (2011) 25--28},
+  [\href{https://arxiv.org/abs/1012.5985}{{\ttfamily 1012.5985}}].
+
+\bibitem{Bai:2015ztj}
+Y.~Bai, R.~Lu, S.~Lu, J.~Salvado and B.~A. Stefanek, \emph{{Three Twin
+  Neutrinos: Evidence from LSND and MiniBooNE}},
+  \href{https://doi.org/10.1103/PhysRevD.93.073004}{\emph{Phys. Rev.}
+  {\bfseries D93} (2016) 073004},
+  [\href{https://arxiv.org/abs/1512.05357}{{\ttfamily 1512.05357}}].
+
+\bibitem{Giunti:2015mwa}
+C.~Giunti and E.~M. Zavanin, \emph{{Appearance–disappearance relation in $3 +
+  N_s$ short-baseline neutrino oscillations}},
+  \href{https://doi.org/10.1142/S0217732316500036}{\emph{Mod. Phys. Lett.}
+  {\bfseries A31} (2015) 1650003},
+  [\href{https://arxiv.org/abs/1508.03172}{{\ttfamily 1508.03172}}].
+
+\bibitem{Liao:2016reh}
+J.~Liao and D.~Marfatia, \emph{{Impact of nonstandard interactions on sterile
+  neutrino searches at IceCube}},
+  \href{https://doi.org/10.1103/PhysRevLett.117.071802}{\emph{Phys. Rev. Lett.}
+  {\bfseries 117} (2016) 071802},
+  [\href{https://arxiv.org/abs/1602.08766}{{\ttfamily 1602.08766}}].
+
+\bibitem{Papoulias:2016edm}
+D.~K. Papoulias and T.~S. Kosmas, \emph{{Impact of Nonstandard Interactions on
+  Neutrino-Nucleon Scattering}},
+  \href{https://doi.org/10.1155/2016/1490860}{\emph{Adv. High Energy Phys.}
+  {\bfseries 2016} (2016) 1490860},
+  [\href{https://arxiv.org/abs/1611.05069}{{\ttfamily 1611.05069}}].
+
+\bibitem{Moss:2017pur}
+{Moss, Zander and Moulai, Marjon H. and Arg\"uelles, Carlos A. and Conrad,
+  Janet M.}, \emph{{Exploring a nonminimal sterile neutrino model involving
+  decay at IceCube}},
+  \href{https://doi.org/10.1103/PhysRevD.97.055017}{\emph{Phys. Rev.}
+  {\bfseries D97} (2018) 055017},
+  [\href{https://arxiv.org/abs/1711.05921}{{\ttfamily 1711.05921}}].
+
+\bibitem{Carena:2017qhd}
+M.~Carena, Y.-Y. Li, C.~S. Machado, P.~A.~N. Machado and C.~E.~M. Wagner,
+  \emph{{Neutrinos in Large Extra Dimensions and Short-Baseline $\nu_e$
+  Appearance}},  \href{https://arxiv.org/abs/1708.09548}{{\ttfamily
+  1708.09548}}.
+
+\bibitem{Liao:2018mbg}
+J.~Liao, D.~Marfatia and K.~Whisnant, \emph{{MiniBooNE, MINOS+ and IceCube data
+  imply a baroque neutrino sector}},
+  \href{https://arxiv.org/abs/1810.01000}{{\ttfamily 1810.01000}}.
+
+\bibitem{Asaadi:2017bhx}
+J.~Asaadi, E.~Church, R.~Guenette, B.~J.~P. Jones and A.~M. Szelc, \emph{{New
+  light Higgs boson and short-baseline neutrino anomalies}},
+  \href{https://doi.org/10.1103/PhysRevD.97.075021}{\emph{Phys. Rev.}
+  {\bfseries D97} (2018) 075021},
+  [\href{https://arxiv.org/abs/1712.08019}{{\ttfamily 1712.08019}}].
+
+\bibitem{Doring:2018cob}
+D.~Döring, H.~Päs, P.~Sicking and T.~J. Weiler, \emph{{Sterile Neutrinos with
+  Altered Dispersion Relations as an Explanation for the MiniBooNE, LSND,
+  Gallium and Reactor Anomalies}},
+  \href{https://arxiv.org/abs/1808.07460}{{\ttfamily 1808.07460}}.
+
+\bibitem{Gninenko:2009ks}
+S.~N. Gninenko, \emph{{The MiniBooNE anomaly and heavy neutrino decay}},
+  \href{https://doi.org/10.1103/PhysRevLett.103.241802}{\emph{Phys. Rev. Lett.}
+  {\bfseries 103} (2009) 241802},
+  [\href{https://arxiv.org/abs/0902.3802}{{\ttfamily 0902.3802}}].
+
+\bibitem{Gninenko:2010pr}
+S.~N. Gninenko, \emph{{A resolution of puzzles from the LSND, KARMEN, and
+  MiniBooNE experiments}},
+  \href{https://doi.org/10.1103/PhysRevD.83.015015}{\emph{Phys. Rev.}
+  {\bfseries D83} (2011) 015015},
+  [\href{https://arxiv.org/abs/1009.5536}{{\ttfamily 1009.5536}}].
+
+\bibitem{Dib:2011jh}
+C.~Dib, J.~C. Helo, S.~Kovalenko and I.~Schmidt, \emph{{Sterile neutrino decay
+  explanation of LSND and MiniBooNE anomalies}},
+  \href{https://doi.org/10.1103/PhysRevD.84.071301}{\emph{Phys. Rev.}
+  {\bfseries D84} (2011) 071301},
+  [\href{https://arxiv.org/abs/1105.4664}{{\ttfamily 1105.4664}}].
+
+\bibitem{McKeen:2010rx}
+D.~McKeen and M.~Pospelov, \emph{{Muon Capture Constraints on Sterile Neutrino
+  Properties}}, \href{https://doi.org/10.1103/PhysRevD.82.113018}{\emph{Phys.
+  Rev.} {\bfseries D82} (2010) 113018},
+  [\href{https://arxiv.org/abs/1011.3046}{{\ttfamily 1011.3046}}].
+
+\bibitem{Masip:2012ke}
+M.~Masip, P.~Masjuan and D.~Meloni, \emph{{Heavy neutrino decays at
+  MiniBooNE}}, \href{https://doi.org/10.1007/JHEP01(2013)106}{\emph{JHEP}
+  {\bfseries 01} (2013) 106},
+  [\href{https://arxiv.org/abs/1210.1519}{{\ttfamily 1210.1519}}].
+
+\bibitem{Masip:2011qb}
+M.~Masip and P.~Masjuan, \emph{{Heavy-neutrino decays at neutrino telescopes}},
+  \href{https://doi.org/10.1103/PhysRevD.83.091301}{\emph{Phys. Rev.}
+  {\bfseries D83} (2011) 091301},
+  [\href{https://arxiv.org/abs/1103.0689}{{\ttfamily 1103.0689}}].
+
+\bibitem{Gninenko:2012rw}
+S.~N. Gninenko, \emph{{New limits on radiative sterile neutrino decays from a
+  search for single photons in neutrino interactions}},
+  \href{https://doi.org/10.1016/j.physletb.2012.02.071}{\emph{Phys. Lett.}
+  {\bfseries B710} (2012) 86--90},
+  [\href{https://arxiv.org/abs/1201.5194}{{\ttfamily 1201.5194}}].
+
+\bibitem{Magill:2018jla}
+G.~Magill, R.~Plestid, M.~Pospelov and Y.-D. Tsai, \emph{{Dipole portal to
+  heavy neutral leptons}},  \href{https://arxiv.org/abs/1803.03262}{{\ttfamily
+  1803.03262}}.
+
+\bibitem{Bertuzzo:2018ftf}
+E.~Bertuzzo, S.~Jana, P.~A.~N. Machado and R.~Zukanovich~Funchal,
+  \emph{{Neutrino Masses and Mixings Dynamically Generated by a Light Dark
+  Sector}},  \href{https://arxiv.org/abs/1808.02500}{{\ttfamily 1808.02500}}.
+
+\bibitem{Auerbach:2001wg}
+{\scshape LSND} collaboration, L.~B. Auerbach et~al., \emph{{Measurement of
+  electron - neutrino - electron elastic scattering}},
+  \href{https://doi.org/10.1103/PhysRevD.63.112001}{\emph{Phys. Rev.}
+  {\bfseries D63} (2001) 112001},
+  [\href{https://arxiv.org/abs/hep-ex/0101039}{{\ttfamily hep-ex/0101039}}].
+
+\bibitem{Pospelov:2017kep}
+M.~Pospelov and Y.-D. Tsai, \emph{{Light scalars and dark photons in Borexino
+  and LSND experiments}},
+  \href{https://doi.org/10.1016/j.physletb.2018.08.053}{\emph{Phys. Lett.}
+  {\bfseries B785} (2018) 288--295},
+  [\href{https://arxiv.org/abs/1706.00424}{{\ttfamily 1706.00424}}].
+
+\bibitem{Magill:2018tbb}
+G.~Magill, R.~Plestid, M.~Pospelov and Y.-D. Tsai, \emph{{Millicharged
+  particles in neutrino experiments}},
+  \href{https://arxiv.org/abs/1806.03310}{{\ttfamily 1806.03310}}.
+
+\bibitem{Valencia-Rodriguez:2016vkf}
+E.~Valencia-Rodriguez, \emph{{Neutrino - Electron Scattering in MINER$\nu$A for
+  Constraint NuMI Flux at Medium}}, Ph.D. thesis, Guanajuato U., 2016.
+\newblock 10.2172/1341804.
+
+\bibitem{DeWinter:1989zg}
+{\scshape CHARM-II} collaboration, K.~De~Winter et~al., \emph{{A Detector for
+  the Study of Neutrino - Electron Scattering}},
+  \href{https://doi.org/10.1016/0168-9002(89)91190-X}{\emph{Nucl. Instrum.
+  Meth.} {\bfseries A278} (1989) 670}.
+
+\bibitem{Geiregat:1992zv}
+{\scshape CHARM-II} collaboration, D.~Geiregat et~al., \emph{{Calibration and
+  performance of the CHARM-II detector}},
+  \href{https://doi.org/10.1016/0168-9002(93)91010-K}{\emph{Nucl. Instrum.
+  Meth.} {\bfseries A325} (1993) 92--108}.
+
+\bibitem{Formaggio:1998zn}
+J.~A. Formaggio, J.~M. Conrad, M.~Shaevitz, A.~Vaitaitis and R.~Drucker,
+  \emph{{Helicity effects in neutral heavy lepton decays}},
+  \href{https://doi.org/10.1103/PhysRevD.57.7037}{\emph{Phys. Rev.} {\bfseries
+  D57} (1998) 7037--7040}.
+
+\bibitem{Balantekin:2018ukw}
+A.~B. Balantekin, A.~de~Gouvêa and B.~Kayser, \emph{{Addressing the Majorana
+  vs. Dirac Question with Neutrino Decays}},
+  \href{https://arxiv.org/abs/1808.10518}{{\ttfamily 1808.10518}}.
+
+\bibitem{Chun:2010ve}
+E.~J. Chun, J.-C. Park and S.~Scopel, \emph{{Dark matter and a new gauge boson
+  through kinetic mixing}},
+  \href{https://doi.org/10.1007/JHEP02(2011)100}{\emph{JHEP} {\bfseries 02}
+  (2011) 100}, [\href{https://arxiv.org/abs/1011.3300}{{\ttfamily 1011.3300}}].
+
+\bibitem{Parke:2015goa}
+S.~Parke and M.~Ross-Lonergan, \emph{{Unitarity and the Three Flavour Neutrino
+  Mixing Matrix}},  \href{https://arxiv.org/abs/1508.05095}{{\ttfamily
+  1508.05095}}.
+
+\bibitem{NIST:2018}
+{Berger, M.J. and Coursey, J.S. and Zucker, M.A. and Chang, J.},
+  ``{\url{https://dx.doi.org/10.18434/T4NC7P}}.''
+
+\bibitem{Leo:1987kd}
+W.~R. Leo, \emph{{Techniques for Nuclear and Particle Physics Experiments: A
+  How to Approach}}.
+\newblock 1987.
+
+\bibitem{Tanabashi:2018oca}
+{\scshape Particle Data Group} collaboration, M.~Tanabashi et~al.,
+  \emph{{Review of Particle Physics}},
+  \href{https://doi.org/10.1103/PhysRevD.98.030001}{\emph{Phys. Rev.}
+  {\bfseries D98} (2018) 030001}.
+
+\bibitem{Allaby:1987bb}
+{\scshape CHARM} collaboration, J.~V. Allaby et~al., \emph{{Total
+  Cross-sections of Charged Current Neutrino and Anti-neutrino Interactions on
+  Isoscalar Nuclei}}, \href{https://doi.org/10.1007/BF01584388}{\emph{Z. Phys.}
+  {\bfseries C38} (1988) 403--410}.
+
+\bibitem{Jordan:2018qiy}
+J.~R. Jordan, Y.~Kahn, G.~Krnjaic, M.~Moschella and J.~Spitz, \emph{{Severe
+  Constraints on New Physics Explanations of the MiniBooNE Excess}},
+  \href{https://arxiv.org/abs/1810.07185}{{\ttfamily 1810.07185}}.
+
+\bibitem{Adamson:2016hyz}
+{\scshape MINOS} collaboration, P.~Adamson et~al., \emph{{Measurement of single
+  $\pi^0$ production by coherent neutral-current $\nu$ Fe interactions in the
+  MINOS Near Detector}},
+  \href{https://doi.org/10.1103/PhysRevD.94.072006}{\emph{Phys. Rev.}
+  {\bfseries D94} (2016) 072006},
+  [\href{https://arxiv.org/abs/1608.05702}{{\ttfamily 1608.05702}}].
+
+\bibitem{Wolcott:2016hws}
+{\scshape MINERvA} collaboration, J.~Wolcott et~al., \emph{{Evidence for
+  Neutral-Current Diffractive $\pi^0$ Production from Hydrogen in Neutrino
+  Interactions on Hydrocarbon}},
+  \href{https://doi.org/10.1103/PhysRevLett.117.111801}{\emph{Phys. Rev. Lett.}
+  {\bfseries 117} (2016) 111801},
+  [\href{https://arxiv.org/abs/1604.01728}{{\ttfamily 1604.01728}}].
+
+\bibitem{Aliaga:2016oaz}
+{\scshape MINERvA} collaboration, L.~Aliaga et~al., \emph{{Neutrino Flux
+  Predictions for the NuMI Beam}},
+  \href{https://doi.org/10.1103/PhysRevD.94.092005,
+  10.1103/PhysRevD.95.039903}{\emph{Phys. Rev.} {\bfseries D94} (2016) 092005},
+  [\href{https://arxiv.org/abs/1607.00704}{{\ttfamily 1607.00704}}].
+
+\bibitem{Boehm:2009zz}
+J.~A.~A. Boehm, \emph{{Measurement of electron neutrino appearance with the
+  MINOS experiment}}, Ph.D. thesis, Harvard U., 2009.
+\newblock 10.2172/957077.
+
+\bibitem{Aurisano}
+A.~Aurisano, ``{Recent Results from MINOS and MINOS+}.'' June, 2018.
+
+\bibitem{fluxes:nonLAr}
+L.~Loiacono, ``{Neutrino Flux Simulations with an Evacuated and Helium Gas
+  Filled Decay Pipe }.'' 2007.
+
+\bibitem{NovaII}
+P.~Vahle, ``{NOvA Status and Prospects, 2018 July PUBLIC PAC Meeting}.'' July,
+  2018.
 
 \bibitem{Kniehl:1996bd}
 B.~A. Kniehl and A.~Pilaftsis, \emph{{Mixing renormalization in Majorana
