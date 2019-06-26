@@ -1,12 +1,12 @@
-In this appendix we derive some key results for the phase space treatment we use in calculating cross sections and decay rates. We begin with the factorization of $N$-final state phase-space factors into $N-2$ two-body ones. In general, a $N$-body phase space can be written as 
+In this appendix we derive some key results for the phase space treatment we use in calculating cross sections and decay rates. We begin with the factorization of $N$-final state phase-space factors into $N-2$ two-body ones. In general, the $N$-body phase space can be written as 
 
 \begin{equation}
- \dd \Phi_{N} (P, p_1, \ldots, p_N) = (2 \pi)^4 \delta^4 (P - \sum_i^N p_i) \, \prod_i^{N}\, \frac{\dd^3 p_i}{(2\pi)^3 2 E_i}.
+ \dd \Phi_{N} (P,\{p_i\}) = (2 \pi)^4 \delta^4 (P - \sum_i^N p_i) \, \prod_i^{N}\, \frac{\dd^3 p_i}{(2\pi)^3 2 E_i},
 \end{equation}
-Focusing on the 1-2 subsystem with total momentum $p_{12} = p_1 + p_2$, we can write
+where $\{p_i\} = p_1, \ldots, p_N$. Focusing on the 1-2 subsystem with total momentum $p_{12} = p_1 + p_2$, we can write
 
 \begin{align}
-  \dd \Phi_{N} (P, p_1, \ldots, p_N) =& \int \dd^4 p_{12} \, \delta^4 (p_{12} - p_1 - p_2) \, (2 \pi)^4 \delta^4 (P - \sum_i^N p_i) \, \prod_i^{N}\, \frac{\dd^3 p_i}{(2\pi)^3 2 E_i}  \nonumber\\
+  \dd \Phi_{N} (P,\{p_i\}) =& \int \dd^4 p_{12} \, \delta^4 (p_{12} - p_1 - p_2) \, (2 \pi)^4 \delta^4 (P - \sum_i^N p_i) \, \prod_i^{N}\, \frac{\dd^3 p_i}{(2\pi)^3 2 E_i}  \nonumber\\
  =& \int \dd^4 p_{12}\, \dd \Phi_2 (p_{12}, p_1, p_2) \, (2 \pi)^4 \delta^4 (P - p_{12} - \sum_{i=3}^N p_i) \, \prod_{i=3}^{N}\, \frac{\dd^3 p_i}{(2\pi)^3 2 E_i}\nonumber\\
  =& \int \dd^4 p_{12} \, \dd m_{12}^2 \, \delta(p_{12}^2 - m_{12}^2) \, \dd \Phi_2 (p_{12}, p_1, p_2)\nonumber\\ &\hspace{20ex} \times  (2 \pi)^4 \delta^4 (P - p_{12} - \sum_{i=3}^N p_i) \, \prod_{i=3}^{N}\, \frac{\dd^3 p_i}{(2\pi)^3 2 E_i},
 \end{align}
@@ -18,7 +18,7 @@ yields the final results
  \dd \Phi_{N} (P, p_1, \ldots, p_N) = \frac{\dd m_{12}^2}{2 \pi} \dd \Phi_2 (p_{12}, p_1, p_2) \dd \Phi_N (P, p_{12}, p_3,\ldots,p_N). 
 \end{equation}
 
-This result not only lets us factorize any resonant features in phase space, but also provides a recipe to tackle the kinematics of any process. It is worth noting that the 2-body phase-space factors and associated four-momenta in the center-of-mass (CM) framce can always be written as
+This result not only lets us factorize any resonant features in phase space, but also provides a recipe to tackle the kinematics of any process in terms of a series of 2-body problems, which are much simpler. The 2-body phase-space factors and associated four-momenta in the respective center-of-mass (CM) frame can always be written as
 
 \begin{align}
 \dd \Phi_2 (p_{12}, p_1, p_2) &= \frac{{\lambda^{1/2} \left( 1, m_1^2/E_{12}^{ {\rm CM} \, 2}, m_2^2/E_{12}^{ {\rm CM} \, 2} \right)} }{32 \pi^2 } \dd \Omega^{\rm CM},\nonumber\\
@@ -26,20 +26,16 @@ p_{12} &= \left(E_{12}^{ {\rm CM}}, \vec{0} \right),\nonumber\\
 p_{1}  &= \left(\frac{E_{12}^{ {\rm CM} \, 2}+m_1^2-m_{2}^2}{2E_{12}^{ {\rm CM} \, 2}}, |\vec{p}_1| \sin{\theta} \cos{\phi}, |\vec{p}_1| \sin{\theta} \sin{\phi} , |\vec{p}_1| \cos{\theta} \right),\nonumber\\
 p_{2}  &= \left(\frac{E_{12}^{ {\rm CM} \, 2}+m_{2}^2 - m_1^2}{2E_{12}^{ {\rm CM} \, 2}}, -\vec{p}_1 \right),
 \end{align}
-where $\lambda(a,b,c) = (a - b -c)^2 - 4 b c$ is the K\"all\'en function. We showed that the general phase space problem reduces to a 2-body phase space treatment provided one can work in the CM frame of every $p_{ij}$ subsystem.
+where $\lambda(a,b,c) = (a - b -c)^2 - 4 b c$ is the K\"all\'en function. Now, the problem is reduced to finding the CM frame of every $p_{ij}$ subsystem, and the transformation between all such frames, if necessary. Of course, the dependence of the matrix element on the kinematics makes certain phase space parametrization better than others, making each problem unique. Lab variables, for instance, are the standard parametrization for DIS scattering as they preserve crucial physical intuition of the process at hand.
 
-\paragraph{Dark-bremsstrahlung)} Here we take the Dark-Bremsstrahlung (DB) process discussed in \refsec{...} as an example of a 3-body phase space. In this process, the neutrino scatters off the nuclear target with momentum exchange $Q^2=()$. 
+\paragraph{Dark-bremsstrahlung} Here we take the Dark-Bremsstrahlung (DB) process discussed in \refsec{...} as an example of a 3-body phase space. In this process, the neutrino scatters off the nuclear target with momentum exchange $Q^2=()$.
 
-\paragraph{Neutrino trident production)} Here we take the Dark-Bremsstrahlung (DB) process discussed in \refsec{...} as an example of a 3-body phase space. In this process, the neutrino scatters off the nuclear target with momentum exchange $Q^2=()$. 
-
-In this appendix we derive a phase space parametrization for neutrino trident production in terms of the momentum transfer $K^2 =  2 p_1 \vdot p_2$. This is important if one wants to change variables to smooth out the integrand at low $M_{Z^\prime}$ masses. We follow the calculation in \cite{Czyz1964} and \cite{Ballett:2018uuc}, and proceed to define $K^2$ as one of the integration variables. The relevant Lorentz invariant phase space for the $2\to3$ leptonic part of the cross section is given by
-
-
+\paragraph{Neutrino trident production} Now we derive a phase space parametrization for neutrino trident production in terms of the momentum transfer $K^2 =  2 p_1 \vdot p_2$. This is important if one wants to change variables to smooth out the integrand at low $M_{Z^\prime}$ masses. We follow the calculation in \cite{Czyz1964} and \cite{Ballett:2018uuc}, and proceed to define $K^2$ as one of the integration variables. The relevant Lorentz invariant phase space for the $2\to3$ leptonic part of the cross section is given by
+%
 \begin{align}
 \int \dd^3 & \Pi_{\mathrm{LIPS}} = \nonumber\int \frac{\dd \vec{p_2} }{(2\pi)^32 E_2} \frac{ \dd \vec{p_3} } {(2\pi)^3 2 E_3} \frac{\dd \vec{p_4}}{(2\pi)^32 E_4} \\& (2\pi)^4\delta^{(4)} (p_1 + q - p_2 - p_3 - p_4).
 \end{align}
 %
-
 Following \cite{Czyz1964} we start by working in the frame $\vec{p_1} + \vec{q} - \vec{p_3} = 0$, putting $\vec{p_1}$ along the $\hat{z}$ direction instead. The delta function can be integrated with the $\vec{p_4}$ and $|\vec{p_2}|$ integrals, such that 
 %
 \begin{equation}

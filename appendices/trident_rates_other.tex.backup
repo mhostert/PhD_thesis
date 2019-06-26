@@ -1,0 +1,98 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Trident rates in current facilities}
+
+The search for neutrino trident production events certainly benefits from the capabilities of LAr technologies but need not be limited to it. In this section we study neutrino trident production rates at non-LAr experiments which have finished data taking or are still running: the on-axis near detector of T2K (INGRID), the near detectors of MINOS and NO$\nu$A and the MINER$\nu$A experiment. We calculate the total number of trident events as in Eq.~(\ref{eq:nevents}), taking into account the fact that some detectors are made of composite material. We summarize in Tab.~\ref{tab:others} the details of all non-LAr detectors considered in this section. We limit ourselves to a discussion of the total rates in the fiducial volume, but remark that a careful consideration of each detector is needed in order to assess their true potential to detect a trident signal. For instance, requirements about low energy EM shower reconstruction, hadronic activity measurements and event containment would have to be met to a good degree in order for the detector to be competitive. 
+
+\renewcommand{\arraystretch}{1.20}
+\begin{table}[h]
+\begin{center}
+\scalebox{0.94}{
+\begin{tabular}{lccccc}
+\hline
+Experiment&  Material & Baseline (m) & Exposure (POT) & Mass (t) &${E_\nu}$ (GeV)\\\hline\hline
+T2K  & Fe & 280  & $3.9~(3.9)\times10^{21}$ & 99.4 & $0-4$ \\
+T2K-II  & Fe & 280  & $ 10~(10)\times10^{21}$ & 99.4 & $0-4$ \\\hline
+MINOS & Fe and C &1040  & $10.6~(3.36)\times 10^{20}$  & 28.6& $0-20$ \\
+MINOS+ & Fe and C &1040  & $9.69\times 10^{20}$  & 28.6& $0-20$ \\\hline
+NO$\nu$A & ${\rm{C_2 H_3 Cl}} $ and $ {\rm{C H_2}}$  & 1000 &$8.85~(6.9)~\times10^{20}$&231 & $0-20$ \\
+NO$\nu$A-II & ${\rm{C_2 H_3 Cl}} $ and $ {\rm{C H_2}}$  & 1000 &$36~(36)\times10^{20}$ &231 & $0-20$ \\\hline
+MINER$\nu$A & ${\rm{CH,H_2O}}, {\rm{Fe,Pb,C}}$ & 1035  & $12~(12)\times 10^{20}$ &7.98 & $0-20$ \\\hline
+\end{tabular}}
+\end{center}
+\caption[Descriptions of non-LAr detectors.]{\label{tab:others} Summary of the non-LAr detector set-up and values used in our calculations. The POT numbers are given for a neutrino (antineutrino) beam.}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\paragraph{INGRID} INGRID, the on-axis near detector of the T2K experiment, is located 280 m from the beam source. It consists of 14 identical iron modules, each with a mass of $7.1$~t, resulting in a total fiducial mass of $99.4$ t~\cite{Abe:2011xv}. The modules are spread over a range of angles between $0^\circ$ and $1.1^\circ$ with respect to the beam axis. The currently approved T2K exposure is $(3.9+3.9)\times 10^{21}$ 
+POT in neutrino + antineutrino modes (T2K-I), with the goal to increase it to a total exposure of $(1+1)\times 10^{22}$ POT in the second phase of the experiment (T2K-II) \cite{Abe:2016tez}. Hence we expect approximately $2.6$ times more trident events for T2K-II. 
+
+We use the on-axis neutrino mode flux spectra at the INGRID module-3 from Ref.~\cite{Abe:2015biq}. The flux contribution for each neutrino flavour and  energy range is listed in Table 1 of Ref.~\cite{Abe:2015biq}. We assume here that the fluxes at the other 13 modules are the same as at module-3. Although this is not exactly correct it should provide a reasonable estimate of the total rate.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\paragraph{MINOS/MINOS+ Near Detector} The MINOS near detector is a magnetized, coarse-grained tracking calorimeter, made primarily of steel and plastic scintillator. Placed $1.04$~km away from the NuMI target at Fermilab \cite{Aliaga:2016oaz}, it weighs $980$~t and is similar to the far detector in design. In our analysis, we assume a similar fiducial volume cut to the standard $\nu_\mu$ CC analyses, namely a fiducial mass of $28.6$~t made of $80\%$ of iron and $20\%$ of carbon \cite{Boehm:2009zz}.
+
+%
+The experiment ran from 2005 till 2012 in the low energy (LE) configuration of the NuMI beam ($E_\nu^{\rm peak} \approx 3$ GeV) and collected $10.56\times 10^{20} ~(3.36\times 10^{20})$ POT in the neutrino (antineutrino) beam \cite{Aurisano}. The successor to MINOS, MINOS+, ran with the same detectors subjected to the medium energy (ME) configuration of the NuMI beam ($E_\nu^{\rm peak} \approx 7$ GeV) from 2013 to 2016, and has collected $9.69\times 10^{20}$ POT in the neutrino mode.
+%
+To calculate the trident event rates we use the fluxes taken from Ref.~\cite{fluxes:nonLAr}. We assume that the MINOS+ neutrino flux is identical to the one at the MINER$\nu$A experiment (see section \ref{subsec:MINERvA}). Although the cross section for iron is about two times larger than for argon and the neutrino fluxes similar, the number of trident events at MINOS ND is much smaller than the expected one at DUNE ND due to a lower exposure and fiducial mass.
+%
+The stringent cut on the fiducial volume assumed here implies a reduction from the $980$~t near detector bulk mass to $28.6$~t. This cut can be relaxed, depending on the signature considered, and may significantly enhance the rates we quote. A careful analysis of trident signatures outside the fiducial volume would be necessary, but we point out that our rates can increase by at most a factor of $\approx30$.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\paragraph{NO$\nu$A Near Detector} The NO$\nu$A near detector is a fine grained low-Z liquid-scintillator detector placed off-axis from the NuMI beam at a distance of $1$~km. Its total mass is $330$~t, with almost $70$\% of it active mass ($231$~t). In this estimate we assume all of this active mass to also be fiducial. The detector material is approximately 70\% mineral oil (CH$_2$) and 30\% of PVC (${\rm{C_2H_3Cl}}$)~\cite{Wang:Biao}. A total exposure of $8.85 \, (6.9)\times10^{20}$ POT has been collected in the neutrino (antineutrino) beam mode prior to 2018~\cite{sanchez_mayly_2018_1286758}. 
+
+The NO$\nu$A ND neutrino fluxes (taken from Ref. \cite{fluxes:nonLAr}) peak at slightly lower energies than the MINOS or MINER$\nu$A ones, $E_\nu^{\rm peak} \approx 2$ GeV. The flavour composition is 91\% (11\%) $\nu_\mu$ and 8\% (88\%) $\overline \nu_\mu$ in the neutrino (antineutrino) mode and about 1\% $\nu_e+\overline\nu_e$ in each mode.
+
+Comparing NO$\nu$A and MINOS, we see that while NO$\nu$A ND has a fiducial mass almost 8 times larger, the flux times total cross section at MINOS ND is at least two orders of magnitude larger than at NO$\nu$A ND, especially above 4 GeV, making the rates at MINOS ND larger than the rates at NO$\nu$A ND. 
+%
+
+NO$\nu$A is planning to collect a total exposure of $36\,(36)\times10^{20}$ POT in the neutrino (antineutrino) mode (NO$\nu$A-II) \cite{sanchez_mayly_2018_1286758,NovaII}, making the expected rates almost $4.1 (5.2)$ times larger (shown in Tab.~\ref{tab:otherrates}). In this case the expected dimuons and mixed events at MINOS+ would be at least two times larger than NO$\nu$A-II. On the other hand, for NO$\nu$A-II there will be two times more dielectron events given the much higher exposure. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\paragraph{MINER$\nu$A} The multi-component MINER$\nu$A detector was mainly designed to measure neutrino and antineutrino interaction cross sections with different nuclei in the 1-20 GeV range of energy~\cite{MINERvA:2017}. The detector is located at $1.035$~km from the NuMI target. We assume a fiducial mass of about $8$~t, with a composition of 75\% CH, 9\% Pb, 8\% Fe, 6\% H$_2$O and $2\%$ C. The experiment has collected $12\times10^{20}$ POT in the neutrino mode and is planning to reach the same exposure in the antineutrino mode by 2019, both using the medium energy flux of NuMI beam configuration. We do not include the low energy runs, as these have lower number of POT and lower neutrino energies. The neutrino (antineutrino) beam is composed of 95\% (7\%) $\nu_\mu$ and 
+4\% (92\%) $\overline \nu_\mu$, both beams have  about $1\%$ of $\nu_e+\overline\nu_e$. As expected, the event rate is lower than at MINOS+, as the latter has a larger fiducial mass. MINER$\nu$A, however, benefits from its fine grained technology and its dedicated design for cross section measurements.
+
+\renewcommand{\arraystretch}{1.2}
+\begin{table}[h]
+\begin{center}
+\scalebox{0.83}{
+\begin{tabular}{lccccccc}
+\hline
+		\bf Channel & \bf T2K-I& \bf T2K-II & \bf MINOS & \bf MINOS+ & \bf NO$\nu$A-I & \bf NO$\nu$A-II & \bf MINER$\nu$A \\ \hline \hline
+		$\nu_\mu\to\nu_e e^+ \mu^-$& $538$ &$1379$ &$179~(25)$&$688$ &$71~(14)$ &$291~(73)$& $140~(13)$ \\
+        &$49$ &$126$ &$21~(3)$ &$82$ &$21~(4)$ &$86~(21)$ & $30~(3)$\\\hline
+        $\overline\nu_\mu\to\overline\nu_e e^- \mu^+$&$23$ &$58$ &$42~(31)$&$38$ &$10~(57)$ &$41~(296)$ & $8~(89)$\\
+        &$2$ &$5$ &$5~(4)$&$5$ &$3~(17)$ &$12~(88)$& $2~(19)$\\\hline
+	$\nu_e\to\nu_\mu e^- \mu^+$& $2$ &$6$ &$1~(0.2)$&$4$ &$2~(0.5)$&$8~(3)$ & $1~(0.09)$\\
+        &$0.3$ &$1$ &$0.3~(0.04)$ &$0.8$&$0.9~(0.2)$ &$4~(1)$& $0.3~(0.03)$\\\hline
+	$\overline\nu_e\to\overline\nu_\mu e^+ \mu^-$& $0.2$ &$0.6$ &$0.4~(0.3)$&$0.4$ &$0.5~(0.9)$ &$2~(5)$& $0.06~(0.5)$\\
+    &$0.04$ &$0.1$ &$0.08~(0.06)$ &$0.08$&$0.2~(0.4)$ &$0.8~(2)$& $0.02~(0.2)$\vspace{1ex}\\\hline
+    {$\rm{Total} \ e^\pm \mu^\mp$}& $563$ &$1444$ &$222~(56)$ &$730$&$83~(72)$ &$340~(374)$& $149~(102)$ \\
+    &$52$ &$132$ &$27~(7)$&$88$ &$25~(22)$ &$102~(114)$& $32~(22)$\\\hline
+    \hline
+    		$\nu_\mu\to\nu_\mu e^+ e^-$& $257$ &$659$ &$48~(5)$ &$44$&$22~(3)$ &$90~(16)$& $35~(3)$ \\
+        &$9$ &$23$ &$3~(0.4)$ &$3$&$3~(0.6)$ &$00$& $4~(0.4)$\\\hline
+        $\overline\nu_\mu\to\overline\nu_\mu e^- e^+$& $10$ &$26$ &$9~(8)$&$9$ &$2~(16)$ &$8~(83)$& $2~(23)$\\
+        &$0.4$ &$1$ &$0.7~(0.5)$ &$0.7$&$0.4~(3)$ &$2~(15)$& $0.2~(3)$\\\hline
+	$\nu_e\to\nu_e e^- e^+$&$9$ &$24$ &$3~(0.3)$ &$8$&$3~(0.9)$ &$12~(5)$& $2~(0.2)$ \\
+    &$0.3$ &$0.8$ &$0.2~(0.03)$ &$0.6$&$0.7~(0.2)$ &$3~(1)$& $0.2~(0.02)$\\\hline
+	$\overline\nu_e\to\overline\nu_e e^+ e^-$&$0.9$ &$2$ &$0.7~(0.6)$&$0.7$ &$0.8~(2)$ &$3~(10)$& $0.1~(0.9)$ \\
+    &$0.03$ &$0.08$ &$0.06~(0.04)$ &$0.05$&$0.2~(0.3)$ &$0.8~(1)$& $0.01~(0.1)$\vspace{1ex}\\\hline
+
+    ${\rm{Total}}\  e^+ e^-$& $277$ &$711$ &$61~(15)$ &$62$&$29~(22)$ &$119~(114)$& $39~(27)$\\
+    &$10$ &$25$ &$4~(1)$ &$4$&$4~(4)$ &$16~(21)$& $4~(3)$\\\hline
+    		$\nu_\mu\to\nu_\mu \mu^+ \mu^-$& $29$ &$73$ &$21~(3)$ &$81$&$7~(2)$ &$28~(11)$& $17~(2)$ \\
+        &$15$ &$38$ &$8~(1)$ &$33$&$7~(2)$ &$29~(10)$& $12~(1)$\\\hline
+        $\overline\nu_\mu\to\overline\nu_\mu \mu^- \mu^+$& $1$ &$3$ &$5~(3)$&$5$ &$1~(7)$ &$4~(35)$& $1~(11)$\\
+        &$0.7$ &$2$ &$2~(1)$ &$2$&$1~(6)$ &$4~(30)$& $0.7~(8)$\\\hline
+ $\nu_e\to\nu_e \mu^+ \mu^-$    &$0.09$ &$0.2$ &$0.09~(0.01)$&$0.3$ &$0.1~(0.04)$ &$0.4~(0.2)$& $0.06~(0.007)$\\  
+ &$0.04$ &$0.1$ &$0.03~(0.004)$ &$0.1$&$0.1~(0.03)$ &$0.4~(0.1)$& $0.03~(0.004)$\\\hline
+        $\overline\nu_e\to\overline\nu_e \mu^+ \mu^-$&$0.01$ &$0.03$ &$0.03~(0.02)$ &$0.03$&$0.04~(0.06)$&$0.2~(0.3)$ & $0.004~(0.03)$\\
+        &$0.004$ &$0.01$ &$0.01~(0.009)$ &$0.01$&$~0.03(0.05)$  &$0.1~(0.3)$ & $0.003~(0.02)$       \vspace{1ex}\\\hline
+    ${\rm{Total}} \ \mu^+ \mu^-$ &$30$ &$76$ &$26~(6)$&$86$ &$9~(9)$ &$37~(47)$ & $18~(13)$ \\
+    &$16$ &$40$ &$10~(2)$ &$35$&$8~(8)$ &$34~(36)$ & $13~(9)$\\
+    \hline\hline
+\end{tabular}}
+\end{center}
+\caption[Trident rates at non-LAr detectors.]{\label{tab:otherrates}Total number of \textbf{coherent} (top row) and \textbf{diffractive} (bottom row) trident events expected at different non-LAr detectors for each channel. The numbers in parentheses are for the antineutrino running mode, when present. These calculations consider a detection efficiency of 100\%.}
+\end{table}

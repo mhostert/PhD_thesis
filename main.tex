@@ -66,25 +66,24 @@ B\'arbara, Humberto and Luciana.
 
 
 \chapter{Introduction}
-
 \include{introduction/introduction}
 
-\chapter{Aspects of neutrino physics}
+\chapter{Neutrino physics}
 \include{theory/theory}
 
-\chapter{Neutrino Scattering}
+\chapter{A light dark neutrino sector}
+\include{dark_nus/dark_nus}
+
+\chapter{Tests of the MiniBooNE anomaly}
+\include{miniboone/miniboone}
+
+\chapter{Neutrino trident scattering}
 \include{tridentSM/tridentSM}
 
 \chapter{New fundamental forces at DUNE}
 \include{Zprime_scattering/Zprime_scattering}
 
-\chapter{A dark neutrino sector}
-\include{three_portals/three_portals}
-
-\chapter{Tests of the MiniBooNE explanation}
-\include{miniboone/miniboone}
-
-\chapter{The future of precision in neutrino scattering}
+\chapter{The future of neutrino precision physics}
 %\include{tridentSM/tridentSM}
 
 \chapter{Conclusions}
@@ -93,23 +92,23 @@ B\'arbara, Humberto and Luciana.
 \appendixpageoff
 \begin{appendices}
 \let\clearpage\relax
-\chapter{Phase space}
+\chapter{Phase space}\label{app:phase_space}
 \include{appendices/appendix_PS}
 
-\cleardoublepage
-\chapter{Trident distributions}
+\chapter{Form factors}\label{app:form_factors}
+\include{appendices/form_factors}
+
+\chapter{Trident distributions}\label{app:trident_distributions}
 \include{appendices/trident_kinematics}
 
-\cleardoublepage
-\chapter{Trident rates at current facilities}
+\chapter{Trident rates at current facilities}\label{app:rates_other}
 \include{appendices/trident_rates_other}
 
-\cleardoublepage
-\chapter{One loop $\nu$ masses in Type-I seesaw}
+\chapter{Dark neutrino self-energies}\label{app:loop_masses}
 \include{appendices/loop_masses}
 \end{appendices}
 
 \bibliographystyle{JHEP}
-\bibliography{introduction/introduction,theory/theory,tridentSM/tridentSM,Zprime_scattering/Zprime_scattering,miniboone/miniboone,appendices/loop_masses}
+\bibliography{introduction/introduction,theory/theory,tridentSM/tridentSM,Zprime_scattering/Zprime_scattering,dark_nus/three_portals,dark_nus/nu_masses,miniboone/miniboone,appendices/loop_masses}
 
 \end{document}

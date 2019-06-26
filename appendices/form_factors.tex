@@ -1,7 +1,4 @@
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-In the coherent regime, we use a Woods-Saxon (WS) form factor due to its success in reproducing the experimental data \cite{Fricke:1995zz,Jentschura2009}. The WS form factor is the Fourier transform of the nuclear charge distribution, defined as 
+\paragraph{Electromagnetic form factors} In the coherent regime, we use a Woods-Saxon (WS) form factor due to its success in reproducing the experimental data \cite{Fricke:1995zz,Jentschura2009}. The WS form factor is the Fourier transform of the nuclear charge distribution, defined as 
 %
 \begin{equation}
  \rho(r) = \frac{\rho_0}{1+\exp\left(\dfrac{r - r_0}{a}\right)} \, ,
@@ -20,7 +17,7 @@ Here we use an analytic expression for the symmetrized Fermi function \cite{Anni
 \end{equation}
 %
 
-In the diffractive regime, we work with the functions $H_1^{\rm N}(Q^2)$ and $H_2^{\rm N}(Q^2)$, which depend on the Dirac and Pauli form factors of the nucleon ${\rm N}$ as follows
+In the incoherent regime, we work with the functions $H_1^{\rm N}(Q^2)$ and $H_2^{\rm N}(Q^2)$, which depend on the Dirac and Pauli form factors of the nucleon ${\rm N}$ as follows
 %
 \begin{equation}
 H_1^{\rm N}(Q^2)= |F_1^{\rm N}(Q^2)|^2 - \tau |F_2^{\rm N}(Q^2)|^2\, , \quad \mathrm{and} \quad H_2^{\rm N}(Q^2) = \left| F_1^{\rm N}(Q^2) + F_2^{\rm N}(Q^2)\right|^2 \, ,
@@ -40,21 +37,20 @@ G^{\rm N}_M(Q^2) =& F^{\rm N}_1 (Q^2) + F^{\rm N}_2 (Q^2) = \begin{cases}
 \end{align}
 %
 where $\mu_{p,n}$ is the nucleon magnetic moment in units of the nuclear magneton and $G_D(Q^2) = (1 + Q^2/M_V^2)^{-2}$ is a simple dipole form factor with $M_V = 0.84$ GeV.
+
+\paragraph{Neutral current form factor}
 %
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Weak form factor}
-\label{app:formfactors}
-
 Here we show our weak hadronic current used in the dark-bremsstrahlung calculation. Similarly to the electromagnetic case, we write the weak hadronic current for a spin-0 nucleus with $Z$ protons and $N$ neutrons as
 %
 \begin{align}
  {\rm H}_{\rm W}^\mu &= \bra{\mathcal{H}(k_3)} J^\mu_{\rm W} (Q^2) \ket{\mathcal{H}(k_b)} \nonumber\\&= Q_{\rm W} (k_b+k_3)^\mu F_{\rm W}(Q^2),
 \end{align}
-where $Q_{\rm W} = (1-4 s_{\rm w}^2)Z - N$ and $F_{\rm W}(Q^2)$ stands for the weak form factor of the nucleus. We implement the Helm form factor as in \cite{Duda:2006uk}, defined as  
+\%
+where $Q_{\rm W} = (1-4 s_{\rm w}^2)Z - N$ and $F_{\rm W}(Q^2)$ stands for the weak form factor of the nucleus. We implement the Helm form factor as in \cite{Duda:2006uk}, defined as
+%
 \begin{equation}
 |F(Q^2)|^2 = \left( \frac{3 j_1(QR)}{QR}\right)^2 e^{-Q^2 s^2},
 \end{equation}
+%
 where $j_1 (x)$ stands for the spherical Bessel function of the first kind, $s = 0.9$ fm and $R = 3.9$~fm for $^{40}$Ar.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

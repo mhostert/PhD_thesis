@@ -107,54 +107,27 @@ We note that these processes all occur in the SM, and so the hunt for new physic
 \begin{figure*}
     \centering
     \includegraphics[width=0.94\textwidth]{tridentdiagrams.pdf}
-\caption{The BSM contributions to neutrino trident production considered in our calculation. The diagrams on the left are referred to as Bether-Heitler contributions due to their resemblance to pair-production. On the right, we show diagrams with a radiative-like $Z^\prime$ emission, which allows for the production of on-shell $Z^\prime$ particles, which subsequently decays into a charged-lepton pair.\label{fig:trident_diagrams}}
+\caption[Diagrams of the $Z^\prime$ contribution to NC neutrino trident scattering.]{The BSM contributions to neutrino trident production considered in our calculation. The diagrams on the left are referred to as Bether-Heitler contributions due to their resemblance to pair-production. On the right, we show diagrams with a radiative-like $Z^\prime$ emission, which allows for the production of on-shell $Z^\prime$ particles, which subsequently decays into a charged-lepton pair.\label{fig:trident_diagrams}}
 \end{figure*}
 
 
 In the $\nu \ell \ell$ neutrino trident scattering, an initial neutrino scatters off a hadronic target producing a pair of charged leptons in the process. Since we focus solely on neutral current processes and on flavour conserving new physics, no mixed flavour tridents are relevant and we can write 
 %
 \begin{align*} 
-\mathcal{H} (P) + \nu_\alpha (p_1) \to \mathcal{H} (P^\prime) + \nu_\alpha (p_2)  + \ell^-_\beta (p_3) + \ell^+_\beta (p_4). 
+\mathcal{H} (P) + \nu_\alpha (k_1) \to \mathcal{H} (P^\prime) + \nu_\alpha (k_2)  + \ell^-_\beta (p_-) + \ell^+_\beta (p_+). 
 \end{align*}
 %
 In the SM this process receives CC and NC contributions when $\alpha = \beta$, and is a purely NC process if $\alpha \neq \beta$. The BSM contributions to trident production we consider are shown in \reffig{fig:trident_diagrams}. Beyond computing the Bethe-Heitler (BH) contributions considered previously, we show that radiative contributions to these processes are generally small. Using the Narrow-Width-Approximation (NWA), we compute the cross section for the radiation of a $Z^\prime$ particle from a neutrino-nucleus interaction, which can then promptly decay to an $\ell^+\ell^-$ pair. We call these contributions Dark-Bremsstrahlung (DB) processes for their similarity with electron brehmsstrahlung in QED. We now discuss the two amplitudes individually.
 
-\paragraph{Bethe-Heitler.} The BH amplitude can be written as follows 
-%
-\begin{equation}
-\mathcal{M}_{\rm BH} = \frac{\mathrm{L}_\mu \,\mathrm{H}_{\rm EM}^{\mu}}{Q^2}\, ,
-\end{equation}
-%
-where $Q^2 \equiv -q^2 = (P - P^\prime)^2$ is the momentum transfer and $\mathrm{H}_{\rm EM}^{\mu}$ the hadronic amplitude for coherent or diffractive electromagnetic scattering
+\paragraph{Bethe-Heitler.} The BH amplitude is identical to the calculation performed in the previous chapter when we take the substitution
 %
 \begin{align}
-{\rm H}^\mu_{\rm EM} &\equiv \langle {\cal H}(P) \vert J_\mathrm{EM}^\nu (q^2)\vert {\cal H}(P^\prime)\rangle\,.
-\label{eq:Hmu1}
-\end{align}
-%
-We refer the reader to Ref. \cite{Ballett:2018uuc} for the details on the treatment of the hadronic amplitude. %our previous paper for the details on the treatment of the hadronic amplitude \cite{Ballett:2018uuc}. 
-The leptonic amplitude for NC scattering $\mathrm{L}_\mu$ reads
-%
-\begin{align}
-\mathrm{L}_\mu  \equiv - &\frac{ie G_F}{\sqrt{2}}[\bar{u}(p_2)\gamma^\tau(1-\gamma_5)u(p_1)] \nonumber\\
-&\times 
-\bar{u}(p_4)\Bigg[\gamma_\tau(\hat{V}_{\alpha\beta}-\hat{A}_{\alpha\beta}\gamma_5)\frac{1}{(\slashed{q}-\slashed{p}_3-m_3)}\gamma_\mu \nonumber \\ 
-& + \gamma_\mu \frac{1}{(\slashed{p}_4-\slashed{q}-m_4)} \gamma_\tau (\hat{V}_{\alpha\beta}-\hat{A}_{\alpha\beta}\gamma_5) \Bigg] v(p_3)\,.
-\label{eq:Lmu1}
-\end{align}
-%
-In writing the equation above, we have introduced effective vector and axial couplings containing SM and BSM contributions
-\begin{subequations}
-\begin{align}
-&\hat{V}_{\alpha \beta} = g^{\ell_{\beta}}_{V} + \delta_{\alpha \beta} +  \frac{Q_{\alpha}^L Q_{\beta}^V}{2\sqrt{2} G_{F}} \frac{(g^\prime)^2}{K^2 + M^2_{Z^\prime}},
-\\&  
-\hat{A}_{\alpha \beta} = g^{\ell_{\beta}}_{A} + \delta_{\alpha \beta} + \frac{Q_{\alpha}^L Q_{\beta}^A}{2\sqrt{2} G_{F}} \frac{(g^\prime)^2}{K^2 + M^2_{Z^\prime}}\,,
+V \to V +  \frac{Q_{\alpha}^L Q_{\beta}^V}{2\sqrt{2} G_{F}} \frac{(g^\prime)^2}{K^2 + M^2_{Z^\prime}}, \qquad
+A \to A + \frac{Q_{\alpha}^L Q_{\beta}^A}{2\sqrt{2} G_{F}} \frac{(g^\prime)^2}{K^2 + M^2_{Z^\prime}}\,,
 \label{eq:c_prescription_trident}
 \end{align}
-\end{subequations}
-
-where $K^2 = -(p_1-p_2)^2$ and $g^{\ell_{\beta}}_{V}$'s $(g^{\ell_{\beta}}_{A}$'s) are the SM vector (axial) couplings. Note the dependence on the positive kinematic variable $K^2$ in the BSM contribution, which can lead to a significant peaked behaviour in the cross section. To avoid numerical difficulties, we have modified the phase space treatment proposed in \cite{Czyz1964,Lovseth1971}, as shown in \refapp{app:phase_space}. 
-
+%
+where $K^2 = -(p_1-p_2)^2$ and $V$ ($A$) is the SM vector (axial) couplings defined in the previous chapter. Note the dependence on the positive kinematic variable $K^2$ in the BSM contribution, which can lead to a significant peaked behaviour in the cross section. To avoid numerical difficulties, we have modified the phase space treatment proposed in \cite{Czyz1964,Lovseth1971}, as shown in \refapp{app:phase_space}. 
 
 \paragraph{Dark-Bremsstrahlung.} Due to the small decay width of the $Z^\prime$ ($\Gamma \propto g^{\prime\,2} M_{Z^\prime}$), one can obtain an estimate for its resonant production using the NWA. In the true narrow-width limit, this process reduces to a 3-body phase space calculation and does not interfere with the BH amplitude \footnote{We note that despite the fact that interference terms between resonant and non-resonant contributions vanish in the narrow-width limit, the errors induced by the NWA can no longer be shown to be of the order of $\Gamma_{Z^\prime}/M_{Z^\prime}$ \cite{Uhlemann:2008pm}. Nevertheless, we do not expect a more careful evaluation of the resonant contribution to change our conclusions.}. Our DB amplitude
 for $\nu_\alpha (k_a)\,+\,  {\rm A} (k_b) \to \nu_\alpha (k_1)\,+\, Z^\prime (k_2)\,+\, {\rm A} (k_3)$ reads 
@@ -176,7 +149,7 @@ come from the interference between the BSM and the SM BH diagrams, and from the 
 %
 \includegraphics[width=0.43\textwidth]{SMvsBSMmass_xsec_mmmm_vec.pdf}
 \includegraphics[width=0.43\textwidth]{SMvsBSMmass_xsec_mmmm_ax.pdf}
-\caption{\label{fig:xsecs_mmmm} Flux integrated cross sections normalized to the flux integrated SM trident cross section for dimuon production. On the left (right) panel we show the vector (axial-vector) $Z'$ 
+\caption[BSM enhancement to dimuon neutrino trident production total cross section.]{\label{fig:xsecs_mmmm} Flux integrated cross sections normalized to the flux integrated SM trident cross section for dimuon production. On the left (right) panel we show the vector (axial-vector) $Z'$ 
 case. We separate the different contributions:
  SM only, interference between SM and BSM Bethe-Heitler contributions (interf) and BSM Bethe-Heither only (BH$^2$). The Dark-Bremsstrahlung (DB) cross section is also shown, but does not take the branching ratio into final state charged leptons into account.}
 %
@@ -187,7 +160,7 @@ case. We separate the different contributions:
 \includegraphics[width=0.43\textwidth]{SMvsBSMmass_xsec_mmee_vec.pdf}
 \includegraphics[width=0.43\textwidth]{SMvsBSMmass_xsec_mmee_ax.pdf}
 %
-\caption{\label{fig:xsecs_mmee} Same as \reffig{fig:xsecs_mmmm} but for the $e^+e^-$ trident channel.}
+\caption[BSM enhancement to dielectron neutrino trident production total cross section.]{\label{fig:xsecs_mmee} Same as \reffig{fig:xsecs_mmmm} but for the $e^+e^-$ trident channel.}
 %
 \end{figure*}
 
@@ -209,7 +182,7 @@ then as we take the limit of small $Z^\prime$ masses, it scales more similarly t
 \includegraphics[width=0.4\textwidth]{BSM_invmass_mumu.pdf}
 \includegraphics[width=0.4\textwidth]{BSM_sepangle_mumu.pdf}
 %
-\caption{
+\caption[Dimuon distributions in the presence of a $Z^\prime$.]{
 Distribution of the number of neutrino trident events as a function of the invariant mass of the dimuon pair (left) and their separation angle (right) at the DUNE ND. The distributions were produced using the DUNE 120 GeV $p^+$ neutrino beam and have been smeared as described in \refsec{sec:experimental}. For the new physics, we plot the case of a vector (V), $Q^L = Q^R$, and axial-vector (A), $Q^L = -Q^R$,  $Z^\prime$ assuming $Q^L_{\alpha}$ to be given by $L_\mu - L_\tau$. \label{fig:mm_spectra}}
 \end{figure*}
 %
@@ -225,7 +198,7 @@ of the number of events, we see that axial-vector bosons lead to larger enhancem
 \includegraphics[width=0.4\textwidth]{BSM_invmass_ee.pdf}
 \includegraphics[width=0.4\textwidth]{BSM_sepangle_ee.pdf}
 %
-\caption{Same as \reffig{fig:mm_spectra} but for $e^+e^-$ trident events. In all cases we assume $Q^L_{\alpha}$ to be given by $L_e - L_\mu$. \label{fig:ee_spectra}}
+\caption[Dielectron distributions in the presence of a $Z^\prime$.]{Same as \reffig{fig:mm_spectra} but for $e^+e^-$ trident events. In all cases we assume $Q^L_{\alpha}$ to be given by $L_e - L_\mu$. \label{fig:ee_spectra}}
 %
 \end{figure*}
 %
@@ -301,7 +274,7 @@ of the number of events, we see that axial-vector bosons lead to larger enhancem
 \includegraphics[width=0.43\textwidth]{Etheta2_nu_new.pdf}
 \includegraphics[width=0.43\textwidth]{Etheta2_nubar_new.pdf}
 %
-\caption{Number of $\nu-e$ scattering events in the DUNE ND as a function of $E_e\theta^2$ for the neutrino (left) and antineutrino (right) beams from the 120 GeV $p^+$ configuration. We show the prediction in the SM and in a vector $L_e-L_\mu$ $Z^\prime$ model for two angular resolutions $\delta\theta$. The electron kinetic energy threshold is taken to be $600$ MeV and the energy resolution is fixed at $\sigma/E = 15\%/\sqrt{E}$. \label{fig:nuedist}}
+\caption[Neutrino-electron scattering distributions in the presence of a $Z^\prime$.]{Number of $\nu-e$ scattering events in the DUNE ND as a function of $E_e\theta^2$ for the neutrino (left) and antineutrino (right) beams from the 120 GeV $p^+$ configuration. We show the prediction in the SM and in a vector $L_e-L_\mu$ $Z^\prime$ model for two angular resolutions $\delta\theta$. The electron kinetic energy threshold is taken to be $600$ MeV and the energy resolution is fixed at $\sigma/E = 15\%/\sqrt{E}$. \label{fig:nuedist}}
 %
 \end{figure*}
 
@@ -361,7 +334,7 @@ An interesting addition to the design of the DUNE ND would be a magnetized high-
 %%%%%%%%%%%%%%%%%%% TABLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{table*}[t]
 \begin{center}
-\begin{tabular}{|lccccc|}
+\begin{tabular}{lccccc}
 \hline
 		Design & Mode & $\mu^+\mu^-$ trident & $e^+e^-$ trident & $\nu-e$ scattering & POTs/year \\ \hline\hline
 		\multirow{ 2}{*}{62.4 GeV $p^+$}       &$\nu$ & $36.5$ & $92.7$ & $7670$ &  $1.83\times10^{21}$\\
@@ -375,7 +348,7 @@ An interesting addition to the design of the DUNE ND would be a magnetized high-
         \hline
 \end{tabular}
 \end{center}
-\caption{The SM rates for neutrino trident production and neutrino-electron scattering per year at the 75-t DUNE ND after kinematical cuts. \label{tab:rates} }
+\caption[Neutrino trident and neutrino-electron scattering rates in the SM for different configurations of the LBNF beam.]{The SM rates for neutrino trident production and neutrino-electron scattering per year at the 75-t DUNE ND after kinematical cuts. \label{tab:rates} }
 \end{table*}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -392,14 +365,14 @@ assuming a threshold as low as $30$ MeV would be safe for electron detection, bu
 \begin{figure*}[t]
 \centering
 \includegraphics[width=0.8\textwidth]{lelmu.pdf}
- \caption{The DUNE ND neutrino scattering sensitivities to the $L_e - L_\mu$ $Z^\prime$ at 90\% C.L. The solid line shows the $\nu-e$ scattering sensitivity, followed by the dielectron trident in dashed line, and the dimuon trident in dot-dashed line. The coloured regions are excluded by other experiments, where we highlight the neutrino-electron scattering measurements at reactor experiments~\cite{Wong:2006nx,Deniz:2009mu,Chen:2014dsa}, searches at the BaBar $e^+e^-$ collider~\cite{Lees:2014xha, Lees:2017lec} and beam dump experiments~\cite{Bauer:2018onh}.\label{fig:Le_Lmu}}
+ \caption[DUNE sensitivities to a $L_e - L_\mu$ $Z^\prime$.]{The DUNE ND neutrino scattering sensitivities to the $L_e - L_\mu$ $Z^\prime$ at 90\% C.L. The solid line shows the $\nu-e$ scattering sensitivity, followed by the dielectron trident in dashed line, and the dimuon trident in dot-dashed line. The coloured regions are excluded by other experiments, where we highlight the neutrino-electron scattering measurements at reactor experiments~\cite{Wong:2006nx,Deniz:2009mu,Chen:2014dsa}, searches at the BaBar $e^+e^-$ collider~\cite{Lees:2014xha, Lees:2017lec} and beam dump experiments~\cite{Bauer:2018onh}.\label{fig:Le_Lmu}}
 \end{figure*}
 %
 \begin{figure*}[t]
 \centering
     \includegraphics[width=0.43\textwidth]{lelmu_fluxes.pdf}
     \includegraphics[width=0.43\textwidth]{lelmu_sys.pdf}
- \caption{The $\nu-e$ scattering sensitivity to the $L_e - L_\mu$ model at 90\% C.L. On the left panel we show the sensitivity using different choices for the neutrino flux, and on the right we use the neutrino beam from 120 GeV protons and vary the normalization systematic uncertainty from an aggressive $1\%$ to a conservative $10\%$. \label{fig:Le_Lmu_varied}}
+ \caption[DUNE sensitivity to a $L_e - L_\mu$ $Z^\prime$ with alternative assumptions.]{The $\nu-e$ scattering sensitivity to the $L_e - L_\mu$ model at 90\% C.L. On the left panel we show the sensitivity using different choices for the neutrino flux, and on the right we use the neutrino beam from 120 GeV protons and vary the normalization systematic uncertainty from an aggressive $1\%$ to a conservative $10\%$. \label{fig:Le_Lmu_varied}}
 \end{figure*}
 %
 \paragraph{Statistics.} 
@@ -428,7 +401,7 @@ DUNE can also probe this class of models in a different way. In the context of l
 \centering
   \includegraphics[width=0.8\textwidth]{lmultau_nokm.pdf}\\
  \includegraphics[width=0.8\textwidth]{lmultau_km.pdf}
- \caption{The DUNE ND neutrino scattering sensitivities for $L_\mu - L_\tau$ at 90\% C.L. The upper panel shows the case with no kinetic mixing, and the lower panel the case with the loop-induced mixing. Bounds from neutrino-electron scattering apply only to the latter. We also show bounds from BaBar~\cite{TheBABAR:2016rlg}, LHC~\cite{Aad:2014wra}, Borexino~\cite{Kaneta:2016uyt} and from the neutrino trident production measurement at CCFR~\cite{Mishra:1991bv,Altmannshofer2014}. Recent cosmological bounds for the two kinetic mixing cases derived in Ref.~\cite{Escudero:2019gzq} are also shown. \label{fig:Lmu_Ltau}}
+ \caption[DUNE sensitivity to a $L_\mu - L_\tau$ $Z^\prime$.]{The DUNE ND neutrino scattering sensitivities for $L_\mu - L_\tau$ at 90\% C.L. The upper panel shows the case with no kinetic mixing, and the lower panel the case with the loop-induced mixing. Bounds from neutrino-electron scattering apply only to the latter. We also show bounds from BaBar~\cite{TheBABAR:2016rlg}, LHC~\cite{Aad:2014wra}, Borexino~\cite{Kaneta:2016uyt} and from the neutrino trident production measurement at CCFR~\cite{Mishra:1991bv,Altmannshofer2014}. Recent cosmological bounds for the two kinetic mixing cases derived in Ref.~\cite{Escudero:2019gzq} are also shown. \label{fig:Lmu_Ltau}}
 \end{figure*}
 %
 %
@@ -436,7 +409,7 @@ DUNE can also probe this class of models in a different way. In the context of l
 \centering
   \includegraphics[width=0.43\textwidth]{lmultau_fluxes.pdf}
  \includegraphics[width=0.43\textwidth]{lmultau_bkgs.pdf}
- \caption{The dimuon neutrino trident sensitivity to the $L_\mu - L_\tau$ model with no kinetic mixing at 90\% C.L. On the left panel we show the sensitivity using different choices for the neutrino flux, and on the right we use the neutrino beam from 120 GeV protons and scale the background with respect to the total number of SM trident events after cuts.\label{fig:Lmu_Ltau_varied}}
+ \caption[DUNE sensitivity to a $L_\mu - L_\tau$ $Z^\prime$ with alternative assumptions.]{The dimuon neutrino trident sensitivity to the $L_\mu - L_\tau$ model with no kinetic mixing at 90\% C.L. On the left panel we show the sensitivity using different choices for the neutrino flux, and on the right we use the neutrino beam from 120 GeV protons and scale the background with respect to the total number of SM trident events after cuts.\label{fig:Lmu_Ltau_varied}}
 \end{figure*}
 %
 

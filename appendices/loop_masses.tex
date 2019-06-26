@@ -1,6 +1,4 @@
-\section{Type-I seesaw neutrino masses in the SM}
-
-In this appendix, we compute the one-loop corrections to the light neutrino masses in the SM, following Refs.~\cite{Kniehl:1996bd,Grimus:2002nk,AristizabalSierra:2011mn}.
+In this appendix, we compute the one-loop corrections to the light neutrino masses in our dark neutrino model, following Refs.~\cite{Kniehl:1996bd,Grimus:2002nk,AristizabalSierra:2011mn}.
 
 We work with the on-shell (OS) renormalization scheme. This is ensured by requiring that the off-diagonal elements of the self-energy be diagonal when the external particles are on their mass shell, and that the residue of the renormalized propagator are equal to one. Note this is only applicable to the off-diagonal entries that involve at least one heavy neutrino, and that the light-light entries are all non-zero and finite at one-loop.
 
@@ -15,7 +13,7 @@ where by virtue of the Majorana nature the previous terms obey
 
 \subsection{Self-energy}
 
-We now compute explicitly the self-energy corrections. The contribution from the scalar fields $s= h^0, \varphi^0$, the goldstones $G = G_h, G_\varphi$ and the vector bosons $V = Z, Z^\prime$ are 
+For now, we will ignore kinetic and scalar mixing effects, as these can be show to be small given current experimental bounds. The contribution from the scalar fields $s= h^0, \varphi^0$, the goldstones $G = G_h, G_\varphi$ and the vector bosons $V = Z, Z^\prime$ are 
 
 \begin{align*}
  -i\,\Sigma^s_{ij} (p^2) &= (-i)^2 \left(\Delta_s P_R + \Delta^*_s P_L \right)_{ik} \times\\&\qquad\qquad \int \frac{d^d k}{(2\pi)^d} \frac{i (\slashed{p} + \slashed{k} + m_k) }{(p+k)^2 - m_k^2} \frac{i}{k^2 - m_s^2} \left( \Delta_s P_R + \Delta^*_s P_L \right)_{kj},\\
@@ -64,3 +62,30 @@ For light neutrinos ($i,j=1,2,3$), the final result reads
 \begin{align}
  \Sigma_{ij} P_R  = -\frac{\pi^2}{(2\pi)^4} C \hat{m}\left[ d\, B_0(0,\hat{m}^2,m_V^2) + \frac{\hat{m}^2}{m_V^2} \left( B_0 (0,\hat{m}^2,m_S^2) - B_0(0,\hat{m}^2,m_V^2) \right) \right] C^T P_R.
 \end{align}
+
+After significant algebra, and checking the cancellation of divergencies, we arrive at 
+%
+\begin{align}\label{eq:masses_general}
+ m_{ij} = \frac{1}{4\pi^2}\sum_{k=4}^5 \Big[ & C_{ik} C_{jk} \frac{m_k^3}{m_Z^2}F(m_k^2,m_Z^2,m_h^2)  \,+\, D_{ik} D_{jk} \frac{m_k^3}{m_{Z^\prime}^2}F(m_k^2,m_{Z^\prime}^2,m_{\varphi^\prime}^2) \Big],
+\end{align} 
+%
+where
+%
+\begin{equation} \label{eq:loop_function}
+F(a,b,c) \equiv \frac{3 \, \ln{(a/b)}}{a/b - 1}  + \frac{\ln{(a/c)}}{a/c - 1}.
+\end{equation}
+%
+
+For the full expression, involving mixing, we find ($B_0(x^2) \equiv B_0(0,\hat{m}^2,x^2)$) \textcolor{red}{needs some checking! This is only for light neutrinos}
+%
+\begin{align*}
+%
+    \Sigma^M(0) &= C\hat{m}\left\{ 4B_0(m_Z^2) -
+\frac{\hat{m}^2}{m_Z^2}\left[B_0(m_Z^2) - c_{\omega^\prime}^2B_0(m_{h^\prime}^2)- s_{\omega^\prime}^2B_0(m_{\varphi^\prime}^2)\right] \right\}C^\text{T}\\
+%
+&~+D\hat{m}\left\{ 4B_0(m_{Z^\prime}^2) -
+\frac{\hat{m}^2}{m_{Z^\prime}^2}\left[B_0(m_{Z^\prime}^2) - c_{\omega^\prime}^2B_0(m_{\varphi^\prime}^2)- s_{\omega^\prime}^2B_0(m_{h^\prime}^2)\right] \right\}D^\text{T}\\
+%
+&~+s_{\omega^\prime} c_{\omega^\prime} \left\{C\hat{m}\left[B_0(m_{h^\prime}^2) -B_0(m_{\varphi^\prime}^2) \right]D^\text{T}+D\hat{m}\left[ B_0(m_{h^\prime}^2) -B_0(m_{\varphi^\prime}^2) \right]C^\text{T}\right\}.
+%
+\end{align*}

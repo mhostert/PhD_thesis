@@ -1,0 +1,137 @@
+@article{Yang:1954ek,
+      author         = "Yang, Chen-Ning and Mills, Robert L.",
+      title          = "{Conservation of Isotopic Spin and Isotopic Gauge
+                        Invariance}",
+      journal        = "Phys. Rev.",
+      volume         = "96",
+      year           = "1954",
+      pages          = "191-195",
+      doi            = "10.1103/PhysRev.96.191",
+      note           = "[,150(1954)]",
+      SLACcitation   = "%%CITATION = PHRVA,96,191;%%"
+}
+@article{Glashow:1961tr,
+      author         = "Glashow, S. L.",
+      title          = "{Partial Symmetries of Weak Interactions}",
+      journal        = "Nucl. Phys.",
+      volume         = "22",
+      year           = "1961",
+      pages          = "579-588",
+      doi            = "10.1016/0029-5582(61)90469-2",
+      SLACcitation   = "%%CITATION = NUPHA,22,579;%%"
+}
+@article{Higgs:1964ia,
+      author         = "Higgs, Peter W.",
+      title          = "{Broken symmetries, massless particles and gauge fields}",
+      journal        = "Phys. Lett.",
+      volume         = "12",
+      year           = "1964",
+      pages          = "132-133",
+      doi            = "10.1016/0031-9163(64)91136-9",
+      SLACcitation   = "%%CITATION = PHLTA,12,132;%%"
+}
+@article{Higgs:1964pj,
+      author         = "Higgs, Peter W.",
+      title          = "{Broken Symmetries and the Masses of Gauge Bosons}",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "13",
+      year           = "1964",
+      pages          = "508-509",
+      doi            = "10.1103/PhysRevLett.13.508",
+      note           = "[,160(1964)]",
+      SLACcitation   = "%%CITATION = PRLTA,13,508;%%"
+}
+@article{Zweig:1981pd,
+      author         = "Zweig, G.",
+      title          = "{An SU(3) model for strong interaction symmetry and its
+                        breaking. Version 1}",
+      year           = "1964",
+      reportNumber   = "CERN-TH-401",
+      SLACcitation   = "%%CITATION = CERN-TH-401;%%"
+}
+@article{GellMann:1964nj,
+      author         = "Gell-Mann, Murray",
+      title          = "{A Schematic Model of Baryons and Mesons}",
+      journal        = "Phys. Lett.",
+      volume         = "8",
+      year           = "1964",
+      pages          = "214-215",
+      doi            = "10.1016/S0031-9163(64)92001-3",
+      SLACcitation   = "%%CITATION = PHLTA,8,214;%%"
+}
+@article{Weinberg:1967tq,
+      author         = "Weinberg, Steven",
+      title          = "{A Model of Leptons}",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "19",
+      year           = "1967",
+      pages          = "1264-1266",
+      doi            = "10.1103/PhysRevLett.19.1264",
+      SLACcitation   = "%%CITATION = PRLTA,19,1264;%%"
+}
+@article{Salam:1968rm,
+      author         = "Salam, Abdus",
+      title          = "{Weak and Electromagnetic Interactions}",
+      booktitle      = "{8th Nobel Symposium Lerum, Sweden, May 19-25, 1968}",
+      journal        = "Conf. Proc.",
+      volume         = "C680519",
+      year           = "1968",
+      pages          = "367-377",
+      SLACcitation   = "%%CITATION = CONFP,C680519,367;%%"
+}
+@article{Weinberg:1977ma,
+      author         = "Weinberg, Steven",
+      title          = "{A New Light Boson?}",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "40",
+      year           = "1978",
+      pages          = "223-226",
+      doi            = "10.1103/PhysRevLett.40.223",
+      reportNumber   = "HUTP-77/A074",
+      SLACcitation   = "%%CITATION = PRLTA,40,223;%%"
+}
+@article{Fradette:2018hhl,
+      author         = "Fradette, Anthony and Pospelov, Maxim and Pradler, Josef
+                        and Ritz, Adam",
+      title          = "{Cosmological beam dump: constraints on dark scalars
+                        mixed with the Higgs boson}",
+      journal        = "Phys. Rev.",
+      volume         = "D99",
+      year           = "2019",
+      number         = "7",
+      pages          = "075004",
+      doi            = "10.1103/PhysRevD.99.075004",
+      eprint         = "1812.07585",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1812.07585;%%"
+}
+
+@article{Silveira:1985rk,
+      author         = "Silveira, Vanda and Zee, A.",
+      title          = "{SCALAR PHANTOMS}",
+      journal        = "Phys. Lett.",
+      volume         = "161B",
+      year           = "1985",
+      pages          = "136-140",
+      doi            = "10.1016/0370-2693(85)90624-0",
+      reportNumber   = "DOE-ER-40048-13 P5",
+      SLACcitation   = "%%CITATION = PHLTA,161B,136;%%"
+}
+
+@article{Craig:2013xia,
+      author         = "Craig, Nathaniel and Englert, Christoph and McCullough,
+                        Matthew",
+      title          = "{New Probe of Naturalness}",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "111",
+      year           = "2013",
+      number         = "12",
+      pages          = "121803",
+      doi            = "10.1103/PhysRevLett.111.121803",
+      eprint         = "1305.5251",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "IPPP-13-30, DCPT-13-60, MIT-CTP-4462, RU-NHETC-2013-12",
+      SLACcitation   = "%%CITATION = ARXIV:1305.5251;%%"
+}
