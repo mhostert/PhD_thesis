@@ -1,3 +1,6 @@
+\graphicspath{{}{theory/}}
+
+Neutrinos -- Pauli + Madame Wu + Freinberg numus + Lederman
 
 \section{Oscillations}
 
@@ -23,6 +26,15 @@ Neutrino cross sections are an invaluable observable to understand the Weak forc
 
 
 \section{Mass mechanisms}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{seesaw_mechanisms.pdf}
+\caption[The tree-level UV completions of the Weinberg operator.]{The only three UV completions of the $d=5$ Weinberg operator with their respective contributions to light neutrino masses.\label{fig:seesaw_mechanisms}}
+\end{figure}
+
+
+In \reffig{fig:seesaw_mechanisms}, we show these unique tree-level completions of the Weinberg operator.
 
 For a review on low-scale models see \cite{Boucenna:2014zba}.
 

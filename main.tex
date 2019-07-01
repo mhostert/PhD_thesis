@@ -1,4 +1,4 @@
-\documentclass[openany,twoside,frontopenright]{ip3thesis}
+\documentclass[openany,twoside,frontopenright,chaprunninghead]{ip3thesis}
 \input{preamble}
 \input{commands}
 
@@ -6,7 +6,7 @@
 
 
 \begin{document}
-\title{Neutrinos as probes of hidden sectors}
+\title{Neutrinos as }
 \subtitle{}
 \author{Matheus Hostert}
 \researchgroup{Institute for Particle Physics Phenomenology}
@@ -40,10 +40,14 @@ B\'arbara, Humberto and Luciana.
 \end{declaration*}
 
 \begin{acknowledgements*}
-%
-	I would like to thank my supervisor Silvia Pascoli for her support. I am thankful to have had Peter Ballett as a supervisor and colleague during my studies.
-  %
-	My collaborators Carlos Arg\"uelles, Yuber Perez Gonzalez, Zahra Tabrizi and Yu-Dai Tsai. I am also grateful for the inspiration from  Pedro Machado and Renata Zukanovich Funchal.
+
+	I would like to thank my supervisor Silvia Pascoli for her guidance and for her vision as a supervisor. I am also grateful to have had the chance to learn from and work with Peter Ballett. To both, thank you for your patience and admirable dedication.
+
+	My collaborators Carlos Arg\"uelles, Yuber Perez Gonzalez, Zahra Tabrizi and Yu-Dai Tsai. I am also grateful for the inspiration from Pedro Machado and Renata Zukanovich Funchal.
+
+	
+	Looking back, I also want to thank Prof. D\'ebora Peres Menezes and Prof. Marcus Benghi Pinto for introducing me to scientific research so early in my career and understanding the importance of doing so. 
+	
 \end{acknowledgements*}
 
 %\dedicationtext{This thesis is dedicated to}
@@ -61,51 +65,55 @@ B\'arbara, Humberto and Luciana.
 % 	"It seems very pretty, [...] somehow it seems to fill my head with ideas—only I don't exactly know what they are!
 % 	\source{Through the Looking-Glass, and What Alice Found There}{Lewis Carroll}
 % \end{center}
-\end{epigraph*}
+\end{epigraph*} 
 
 
 
 \chapter{Introduction}
-\include{introduction/introduction}
+\begin{flushright}
+	``It is really hard.''
+	\\--- Madeline Line
+\end{flushright}
+\input{introduction/introduction}
 
 \chapter{Neutrino physics}
-\include{theory/theory}
+\input{theory/theory}
 
 \chapter{A light dark neutrino sector}
-\include{dark_nus/dark_nus}
+\input{dark_nus/dark_nus}
 
 \chapter{Tests of the MiniBooNE anomaly}
-\include{miniboone/miniboone}
+\input{miniboone/miniboone}
 
 \chapter{Neutrino trident scattering}
-\include{tridentSM/tridentSM}
+\input{tridentSM/tridentSM}
 
 \chapter{New fundamental forces at DUNE}
-\include{Zprime_scattering/Zprime_scattering}
+\input{Zprime_scattering/Zprime_scattering}
 
 \chapter{The future of neutrino precision physics}
-%\include{tridentSM/tridentSM}
+%\input{tridentSM/tridentSM}
 
 \chapter{Conclusions}
-\include{conclusions/conclusions}
+\input{conclusions/conclusions}
 
 \appendixpageoff
 \begin{appendices}
 \let\clearpage\relax
 \chapter{Phase space}\label{app:phase_space}
-\include{appendices/appendix_PS}
+\input{appendices/appendix_PS}
 
 \chapter{Form factors}\label{app:form_factors}
-\include{appendices/form_factors}
+\input{appendices/form_factors}
 
 \chapter{Trident distributions}\label{app:trident_distributions}
-\include{appendices/trident_kinematics}
+\input{appendices/trident_kinematics}
 
 \chapter{Trident rates at current facilities}\label{app:rates_other}
-\include{appendices/trident_rates_other}
+\input{appendices/trident_rates_other}
 
 \chapter{Dark neutrino self-energies}\label{app:loop_masses}
-\include{appendices/loop_masses}
+\input{appendices/loop_masses}
 \end{appendices}
 
 \bibliographystyle{JHEP}

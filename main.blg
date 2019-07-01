@@ -1,20 +1,8 @@
 This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
-A level-1 auxiliary file: introduction/introduction.aux
-A level-1 auxiliary file: theory/theory.aux
-A level-1 auxiliary file: dark_nus/dark_nus.aux
-A level-1 auxiliary file: miniboone/miniboone.aux
-A level-1 auxiliary file: tridentSM/tridentSM.aux
-A level-1 auxiliary file: Zprime_scattering/Zprime_scattering.aux
-A level-1 auxiliary file: conclusions/conclusions.aux
-A level-1 auxiliary file: appendices/appendix_PS.aux
-A level-1 auxiliary file: appendices/form_factors.aux
-A level-1 auxiliary file: appendices/trident_kinematics.aux
-A level-1 auxiliary file: appendices/trident_rates_other.aux
-A level-1 auxiliary file: appendices/loop_masses.aux
 The style file: JHEP.bst
-Reallocated field_info (elt_size=4) to 16910 items from 5000.
+Reallocated field_info (elt_size=4) to 17300 items from 5000.
 Database file #1: introduction/introduction.bib
 Database file #2: theory/theory.bib
 Database file #3: tridentSM/tridentSM.bib
@@ -216,6 +204,7 @@ Repeated entry---line 1009 of file dark_nus/three_portals.bib
  : @article{Arguelles:2018mtc
  :                           ,
 I'm skipping whatever remains of this entry
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Repeated entry---line 1080 of file dark_nus/three_portals.bib
  : @article{Bakhti:2018avv
  :                        ,
@@ -228,7 +217,6 @@ Repeated entry---line 1180 of file dark_nus/three_portals.bib
  : @article{Bertuzzo:2018itn
  :                          ,
 I'm skipping whatever remains of this entry
-Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Repeated entry---line 1407 of file dark_nus/three_portals.bib
  : @article{Escudero:2019gzq
  :                          ,
@@ -793,6 +781,10 @@ Repeated entry---line 813 of file miniboone/miniboone.bib
  : @article{Esteban:2018azc
  :                         ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 1058 of file miniboone/miniboone.bib
+ : @article{pdg
+ :             ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 2024 of file miniboone/miniboone.bib
  : @article{Dib:2011jh
  :                    ,
@@ -988,45 +980,45 @@ Warning--empty author in MINERvA:2017
 Warning--empty author in DUNE:flux
 Warning--empty author in DUNE:flux_updated
 Warning--empty author in DUNE:GArOption
-You've used 366 entries,
+You've used 379 entries,
             2217 wiz_defined-function locations,
-            3547 strings with 83957 characters,
-and the built_in function-call counts, 111780 in all, are:
-= -- 11602
-> -- 4376
+            3636 strings with 86174 characters,
+and the built_in function-call counts, 116358 in all, are:
+= -- 12098
+> -- 4518
 < -- 0
-+ -- 1294
-- -- 928
-* -- 9571
-:= -- 15333
-add.period$ -- 370
-call.type$ -- 366
-change.case$ -- 360
++ -- 1337
+- -- 958
+* -- 9924
+:= -- 15958
+add.period$ -- 383
+call.type$ -- 379
+change.case$ -- 373
 chr.to.int$ -- 0
-cite$ -- 373
-duplicate$ -- 5805
-empty$ -- 9649
-format.name$ -- 928
-if$ -- 29393
+cite$ -- 386
+duplicate$ -- 6032
+empty$ -- 10054
+format.name$ -- 958
+if$ -- 30604
 int.to.chr$ -- 0
-int.to.str$ -- 366
-missing$ -- 1319
-newline$ -- 1107
-num.names$ -- 362
-pop$ -- 649
+int.to.str$ -- 379
+missing$ -- 1371
+newline$ -- 1146
+num.names$ -- 375
+pop$ -- 674
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 4778
+skip$ -- 4972
 stack$ -- 0
-substring$ -- 4866
-swap$ -- 3065
+substring$ -- 5188
+swap$ -- 3188
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 7
-while$ -- 771
-width$ -- 369
-write$ -- 3772
-(There were 231 error messages)
+while$ -- 807
+width$ -- 382
+write$ -- 3906
+(There were 232 error messages)

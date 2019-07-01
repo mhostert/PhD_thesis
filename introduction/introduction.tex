@@ -1,75 +1,159 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \graphicspath{{}{introduction/}}
 
-These are exciting times in high-energy physics. The Standard Model (SM), our most powerful and well-tested theory of particles and their interactions, triumphs across the experimental landscape and proves to be much more robust than ever anticipated. Yet, as we will see throughout this thesis, once confronted with some of the most fundamental questions about the Universe, it provides very few answers and, most surprisingly, little theoretical guidance on what may lie beyond. This apathy of nature with respect to theoretical expectations makes the prospect of new discoveries our hope for a new paradigm shift in fundamental physics. In practice, of course, such grandiose endeavors are reduced to much less noble but just as important efforts; the search for new physics is a true exercise in patience and exploration. 
+These are exciting times in high-energy physics. The Standard Model (SM), our most powerful and well-tested theory of particles and their interactions, triumphs across the experimental landscape and proves to be much more robust than ever anticipated. Yet, as we will see throughout this thesis, once confronted with some of the simplest questions about the Universe, it provides unsatisfactory answers and, most surprisingly, little theoretical guidance on what may lie beyond. While there is no guarantee that the questions we ask are indeed ``good'' ones, to many, the limitations of the SM attest to the need of a new paradigm in particle physics. Whatever it may be, it makes the series of negative results in particle physics all the more thrilling. The history of physics is full of such uncertain moments. Established theoretical expectations and increasingly fine-tuned models making way for elegant theories like Special Relativity, the discovery of the neutrino and for ideas like spontaneous symmetry breaking (SSB).
 
-It is in this climate that this thesis stands, putting forward one specific direction: \emph{neutrinos} as major probes and messengers of hidden sectors beyond the SM. We begin this thesis with a reminder of the successes and failures of the SM, and dedicate the next chapter to some standard aspects of neutrino physics. All subsequent work builds on motivations put forward in these two introductory chapter, and is an original product of the peculiar nature of neutrinos.
+In practice, of course, such grandiose endeavors are reduced to much less noble but no less important efforts. The frequency of negative results and the need to over-constrain our models make the search for new physics a true exercise in patience. Nevertheless, it is in a persistent and curious spirit that this thesis stands. The common theme of the work developed here is that of \emph{neutrinos} as messengers of hidden sectors beyond the SM. Hidden, dark or secret sector, are all terms that allude to the idea that new particles hide not at high energies with $\mathscr{O}(1)$ couplings, but rather at couplings $\ll 1$. This idea has been around for some time, but with renewed interest in neutrino physics, we believe that it is all the more convenient to think harder about what neutrinos may tells us about feebly coupled new particles.
 
+By reminding ourselves of the main features of the SM in this chapter and delving into unique aspects of neutrino physics in the next, we hope to convince the reader why we are pursuing a worthwhile direction. Indeed, the processes of neutrino trident production and neutrino-electron scattering discussed in Chapter 3 are a testimony of the unique properties of neutrinos and the bright prospects in experimental neutrino physics. As a concrete example, we will see how such signatures probe new gauge interactions much weaker than those in the SM ($g \lesssim 10^{-4}$) in Chapter 4. The fact that neutrinos are the only neutral fermions in the SM also has interesting consequences for mass generation and naturally connects them to neutral hidden sectors. We explore this connection with a specific model at hand in Chapter 5, scrutinizing its phenomenology at short-baselines in Chapter 6. Finally, in Chapter 7 we look towards the far future and highlight the impact of a near-future entry-level neutrino factory in neutrino physics.
 
 \section{The Standard Model}
 
-The Standard Model (SM) of particle physics is a Yang-Mills theory~\cite{Yang:1954ek} of strong, weak and electromagnetic (EM) particle interactions based on a $SU(3) \times SU(2) \times U(1)$ local gauge symmetry. It is remarkable that such a rich theoretical framework is so similar in nature to the ideas behingd Maxwell equations, both relying purely on the principle of gauge invariance. The official conception of the SM is widely associated with the appearance of a model restricted to leptons based on a spontaneously broken $SU(2) \times U(1)$ local gauge symmetry first developed by Sheldon L. Glashow~\cite{Glashow:1961tr}, Steven Weinberg~\cite{Weinberg:1967tq} and Abdus Salam~\cite{Salam:1968rm}. Aside from the strong force and some additional particle content, this model already reflects most of what we know about the weak and EM interactions nowadays. In fact, the spontaneous breaking of the symmetry via the Higgs mechanism~\cite{Higgs:1964ia,Higgs:1964pj} predicted the existence of a charged massive vector boson $W^\pm$, a neutral massive vector boson $Z$ and of the massless generator of the unbroken $U(1)_{\rm EM}$ group, the photon $\gamma$. Beyond the unification of the weak and EM forces, it provided a mechanism for mass generation via the higgs boson $H$. This last prediction has received strong experimental validation through the discovery of the a neutral scalar boson at the LHC in 2012~\cite{Chatrchyan:2012xdj,Aad:2012tfa}, the last SM particle to be experimentally observed.
+The Standard Model (SM) of particle physics is a Yang-Mills theory~\cite{Yang:1954ek} of strong, weak and electromagnetic (EM) particle interactions based on an $SU(3) \times SU(2) \times U(1)$ local gauge symmetry. The first remarkable aspect of the theory is in the fact that it relies on the same idea that explains Maxwell's equations, the principle of gauge invariance. The official conception of the SM is widely associated with the appearance of a model first developed by Sheldon L. Glashow~\cite{Glashow:1961tr}, Steven Weinberg~\cite{Weinberg:1967tq} and Abdus Salam~\cite{Salam:1968rm}. Unconcerned with quarks and the strong force, this spontaneously broken $SU(2) \times U(1)$ local gauge symmetry already reflected most of what we know about the electroweak (EW) interactions of leptons nowadays. In fact, the spontaneous broken symmetry predicted the existence of the charged massive vector boson $W^\pm$, the neutral massive vector boson $Z$ and of the massless generator of the unbroken $U(1)_{\rm EM}$ group, the photon $\gamma$. Beyond unifying the weak and EM forces, the breaking through the Higgs mechanism~\cite{Higgs:1964ia,Higgs:1964pj} implied that an additional scalar particle, the higgs boson $H$, had to exist. This last prediction received strong experimental validation after the discovery of a neutral scalar boson at the LHC in 2012~\cite{Chatrchyan:2012xdj,Aad:2012tfa}, the last SM particle to be experimentally observed.
 
-The strong force had a much richer and more turbulent history. The quark model, developed by Murray Gell-Mann and George Zweig~\cite{Zweig:1981pd,GellMann:1964nj} in 1964, had great success in explaining the growing number of hadronic resonances found by experiments. It was not until asymptotic freedom was discovered in non-Abelian gauge theories~\cite{Gross:1973id,Politzer:1973fx}, however,  that quantum chromodynamics (QCD) was really born. QCD is a  $SU(3)_{\rm C}$ local gauge theory describing the interaction of quarks and gluons, and is vastly different from any other theory we will encounter in this thesis. Its uniqueness is best exemplified through color confinement, the property that colored particles must always be present in bound colorless state, called hadrons. For QCD, confinement is guaranteed below the scale $\Lambda_{\rm QCD} \approx 250$ MeV, below which any strong process below $\Lambda_{\rm QCD}$ is non-perturbative.The presence of new degrees of freedom other than quarks and gluons at low energies, namely the hadrons, is a clear evidence of a phase transition. This is to be contrasted with asymptotic freedom, where the strong interactions between quarks and gluons become asymptotically weaker at higher energies. 
-
-
+The strong force had a much richer and more turbulent history. The quark model, developed by Murray Gell-Mann and George Zweig~\cite{Zweig:1981pd,GellMann:1964nj} in 1964, had great success in explaining the growing number of hadronic resonances found by experiments. However, it was not until asymptotic freedom was discovered in non-Abelian gauge theories~\cite{Gross:1973id,Politzer:1973fx} that quantum chromodynamics (QCD) was really born. QCD is an $SU(3)$ local gauge theory describing the interaction of quarks and gluons, and is vastly different from any other theory we will encounter in this thesis. Its uniqueness is best exemplified through color confinement, the property that colored particles must always be present in bound colorless states, called hadrons. For QCD, confinement is guaranteed below the scale $\Lambda_{\rm QCD} \approx 250$ MeV, below which strong processes are non-perturbative. This is to be contrasted with asymptotic freedom, where the strong interactions between quarks and gluons become asymptotically weaker at higher energies. The presence of new degrees of freedom other than quarks and gluons at low energies, namely the hadrons, is a clear evidence of a phase transition and makes QCD a unique topic within the SM. At times we will refer to known results in this theory, but it typically has little bearings on neutrino physics. 
 
 \subsection{Fields and symmetries}
 
+We now set out for a more precise definition of the SM field content, discussing some details of \emph{local} gauge invariance. All fermion fields in the SM are Weyl fields of either definite left-handed (LH) or right-handed (RH) chirality. An equivalent statement is that SM fields are eigenvectors of $\gamma_5$: $\gamma_5 R = R$ for RH, and $\gamma_5 L = - L$ for LH fields. This is an important feature that allows us to work with 2 component Weyl spinors and makes explicitly manifest the chiral nature of weak interactions.  
+%
 \renewcommand{\arraystretch}{1.4}
 \begin{table}[h]
  \begin{tabular}{lccccccc}
  \hline
     & $Q_L$& $L$ & $\overline{u_R\vphantom{d}}$ & $\overline{d_R}$ & $\overline{e_R\vphantom{d}}$ & &$H$\\
     \hline
-  SU$(3)_c$ & $\mathbf{3}$ & $\mathbf{1}$& $\overline{\mathbf{3}}$ & $\overline{\mathbf{3}}$ & $\mathbf{1}$ & & $\mathbf{1}$ \\
-  SU$(2)_L$& $\mathbf{2}$ & $\mathbf{2}$ & $\mathbf{1}$ & $\mathbf{1}$& $\mathbf{1}$& & $\mathbf{2}$   \\
+  SU$(3)_c$ & $\bm{3}$ & $\bm{1}$& $\overline{\bm{3}}$ & $\overline{\bm{3}}$ & $\bm{1}$ & & $\bm{1}$ \\
+  SU$(2)_L$& $\bm{2}$ & $\bm{2}$ & $\bm{1}$ & $\bm{1}$& $\bm{1}$& & $\bm{2}$   \\
   U$(1)_Y$ & $1/3$ & $-1$ & $-4/3$ & $2/3$ & $2$ & & $1$ \\
   \hline
  \end{tabular}
  \caption[SM field content.]{The representation of the SM left-handed Weyl fields and complex scalar under the gauge group. The last row stands for the U$(1)_Y$ charge.\label{tab:SMcharges}}
 \end{table}
+\renewcommand{\arraystretch}{1.0}
+%
+The LH field content and their representation under the different gauge groups is shown in \reftab{tab:SMcharges}. Note that only LH fields transform non-trivially under $SU(2)_L$. Also shown is the Higgs field $H$, a complex scalar field, doublet under $SU(2)$. 
 
+As we will see in the next section, $H$ is responsible for the breaking of $SU(2)_L \times U(1)_Y \to U(1)_{\rm EM}$. From the observed EM charges $Q_{\rm EM}$, the $SU(2)_L$ isospin $T_3$, and by virtue of the Gell-Mann-Nishijima formula~\cite{Nakano:1953zz,Gell-Mann:1956iqa}
+%
+\begin{equation}
+ Q_{\rm EM} = T_3 + \frac{Y}{2},
+\end{equation}
+%
+the hypercharge $Y$ of each SM field is fixed. The \emph{local} gauge transformation of the matter fields are given by
+\[\psi  \to \exp{i g \theta^a(x) T^a } \psi,\]
+where $g$ is the gauge coupling constant, $a$ counts the number of generators $T^a$, and $\theta^a(x)$ are arbitrary parameters that depend on space-time coordinates $x^\mu$. To achieve local gauge invariance, we require the following gauge fields associated with each group:
+\[ SU(3)_C: \{G_1 (x), \cdots, G_8 (x)\}, \quad SU(2)_L:  \{W_1(x), W_2(x), W_3(x)\}, \quad U(1)_Y: B(x),\]
+corresponding to the 8 gluons, the $SU(2)$ gauge fields and the hypercharge field. Note that the number of gauge fields matches the number of generators in each group, \eg for $SU(N)$ there are $N^2 -1$ generators. For the original $SU(2)\times U(1)$ theory, this implied that in addition to the charged gauge fields, which explained Fermi's theory for beta decays, and the observed massless photon, there must have been an additional neutral gauge field corresponding to $W^3$ of $SU(2)_L$. This striking prediction was in fact first confirmed in bubble chamber experiments through the observation of NC scattering by atmospheric neutrinos~\cite{}, a topic we will return to in the next chapter. 
 
-The covariant derivative in the SM is given by
+The SM is a non-Abelian theory, since its symmetry group contains direct products of two $SU(N), N > 1$, groups. The generators of a given group equipped with anti-commutators form a Lie Algebra, obeying $[T^a, T^b] = i f^{abc} T^c$, with $f^{abc}$ being the group structure constant. In the special case $f^{abc} = 0$, the generators commute and the group is said to be Abelian, like in the case of $U(1)_Y$. By defining $\bm{\theta} = T^a \theta^a$ and $U = e^{i g \bm{\theta}}$, we can now perform the gauge transformations on matter fields $\psi$, gauge fields $A_\mu(x)$ and derivatives of matter fields as follows
+\[\psi \to U \psi, \quad \bm{A}_\mu \to U \bm{A}_\mu U^{-1} - \frac{i}{g} (\partial_\mu U) U^{-1}, \quad \partial_\mu \psi \to U \partial_\mu \psi +  \psi (\partial_\mu U).\]
+As we can see, the last term is no longer invariant. To preserve gauge invariance, a covariant derivative, transforming as $D_\mu \to U D_\mu U^{-1}$, now replaces the orginary derivative. It is defined as 
+\[D_\mu = \partial_\mu + ig \bm{A},\quad D_\mu\psi \to U D_\mu\psi, \,\,\implies\,\,\overline{\psi} i\slashed{D}\psi \to \overline{\psi} i \slashed{D} \psi. \]
+The invariant term above is the fermion kinetic term. Beyond allowing for fermion propagation, it is the main way to describe fermion-gauge interactions in the SM.
+In particular, the covariant derivative in the SM is given by
 %
 \begin{equation}
  D_\mu = \partial_\mu + ig \,W_\mu^a\tau_a + i\frac{Y}{2} g^\prime \,B_\mu + i\frac{g_s}{2} \,G_\mu^b\lambda_b,
 \end{equation}
 %
-The covariant derivative allows us to \emph{i)} write down kinetic terms for all SM fermions, \emph{ii)} specify all gauge interactions for fermion and bosons. Take a purely electromagnetically interacting field $\psi$, for instance. A gauge transformation yields
-\[\psi \to e^{-i\Lambda} \psi, \quad A_\mu \to A_\mu - \frac{1}{e}\partial_\mu \Lambda \,\,\implies\,\, D_\mu \psi \to e^{-i\Lambda}D_\mu\psi \,\,\implies \,\, \overline{\psi} i\slashed{D}\psi \to \overline{\psi} i \slashed{D} \psi, \]
-explicitly showing the fermion kinetic term is invariant. Similar considerations apply for any gauge transformation within the SM. The invariant term in the relation above is the fermion kinetic term and it does not only allow for fermions to propagate, it also generates all fermion-gauge interactions in the SM. Expanding it we have
+where $\tau_a = \sigma_a/2$ are the generators built from Pauli matrices acting on the doublets of $SU(2)_L$, and $\lambda_b$ the generators built from the 8 Gell-Mann matrices acting on the triplet representations of $SU(3)_c$. 
+
+Finally, the gauge invariant kinetic terms for the gauge bosons are 
+%
 \begin{equation}
- \overline{\psi}\gamma^\mu\left[ i\partial_\mu  - g \,W_\mu^a\tau_a  - \frac{Y}{2} g^\prime \,B_\mu - \frac{g_s}{2} \,G_\mu^b\lambda_b \right]\psi,
+\mathscr{L} = -\frac{1}{4} F^{a\, \mu\nu} F^a_{\mu\nu},
 \end{equation}
-
-
-Self interactions ? gluons change colour.  If we measure higgs self interactions, this will be a first. But how about longitudinal W and Z?
-
+%
+where $F^a_{\mu \nu} = \partial_\mu A^a_\nu - \partial_\nu A^a_{\mu} - g f^{abc} A^b_\mu A^c_\nu$. This term is purely kinetic in Abelian theories, however, for non-Abelian groups the term proportional to $g$ introduces interactions among the gauge bosons proportional to $g$ and $g^2$.
 
 
 \subsection{Spontaneous symmetry breaking}
 
+So far we have only discussed the gauge and fermionic content of the SM. The scalar sector is, in fact, quite special. The only scalar particle, the higgs boson, is responsible for spontaneously breaking $SU(2)_L\times U(1)_Y$ to $U(1)_{\rm EM}$ after it acquires a non-zero vacuum expectation value (vev). This introduces a mass scale in the theory which, apart from dimensionless couplings, sets the scale of EW physics. Note that because it is a scalar particle, a non-zero vev does not violate the symmetries of space-time, namely Lorentz invariance. The higgs is a complex scalar field and a doublet under  $SU(2)_L$,
+\[ H =  \frac{1}{\sqrt{2}} \left( \begin{matrix}  G_1^+ + i G_2^+ \\  h^0 - i G_3^0 \end{matrix} \right) =  \frac{e^{i G_a \tau^a}}{\sqrt{2}} \left( \begin{matrix} 0 \\  h^0 \end{matrix} \right). \]
+The relevant Lagrangian in the SM reads
+%
+\begin{equation}
+\mathscr{L}_{\rm higgs} \supset \left( D^\mu H \right)^\dagger \left( D_\mu H \right) - V(H), \qquad V(H) = \mu^2 H^\dagger H + \lambda \left( H^\dagger H \right)^2.	
+\end{equation}
+%
+where $\mu^2$ has dimension 2, being the only dimensionful parameter of the SM. If $\mu^2 < 0$, minimizing the potential $V(H)$ requires $\bra{0} H \ket{0} = \left( 0, \,\, v/\sqrt{2} \right)^T$, where $v^2 = - \mu^2 /\lambda$ is the vev chosen to lie in the real and neutral direction. We now can then expand around the true vacuum of the theory by redefining the fields $G_a \to G_a/v$ and $h \to h + v$, where we dropped the superscripts for convenience. At this point, a rewriting of the potential reveals the mass and interactions of every component of the scalar doublet. Note, however, that it contains no mass terms for $G_1$, $G_2$ and $G_3$. These are the Goldstone bosons of the theory, and although they are massless, they do possess interactions with the scalar and gauge boson fields. One way to understand their role is to perform an $SU(2)_L \times U(1)_Y$ gauge transformation in our Lagrangian such that the resulting higgs doublet reads
+%
+\begin{equation}
+H \to e^{- i G_a \tau^a} H =  \frac{1}{\sqrt{2}}\left( \begin{matrix}  0 \\ h + v \end{matrix} \right).
+\end{equation}
+%
+This transformation must also be applied to the gauge fields, fixing the gauge. This particular choice is rather convenient and is known as the unitary gauge. We then find
+%
+\begin{align}
+ \mathscr{L}_{\rm higgs} &\supset - \frac{1}{2} m_h^2 h^2 - \lambda v h^3 - \frac{\lambda}{4} h^4  \nonumber\\ &\qquad\qquad +  M_\textsc{w}^2 W_\mu^\dagger W^\mu \left[ 1 + \frac{2 h}{v} + \frac{h^2}{v^2}\right] + \frac{M_\textsc{z}^2}{2} Z_\mu Z^\mu \left[ 1 + \frac{2 h}{v} + \frac{h^2}{v^2}\right],
+\end{align}
+%
+where $m_h = \lambda v = 125.18 \pm 0.16$ GeV~\cite{PDG}. Most importantly, after SSB, the higgs kinetic term has given us three massive and one massless vector bosons, defined as
+\begin{equation}
+ W^\pm_\mu = \frac{1}{\sqrt{2}} \left(W^1_{\mu} \mp i W^2_{\mu} \right), \quad Z_\mu = c_\textsc{w} W^3_\mu - s_\textsc{w} B_\mu, \quad A_\mu = c_\textsc{w} B_\mu - s_\textsc{w} W^3_\mu.
+\end{equation}
+% 
+where $s_\textsc{w}$ ($c_\textsc{w}$) is the sine (cosine) of the weak angle, defined by $c_\textsc{w} = g/\sqrt{g^2 + g^{\prime\,2}}$. These fields correspond to the mediators of the weak charged-current interactions ($M_\textsc{W} = g v/2 = 80.387\pm 0.016$ GeV~\cite{PDG}), weak neutral-current ($M_\textsc{z} = M_\textsc{w}/c_\textsc{w} = 91.1876\pm0.0021$ GeV~\cite{ALEPH:2005ab}) neutral boson and the massless photon $A_\mu$, mediator of the unbroken EM interactions. They interact with the higgs boson via the triple and quadruple vertex terms above. The interactions with matter are obtained from the fermion kinetic terms, where the charged, neutral and electromagnetic currents are defined and written as
+%
+\begin{equation*}
+\mathscr{L}_{\rm NC} = e \,\mathcal{J}_\mu^\gamma A^\mu + \frac{g}{c_w}\, \mathcal{J}_\mu^Z Z^\mu, \quad \mathcal{J}_\mu^\gamma =  \overline{\psi} Q_{\rm EM} \gamma_\mu \psi, \quad %
+\mathcal{J}_\mu^Z = \frac{1}{4} \overline{\psi} \gamma_\mu \left[ (2 T_3 - 4 Q_{\rm EM} s_\textsc{w}^2 ) - 2 T_3 \gamma^5\right] \psi,
+\end{equation*}
+\begin{equation}
+\mathscr{L}_{\rm CC} = \frac{g}{\sqrt{2}}  \, \left( \mathcal{J}_\mu^+ W^{\mu \,+} + \mathcal{J}_\mu^- W^{\mu \,-} \right), \quad
+%
+\mathcal{J}_\mu^+ = \frac{1}{2} \overline{\psi}_u \gamma_\mu \left( 1 - \gamma^5\right) \psi_d + {\rm h.c.},
+\end{equation}
+%
+where $\psi \in \{ \nu_L, e_L, u_L, d_L, e_R, u_R, d_R \}$, and $\psi_{u,\,d}$ denoting fermions with $T_3 = \pm 1/2$. From the weak currents we note two important aspects: \emph{i)} weak interactions indeed violate parity and possess a $V-A$ structure, \emph{ii)} charged-current interactions are purely LH as they should be since no RH fields are charged under $SU(2)_L$. After SSB, only the EM current is conserved $\partial^\mu J_\mu^\gamma = 0$. 
 
-After EWSB, the background higgs field always has a non-zero expectation value. In any isolated process, no matter how large the energies and momentum transfers involved, the relevant degrees of freedom are the ones in the broken phase (\ie $h$). 
+In the discussion above, we fixed the gauge of the SM to simplify the EW Lagrangian. This is not necessary and, in fact, another possibility is to keep all terms involving the Goldstone fields $G_a$ and eliminate off-diagonal kinetic terms of the type $Z_\mu\partial^\mu G_3$ by introducing the following gauge breaking Lagrangian to the SM
+\begin{equation}
+ \mathscr{L}_{\rm R_\xi} = -\frac{\left(\partial_\mu A^\mu\right)^2}{2 \xi_\gamma} - \frac{\left(\partial_\mu Z^\mu + \xi_Z M_Z G_3^0 \right)^2}{2 \xi_Z} - \frac{\left|\partial_\mu W^{\mu\,-} + i \xi_W M_W G^- \right|^2}{2 \xi_W}.
+\end{equation}
+This is known as the $R_\xi$ gauge, where the explicit dependence on the gauge breaking parameters $\xi$ serves as a useful diagnostic of gauge invariance in physical observables. The Lorentz gauge is recovered for $\xi = 0$ and the Feynman-'t Hooft gauge with $\xi = 1$. The additional advantage of using this method is that it allows us to trace the Goldstone degrees of freedom. The pseudoscalar fields $G^\pm$ and $G_3$ end up behaving very similarly to the $W^\pm$ and $Z$ gauge bosons, and we usually think each pair corresponding as the same object. After the gauge bosons acquire a mass, these additional pseudoscalar degrees of freedom are then said to make up the longitudinal components of their respective gauge bosons. This observation turned out to be very important to ensure perturbative unitarity in $W_L \, W_L$ and $Z_L \,Z_L$ scattering~\cite{Cornwall:1974km,LlewellynSmith:1973yud}. In fact, in this point of view, such scattering processes are quite special. Their measurement was the very first time we have observed fundamental particles self-interacting in Nature. The only other possiblity for such phenomenon in the SM also lies in the higgs sector, and will depend on our ability to directly observe the trilinear and quartic couplings of the higgs boson.
 
-Higgs questions? elementary or composite? Natural? Portal to dark sector? All fermions get a mss from it? Is it alone? Single resonance?
+\subsection{Fermion masses}
 
+The EW sector is also responsible for the generation of fermion masses in the SM. As noted before, all LH fermions in the SM are $SU(2)_L$ doublets, just like the higgs. This allows us to construct the so-called yukawa terms,
+%
+\begin{equation}
+ \mathscr{L}_{\rm yukawa} =  y_e \left(\overline{L}_\alpha H\right) e_R +  y_u \left(\overline{Q}_L \tilde{H} \right) u_R + y_d \left(\overline{Q}_L H \right) d_R  + \,\, {\rm h.c.},
+\end{equation}
+%
+where we defined the charge-parity (CP) conjugated higgs field $\tilde{H} = i \sigma_2 H^* = ( h + v + i G_3, \,\, G_1 - i G_2  )^T$. After SSB, these interaction terms endow charged-leptons and quarks with a dirac mass term of the form
+\begin{equation}
+ m_\psi \overline{\psi} \psi = m_\psi \left( \overline{\psi}_L \psi_R +\overline{\psi}_R \psi_L \right),\quad {\rm with} \quad m_\psi = \frac{y_\psi \, v}{2},
+\end{equation}
+where $\psi_{L,\,R} = P_{L,\, R} \, \psi = (1 \mp \gamma_5)\, \psi/2 $ are the chiral projections of the fermion field $\psi$. To include all three families of fermions we promote $y_\psi \to \bm{y}_\psi$, a $3\times3$ matrix. 
+
+In the quark sector, the yukawa matrix is off-diagonal and the different generations mix. The physical quark masses are found after rotating the up and down quarks, left and right, as $u_{L,\, R}^\alpha = \left(V_{L,\,R}^{u\,*} \right)_{\alpha i} u^i_{L,\, R}$ and $d_{L,\, R}^\alpha = \left(V_{L,\,R}^{d\,*} \right)_{\alpha i} d^i_{L,\, R}$. The diagonal mass matrix is then $\bm{m}^{u,\,d} = \bm{V}_L^{u,\,d} \bm{y}_{u,\,d} \bm{V}_R^{u,\, d\,\dagger} v/\sqrt{2}$. Note that after this procedure we cannot help but introduce mixing in the charged current. This defines the Cabbibo-Kobayashi-Maskawa (CKM) matrix~\cite{Cabibbo:1963yz,Kobayashi:1973fv}, $\bm{V}_{\rm CKM} = \bm{V}_L^u \bm{V}_L^{d\, \dagger}$. The CKM matrix is nearly diagonal, so the mixing between quark flavour and mass eigenstates is small. From the unitarity of the rotation matrices, neutral currents remain invariant 
+\begin{equation}
+\sum_{\alpha,\, \beta} \overline{\psi}_L^\alpha \,\Gamma^\mu \, \psi_L^\beta = \sum_{i,\,j} \overline{\psi}_L^i \, \left( \sum_{\alpha,\, \beta} (V_L)_{\alpha i} (V_L^*)_{\beta j}\right) \,\Gamma^\mu\, \psi_L^j =  \sum_{i,\,j} \overline{\psi}_L^i \, \,\Gamma^\mu\, \psi_L^j,
+\end{equation}
+%
+where $\Gamma^\mu$ are the neutral-current couplings and gamma matrices.  Crucially, the latter have no flavour dependence and so the SM forbids flavour changing neutral currents (FCNC). This mechanism was first proposed by Glashow, Illiopoulous and Maiani to explain why decays of the type $K^0 \to \mu \mu$ were unobserved. Famously referred to as the GIM mechanism, this relies on the flavour universal nature of SM neutral currents and on the unitarity of the CKM. As we will see, this mechanism also plays an important role in the neutrino sector and in many extensions of the SM.
+
+Summarizing, we saw how a single parameter with massive dimensions in the scalar potential of the SM leads to SSB. This is then ``propagated'' to the rest of the SM through the higgs kinetic terms and yukawa couplings. At this point it is possible to appreciate two problems with the SM mass generation mechanism. Firstly, it implies that all yukawa couplings are just parameters to be inferred from the measured masses of particles. That is, the SM makes no statements and provides no explanations as to why the yukawas that we observe in nature are what they are. This is known as the flavour puzzle: what explains the different observed values of the fermion masses? This problem is aggravated when we consider the lepton sector, where neutrino masses and mixing are drastically different from the quark sector. The second problem concerns the neutrino sector, and is perhaps the biggest motivation behing studying neutrino physics. The SM predicts exaclty massless neutrinos in the absence of $\nu_R$ fields. Although  
+
+Before moving on to more speculative topics, a few comments are in order. EW SSB seems to be, as far as we know, a real phenomenon. It explains why the symmetries of the SM were so well hidden the first place: true symmetries of Nature seem to not be shared by the vacuum. While the evidence for EW SSB comes mainly from studying fundamental particles, its consequences do not concern only particle physics. EW physics helps us understand the past and future of our own Universe. In the early Universe, at hight temperatures, it is expected that the EW symmetry is restored~\cite{Kirzhnits:1972ut,Dolan:1973qd,Weinberg:1974hy}. If this is the case, the EW phase transition provides a unique test of the higgs mechanism and points to a completely different Universe from our own, where finite temperature effects and non-perturbative physics play a major role. In addition, we have no reason to expect the vacuum structure of the Universe to be as simple as in the discussion above. After all, the stability of our own vacuum is not even guaranteed within the SM~\cite{Cabibbo:1979ay,Degrassi:2012ry}. Radiative corrections to the higgs self-coupling $\lambda$ alter the shape of the scalar potential and imply we may live in a local, rather than global, minimum of the potential. For these reasons, studying the higgs sector, confirming that it generates all fermion masses in the SM and why it seemingly fails to do so in the case of the neutrino are all important questions worth pursuing.
 
 \section{Beyond the Standard Model}
 
 With such an elegant and successful theory, why would we need to go beyond? Experiment. The single most important evidence for physics beyond the standard model comes from experimental evidence that neutrinos have mass. We will come back to this point in great detail in Chapter 2, but...
 
-
-
-
 As promised, here are the most fundamental questions about our Universe, and why the SM is an unsatisfactory theory to answer them.
+
+
+Higgs questions? elementary or composite? Natural? Portal to dark sector? All fermions get a mss from it? Is it alone? Single resonance?
+
 
 \paragraph{How do particle acquire mass?} We have seen how quarks and charged-leptons may acquire mass through Yukawa interactions with the higgs boson. However, \emph{neutrino} masses are 
 
 
-\subsection{Hitting a desert}
+\subsection{Soft and hard evidence}
 
 \subsection{Portals to hidden sectors}
 
@@ -81,17 +165,17 @@ We would like our SM extensions to follow specific \emph{guiding principles} and
 
 Argubly the most motivated portal, this $d=5/2$ operator can be written as
 \begin{equation}
- \left( \overline{L} \cdot H\right), \quad \mathrm{and}\quad \left( \overline{L} \cdot \tilde{H}\right).
+\left( \overline{L} \cdot \tilde{H}\right).
 \end{equation}
-Any fermion field which couples to this operator acquires couplings to charged leptons and neutrinos in the standard model. The latter is particularly important, since it leads to mixing between the new species and the SM neutrinos. The new particle is then commonly called a \emph{sterile neutrino} or a heavy neutral lepton.
+Any fermion field which couples to this operator acquires couplings to SM neutrinos. This typically induces mixing between the new species in the broken phase of the SM. The new particle is then commonly referred to as a \emph{heavy neutral lepton} or a right-handed neutrino, though its chirality is a matter of convention.
 
 \paragraph{Vector portal}
 
-Any new vector particle from an abelian gauge may couple to the $d=2$ field strength of the SM hypercharge
+Any new vector particle $X^\mu$ may couple to the $d=2$ field strength of the SM hypercharge
 \begin{equation}
-B_{\mu\nu}.
+B_{\mu\nu}
 \end{equation}
-The resulting term, $B_{\mu\nu} X^{\mu\nu}$, is usually referred to as the kinetic mixing operator.
+through its own field strength tensor. The resulting term, $B_{\mu\nu} X^{\mu\nu}$, is usually referred to as the kinetic mixing operator. If much lighter than the EW scale, this particle is usually called a dark photon, otherwise it may also go by the name of a dark $Z$. In the literature, one can also find models with the term $Z_\mu X^\mu$, referred to as mass-mixing between the new vector particle and the SM $Z$. This term is not gauge invariant, but may arise from BSM theories with additional doublet scalars, like in two-higgs-doublet models (2HDM). Note, however, that several additional (charged) degrees of freedom will appear and that experimental constraints may be severe.
 
 \paragraph{Higgs portal}
 
@@ -108,9 +192,9 @@ A very simple BSM model with such portal arises in scalar singlet $S$ extensions
 
 A whole set of neutral operators in the SM come from the fermionic currents
 \begin{equation}
- J^\mu \equiv \overline{\psi} \gamma^\mu \psi,
+ J^\mu \equiv \overline{\Psi} \gamma^\mu \Psi,
 \end{equation}
-where $\psi \in \{Q_L, L, u_R, d_R, \ell_R\}$. This provides SM currents which can be associated with new conserved quantities, \eg we can choose to gauge. with a new vector. The first condition is that it be locally conserved $\partial_\mu J^\mu = 0$. 
+where $\Psi \in \{Q_L, L, u_R, d_R, \ell_R\}$. This provides SM currents which can be associated with new conserved quantities, \eg we can choose to gauge. with a new vector. The first condition is that it be locally conserved $\partial_\mu J^\mu = 0$. 
 
 \paragraph{Pseudo-scalar} Axions~\cite{Weinberg:1977ma}.
 

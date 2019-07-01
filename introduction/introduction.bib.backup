@@ -1,3 +1,56 @@
+@article{ALEPH:2005ab,
+      author         = "Schael, S. and others",
+      title          = "{Precision electroweak measurements on the $Z$
+                        resonance}",
+      collaboration  = "ALEPH, DELPHI, L3, OPAL, SLD, LEP Electroweak Working
+                        Group, SLD Electroweak Group, SLD Heavy Flavour Group",
+      journal        = "Phys. Rept.",
+      volume         = "427",
+      year           = "2006",
+      pages          = "257-454",
+      doi            = "10.1016/j.physrep.2005.12.006",
+      eprint         = "hep-ex/0509008",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "SLAC-R-774",
+      SLACcitation   = "%%CITATION = HEP-EX/0509008;%%"
+}
+@article{LlewellynSmith:1973yud,
+      author         = "Llewellyn Smith, C. H.",
+      title          = "{High-Energy Behavior and Gauge Symmetry}",
+      journal        = "Phys. Lett.",
+      volume         = "46B",
+      year           = "1973",
+      pages          = "233-236",
+      doi            = "10.1016/0370-2693(73)90692-8",
+      SLACcitation   = "%%CITATION = PHLTA,46B,233;%%"
+}
+@article{Cornwall:1974km,
+      author         = "Cornwall, John M. and Levin, David N. and Tiktopoulos,
+                        George",
+      title          = "{Derivation of Gauge Invariance from High-Energy
+                        Unitarity Bounds on the s Matrix}",
+      journal        = "Phys. Rev.",
+      volume         = "D10",
+      year           = "1974",
+      pages          = "1145",
+      doi            = "10.1103/PhysRevD.10.1145, 10.1103/PhysRevD.11.972",
+      note           = "[Erratum: Phys. Rev.D11,972(1975)]",
+      reportNumber   = "UCLA-74-TEP-2",
+      SLACcitation   = "%%CITATION = PHRVA,D10,1145;%%"
+}
+@article{PDG,
+      author         = "Tanabashi, M. and others",
+      title          = "{Review of Particle Physics}",
+      collaboration  = "Particle Data Group",
+      journal        = "Phys. Rev.",
+      volume         = "D98",
+      year           = "2018",
+      number         = "3",
+      pages          = "030001",
+      doi            = "10.1103/PhysRevD.98.030001",
+      SLACcitation   = "%%CITATION = PHRVA,D98,030001;%%"
+}
 @article{Yang:1954ek,
       author         = "Yang, Chen-Ning and Mills, Robert L.",
       title          = "{Conservation of Isotopic Spin and Isotopic Gauge
@@ -79,6 +132,84 @@
       pages          = "367-377",
       SLACcitation   = "%%CITATION = CONFP,C680519,367;%%"
 }
+@article{Gross:1973id,
+      author         = "Gross, David J. and Wilczek, Frank",
+      title          = "{Ultraviolet Behavior of Nonabelian Gauge Theories}",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "30",
+      year           = "1973",
+      pages          = "1343-1346",
+      doi            = "10.1103/PhysRevLett.30.1343",
+      note           = "[,271(1973)]",
+      SLACcitation   = "%%CITATION = PRLTA,30,1343;%%"
+}
+@article{Politzer:1973fx,
+      author         = "Politzer, H. David",
+      title          = "{Reliable Perturbative Results for Strong Interactions?}",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "30",
+      year           = "1973",
+      pages          = "1346-1349",
+      doi            = "10.1103/PhysRevLett.30.1346",
+      note           = "[,274(1973)]",
+      SLACcitation   = "%%CITATION = PRLTA,30,1346;%%"
+}
+@article{Nakano:1953zz,
+      author         = "Nakano, T. and Nishijima, K.",
+      title          = "{Charge Independence for V-particles}",
+      journal        = "Prog. Theor. Phys.",
+      volume         = "10",
+      year           = "1953",
+      pages          = "581-582",
+      doi            = "10.1143/PTP.10.581",
+      SLACcitation   = "%%CITATION = PTPKA,10,581;%%"
+}
+@article{Gell-Mann:1956iqa,
+      author         = "Gell-Mann, M.",
+      title          = "{The interpretation of the new particles as displaced
+                        charge multiplets}",
+      journal        = "Nuovo Cim.",
+      volume         = "4",
+      year           = "1956",
+      number         = "S2",
+      pages          = "848-866",
+      doi            = "10.1007/BF02748000",
+      SLACcitation   = "%%CITATION = NUCIA,4,848;%%"
+}
+@article{Chatrchyan:2012xdj,
+      author         = "Chatrchyan, Serguei and others",
+      title          = "{Observation of a new boson at a mass of 125 GeV with the
+                        CMS experiment at the LHC}",
+      collaboration  = "CMS",
+      journal        = "Phys. Lett.",
+      volume         = "B716",
+      year           = "2012",
+      pages          = "30-61",
+      doi            = "10.1016/j.physletb.2012.08.021",
+      eprint         = "1207.7235",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CMS-HIG-12-028, CERN-PH-EP-2012-220",
+      SLACcitation   = "%%CITATION = ARXIV:1207.7235;%%"
+}
+@article{Aad:2012tfa,
+      author         = "Aad, Georges and others",
+      title          = "{Observation of a new particle in the search for the
+                        Standard Model Higgs boson with the ATLAS detector at the
+                        LHC}",
+      collaboration  = "ATLAS",
+      journal        = "Phys. Lett.",
+      volume         = "B716",
+      year           = "2012",
+      pages          = "1-29",
+      doi            = "10.1016/j.physletb.2012.08.020",
+      eprint         = "1207.7214",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CERN-PH-EP-2012-218",
+      SLACcitation   = "%%CITATION = ARXIV:1207.7214;%%"
+}
+
 @article{Weinberg:1977ma,
       author         = "Weinberg, Steven",
       title          = "{A New Light Boson?}",
