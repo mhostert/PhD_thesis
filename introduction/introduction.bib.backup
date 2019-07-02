@@ -15,6 +15,105 @@
       reportNumber   = "SLAC-R-774",
       SLACcitation   = "%%CITATION = HEP-EX/0509008;%%"
 }
+@article{Cabibbo:1963yz,
+      author         = "Cabibbo, Nicola",
+      title          = "{Unitary Symmetry and Leptonic Decays}",
+      booktitle      = "{Meeting of the Italian School of Physics and Weak
+                        Interactions Bologna, Italy, April 26-28, 1984}",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "10",
+      year           = "1963",
+      pages          = "531-533",
+      doi            = "10.1103/PhysRevLett.10.531",
+      note           = "[,648(1963)]",
+      SLACcitation   = "%%CITATION = PRLTA,10,531;%%"
+}
+@article{Kobayashi:1973fv,
+      author         = "Kobayashi, Makoto and Maskawa, Toshihide",
+      title          = "{CP Violation in the Renormalizable Theory of Weak
+                        Interaction}",
+      journal        = "Prog. Theor. Phys.",
+      volume         = "49",
+      year           = "1973",
+      pages          = "652-657",
+      doi            = "10.1143/PTP.49.652",
+      reportNumber   = "KUNS-242",
+      SLACcitation   = "%%CITATION = PTPKA,49,652;%%"
+}
+@article{Coleman:1973jx,
+      author         = "Coleman, Sidney R. and Weinberg, Erick J.",
+      title          = "{Radiative Corrections as the Origin of Spontaneous
+                        Symmetry Breaking}",
+      journal        = "Phys. Rev.",
+      volume         = "D7",
+      year           = "1973",
+      pages          = "1888-1910",
+      doi            = "10.1103/PhysRevD.7.1888",
+      SLACcitation   = "%%CITATION = PHRVA,D7,1888;%%"
+}
+@article{Kirzhnits:1972ut,
+      author         = "Kirzhnits, D. A. and Linde, Andrei D.",
+      title          = "{Macroscopic Consequences of the Weinberg Model}",
+      journal        = "Phys. Lett.",
+      volume         = "42B",
+      year           = "1972",
+      pages          = "471-474",
+      doi            = "10.1016/0370-2693(72)90109-8",
+      SLACcitation   = "%%CITATION = PHLTA,42B,471;%%"
+}
+@article{Weinberg:1974hy,
+      author         = "Weinberg, Steven",
+      title          = "{Gauge and Global Symmetries at High Temperature}",
+      journal        = "Phys. Rev.",
+      volume         = "D9",
+      year           = "1974",
+      pages          = "3357-3378",
+      doi            = "10.1103/PhysRevD.9.3357",
+      reportNumber   = "PRINT-74-0689 (HARVARD)",
+      SLACcitation   = "%%CITATION = PHRVA,D9,3357;%%"
+}
+@article{Dolan:1973qd,
+      author         = "Dolan, L. and Jackiw, R.",
+      title          = "{Symmetry Behavior at Finite Temperature}",
+      journal        = "Phys. Rev.",
+      volume         = "D9",
+      year           = "1974",
+      pages          = "3320-3341",
+      doi            = "10.1103/PhysRevD.9.3320",
+      reportNumber   = "MIT-CTP-406",
+      SLACcitation   = "%%CITATION = PHRVA,D9,3320;%%"
+}
+@article{Degrassi:2012ry,
+      author         = "Degrassi, Giuseppe and Di Vita, Stefano and Elias-Miro,
+                        Joan and Espinosa, Jose R. and Giudice, Gian F. and
+                        Isidori, Gino and Strumia, Alessandro",
+      title          = "{Higgs mass and vacuum stability in the Standard Model at
+                        NNLO}",
+      journal        = "JHEP",
+      volume         = "08",
+      year           = "2012",
+      pages          = "098",
+      doi            = "10.1007/JHEP08(2012)098",
+      eprint         = "1205.6497",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "CERN-PH-TH-2012-134, RM3-TH-12-9",
+      SLACcitation   = "%%CITATION = ARXIV:1205.6497;%%"
+}
+
+@article{Cabibbo:1979ay,
+      author         = "Cabibbo, N. and Maiani, L. and Parisi, G. and Petronzio,
+                        R.",
+      title          = "{Bounds on the Fermions and Higgs Boson Masses in Grand
+                        Unified Theories}",
+      journal        = "Nucl. Phys.",
+      volume         = "B158",
+      year           = "1979",
+      pages          = "295-305",
+      doi            = "10.1016/0550-3213(79)90167-6",
+      reportNumber   = "CERN-TH-2683",
+      SLACcitation   = "%%CITATION = NUPHA,B158,295;%%"
+}
 @article{LlewellynSmith:1973yud,
       author         = "Llewellyn Smith, C. H.",
       title          = "{High-Energy Behavior and Gauge Symmetry}",

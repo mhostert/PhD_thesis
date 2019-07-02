@@ -65,13 +65,13 @@ B\'arbara, Humberto and Luciana.
 % 	"It seems very pretty, [...] somehow it seems to fill my head with ideas—only I don't exactly know what they are!
 % 	\source{Through the Looking-Glass, and What Alice Found There}{Lewis Carroll}
 % \end{center}
-\end{epigraph*}
+\end{epigraph*} 
 
 
 
 \chapter{Introduction}
 \begin{flushright}
-	``''
+	``It is really hard.''
 	\\--- Madeline Line
 \end{flushright}
 \input{introduction/introduction}
