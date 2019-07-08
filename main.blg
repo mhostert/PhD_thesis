@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: JHEP.bst
-Reallocated field_info (elt_size=4) to 17390 items from 5000.
+Reallocated field_info (elt_size=4) to 17900 items from 5000.
 Database file #1: introduction/introduction.bib
 Database file #2: theory/theory.bib
 Database file #3: tridentSM/tridentSM.bib
@@ -124,6 +124,7 @@ Repeated entry---line 299 of file dark_nus/three_portals.bib
  : @article{Bennett:2006fi
  :                        ,
 I'm skipping whatever remains of this entry
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Repeated entry---line 505 of file dark_nus/three_portals.bib
  : @article{Chu:2018gxk
  :                     ,
@@ -200,7 +201,6 @@ Repeated entry---line 945 of file dark_nus/three_portals.bib
  : @article{Schechter:1980gr
  :                          ,
 I'm skipping whatever remains of this entry
-Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Repeated entry---line 1009 of file dark_nus/three_portals.bib
  : @article{Arguelles:2018mtc
  :                           ,
@@ -973,52 +973,52 @@ Warning--I didn't find a database entry for "*Foot:1988aq"
 Warning--I didn't find a database entry for "*Akhmedov:1995ip"
 Warning--I didn't find a database entry for "*Akhmedov:1995vm"
 Warning--I didn't find a database entry for "*Song:2018zyl"
-Warning--empty booktitle in Alexander:2016aln
-Warning--empty booktitle in Aguilar-Arevalo:2012fmn
-Warning--empty publisher in Leo:1987kd
 Warning--empty author in MINERvA:2017
+Warning--empty booktitle in Alexander:2016aln
 Warning--empty author in DUNE:flux
 Warning--empty author in DUNE:flux_updated
 Warning--empty author in DUNE:GArOption
-You've used 382 entries,
+Warning--empty booktitle in Aguilar-Arevalo:2012fmn
+Warning--empty publisher in Leo:1987kd
+You've used 399 entries,
             2217 wiz_defined-function locations,
-            3661 strings with 86893 characters,
-and the built_in function-call counts, 117386 in all, are:
-= -- 12208
-> -- 4556
+            3801 strings with 90594 characters,
+and the built_in function-call counts, 123008 in all, are:
+= -- 12804
+> -- 4736
 < -- 0
-+ -- 1348
-- -- 966
-* -- 10002
-:= -- 16097
-add.period$ -- 386
-call.type$ -- 382
-change.case$ -- 376
++ -- 1403
+- -- 1004
+* -- 10488
+:= -- 16874
+add.period$ -- 403
+call.type$ -- 399
+change.case$ -- 393
 chr.to.int$ -- 0
-cite$ -- 389
-duplicate$ -- 6087
-empty$ -- 10141
-format.name$ -- 966
-if$ -- 30878
+cite$ -- 406
+duplicate$ -- 6368
+empty$ -- 10650
+format.name$ -- 1004
+if$ -- 32365
 int.to.chr$ -- 0
-int.to.str$ -- 382
-missing$ -- 1383
-newline$ -- 1155
-num.names$ -- 378
-pop$ -- 681
+int.to.str$ -- 399
+missing$ -- 1451
+newline$ -- 1206
+num.names$ -- 395
+pop$ -- 710
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 5020
+skip$ -- 5244
 stack$ -- 0
-substring$ -- 5242
-swap$ -- 3219
+substring$ -- 5555
+swap$ -- 3364
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 7
-while$ -- 814
-width$ -- 385
-write$ -- 3937
+while$ -- 858
+width$ -- 402
+write$ -- 4119
 (There were 232 error messages)

@@ -6,8 +6,8 @@
 
 
 \begin{document}
-\title{Neutrinos as }
-\subtitle{}
+\title{Hidden neutrino physics}
+\subtitle{Rare processes, new forces and dark sectors}
 \author{Matheus Hostert}
 \researchgroup{Institute for Particle Physics Phenomenology}
 \maketitlepage*
@@ -41,12 +41,19 @@ B\'arbara, Humberto and Luciana.
 
 \begin{acknowledgements*}
 
-	I would like to thank my supervisor Silvia Pascoli for her guidance and for her vision as a supervisor. I am also grateful to have had the chance to learn from and work with Peter Ballett. To both, thank you for your patience and admirable dedication.
-
-	My collaborators Carlos Arg\"uelles, Yuber Perez Gonzalez, Zahra Tabrizi and Yu-Dai Tsai. I am also grateful for the inspiration from Pedro Machado and Renata Zukanovich Funchal.
-
+	I would like to thank my supervisor Silvia Pascoli for her guidance and for her vision as a supervisor. I am lucky to have been your student and to have had the opportunities you gave me. I am also greatly thankful to Peter Ballett, without whom this thesis would have been but a boring collection of pages. Thank you for your patience and for sharing a bit of your crystal clear thinking with me.
 	
-	Looking back, I also want to thank Prof. D\'ebora Peres Menezes and Prof. Marcus Benghi Pinto for introducing me to scientific research so early in my career and understanding the importance of doing so. 
+	\vspace{2ex}
+	Carlos Arg\"uelles, Pedro Machado and Renata Zukanovich Funchal, thank you for the inspiration and support. My collaborators Yuber Perez Gonzalez, Zahra Tabrizi and Yu-Dai Tsai, thank you for all the hard work that made this thesis possible.
+
+	\vspace{2ex}
+	Looking further back, I also want to thank D\'ebora Peres Menezes and Marcus Benghi Pinto for introducing me to scientific research so early in my career and understanding the importance of doing so. Nuclear physics and symmetry ideas that at the time seemed so foreign to me have reappered in my own research several times.
+	
+	\vspace{2ex}
+	To my family, thank you for supporting my decisions and for being unconditional allies. I would be nothing without the education of my mother and the wisdom of my father. B\^e, you are simply the \emph{best}.
+	
+	\vspace{2ex}
+	Madeline, your support and sense of humour have been truly out of this world. Thank you for being such a great partner and for filling my life with laughter.
 	
 \end{acknowledgements*}
 
@@ -71,25 +78,29 @@ B\'arbara, Humberto and Luciana.
 
 \chapter{Introduction}
 \begin{flushright}
-	``It is really hard.''
-	\\--- Madeline Line
+	``It really tied the room together.''
+	\\--- Jeff Lebowski
 \end{flushright}
 \input{introduction/introduction}
 
-\chapter{Neutrino physics}
+\chapter{Neutrinos beyond the Standard Model}
+\begin{flushright}
+	``''
+	\\--- Madeline Line
+\end{flushright}
 \input{theory/theory}
-
-\chapter{A light dark neutrino sector}
-\input{dark_nus/dark_nus}
-
-\chapter{Tests of the MiniBooNE anomaly}
-\input{miniboone/miniboone}
 
 \chapter{Neutrino trident scattering}
 \input{tridentSM/tridentSM}
 
 \chapter{New fundamental forces at DUNE}
 \input{Zprime_scattering/Zprime_scattering}
+
+\chapter{A light dark neutrino sector}
+\input{dark_nus/dark_nus}
+
+\chapter{Tests of the MiniBooNE anomaly}
+\input{miniboone/miniboone}
 
 \chapter{The future of neutrino precision physics}
 %\input{tridentSM/tridentSM}
