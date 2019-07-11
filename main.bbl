@@ -96,6 +96,11 @@ M.~Gell-Mann, \emph{{The interpretation of the new particles as displaced
   {\bfseries 427} (2006) 257--454},
   [\href{https://arxiv.org/abs/hep-ex/0509008}{{\ttfamily hep-ex/0509008}}].
 
+\bibitem{Faddeev:1967fc}
+L.~D. Faddeev and V.~N. Popov, \emph{{Feynman Diagrams for the Yang-Mills
+  Field}}, \href{https://doi.org/10.1016/0370-2693(67)90067-6}{\emph{Phys.
+  Lett.} {\bfseries B25} (1967) 29--30}.
+
 \bibitem{Cornwall:1974km}
 J.~M. Cornwall, D.~N. Levin and G.~Tiktopoulos, \emph{{Derivation of Gauge
   Invariance from High-Energy Unitarity Bounds on the s Matrix}},
@@ -215,28 +220,22 @@ L.~Barack et~al., \emph{{Black holes, gravitational waves and fundamental
   {\bfseries 36} (2019) 143001},
   [\href{https://arxiv.org/abs/1806.05195}{{\ttfamily 1806.05195}}].
 
-\bibitem{Fradette:2018hhl}
-A.~Fradette, M.~Pospelov, J.~Pradler and A.~Ritz, \emph{{Cosmological beam
-  dump: constraints on dark scalars mixed with the Higgs boson}},
-  \href{https://doi.org/10.1103/PhysRevD.99.075004}{\emph{Phys. Rev.}
-  {\bfseries D99} (2019) 075004},
-  [\href{https://arxiv.org/abs/1812.07585}{{\ttfamily 1812.07585}}].
+\bibitem{Boehm:2003hm}
+C.~Boehm and P.~Fayet, \emph{{Scalar dark matter candidates}},
+  \href{https://doi.org/10.1016/j.nuclphysb.2004.01.015}{\emph{Nucl. Phys.}
+  {\bfseries B683} (2004) 219--263},
+  [\href{https://arxiv.org/abs/hep-ph/0305261}{{\ttfamily hep-ph/0305261}}].
 
-\bibitem{Silveira:1985rk}
-V.~Silveira and A.~Zee, \emph{{SCALAR PHANTOMS}},
-  \href{https://doi.org/10.1016/0370-2693(85)90624-0}{\emph{Phys. Lett.}
-  {\bfseries 161B} (1985) 136--140}.
+\bibitem{Alexander:2016aln}
+J.~Alexander et~al., \emph{{Dark Sectors 2016 Workshop: Community Report}},
+  2016, \href{https://arxiv.org/abs/1608.08632}{{\ttfamily 1608.08632}},
+  \href{http://lss.fnal.gov/archive/2016/conf/fermilab-conf-16-421.pdf}{http://lss.fnal.gov/archive/2016/conf/fermilab-conf-16-421.pdf}.
 
 \bibitem{Craig:2013xia}
 N.~Craig, C.~Englert and M.~McCullough, \emph{{New Probe of Naturalness}},
   \href{https://doi.org/10.1103/PhysRevLett.111.121803}{\emph{Phys. Rev. Lett.}
   {\bfseries 111} (2013) 121803},
   [\href{https://arxiv.org/abs/1305.5251}{{\ttfamily 1305.5251}}].
-
-\bibitem{Weinberg:1977ma}
-S.~Weinberg, \emph{{A New Light Boson?}},
-  \href{https://doi.org/10.1103/PhysRevLett.40.223}{\emph{Phys. Rev. Lett.}
-  {\bfseries 40} (1978) 223--226}.
 
 \bibitem{Cardall:1999ze}
 C.~Y. Cardall, \emph{{Coherence of neutrino flavor mixing in quantum field
@@ -268,6 +267,12 @@ A.~Kobach, A.~V. Manohar and J.~McGreevy, \emph{{Neutrino Oscillation
   \href{https://doi.org/10.1016/j.physletb.2018.06.021}{\emph{Phys. Lett.}
   {\bfseries B783} (2018) 59--75},
   [\href{https://arxiv.org/abs/1711.07491}{{\ttfamily 1711.07491}}].
+
+\bibitem{Cozzella:2018zwm}
+G.~Cozzella and C.~Giunti, \emph{{Mixed states for mixing neutrinos}},
+  \href{https://doi.org/10.1103/PhysRevD.98.096010}{\emph{Phys. Rev.}
+  {\bfseries D98} (2018) 096010},
+  [\href{https://arxiv.org/abs/1804.00184}{{\ttfamily 1804.00184}}].
 
 \bibitem{Notzold:1987ik}
 D.~Notzold and G.~Raffelt, \emph{{Neutrino Dispersion at Finite Temperature and
@@ -1211,11 +1216,6 @@ M.~Ibe, W.~Nakano and M.~Suzuki, \emph{{Constraints on $L_\mu-L_\tau$ gauge
   {\bfseries D95} (2017) 055022},
   [\href{https://arxiv.org/abs/1611.08460}{{\ttfamily 1611.08460}}].
 
-\bibitem{Alexander:2016aln}
-J.~Alexander et~al., \emph{{Dark Sectors 2016 Workshop: Community Report}},
-  2016, \href{https://arxiv.org/abs/1608.08632}{{\ttfamily 1608.08632}},
-  \href{http://lss.fnal.gov/archive/2016/conf/fermilab-conf-16-421.pdf}{http://lss.fnal.gov/archive/2016/conf/fermilab-conf-16-421.pdf}.
-
 \bibitem{Escudero:2019gzq}
 M.~Escudero, D.~Hooper, G.~Krnjaic and M.~Pierre, \emph{{Cosmology With a Very
   Light $L_\mu - L_\tau$ Gauge Boson}},
@@ -1515,12 +1515,6 @@ R.~Petti, ``{“Precision measurements of fundamental interactions in the
 H.~Duyang, B.~Guo, S.~R. Mishra and R.~Petti, \emph{{A Novel Approach to
   Neutrino-Hydrogen Measurements}},
   \href{https://arxiv.org/abs/1809.08752}{{\ttfamily 1809.08752}}.
-
-\bibitem{Boehm:2003hm}
-C.~Boehm and P.~Fayet, \emph{{Scalar dark matter candidates}},
-  \href{https://doi.org/10.1016/j.nuclphysb.2004.01.015}{\emph{Nucl. Phys.}
-  {\bfseries B683} (2004) 219--263},
-  [\href{https://arxiv.org/abs/hep-ph/0305261}{{\ttfamily hep-ph/0305261}}].
 
 \bibitem{Buchmuller:1991ce}
 W.~Buchmuller, C.~Greub and P.~Minkowski, \emph{{Neutrino masses, neutral

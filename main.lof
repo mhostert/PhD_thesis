@@ -1,43 +1,46 @@
 \select@language {british}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Artistic rendering of the particles in the Standard Model. \relax }}{23}{figure.caption.10}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Artistic rendering of the particles in the Standard Model. \relax }}{23}{figure.caption.11}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces A possibility for a portal coupling and why it is small.}}{30}{figure.caption.17}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Diagramatic representation of the portal couplings discussed.}}{31}{figure.caption.18}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Anomalous triangle diagrams.}}{32}{figure.caption.22}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Neutrino oscillations diagram.}}{31}{figure.caption.21}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Finite temperature corrections to $\Sigma $.}}{36}{figure.caption.22}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces The tree-level UV completions of the Weinberg operator.}}{37}{figure.caption.23}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Neutrino oscillations diagram.}}{36}{figure.caption.25}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Finite temperature corrections to $\Sigma $.}}{41}{figure.caption.26}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces The tree-level UV completions of the Weinberg operator.}}{46}{figure.caption.27}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Neutrino trident production with a contact approximation.}}{45}{figure.caption.24}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Coherent neutrino trident production total cross sections.}}{50}{figure.caption.27}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Incoherent neutrino trident production total cross sections.}}{52}{figure.caption.29}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Comparison of the differential cross section using the EPA and using the full calculation for neutrino trident scattering.}}{56}{figure.caption.30}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Comparison of the total cross section in the EPA and in the full calculation for neutrino trident scattering.}}{57}{figure.caption.31}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Ration between coherent and incoherent trident total cross sections.}}{59}{figure.caption.32}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Kinematical cuts on background samples for dimuon tridents.}}{70}{figure.caption.41}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Neutrino trident production with a contact approximation.}}{53}{figure.caption.31}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Coherent neutrino trident production total cross sections.}}{58}{figure.caption.34}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Incoherent neutrino trident production total cross sections.}}{60}{figure.caption.36}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Comparison of the differential cross section using the EPA and using the full calculation for neutrino trident scattering.}}{64}{figure.caption.37}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Comparison of the total cross section in the EPA and in the full calculation for neutrino trident scattering.}}{65}{figure.caption.38}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Ration between coherent and incoherent trident total cross sections.}}{67}{figure.caption.39}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Kinematical cuts on background samples for dimuon tridents.}}{78}{figure.caption.48}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Diagrams of the $Z^\prime $ contribution to NC neutrino trident scattering.}}{85}{figure.caption.44}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces BSM enhancement to dimuon neutrino trident production total cross section.}}{87}{figure.caption.47}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces BSM enhancement to dielectron neutrino trident production total cross section.}}{87}{figure.caption.48}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Dimuon distributions in the presence of a $Z^\prime $.}}{88}{figure.caption.51}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Dielectron distributions in the presence of a $Z^\prime $.}}{89}{figure.caption.52}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Neutrino-electron scattering distributions in the presence of a $Z^\prime $.}}{90}{figure.caption.54}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces DUNE sensitivities to a $L_e - L_\mu $ $Z^\prime $.}}{96}{figure.caption.58}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces DUNE sensitivity to a $L_e - L_\mu $ $Z^\prime $ with alternative assumptions.}}{97}{figure.caption.59}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces DUNE sensitivity to a $L_\mu - L_\tau $ $Z^\prime $.}}{103}{figure.caption.61}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces DUNE sensitivity to a $L_\mu - L_\tau $ $Z^\prime $ with alternative assumptions.}}{104}{figure.caption.62}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Diagrams of the $Z^\prime $ contribution to NC neutrino trident scattering.}}{93}{figure.caption.51}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces BSM enhancement to dimuon neutrino trident production total cross section.}}{95}{figure.caption.54}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces BSM enhancement to dielectron neutrino trident production total cross section.}}{95}{figure.caption.55}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Dimuon distributions in the presence of a $Z^\prime $.}}{96}{figure.caption.58}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Dielectron distributions in the presence of a $Z^\prime $.}}{97}{figure.caption.59}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Neutrino-electron scattering distributions in the presence of a $Z^\prime $.}}{98}{figure.caption.61}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces DUNE sensitivities to a $L_e - L_\mu $ $Z^\prime $.}}{104}{figure.caption.65}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces DUNE sensitivity to a $L_e - L_\mu $ $Z^\prime $ with alternative assumptions.}}{105}{figure.caption.66}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces DUNE sensitivity to a $L_\mu - L_\tau $ $Z^\prime $.}}{111}{figure.caption.68}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces DUNE sensitivity to a $L_\mu - L_\tau $ $Z^\prime $ with alternative assumptions.}}{112}{figure.caption.69}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Dark neutrino model diagram.}}{107}{figure.caption.63}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Region of interest for neutrino mass generation in our model.}}{121}{figure.caption.75}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Dark neutrino model diagram.}}{115}{figure.caption.70}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Region of interest for neutrino mass generation in our model.}}{129}{figure.caption.82}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Dark neutrino signal at MiniBooNE.}}{126}{figure.caption.76}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Upscattering total cross section.}}{127}{figure.caption.77}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Diagram of the sidebands in neutrino-electron scattering analyses.}}{130}{figure.caption.78}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces New constraints on dark neutrinos.}}{131}{figure.caption.79}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Dark neutrino signal at MiniBooNE.}}{134}{figure.caption.83}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Upscattering total cross section.}}{135}{figure.caption.84}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Diagram of the sidebands in neutrino-electron scattering analyses.}}{138}{figure.caption.85}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces New constraints on dark neutrinos.}}{139}{figure.caption.86}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Neutrino trident distributions at the DUNE ND.}}{142}{figure.caption.85}
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Additional trident distributions at the DUNE ND.}}{143}{figure.caption.86}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Neutrino trident distributions at the DUNE ND.}}{151}{figure.caption.92}
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Additional trident distributions at the DUNE ND.}}{152}{figure.caption.93}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

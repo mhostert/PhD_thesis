@@ -89,6 +89,47 @@
       primaryClass   = "hep-ph",
       SLACcitation   = "%%CITATION = ARXIV:1106.1344;%%"
 }
+@article{Giunti:2002xg,
+      author         = "Giunti, C.",
+      title          = "{Neutrino wave packets in quantum field theory}",
+      journal        = "JHEP",
+      volume         = "11",
+      year           = "2002",
+      pages          = "017",
+      doi            = "10.1088/1126-6708/2002/11/017",
+      eprint         = "hep-ph/0205014",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = HEP-PH/0205014;%%"
+}
+@article{Cardall:1999ze,
+      author         = "Cardall, Christian Y.",
+      title          = "{Coherence of neutrino flavor mixing in quantum field
+                        theory}",
+      journal        = "Phys. Rev.",
+      volume         = "D61",
+      year           = "2000",
+      pages          = "073006",
+      doi            = "10.1103/PhysRevD.61.073006",
+      eprint         = "hep-ph/9909332",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = HEP-PH/9909332;%%"
+}
+@article{Beuthe:2001rc,
+      author         = "Beuthe, Mikael",
+      title          = "{Oscillations of neutrinos and mesons in quantum field
+                        theory}",
+      journal        = "Phys. Rept.",
+      volume         = "375",
+      year           = "2003",
+      pages          = "105-218",
+      doi            = "10.1016/S0370-1573(02)00538-0",
+      eprint         = "hep-ph/0109119",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = HEP-PH/0109119;%%"
+}
 @article{Akhmedov:2010ms,
       author         = "Akhmedov, Evgeny Kh. and Kopp, Joachim",
       title          = "{Neutrino Oscillations: Quantum Mechanics vs. Quantum

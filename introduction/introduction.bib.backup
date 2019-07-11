@@ -505,3 +505,32 @@
       primaryClass   = "astro-ph.CO",
       SLACcitation   = "%%CITATION = ARXIV:1308.3240;%%"
 }
+@article{Famaey:2011kh,
+      author         = "Famaey, Benoit and McGaugh, Stacy",
+      title          = "{Modified Newtonian Dynamics (MOND): Observational
+                        Phenomenology and Relativistic Extensions}",
+      journal        = "Living Rev. Rel.",
+      volume         = "15",
+      year           = "2012",
+      pages          = "10",
+      doi            = "10.12942/lrr-2012-10",
+      eprint         = "1112.3960",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.CO",
+      SLACcitation   = "%%CITATION = ARXIV:1112.3960;%%"
+}
+@article{Barack:2018yly,
+      author         = "Barack, Leor and others",
+      title          = "{Black holes, gravitational waves and fundamental
+                        physics: a roadmap}",
+      journal        = "Class. Quant. Grav.",
+      volume         = "36",
+      year           = "2019",
+      number         = "14",
+      pages          = "143001",
+      doi            = "10.1088/1361-6382/ab0587",
+      eprint         = "1806.05195",
+      archivePrefix  = "arXiv",
+      primaryClass   = "gr-qc",
+      SLACcitation   = "%%CITATION = ARXIV:1806.05195;%%"
+}

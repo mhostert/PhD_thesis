@@ -13,63 +13,62 @@
 \BOOKMARK [1][-]{section.2.1}{The three neutrino paradigm}{chapter.2}% 13
 \BOOKMARK [1][-]{section.2.2}{Oscillations}{chapter.2}% 14
 \BOOKMARK [2][-]{subsection.2.2.1}{Matter effects}{section.2.2}% 15
-\BOOKMARK [1][-]{section.2.3}{The model space of neutrino physics}{chapter.2}% 16
-\BOOKMARK [2][-]{subsection.2.3.1}{Mass mechanisms}{section.2.3}% 17
-\BOOKMARK [2][-]{subsection.2.3.2}{Conventional seesaws}{section.2.3}% 18
-\BOOKMARK [2][-]{subsection.2.3.3}{Low scale seesaw variants}{section.2.3}% 19
-\BOOKMARK [2][-]{subsection.2.3.4}{Radiative masses}{section.2.3}% 20
-\BOOKMARK [2][-]{subsection.2.3.5}{Sources}{section.2.3}% 21
-\BOOKMARK [1][-]{section.2.4}{Scattering}{chapter.2}% 22
-\BOOKMARK [0][-]{chapter.3}{Neutrino trident scattering}{}% 23
-\BOOKMARK [1][-]{section.3.1}{Neutrino-electron scattering}{chapter.3}% 24
-\BOOKMARK [2][-]{subsection.3.1.1}{Kinematics}{section.3.1}% 25
-\BOOKMARK [2][-]{subsection.3.1.2}{Measurements}{section.3.1}% 26
-\BOOKMARK [1][-]{section.3.2}{Neutrino trident scattering}{chapter.3}% 27
-\BOOKMARK [1][-]{section.3.3}{Trident Production Cross Section}{chapter.3}% 28
-\BOOKMARK [2][-]{subsection.3.3.1}{Hadronic Scattering Regimes}{section.3.3}% 29
-\BOOKMARK [2][-]{subsection.3.3.2}{Breakdown of the EPA }{section.3.3}% 30
-\BOOKMARK [2][-]{subsection.3.3.3}{Coherent versus incoherent Scattering in Trident Production}{section.3.3}% 31
-\BOOKMARK [1][-]{section.3.4}{Trident Events in LAr Detectors}{chapter.3}% 32
-\BOOKMARK [2][-]{subsection.3.4.1}{Event Rates}{section.3.4}% 33
-\BOOKMARK [2][-]{subsection.3.4.2}{Background Estimates for Neutrino Trident in LAr}{section.3.4}% 34
-\BOOKMARK [1][-]{section.3.5}{Conclusions}{chapter.3}% 35
-\BOOKMARK [1][-]{section.3.6}{Individual Backgrounds}{chapter.3}% 36
-\BOOKMARK [2][-]{subsection.3.6.1}{Pion Production}{section.3.6}% 37
-\BOOKMARK [2][-]{subsection.3.6.2}{Charm Production}{section.3.6}% 38
-\BOOKMARK [2][-]{subsection.3.6.3}{CC and NC}{section.3.6}% 39
-\BOOKMARK [0][-]{chapter.4}{New fundamental forces at DUNE}{}% 40
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 41
-\BOOKMARK [1][-]{section.4.2}{Leptophilic Z models}{chapter.4}% 42
-\BOOKMARK [1][-]{section.4.3}{Signatures of leptonic neutral currents}{chapter.4}% 43
-\BOOKMARK [2][-]{subsection.4.3.1}{Neutrino trident scattering}{section.4.3}% 44
-\BOOKMARK [2][-]{subsection.4.3.2}{Neutrino-electron scattering}{section.4.3}% 45
-\BOOKMARK [2][-]{subsection.4.3.3}{Interference effects}{section.4.3}% 46
-\BOOKMARK [1][-]{section.4.4}{DUNE sensitivities}{chapter.4}% 47
-\BOOKMARK [2][-]{subsection.4.4.1}{Analysis techniques}{section.4.4}% 48
-\BOOKMARK [2][-]{subsection.4.4.2}{Le - L }{section.4.4}% 49
-\BOOKMARK [2][-]{subsection.4.4.3}{L- L }{section.4.4}% 50
-\BOOKMARK [1][-]{section.4.5}{Conclusions}{chapter.4}% 51
-\BOOKMARK [0][-]{chapter.5}{A light dark neutrino sector}{}% 52
-\BOOKMARK [1][-]{section.5.1}{The Model}{chapter.5}% 53
-\BOOKMARK [2][-]{subsection.5.1.1}{Portal phenomenology}{section.5.1}% 54
-\BOOKMARK [1][-]{section.5.2}{Dark Matter}{chapter.5}% 55
-\BOOKMARK [1][-]{section.5.3}{Radiative generation of neutrino masses}{chapter.5}% 56
-\BOOKMARK [1][-]{section.5.4}{Model set-up}{chapter.5}% 57
-\BOOKMARK [1][-]{section.5.5}{Neutrino masses}{chapter.5}% 58
-\BOOKMARK [2][-]{subsection.5.5.1}{Radiative corrections}{section.5.5}% 59
-\BOOKMARK [1][-]{section.5.6}{Searching for the origin of neutrino masses}{chapter.5}% 60
-\BOOKMARK [0][-]{chapter.6}{Tests of the MiniBooNE anomaly}{}% 61
-\BOOKMARK [1][-]{section.6.1}{Dark neutrinos at MiniBooNE}{chapter.6}% 62
-\BOOKMARK [1][-]{section.6.2}{Dark neutrinos in neutrino-electron scattering measurements }{chapter.6}% 63
-\BOOKMARK [1][-]{section.6.3}{MINERA and CHARM-II analyses}{chapter.6}% 64
-\BOOKMARK [1][-]{section.6.4}{Results and prospects}{chapter.6}% 65
-\BOOKMARK [0][-]{chapter.7}{The future of neutrino precision physics}{}% 66
-\BOOKMARK [0][-]{chapter.8}{Conclusions}{}% 67
-\BOOKMARK [0][-]{section*.80}{Appendices}{}% 68
-\BOOKMARK [0][-]{Appendix.1.A}{Phase space}{}% 69
-\BOOKMARK [0][-]{Appendix.1.B}{Form factors}{}% 70
-\BOOKMARK [0][-]{Appendix.1.C}{Trident distributions}{}% 71
-\BOOKMARK [0][-]{Appendix.1.D}{Trident rates at current facilities}{}% 72
-\BOOKMARK [1][-]{section.1.D.1}{Trident rates in current facilities}{Appendix.1.D}% 73
-\BOOKMARK [0][-]{Appendix.1.E}{Dark neutrino self-energies}{}% 74
-\BOOKMARK [1][-]{subsection.1.E.0.1}{Self-energy}{Appendix.1.E}% 75
+\BOOKMARK [2][-]{subsection.2.2.2}{Sources}{section.2.2}% 16
+\BOOKMARK [1][-]{section.2.3}{Scattering}{chapter.2}% 17
+\BOOKMARK [1][-]{section.2.4}{Mass mechanisms}{chapter.2}% 18
+\BOOKMARK [2][-]{subsection.2.4.1}{Conventional seesaws}{section.2.4}% 19
+\BOOKMARK [2][-]{subsection.2.4.2}{Low scale seesaw variants}{section.2.4}% 20
+\BOOKMARK [2][-]{subsection.2.4.3}{Radiative masses}{section.2.4}% 21
+\BOOKMARK [0][-]{chapter.3}{Neutrino trident scattering}{}% 22
+\BOOKMARK [1][-]{section.3.1}{Neutrino-electron scattering}{chapter.3}% 23
+\BOOKMARK [2][-]{subsection.3.1.1}{Kinematics}{section.3.1}% 24
+\BOOKMARK [2][-]{subsection.3.1.2}{Measurements}{section.3.1}% 25
+\BOOKMARK [1][-]{section.3.2}{Neutrino trident scattering}{chapter.3}% 26
+\BOOKMARK [1][-]{section.3.3}{Trident Production Cross Section}{chapter.3}% 27
+\BOOKMARK [2][-]{subsection.3.3.1}{Hadronic Scattering Regimes}{section.3.3}% 28
+\BOOKMARK [2][-]{subsection.3.3.2}{Breakdown of the EPA }{section.3.3}% 29
+\BOOKMARK [2][-]{subsection.3.3.3}{Coherent versus incoherent Scattering in Trident Production}{section.3.3}% 30
+\BOOKMARK [1][-]{section.3.4}{Trident Events in LAr Detectors}{chapter.3}% 31
+\BOOKMARK [2][-]{subsection.3.4.1}{Event Rates}{section.3.4}% 32
+\BOOKMARK [2][-]{subsection.3.4.2}{Background Estimates for Neutrino Trident in LAr}{section.3.4}% 33
+\BOOKMARK [1][-]{section.3.5}{Conclusions}{chapter.3}% 34
+\BOOKMARK [1][-]{section.3.6}{Individual Backgrounds}{chapter.3}% 35
+\BOOKMARK [2][-]{subsection.3.6.1}{Pion Production}{section.3.6}% 36
+\BOOKMARK [2][-]{subsection.3.6.2}{Charm Production}{section.3.6}% 37
+\BOOKMARK [2][-]{subsection.3.6.3}{CC and NC}{section.3.6}% 38
+\BOOKMARK [0][-]{chapter.4}{New fundamental forces at DUNE}{}% 39
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 40
+\BOOKMARK [1][-]{section.4.2}{Leptophilic Z models}{chapter.4}% 41
+\BOOKMARK [1][-]{section.4.3}{Signatures of leptonic neutral currents}{chapter.4}% 42
+\BOOKMARK [2][-]{subsection.4.3.1}{Neutrino trident scattering}{section.4.3}% 43
+\BOOKMARK [2][-]{subsection.4.3.2}{Neutrino-electron scattering}{section.4.3}% 44
+\BOOKMARK [2][-]{subsection.4.3.3}{Interference effects}{section.4.3}% 45
+\BOOKMARK [1][-]{section.4.4}{DUNE sensitivities}{chapter.4}% 46
+\BOOKMARK [2][-]{subsection.4.4.1}{Analysis techniques}{section.4.4}% 47
+\BOOKMARK [2][-]{subsection.4.4.2}{Le - L }{section.4.4}% 48
+\BOOKMARK [2][-]{subsection.4.4.3}{L- L }{section.4.4}% 49
+\BOOKMARK [1][-]{section.4.5}{Conclusions}{chapter.4}% 50
+\BOOKMARK [0][-]{chapter.5}{A light dark neutrino sector}{}% 51
+\BOOKMARK [1][-]{section.5.1}{The Model}{chapter.5}% 52
+\BOOKMARK [2][-]{subsection.5.1.1}{Portal phenomenology}{section.5.1}% 53
+\BOOKMARK [1][-]{section.5.2}{Dark Matter}{chapter.5}% 54
+\BOOKMARK [1][-]{section.5.3}{Radiative generation of neutrino masses}{chapter.5}% 55
+\BOOKMARK [1][-]{section.5.4}{Model set-up}{chapter.5}% 56
+\BOOKMARK [1][-]{section.5.5}{Neutrino masses}{chapter.5}% 57
+\BOOKMARK [2][-]{subsection.5.5.1}{Radiative corrections}{section.5.5}% 58
+\BOOKMARK [1][-]{section.5.6}{Searching for the origin of neutrino masses}{chapter.5}% 59
+\BOOKMARK [0][-]{chapter.6}{Tests of the MiniBooNE anomaly}{}% 60
+\BOOKMARK [1][-]{section.6.1}{Dark neutrinos at MiniBooNE}{chapter.6}% 61
+\BOOKMARK [1][-]{section.6.2}{Dark neutrinos in neutrino-electron scattering measurements }{chapter.6}% 62
+\BOOKMARK [1][-]{section.6.3}{MINERA and CHARM-II analyses}{chapter.6}% 63
+\BOOKMARK [1][-]{section.6.4}{Results and prospects}{chapter.6}% 64
+\BOOKMARK [0][-]{chapter.7}{The future of neutrino precision physics}{}% 65
+\BOOKMARK [0][-]{chapter.8}{Conclusions}{}% 66
+\BOOKMARK [0][-]{section*.87}{Appendices}{}% 67
+\BOOKMARK [0][-]{Appendix.1.A}{Phase space}{}% 68
+\BOOKMARK [0][-]{Appendix.1.B}{Form factors}{}% 69
+\BOOKMARK [0][-]{Appendix.1.C}{Trident distributions}{}% 70
+\BOOKMARK [0][-]{Appendix.1.D}{Trident rates at current facilities}{}% 71
+\BOOKMARK [1][-]{section.1.D.1}{Trident rates in current facilities}{Appendix.1.D}% 72
+\BOOKMARK [0][-]{Appendix.1.E}{Dark neutrino self-energies}{}% 73
+\BOOKMARK [1][-]{subsection.1.E.0.1}{Self-energy}{Appendix.1.E}% 74
