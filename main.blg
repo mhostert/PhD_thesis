@@ -2,10 +2,14 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: JHEP.bst
-Reallocated field_info (elt_size=4) to 18110 items from 5000.
+Reallocated field_info (elt_size=4) to 17390 items from 5000.
 Database file #1: introduction/introduction.bib
 Database file #2: theory/theory.bib
 Database file #3: tridentSM/tridentSM.bib
+Repeated entry---line 1040 of file tridentSM/tridentSM.bib
+ : @article{Heeck:2014zfa
+ :                       ,
+I'm skipping whatever remains of this entry
 Database file #4: Zprime_scattering/Zprime_scattering.bib
 Repeated entry---line 45 of file Zprime_scattering/Zprime_scattering.bib
  : @article{Andreopoulos2009
@@ -38,6 +42,30 @@ I'm skipping whatever remains of this entry
 Repeated entry---line 808 of file Zprime_scattering/Zprime_scattering.bib
  : @article{Mishra:1991bv
  :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 847 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{Mohapatra:1980yp
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 873 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{Schechter:1980gr
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1022 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{Esteban:2018azc
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1055 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{Cheng:1980qt
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1068 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{Lazarides:1980nt
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1227 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{Ma:2006km
+ :                   ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 1324 of file Zprime_scattering/Zprime_scattering.bib
  : @article{Falkowski:2018dmy
@@ -87,6 +115,10 @@ Repeated entry---line 1891 of file Zprime_scattering/Zprime_scattering.bib
  : @article{SBNproposal
  :                     ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 1987 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{Heeck:2014zfa
+ :                       ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 2018 of file Zprime_scattering/Zprime_scattering.bib
  : @article{Bilmis:2015lja
  :                        ,
@@ -112,7 +144,6 @@ Repeated entry---line 58 of file dark_nus/three_portals.bib
  : @inproceedings{Alexander:2016aln
  :                                 ,
 I'm skipping whatever remains of this entry
-Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Repeated entry---line 263 of file dark_nus/three_portals.bib
  : @article{Keshavarzi:2018mgv
  :                            ,
@@ -125,6 +156,7 @@ Repeated entry---line 299 of file dark_nus/three_portals.bib
  : @article{Bennett:2006fi
  :                        ,
 I'm skipping whatever remains of this entry
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Repeated entry---line 505 of file dark_nus/three_portals.bib
  : @article{Chu:2018gxk
  :                     ,
@@ -217,6 +249,10 @@ Repeated entry---line 1180 of file dark_nus/three_portals.bib
  : @article{Bertuzzo:2018itn
  :                          ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 1191 of file dark_nus/three_portals.bib
+ : @article{Kang:2006sn
+ :                     ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 1407 of file dark_nus/three_portals.bib
  : @article{Escudero:2019gzq
  :                          ,
@@ -260,6 +296,10 @@ I'm skipping whatever remains of this entry
 Repeated entry---line 2083 of file dark_nus/three_portals.bib
  : @article{Bauer:2018onh
  :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2327 of file dark_nus/three_portals.bib
+ : @article{LopezPavon:2012zg
+ :                           ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 2506 of file dark_nus/three_portals.bib
  : @article{Farzan:2015doa
@@ -402,6 +442,14 @@ Repeated entry---line 645 of file dark_nus/nu_masses.bib
  : @article{Dev:2012sg
  :                    ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 676 of file dark_nus/nu_masses.bib
+ : @article{Eguchi:2002dm
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 691 of file dark_nus/nu_masses.bib
+ : @article{Ahmad:2002jz
+ :                      ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 707 of file dark_nus/nu_masses.bib
  : @article{Fukuda:1998ah
  :                       ,
@@ -478,8 +526,16 @@ Repeated entry---line 962 of file dark_nus/nu_masses.bib
  : @article{Mohapatra:1986bd
  :                          ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 977 of file dark_nus/nu_masses.bib
+ : @article{GonzalezGarcia:1988rw
+ :                               ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 989 of file dark_nus/nu_masses.bib
  : @article{Barry:2011wb
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1002 of file dark_nus/nu_masses.bib
+ : @article{Zhang:2011vh
  :                      ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 1015 of file dark_nus/nu_masses.bib
@@ -534,6 +590,10 @@ Repeated entry---line 1186 of file dark_nus/nu_masses.bib
  : @article{Bertuzzo:2018itn
  :                          ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 1197 of file dark_nus/nu_masses.bib
+ : @article{Kang:2006sn
+ :                     ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 1212 of file dark_nus/nu_masses.bib
  : @article{Pilaftsis:1991ug
  :                          ,
@@ -558,9 +618,21 @@ Repeated entry---line 1326 of file dark_nus/nu_masses.bib
  : @article{Boehm:2003hm
  :                      ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 1339 of file dark_nus/nu_masses.bib
+ : @article{Boehm:2003ha
+ :                      ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 1355 of file dark_nus/nu_masses.bib
  : @article{Wyler:1982dd
  :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1367 of file dark_nus/nu_masses.bib
+ : @article{Akhmedov:1995ip
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1383 of file dark_nus/nu_masses.bib
+ : @article{Akhmedov:1995vm
+ :                         ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 1399 of file dark_nus/nu_masses.bib
  : @article{Escudero:2016ksa
@@ -614,13 +686,25 @@ Repeated entry---line 1638 of file dark_nus/nu_masses.bib
  : @article{Batell:2016zod
  :                        ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 1682 of file dark_nus/nu_masses.bib
+ : @article{Ma:2005iv
+ :                   ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 1696 of file dark_nus/nu_masses.bib
  : @article{Poblaguev:2002ug
  :                          ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 1710 of file dark_nus/nu_masses.bib
+ : @article{Peruzzo:2017qis
+ :                         ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 1723 of file dark_nus/nu_masses.bib
  : @article{Egli:1986nk
  :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1737 of file dark_nus/nu_masses.bib
+ : @inproceedings{Grab:1986si
+ :                           ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 1766 of file dark_nus/nu_masses.bib
  : @article{Abada:2017jjx
@@ -785,6 +869,10 @@ Repeated entry---line 1058 of file miniboone/miniboone.bib
  : @article{pdg
  :             ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 1116 of file miniboone/miniboone.bib
+ : @article{Gonzalez-Garcia:2014bfa
+ :                                 ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 2024 of file miniboone/miniboone.bib
  : @article{Dib:2011jh
  :                    ,
@@ -944,81 +1032,51 @@ Repeated entry---line 30 of file appendices/loop_masses.bib
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "*Boehm:2003ha"
 Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "*Pospelov:2013rha"
-Warning--I didn't find a database entry for "*Dasgupta:2013zpn"
-Warning--I didn't find a database entry for "*Mirizzi:2014ama"
-Warning--I didn't find a database entry for "*Chu:2015ipa"
-Warning--I didn't find a database entry for "*Cherry:2016jol"
-Warning--I didn't find a database entry for "*Chu:2018gxk"
-Warning--I didn't find a database entry for "*Esmaili:2018qzu"
-Warning--I didn't find a database entry for "*Aguilar-Arevalo:2018gpe"
-Warning--I didn't find a database entry for "*Aguilar:2001ty"
-Warning--I didn't find a database entry for "*Pospelov:2008zw"
-Warning--I didn't find a database entry for "*GonzalezGarcia:1988rw"
-Warning--I didn't find a database entry for "*Zhang:2011vh"
-Warning--I didn't find a database entry for "*Keshavarzi:2018mgv"
-Warning--I didn't find a database entry for "*Grab:1986si"
-Warning--I didn't find a database entry for "*Ma:2005iv"
-Warning--I didn't find a database entry for "*Peruzzo:2017qis"
-Warning--I didn't find a database entry for "*Ahmad:2002jz"
-Warning--I didn't find a database entry for "*Eguchi:2002dm"
-Warning--I didn't find a database entry for "*Mohapatra:1979ia"
-Warning--I didn't find a database entry for "*GellMann:1980vs"
-Warning--I didn't find a database entry for "*Yanagida:1979as"
-Warning--I didn't find a database entry for "*Lazarides:1980nt"
-Warning--I didn't find a database entry for "*Mohapatra:1980yp"
-Warning--I didn't find a database entry for "*Schechter:1980gr"
-Warning--I didn't find a database entry for "*Cheng:1980qt"
-Warning--I didn't find a database entry for "*Foot:1988aq"
-Warning--I didn't find a database entry for "*Akhmedov:1995ip"
-Warning--I didn't find a database entry for "*Akhmedov:1995vm"
-Warning--I didn't find a database entry for "*Song:2018zyl"
 Warning--empty booktitle in Alexander:2016aln
-Warning--empty author in MINERvA:2017
 Warning--empty author in DUNE:flux
 Warning--empty author in DUNE:flux_updated
 Warning--empty author in DUNE:GArOption
 Warning--empty booktitle in Aguilar-Arevalo:2012fmn
 Warning--empty publisher in Leo:1987kd
-You've used 406 entries,
+You've used 411 entries,
             2217 wiz_defined-function locations,
-            3868 strings with 92267 characters,
-and the built_in function-call counts, 125209 in all, are:
-= -- 13024
-> -- 4838
+            3878 strings with 92514 characters,
+and the built_in function-call counts, 129191 in all, are:
+= -- 13448
+> -- 4965
 < -- 0
-+ -- 1432
-- -- 1026
-* -- 10685
-:= -- 17189
-add.period$ -- 410
-call.type$ -- 406
-change.case$ -- 400
++ -- 1465
+- -- 1054
+* -- 11043
+:= -- 17680
+add.period$ -- 414
+call.type$ -- 411
+change.case$ -- 408
 chr.to.int$ -- 0
-cite$ -- 413
-duplicate$ -- 6470
-empty$ -- 10838
-format.name$ -- 1026
-if$ -- 32938
+cite$ -- 417
+duplicate$ -- 6685
+empty$ -- 11191
+format.name$ -- 1054
+if$ -- 34034
 int.to.chr$ -- 0
-int.to.str$ -- 406
-missing$ -- 1478
-newline$ -- 1227
-num.names$ -- 402
-pop$ -- 721
+int.to.str$ -- 411
+missing$ -- 1529
+newline$ -- 1241
+num.names$ -- 408
+pop$ -- 739
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 5325
+skip$ -- 5528
 stack$ -- 0
-substring$ -- 5659
-swap$ -- 3414
+substring$ -- 5919
+swap$ -- 3552
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 7
-while$ -- 874
-width$ -- 409
-write$ -- 4191
-(There were 232 error messages)
+warning$ -- 6
+while$ -- 901
+width$ -- 414
+write$ -- 4273
+(There were 254 error messages)

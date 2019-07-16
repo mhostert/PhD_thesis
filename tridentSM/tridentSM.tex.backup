@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\graphicspath{{}{tridentSM/figs/}{tridentSM/}}
+\graphicspath{{}{tridentSM/figs/}{tridentSM/}{Diagrams/}}
 
 This chapter is dedicated to the study of rare neutrino scattering processes. Before we can explore the possibilities to constrain new physics, it is very important we understand our theoretical predictions in the SM. In this thesis we will see that leptonic and semi-leptonic neutrino scattering is a crucial tool to understanda and go beyond the SM. This chapter is dedicated to a refresher on neutrino-electron scattering and to original work developed on the calculation and phenomenology of neutrino trident scattering. These two processes were the object of study of experiments back in the 80's and 90's, but the high beam luminosity achieved at current neutrino experiments and expected at future facilitites (typically beyond $10^{21}$ protons on target), the relatively large fiducial masses of high-$Z$ materials (typically 100~ton) of modern detectors, and improved particle idenditification (PID) capabilities allows to return to this topic at lower energies ($E_\nu =$ few~GeV) with a refreshed approach.
 
@@ -141,12 +141,13 @@ where $\{p_i\}=\{k_2,p_-,p_+\}$ is the set of outgoing leptonic momenta. $ \math
 %
 and $\mathrm{H}_{\rm X}^{\nu}(P,P^{\prime})$ is the total hadronic amplitude
 \begin{align}
-H_{\rm X}^\nu  &\equiv \langle {\cal H}(P) \vert J_\??,mathrm{E.M.}^\nu (q^2)\vert {\cal H}(P^\prime)\rangle\, ,
+H_{\rm X}^\nu  &\equiv \langle {\cal H}(P) \vert J_\mathrm{E.M.}^\nu (q^2)\vert {\cal H}(P^\prime)\rangle\, ,
 \label{eq:Hmu}
 \end{align}
 %
-with  $q \equiv P - P^\prime$ denoting the transferred momentum, $m_+$ ($m_-$) the positively (negatively) charged lepton mass and ${J}^\nu_{\rm{E.M.}} (q^2)$ the electromagnetic current for the hadronic system ${\cal H}$ (a nucleus or a nucleon). The flavour indices have been ommitted from the vector $V$ and axial $A$ couplings, determined by $V \equiv g_{V}^{\alpha^\prime} \delta_{\alpha\alpha^\prime}\delta_{\beta\beta^\prime}+\delta_{\alpha^\prime \beta^\prime}\delta_{\alpha\beta}$ and $A \equiv g_{A}^{\alpha^\prime} \delta_{\alpha\alpha^\prime}\delta_{\beta\beta^\prime}+\delta_{\alpha^\prime \beta^\prime}\delta_{\alpha\beta}$ in accordance to Eq. (\ref{eq:indices}) and shown in~\reftab{tab:tridentmodes}.
+with  $q \equiv P - P^\prime$ denoting the transferred momentum, $m_+$ ($m_-$) the positively (negatively) charged lepton mass and ${J}^\nu_{\rm{E.M.}} (q^2)$ the electromagnetic current for the hadronic system ${\cal H}$ (a nucleus or a nucleon). The flavour indices have been ommitted from the vector $V$ and axial $A$ couplings, determined by $V \equiv g_{V}^{\alpha^\prime} \delta_{\alpha\alpha^\prime}\delta_{\beta\beta^\prime}+\delta_{\alpha^\prime \beta^\prime}\delta_{\alpha\beta}$ and $A \equiv g_{A}^{\alpha^\prime} \delta_{\alpha\alpha^\prime}\delta_{\beta\beta^\prime}+\delta_{\alpha^\prime \beta^\prime}\delta_{\alpha\beta}$ in accordance to~\refeq{eq:indices} and shown in~\reftab{tab:tridentmodes}.
 %
+\renewcommand{\arraystretch}{1.2}%
 \begin{table}[t]
 \begin{center}
 \begin{tabular}{cccc}
@@ -466,8 +467,7 @@ An important difference between the coherent and incoherent regimes will be in t
 \section{Trident Events in LAr Detectors}
 \label{sec:LAr}
 
-In this section we calculate the total number of expected  trident events for some present and future LAr detectors with different fiducial masses, total exposures and beamlines. In Table~\ref{tab:LAr} we specify the values used for each set-up and in Fig.~\ref{fig:LAr} we show the total production cross section for each neutrino trident mode of Table~\ref{tab:tridentmodes}
-as well as the neutrino fluxes as a function of $E_\nu$ at the position of each experiment.  
+In this section we calculate the total number of expected  trident events for some present and future LAr detectors with different fiducial masses, total exposures and beamlines.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Event Rates}
@@ -479,16 +479,7 @@ The total number of trident events, $N^{\text{\Neptune}}_{\rm X}$, expected for 
 N^{\text{\Neptune}}_{\rm X}={\rm Norm}\times\int dE_\nu \, \sigma_{\nu {\rm X}}(E_\nu) \frac{d\phi_{\nu}(E_\nu)}{dE_\nu}\epsilon(E_\nu)\,,
 \end{eqnarray}
 where $\sigma_{\nu {\rm X}}$ can be the trident total (${\rm X}={\cal N}$), coherent ($\mathrm{X=c}$) or incoherent ($\mathrm{X=d}$) cross sections 
-for a given mode, $\phi_{\nu}$ is the flux of the incoming neutrino and $\epsilon(E_\nu)$ is the efficiency of detection of the charged leptons. In the calculations of this section, we assume an efficiency of $100\%$\footnote{See \refsec{subsec:kine} for a discussion on the detection efficiencies for trident events and backgrounds.}.
-%
-The normalization is calculated as 
- %
-$${\rm Norm}= {\rm{Exposure}}~[{\rm{POT}}] \times \frac{{\rm{Fiducial~Detector~Mass}\times N_A}}{m_{\rm T}} \left[{\rm{target~particles}}\right],$$
-%%
-where $m_{\rm T}$ is the molar mass of the target particle and $N_A$ is Avogadro's number.
-%
-Two features of the cross sections are important for the event rate calculation: 
-threshold effects, especially for channels involving muons in the final-state,
+for a given mode, $\phi_{\nu}$ is the flux of the incoming neutrino and $\epsilon(E_\nu)$ is the efficiency of detection of the charged leptons. In the calculations of this section, we assume an efficiency of $100\%$\footnote{See \refsec{subsec:kine} for a discussion on the detection efficiencies for trident events and backgrounds.}. Two features of the cross sections are important for the event rate calculation: threshold effects, especially for channels involving muons in the final-state,
 and cross section's growth with energy. In particular, we expect higher trident event rates for experiments with higher energy neutrino beams. 
 
 We start our study with the three detectors of the SBN program, one of which, $\mu$BooNE, is already installed and taking data at Fermilab. These three LAr time projection chamber detectors are located along the Booster Neutrino Beam line which is by now a well-understood source, having the focus of active research for over 15 years. 
@@ -499,11 +490,10 @@ After that we study the proposed near detector for DUNE. This turns out to be th
 %
 Finally, having in mind the novel flavour composition of neutrino beams from muon facilities, we investigate trident rates at a 100~t LAr detector for the $\nu$STORM project. This last facility could offer a very well understood neutrino beam with as many electron neutrinos as muon antineutrinos from muon decays, creating new possibilities for trident scattering measurements.
 %%
-\begin{table}[t]
-\begin{center}
+\begin{table}[h!]
 \scalebox{0.9}{
 \begin{tabular}{|cccccc|}
-\hline\hline
+\hline
 		\bf Channel & \bf SBND& \bf $\mu$BooNE & \bf ICARUS & \bf DUNE ND &\bf  $\nu$STORM ND \\ \hline \hline
 		$\nu_\mu\to\nu_e e^+ \mu^-$& $10$ &$0.7$ &$1$ &$2844 ~ (235)$ & $159$ \\
         &$1$ &$0.08$ &$0.1$ &$369 ~ (33)$& $18$\\\hline
@@ -540,18 +530,19 @@ Finally, having in mind the novel flavour composition of neutrino beams from muo
         \hline\hline
     ${\rm{Total}} \ \mu^+ \mu^-$ &$0.4$ &$0.0$ &$0.0$ &$286~(210)$ & $11$ \\
     &$0.3$ &$0.0$ &$0.0$ &$143~(108)$ & $6$\\
-    \hline\hline
+    \hline
 \end{tabular}}
-\end{center}
 \caption[Trident rates in LAr detectors.]{\label{tab:LArrates}Total number of \textbf{coherent} (top row) and \textbf{incoherent} (bottom row) trident events expected at different LAr experiments for a given channel.
 The numbers in parentheses are for the antineutrino running mode, when present. These calculations  
 considered a detector efficiency of 100\%. }
 \end{table}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \paragraph{The SBN Program}
 
 The SBN Program at Fermilab is a joint endeavour by three collaborations ICARUS, $\mu$BooNE and 
-SBND to perform searches for eV-sterile neutrinos and study neutrino-Ar cross sections \cite{SBNproposal}. As can be seen in Tab.~\ref{tab:LAr}, SBND has the shortest baseline (110 m) and therefore the largest neutrino fluxes (shown in Fig.~\ref{fig:LAr} and taken from Fig. 3 of \cite{SBNproposal}). The largest detector, ICARUS, is also the one with the longest baseline (600 m) and consequently subject to the lowest neutrino fluxes.
+SBND to perform searches for eV-sterile neutrinos and study neutrino-Ar cross sections~\cite{SBNproposal}. SBND has the shortest baseline (110 m) and therefore the largest neutrino fluxes. The largest detector, ICARUS, is also the one with the longest baseline (600 m) and consequently subject to the lowest neutrino fluxes.
 %
 The ratio between the fluxes at the different detectors are  $\phi_{\mu\rm{BooNE}}/\phi_{\rm{SBND}}=5$\% and $\phi_{\rm{ICARUS}}/\phi_{\rm{SBND}}=3$\%.
 %
@@ -571,20 +562,17 @@ shows the number of coherent (incoherent) events. As expected, less than a total
 of 20 events across all channels can be detected by SBND, and a negligible rate of events is expected at $\mu$BooNE and ICARUS. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph{DUNE Near Detector} The DUNE experiment will operate with neutrino as well as antineutrino LBNF beams produced by 
-directing a 1.2 MW beam of protons onto a fixed target \cite{Acciarri:2016ooe,DUNECDRvolII}. 
-The design of the near detector is not finalised, but the current designs favour a mixed technology  detector combining a LAr TPC with a larger tracker module.  In this work, we will assume that DUNE ND is a LAr detector located at $574$ m from the target with a fiducial mass of 50~t \cite{WeberTalk}. As the trident event rate scales with the density of the target, any tracker module will not significantly influence the total event rate, and does not feature in our estimates; although, its presence is assumed to improve reconstruction of final-state muons. Our estimates can be easily scaled for the final design by using \refeq{eq:nevents}.
+\paragraph{DUNE Near Detector} The DUNE experiment will operate with neutrino as well as antineutrino LBNF beams produced by directing a 1.2 MW beam of protons onto a fixed target~\cite{Acciarri:2016ooe,DUNECDRvolII}. The design of the near detector is not finalised, but the current designs favour a mixed technology  detector combining a LAr TPC with a larger tracker module.  In this work, we will assume that DUNE ND is a LAr detector located at $574$ m from the target with a fiducial mass of 50~t~\cite{WeberTalk}. As the trident event rate scales with the density of the target, any tracker module will not significantly influence the total event rate, and does not feature in our estimates; although, its presence is assumed to improve reconstruction of final-state muons. Our estimates can be easily scaled for the final design by using \refeq{eq:nevents}.
 
 For the first 6 years of data taking (3 years in the neutrino plus 3 years in the antineutrino 
-mode) the collaboration expects $1.83\times 10^{21}$~POT/year with  a plan to upgrade the beam after the 6th year for 2 extra years in each beam mode  with double exposure, making a total of $1.83 \times(3+2\times2)\times 10^{21}~{\rm{POT}}$ for each mode \cite{DUNE:exposure}. We will 
+mode) the collaboration expects $1.83\times 10^{21}$~POT/year with  a plan to upgrade the beam after the 6th year for 2 extra years in each beam mode  with double exposure, making a total of $1.83 \times(3+2\times2)\times 10^{21}~{\rm{POT}}$ for each mode~\cite{DUNE:exposure}. We will 
 assume the total 10-year exposure in our calculations.
 %
-. as the relevant fluxes at the DUNE ND location (see Fig.~\ref{fig:LAr}). The beam composition of the neutrino (antineutrino) beam is about 96\% $\nu_\mu$ ($\overline\nu_\mu$), 4\%  $\overline\nu_\mu$ ($\nu_\mu$) and 1\% $\nu_e+\overline\nu_e$.
  
 The number of trident events for DUNE ND can be found in Tab.~\ref{tab:LArrates}. 
 The numbers in parentheses correspond to antineutrino beam mode.
 Note that although the trident cross sections are the same 
-for neutrinos and antineutrinos, the fluxes are a bit lower for the antineutrino beam, as a consequence we predict a lower event rate for this beam\footnote{A similar difference will apply to the processes constituting the background to the trident process, although there is an additional suppression in many channels due to the lower antineutrino cross sections.}.
+for neutrinos and antineutrinos, the fluxes are a bit lower for the antineutrino beam, as a consequence we predict a lower event rate for this beam~\footnote{A similar difference will apply to the processes constituting the background to the trident process, although there is an additional suppression in many channels due to the lower antineutrino cross sections.}.
 %
 Due to the much higher energy and wider energy range of the neutrino fluxes at DUNE ND, as compared to the SBN detectors, DUNE can observe a considerable number of trident events, about 300 times the number of trident events expected for SBND just in the neutrino mode. Moreover, the subdominant component of 
 each beam mode will also contribute to the signal. For example, we expect to observe $2051$ trident events in the $\overline{\nu}_\mu\to\overline{\nu}_e e^- \mu^+$ channel in the antineutrino mode. However, we also expect 
@@ -601,14 +589,12 @@ This can be understood by recalling our discussions in Sec.~\ref{subsec:cohdiff}
 Finally, we note that a dedicated high-energy run at DUNE has been mooted, to be undertaken after the full period of data collecting for the oscillation analysis. Thanks to the higher energies of the beam, this has the potential to see a significant number of neutrino tridents, provided it can collect enough POTs.  
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph{$\nu$STORM} In this section we study the trident rates for a possible LAr detector for the proposed 
-$\nu$STORM experiment \cite{Soler:2015ada,nuSTORM2017}. The $\nu$STORM facility 
-is based on a neutrino factory-like design and has the goal to search for sterile neutrinos and study neutrino nucleus cross sections \cite{Adey:2014rfv}. Although this proposal is in its early days, $\nu$STORM has the potential to make cross section measurements with unprecedented precision. In its current design, $120$-GeV protons are used to produce pions from a fixed target with the pions subsequently decaying into muons and neutrinos. The muons are captured in a storage ring and during repeated passes around the ring they decay to produce neutrinos.
+\paragraph{$\nu$STORM} In this section we study the trident rates for a possible LAr detector for the proposed $\nu$STORM experiment~\cite{Soler:2015ada,nuSTORM2017}. The $\nu$STORM facility 
+is based on a neutrino factory-like design and has the goal to search for sterile neutrinos and study neutrino nucleus cross sections~\cite{Adey:2014rfv}. Although this proposal is in its early days, $\nu$STORM has the potential to make cross section measurements with unprecedented precision. In its current design, $120$-GeV protons are used to produce pions from a fixed target with the pions subsequently decaying into muons and neutrinos. The muons are captured in a storage ring and during repeated passes around the ring they decay to produce neutrinos.
 %
 Consequently, the storage ring is an intense source of three types of neutrino
 flavours: $\nu_\mu$ from $\pi^+$ and $K^+$ decays, which will be more than $99\%$ of the total flux, $\nu_e$ and $\overline\nu_\mu$ from recirculated muon decays which will comprise less than $1\%$ of the total flux. An important point, however, is that the neutrinos coming from the pion and kaon decays can be separated by event timing from the ones produced by the stored muons. This distinction allows the $\nu_\mu$ flux to be studied almost independently from the $\overline{\nu}_\mu$ and $\nu_e$ flux. In addition, it implies after the initial flash of meson-derived events, that the flux consists of as many electron neutrinos as muon antineutrinos. We will assume a LAr detector for $\nu$STORM at a baseline of 50\,m with 100\,t of fiducial mass with an exposure of $10^{21}$ POT. The neutrino fluxes, assuming 
-a central $\mu^+$ momentum of $3.8$~GeV/c in the storage ring, are taken from Ref.~\cite{nuSTORM2017} and are 
-shown in Fig.~\ref{fig:LAr}.
+a central $\mu^+$ momentum of $3.8$~GeV/c in the storage ring, are taken from Ref.~\cite{nuSTORM2017}.
 
 In Tab.~\ref{tab:LArrates}, we show the results of our calculations for $\nu$STORM. 
 More than $97\%$ of the events from the incoming $\nu_\mu$ are from pion decays and only less 
@@ -623,11 +609,11 @@ The total number of mixed flavour, dielectron and dimuon channel events is, resp
 \subsection{Background Estimates for Neutrino Trident in LAr}
 \label{subsec:bck}
 
-The study of any rare process is a struggle against both systematic uncertainties in the event rates and unavoidable background processes. True dilepton signatures are naturally rare in neutrino scattering experiments, but with modest rates of particle misidentification a non-trivial background arises. In this section we estimate the background to trident processes in LAr and its impact on the trident measurement. We perform our analysis only for DUNE ND, in neutrino and antineutrino mode, but our results are expected to be broadly applicable to other LAr detectors. We have generated a sample of $1.1 \times 10^6$ background events using GENIE \cite{Andreopoulos2009} for incident electron and muon flavour neutrinos and antineutrinos. It is worth noting, however, that this event sample will in fact be smaller than the total number of neutrino interactions expected in the DUNE ND. 
+The study of any rare process is a struggle against both systematic uncertainties in the event rates and unavoidable background processes. True dilepton signatures are naturally rare in neutrino scattering experiments, but with modest rates of particle misidentification a non-trivial background arises. In this section we estimate the background to trident processes in LAr and its impact on the trident measurement. We perform our analysis only for DUNE ND, in neutrino and antineutrino mode, but our results are expected to be broadly applicable to other LAr detectors. We have generated a sample of $1.1 \times 10^6$ background events using GENIE~\cite{Andreopoulos2009} for incident electron and muon flavour neutrinos and antineutrinos. It is worth noting, however, that this event sample will in fact be smaller than the total number of neutrino interactions expected in the DUNE ND. 
 %
 Our goal, therefore, will be to demonstrate that with modest analysis cuts background levels can be suppressed significantly such that they become comparable to or smaller than the signals we are looking for. In the absence of events that satisfy our background definition, we argue that the frequency of that type of event is less than one in $1.1\times 10^6$ interactions of the corresponding initial neutrino.  
 
-To account for misreconstruction in the detector, we implement resolutions as a gaussian smear around the true MC energies and angles. We assume relative energy resolutions as $\sigma/E = 15\%/\sqrt{E}$ for $e/\gamma$ showers and protons, and $6\%/\sqrt{E}$ for charged pions and muons. Angular resolutions are assumed to be $1^\circ$ for all particles (proton angles are never smeared in our analysis). The detection thresholds are a crucial part of the analysis, since for many channels one ends up with very soft electrons. We take thresholds to be $30$ MeV for muons and $e/\gamma$ showers kinetic energy, $21$ MeV for protons and $100$ MeV for $\pi^{\pm}$ \cite{DUNECDRvolII}.
+To account for misreconstruction in the detector, we implement resolutions as a gaussian smear around the true MC energies and angles. We assume relative energy resolutions as $\sigma/E = 15\%/\sqrt{E}$ for $e/\gamma$ showers and protons, and $6\%/\sqrt{E}$ for charged pions and muons. Angular resolutions are assumed to be $1^\circ$ for all particles (proton angles are never smeared in our analysis). The detection thresholds are a crucial part of the analysis, since for many channels one ends up with very soft electrons. We take thresholds to be $30$ MeV for muons and $e/\gamma$ showers kinetic energy, $21$ MeV for protons and $100$ MeV for $\pi^{\pm}$~\cite{DUNECDRvolII}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Background Candidates}
@@ -635,21 +621,13 @@ To account for misreconstruction in the detector, we implement resolutions as a 
 We focus on three final-state charged lepton combinations: $\mu^+\mu^-$, $\mu^\pm e^\mp$ and $e^+e^-$. Genuine production of these states is possible in background processes, but usually rare, deriving from meson resonances or other prompt decays. The majority of the background is expected to be from particle misidentification (misID). We assume that protons can always be identified above threshold and that neutrons leave no detectable signature in the detector. In addition, we require no charge ID capabilities from the detector and assume that the interaction vertex can always be reconstructed. Under these assumptions, we have incorporated three misidentifications which will affect our analysis, and give our naive estimates for their rates in Tab.~\ref{tab:misIDlist}. Any other particle pairs are assumed to be distinguishable from each other when needed.
 %
 \renewcommand{\arraystretch}{1.2}
-\begin{table}[t]
+\begin{table}[h]
 \centering 
-\begin{tabular}{|c c|}
-\hline\hline
-\bf misID & \bf Rate \\
-\hline\hline
-%
-$\gamma$ as $e^\pm$ & 0.05 \\
+\begin{tabular}{c c}
 \hline
-\multirow{2}{*}{$\gamma$ as $e^+e^-$} & 0.1 (w/ vertex)  \\
-%\cline{2-2}
- & 1 (no vertex + overlapping)  \\
-\hline
-$\pi^\pm$ as $\mu^\pm$ & 0.1 \\
-\hline\hline
+misID $\gamma$ as $e^\pm$ & $\gamma$ as $e^+e^-$ & $\pi^\pm$ as $\mu^\pm$ \\
+\multirow{2}{*}{Rate} & \multirow{2}{*}{0.05} & 0.1 (w/ vertex) &  \multirow{2}{*}{0.1} \\
+     &      & 1 (no vertex + overlapping) 
 \end{tabular}
 \caption[Rates for particle misID in LAr.]{\label{tab:misIDlist} Assumed misID rates for various particles in a LAr detector. We take these values to be constant in energy.}
 \end{table}
@@ -671,16 +649,17 @@ The asymmetry between the positive and negative charged leptons is visible in th
 The resulting signal efficiencies due to our cuts and thresholds are shown in the last two columns of \reftab{tab:DUNE_ND_NU_BG}. One can see that these are all $ \approx 50\%$ or greater for our coherent samples, whilst all background numbers remain much below the trident signal. The incoherent samples are also somewhat more affected by our cuts than the coherent ones. If one is worried about the contamination of coherent events by incoherent ones, then the kinematics of the charged leptons alone can help reduce this, independently of the hadronic energy deposition of the events. For instance, in the case where all $\mu^+\mu^-$ incoherent events appear with no hadronic signature, then after our cuts the incoherent contribution is reduced from $41\%$ to $15\%$ of the total trident signal. This reduction is, however, also subject to large uncertainties coming from nuclear effects. In summary, the set of results above are encouraging, suggesting that the signal of coherent-like trident production is sufficiently unique to allow for its search at near detectors despite naively large backgrounds. 
 
 %
+\renewcommand{\arraystretch}{1.6}
 \begin{table}[t]	
 	\begin{center}
     \resizebox{\textwidth}{!}{
-		\begin{tabular}{|clllll|}
-		\hline \hline
+		\begin{tabular}{clllll}
+		\hline
 		\bf Channel& $\bf N^{\mathrm{misID}}_{\mathrm{B}} / N_{\mathrm{CC}}$        & $ \bf N^{\mathrm{had}}_{\mathrm{B}} / N_{\mathrm{CC}}$ & $\bf N^{\mathrm{kin}}_{\mathrm{B}} / N_{\mathrm{CC}}$ & ${\epsilon_{\mathrm{sig}}^{\mathrm{coh}}}$ &
-${\epsilon_{\mathrm{sig}}^{\mathrm{dif}}}$ \footnotemark\\	\hline \hline
+${\epsilon_{\mathrm{sig}}^{\mathrm{dif}}}$ \footnotemark\\	\hline
 		$e^{\pm}\mu^{\mp}$ & $1.67\  (1.62) \times 10^{-4}$ & $2.68\  (4.31) \times 10^{-5}$ & $4.40 \ (3.17) \times 10^{-7}$ & $ 0.61 \ (0.61)$ & $ 0.39 \ (0.39)$\\
 		$e^+e^-$ & $2.83 \ (4.19)\times 10^{-4}$ & $1.30 \ (2.41) \times 10^{-4}$ &  $6.54 \ (14.1) \times 10^{-6}$ & $ 0.48 \ (0.47)$ & $ 0.21 \ (0.21)$\\
-		$\mu^+\mu^-$ & $2.66 \ (2.73)\times 10^{-3}$ & $10.4 \ (9.75)\times 10^{-4}$ & $3.36 \ (3.10)\times10^{-8}$ & $0.66 \ (0.67)$ & $0.17 \ (0.16)$\\\hline\hline
+		$\mu^+\mu^-$ & $2.66 \ (2.73)\times 10^{-3}$ & $10.4 \ (9.75)\times 10^{-4}$ & $3.36 \ (3.10)\times10^{-8}$ & $0.66 \ (0.67)$ & $0.17 \ (0.16)$\\\hline
 		\end{tabular}
     }
 	\end{center}
@@ -692,7 +671,7 @@ ${\epsilon_{\mathrm{sig}}^{\mathrm{dif}}}$ \footnotemark\\	\hline \hline
 \begin{figure}[t]
 \centering
 \includegraphics[width = 0.75\textwidth]{figs/SigvsBkg.pdf}
- \caption{Signal and background distributions in invariant mass. The total background events (blue) include the misID rates in table \reftab{tab:misIDlist}. We apply consecutive cuts on the background, starting with cuts on the separation angle $\Delta \theta$ (red), both charged lepton angles to the beamline ($\theta_+$ and $\theta_-$) (orange) and the invariant mass $m^2_{\mu^+ \mu^-}$ . We show the signal samples before and after all the cuts in dashed black and filled black, respectively. \label{fig:bkg_flow}}
+ \caption[Kinematical cuts on background samples for dimuon tridents.]{Signal and background distributions in invariant mass. The total background events (blue) include the misID rates in table \reftab{tab:misIDlist}. We apply consecutive cuts on the background, starting with cuts on the separation angle $\Delta \theta$ (red), both charged lepton angles to the beamline ($\theta_+$ and $\theta_-$) (orange) and the invariant mass $m^2_{\mu^+ \mu^-}$ . We show the signal samples before and after all the cuts in dashed black and filled black, respectively. \label{fig:bkg_flow}}
 \end{figure}
 %
 Finally, we comment on some of the limitations of our analysis. The low rate of trident events calls for a more careful evaluation of other subdominant processes that could be easily be overlooked. For channels involving electrons, it is possible that de-excitation photons and internal bremsstrahlung become a source of background, as these also produce very soft EM showers, none of which are implemented in GENIE. The question of reconstruction of these soft EM showers, accompanied either by a high energy muon or by another soft EM shower also would have to be addressed, especially in the latter case where a trigger for these soft events would have to be in place. A more complete analysis is also needed for treating the decay products of charged pions and muons produced in neutrino interactions, as well as rare meson decay channels (like the Dalitz decay of neutral pions $\pi^0 \to \gamma e^+ e^-$). Cosmic ray events are not expected to be a problem due to the requirement of a vertex and a correlation with the beam for trident events. Perhaps even more exotic processes, such as the production of three final-state charged leptons ($\nu_{\alpha} (\overline{\nu}_{\alpha}) + \mathcal{H} \to  \ell_\alpha^- (\ell_\alpha^+) + \ell_\beta^+ + \ell_{\beta}^- + \mathcal{H^\prime}$), can also become relevant. For instance, radiative trimuon production \cite{Smith:1977nx} can potentially serve as a background to dimuon tridents if one of the muons is undetected. Similarly, $\mu e e$ production would fake a dielectron (mixed) trident signature if the muon (an electron) is missed. We are not aware of any estimates for the rate of these processes at the DUNE ND, but we note that their rate can be comparable to trident production at energies above $30$ GeV \cite{Albright:1978mg}. Improvements on our analysis should come from the collaboration's sophisticated simulations, allowing for a better quantification of hadronic activity, more realistic misID rates and more accurate detector responses.  

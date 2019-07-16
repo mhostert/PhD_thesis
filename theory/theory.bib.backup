@@ -74,6 +74,20 @@
       note           = "[,171(2002)]",
       SLACcitation   = "%%CITATION = NUPHZ,112,171;%%"
 }
+@article{Cozzella:2018zwm,
+      author         = "Cozzella, Gabriel and Giunti, Carlo",
+      title          = "{Mixed states for mixing neutrinos}",
+      journal        = "Phys. Rev.",
+      volume         = "D98",
+      year           = "2018",
+      number         = "9",
+      pages          = "096010",
+      doi            = "10.1103/PhysRevD.98.096010",
+      eprint         = "1804.00184",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1804.00184;%%"
+}
 @article{Buss:2011mx,
       author         = "Buss, O. and Gaitanos, T. and Gallmeister, K. and van
                         Hees, H. and Kaskulov, M. and Lalakulich, O. and Larionov,
@@ -232,4 +246,160 @@
       primaryClass   = "hep-ph",
       reportNumber   = "FERMILAB-PUB-09-418-CD",
       SLACcitation   = "%%CITATION = ARXIV:0905.2517;%%"
+}
+@article{Mohapatra:1980yp,
+      author         = "Mohapatra, Rabindra N. and Senjanovic, Goran",
+      title          = "{Neutrino Masses and Mixings in Gauge Models with
+                        Spontaneous Parity Violation}",
+      journal        = "Phys. Rev.",
+      volume         = "D23",
+      year           = "1981",
+      pages          = "165",
+      doi            = "10.1103/PhysRevD.23.165",
+      reportNumber   = "FERMILAB-PUB-80-061-THY, FERMILAB-PUB-80-061-T",
+      SLACcitation   = "%%CITATION = PHRVA,D23,165;%%"
+}
+@article{Schechter:1980gr,
+      author         = "Schechter, J. and Valle, J. W. F.",
+      title          = "{Neutrino Masses in SU(2) x U(1) Theories}",
+      journal        = "Phys. Rev.",
+      volume         = "D22",
+      year           = "1980",
+      pages          = "2227",
+      doi            = "10.1103/PhysRevD.22.2227",
+      reportNumber   = "SU-4217-167, COO-3533-167",
+      SLACcitation   = "%%CITATION = PHRVA,D22,2227;%%"
+}
+@article{Lazarides:1980nt,
+      author         = "Lazarides, George and Shafi, Q. and Wetterich, C.",
+      title          = "{Proton Lifetime and Fermion Masses in an SO(10) Model}",
+      journal        = "Nucl. Phys.",
+      volume         = "B181",
+      year           = "1981",
+      pages          = "287-300",
+      doi            = "10.1016/0550-3213(81)90354-0",
+      reportNumber   = "FREIBURG-THEP-80-2",
+      SLACcitation   = "%%CITATION = NUPHA,B181,287;%%"
+}
+@article{Cheng:1980qt,
+      author         = "Cheng, T. P. and Li, Ling-Fong",
+      title          = "{Neutrino Masses, Mixings and Oscillations in SU(2) x
+                        U(1) Models of Electroweak Interactions}",
+      journal        = "Phys. Rev.",
+      volume         = "D22",
+      year           = "1980",
+      pages          = "2860",
+      doi            = "10.1103/PhysRevD.22.2860",
+      reportNumber   = "PRINT-80-0511 (CARNEGIE-MELLON), COO-3066-152",
+      SLACcitation   = "%%CITATION = PHRVA,D22,2860;%%"
+}
+@article{Konetschny:1977bn,
+      author         = "Konetschny, W. and Kummer, W.",
+      title          = "{Nonconservation of Total Lepton Number with Scalar
+                        Bosons}",
+      journal        = "Phys. Lett.",
+      volume         = "70B",
+      year           = "1977",
+      pages          = "433-435",
+      doi            = "10.1016/0370-2693(77)90407-5",
+      reportNumber   = "Print-77-0625 (VIENNA)",
+      SLACcitation   = "%%CITATION = PHLTA,70B,433;%%"
+}
+
+
+
+@article{Arhrib:2011uy,
+      author         = "Arhrib, A. and Benbrik, R. and Chabab, M. and Moultaka,
+                        G. and Peyranere, M. C. and Rahili, L. and Ramadan, J.",
+      title          = "{The Higgs Potential in the Type II Seesaw Model}",
+      journal        = "Phys. Rev.",
+      volume         = "D84",
+      year           = "2011",
+      pages          = "095005",
+      doi            = "10.1103/PhysRevD.84.095005",
+      eprint         = "1105.1925",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1105.1925;%%"
+}
+@article{Casas:2001sr,
+      author         = "Casas, J. A. and Ibarra, A.",
+      title          = "{Oscillating neutrinos and muon ---> e, gamma}",
+      journal        = "Nucl. Phys.",
+      volume         = "B618",
+      year           = "2001",
+      pages          = "171-204",
+      doi            = "10.1016/S0550-3213(01)00475-8",
+      eprint         = "hep-ph/0103065",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "IEM-FT-211-01, OUTP-01-11P, IFT-UAM-CSIC-01-08",
+      SLACcitation   = "%%CITATION = HEP-PH/0103065;%%"
+}
+@article{Heeck:2014zfa,
+      author         = "Heeck, Julian",
+      title          = "{Unbroken B – L symmetry}",
+      journal        = "Phys. Lett.",
+      volume         = "B739",
+      year           = "2014",
+      pages          = "256-262",
+      doi            = "10.1016/j.physletb.2014.10.067",
+      eprint         = "1408.6845",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1408.6845;%%"
+}
+@article{Pontecorvo:1957qd,
+      author         = "Pontecorvo, B.",
+      title          = "{Inverse beta processes and nonconservation of lepton
+                        charge}",
+      journal        = "Sov. Phys. JETP",
+      volume         = "7",
+      year           = "1958",
+      pages          = "172-173",
+      note           = "[Zh. Eksp. Teor. Fiz.34,247(1957)]",
+      SLACcitation   = "%%CITATION = SPHJA,7,172;%%"
+}
+@article{Maki:1962mu,
+      author         = "Maki, Ziro and Nakagawa, Masami and Sakata, Shoichi",
+      title          = "{Remarks on the unified model of elementary particles}",
+      journal        = "Prog. Theor. Phys.",
+      volume         = "28",
+      year           = "1962",
+      pages          = "870-880",
+      doi            = "10.1143/PTP.28.870",
+      note           = "[,34(1962)]",
+      SLACcitation   = "%%CITATION = PTPKA,28,870;%%"
+}
+@article{LopezPavon:2012zg,
+      author         = "Lopez-Pavon, J. and Pascoli, S. and Wong, Chan-fai",
+      title          = "{Can heavy neutrinos dominate neutrinoless double beta
+                        decay?}",
+      journal        = "Phys. Rev.",
+      volume         = "D87",
+      year           = "2013",
+      number         = "9",
+      pages          = "093007",
+      doi            = "10.1103/PhysRevD.87.093007",
+      eprint         = "1209.5342",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "IPPP-12-68, DCPT-12-136",
+      SLACcitation   = "%%CITATION = ARXIV:1209.5342;%%"
+}
+@article{Gavela:2009cd,
+      author         = "Gavela, M. B. and Hambye, T. and Hernandez, D. and
+                        Hernandez, P.",
+      title          = "{Minimal Flavour Seesaw Models}",
+      journal        = "JHEP",
+      volume         = "09",
+      year           = "2009",
+      pages          = "038",
+      doi            = "10.1088/1126-6708/2009/09/038",
+      eprint         = "0906.1461",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "FTUAM-09-09, IFT-UAM-CSIC-09-27, ULB-TH-09-15,
+                        IFIC-09-22, FTUV-09-0607",
+      SLACcitation   = "%%CITATION = ARXIV:0906.1461;%%"
 }

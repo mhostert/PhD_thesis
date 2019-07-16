@@ -1,16 +1,98 @@
 \graphicspath{{}{theory/}{Diagrams/}}
 
+Neutrinos are special in many ways. They are the only singlets under the broken symmetry group of the SM, and the only fermion that is strictly massless in the SM. As we now know, the second fact is contradicted by neutrino oscillations. This chapter starts with a discussion about neutrino oscillations in vacuum and in matter. We then move on to study the most common neutrino interactions, as they provide a direct probe of the weak interactions. We will find that it is hard to ignore the strong force in many of these cases. Later, we have a short overview of the most popular models to explain the non-zero neutrino masses beyond the SM.
 
-\section{The three neutrino paradigm}
+\section{Neutrino history}
 
-Neutrinos are special in many ways. They are the only singlets under the broken symmetry group of the SM we know of, and the only fermion that is strictly massless in the SM. In this chapter we will explore some of the theoretical and experimental status of neutrino physics. We start with a few theoretical considerations about neutrino oscillations in vacuum and in matter, and why this phenomenom is so important. We then move on to study the most abundant neutrino interactions in oscillation experiments, as they provide a direct probe of the weak interactions. We will find that it is hard to ignore the strong force in many of these cases. Later, we will have a quick overview of the most popular models to explain the non-zero neutrino masses beyond the SM. 
-% Finally, interactionsone can expect that neutrino experiments resemble the kind setup one would design to look for new dark states. Exploring this resemblence in new physics searches ``under the lightpost'', using the \emph{intesity frontier} in a opportunistic way. 
 
-Some history --Madame Wu + Freinberg numus + Lederman + Paul Davies + 
+Some history --Madame Wu + Feinberg numus + Lederman + Paul Davies 
 
-\section{Oscillations}
+\section{Neutrino mixing}
 
-Neutrino oscillations arise when a superposition of neutrino mass eigenstates is produced, propagates macroscopic distances and scatters inside a detector. Given sufficiently long baselines, neutrino flavour transitions may always occurs due to mixing, but for a non-trivial dependence on baseline distances, coherence must be preserved throughout the process. In this section, we will make these statements more precise and derive the standard formula for the oscillation probability in vacuum, $P(\nu_\alpha \to \nu_\beta)$ (matter effects are discussed in \refsec{sec:matter_effects}). This exercise can be done in multiple ways and most often derivations rely on plane-wave neutrino states. This approach leads to correct expressions for $P(\nu_\alpha \to \nu_\beta)$ in virtually all cases of interest, but it is a rather poor conceptual description of oscillations and relies on unphysical assumptions. Instead, we will derive the oscillation formula from a quantum mechanical wave-packet approach, and encounter a few conditions for oscillations to happen. More sophisticated treatments in Quantum Field Theory (QFT) have been known for some time~\cite{Cardall:1999ze,Beuthe:2001rc,Giunti:2002xg}, and their results have been shown to be directly mapped onto the wave-packet approach~\cite{Akhmedov:2010ms}. Nonetheless, neutrino oscillations are notorious for being conceptually confusing and the correct method to compute such processes is still debated in the literature~\cite{Kobach:2017osm}. We may seek consolation in the fact that a few aspects are common to all approaches, for instance, the ultra-relativistic nature of the mass states through expansions of $\sqrt{m^2 + p^2}$ and the need for momentum uncertainties in the initial and final neutrino processes.
+With several possibilities laid out to generate non-zero neutrino masses, we would like to understand some of their consequences at low energies. Most importantly, neutrino oscillations and flavour transition. For our current purposes, we may assume the low-energy operators for Majorana and Dirac neutrino masses
+%
+\begin{equation}\label{eq:lowEmasses}
+ \mathscr{L}_{\nu-{\rm mass}}^{\rm M} = \frac{M_{\alpha \beta}}{2} {\overline{\nu_L^c}^\alpha \nu_L^\beta} \,+\, {\rm h.c.,} \qquad %
+ \mathscr{L}_{\nu-{\rm mass}}^{\rm D} = \frac{y^\nu_{\alpha \beta} v}{\sqrt{2}} \,{\overline{\nu_L}^\alpha N^\beta} \,+\, {\rm h.c.,}
+\end{equation}
+%
+where the former operator breaks $SU(2)$ and describes purely Majorana neutrinos, and the latter describes purely Dirac neutrinos with the addition of three $N$ states to the SM. Similarly to the quark sector, we would like to diagonalize these mass matrices and find the relevant mixing matrix. We proceed with the two cases in parallel and start by rotating all fields independently with unitary matrices
+%
+\begin{align}
+\nu_L^\alpha \to U^\nu_{\alpha k} \nu_L^k, \qquad & N^\alpha \to V^\nu_{\alpha k} N^k \nonumber\\
+ e_L^\alpha \to U^e_{\alpha k} e_L^k,\qquad & e_R \to V^e_{\alpha k} e^k,
+\end{align}
+%
+where $U$ ($V$) rotates LH (RH) fields. From \refeq{eq:lowEmasses}, it is clear that the diagonalization is slightly different in the two cases. The diagonal mass matrices are 
+%
+\begin{equation}
+\textbf{M} \to \hat{\textbf{M}} = \textbf{U}^{\nu\,T} \textbf{M} \textbf{U}^\nu, \qquad   \textbf{Y} \to \hat{\textbf{Y}} = \textbf{U}^{\nu\,\dagger} \textbf{Y} \textbf{V}^\nu,
+\end{equation}
+%
+where $\textbf{M}$ and $\textbf{Y}$ are diagonal matrices~\footnote{Note that in the Dirac case, the mass matrix $\textbf{Y}$ is diagonalized by its singular value decomposition, and in the Majorana case we assumed $\textbf{M}$ to be complex \emph{symmetric} and the special case of Takagi factorization applies.}. The CC Lagrangian defines lepton mixing through the Pontecorvo-Maki-Nakagawa-Sakata (PMNS) matrix~\cite{Pontecorvo:1957qd,Maki:1962mu}
+%
+\begin{equation}
+\overline{e_L}^\alpha \gamma_\mu P_L \nu_L^\alpha \to \overline{e_L}^k P_L \, \left(U_{\rm PMNS}\right)_{kj} \,\nu_L^j, \qquad \textbf{U}_{\rm PMNS} = \textbf{U}^{e\,\dagger} \textbf{U}^\nu.
+\end{equation}
+%
+At this point, we can identify the charged-lepton fields $e^k$ with their gauge basis (\ie, their flavour and mass basis coincide $\alpha \sim k$) and define the LH flavour neutrino field $\widehat{\nu}^\alpha = \left(U_{\rm PMNS}\right)_{\alpha j} \nu_L^j$. This is the relevant field for all neutrino CC interactions, but it does not have a well-defined mass.
+
+The PMNS mixing matrix is responsible for neutrino mixing and its entries are model dependent, arising from the flavour structure of the neutrino Yukawas and Majorana masses. In the general case, it is parametrized by
+\renewcommand{\arraystretch}{0.9}
+\begin{align}\label{eq:neu:UmixFull}
+U_{\rm PMNS}&= \left(
+\begin{matrix}
+1 & 0        & 0\\
+0 & c_{23}   & s_{23}\\
+0 & -s_{23}  & c_{23}\\
+\end{matrix}
+\right)\hspace{-1ex}\left(
+\begin{matrix}
+c_{13}              & 0  & s_{13}e^{-i\delta} \\
+0                   & 1  & 0                  \\
+-s_{13}e^{-i\delta} & 0  & c_{13}             \\
+\end{matrix}
+\right)\hspace{-1ex}\left(
+\begin{matrix}
+c_{12}  & s_{12} & 0 \\
+-s_{12} & c_{12} & 0 \\
+0       & 0      & 1 \\
+\end{matrix}
+\right) D, 
+% \hspace{-1ex}\left(
+% \begin{matrix}
+% 1               & 0                 & 0 \\
+% 0               & e^{i\alpha_2/2} & 0 \\
+% 0               & 0                 & e^{i\alpha_3 / 2}
+% \end{matrix}
+% \right),
+% \nonumber\\
+% &=\left(
+% \begin{matrix}
+% U_{e 1}& U_{e 2}  & U_{e 3}\\
+% U_{\mu 1} & U_{\mu 2} & U_{\mu 3}\\
+% U_{\tau 1} & U_{\tau 2} & U_{\tau 3}\\
+% \end{matrix}
+% \right),
+\end{align}
+%
+where $c_{ij} = \cos{\theta_{ij}}$ and $s_{ij}= \sin{\theta_{ij}}$ are the cosine and sine of the mixing angles to be measured from oscillation data. The matrix $D = {\rm diag}\{1,e^{i\alpha_2/2}, e^{i\alpha_3/2}\}$ contains additional phases that are physical when neutrinos are Majorana. Oscillation data can shed light on all mixing angles, mass-squared differences $m^2_{ij} = m_i^2 - m_j^2$, and the phase $\delta$. It is insensitive, however, to any such Majorana phases.
+
+Immense efforts to measure all parameters in the PMNS have been carried out in the past 26 years. In \reffig{fig:measurements}, we show the relative precision reported by a global fit to neutrino oscillation data, comparing the data release from September of 2014, to November of 2018. This gives an idea of how the situation changed from the start of this degree, to the end. All mixing angles and mass-squared splittings are measured to within $\approx 20\%$ precision, with the exception of the CP violation phase $\delta$. Although hints from CP violation have been found by T2K and NO$\nu$A data, the statistics is still insufficient to claim any measurements. Another intersting development is the determination of the ordering. This essentially a measurement of the sign of $\Delta m^2_{3\ell}$, where $\ell = 1$ for normal ordering (NO) and $\ell = 2$ for inverted ordering (IO).
+
+%
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.49\textwidth]{plots/precision.pdf}
+\includegraphics[width=0.49\textwidth]{plots/delta_profile.pdf}
+  \caption[Global fit comparison between 2014 and 2018 datasets.]{On the left, the relative precision $R = (x_{\rm best-fit} \pm x_{3\sigma})/x_{\rm best-fit}$ calculated from the best-fit point and $3\sigma$ ranges of Ref.~\cite{Esteban:2018azc}. We compare the data release from 2014~\cite{Esteban:2018azc} to the most recent one in 2018~\cite{Gonzalez-Garcia:2014bfa}, for normal ordering (NO) and inverted ordering (IO). On the right, the $\sqrt{\Delta \chi^2}$ profiles minimized over all other parameters except $\delta$, also from \cite{Esteban:2018azc}.\label{fig:measurements}}
+\end{figure}
+%
+
+
+\subsection{Neutrino oscillations}
+
+Neutrino oscillations arise when a superposition of neutrino mass eigenstates is produced, propagates macroscopic distances and scatters inside a detector. Given sufficiently long baselines, neutrino flavour transitions may always occurs due to mixing, but for a non-trivial dependence on baseline distances, coherence must be preserved throughout the process. In this section, we will make these statements more precise and derive the standard formula for the oscillation probability $P(\nu_\alpha \to \nu_\beta)$ in vacuum (matter effects are discussed in \refsec{sec:matter_effects}). This exercise can be done in multiple ways and most often derivations rely on plane-wave neutrino states. This approach leads to correct expressions for $P(\nu_\alpha \to \nu_\beta)$ in virtually all cases of interest, but it is a rather poor conceptual description of oscillations and relies on unphysical assumptions. Instead, we will derive the oscillation formula from a quantum mechanical wave-packet approach, and encounter a few conditions for oscillations to happen. More sophisticated treatments in Quantum Field Theory (QFT) have been known for some time~\cite{Cardall:1999ze,Beuthe:2001rc,Giunti:2002xg}, and their results have been shown to be directly mapped onto the wave-packet approach~\cite{Akhmedov:2010ms}. Nonetheless, neutrino oscillations are notorious for being conceptually confusing and the correct method to compute such processes is still debated in the literature~\cite{Kobach:2017osm}. We may seek consolation in the fact that a few aspects are common to all approaches, for instance, the ultra-relativistic nature of the mass states through expansions of $\sqrt{m^2 + p^2}$ and the need for momentum uncertainties in the initial and final neutrino processes.
 %
 \begin{figure}[t]
 \centering
@@ -105,23 +187,23 @@ For most application, $P^{\rm coh}_{kj} = P^{\rm loc}_{kj} = 1$, and one recover
 
 \subsection{Matter effects}\label{sec:matter_effects}
 
-Neutrinos are neutral particles and their rare interactions allow them to propagate through matter without losing energy in collisions with the medium particles. Nevertheless, in a similar fashion to photons, neutrinos undergo coherent forward scattering, acquiring an effective refractive index in the presence of a medium. In contrast to photons, which undergo Compton scattering, neutrinos are only charged under the weak force and undergo CC and NC interactions. The weakness of these interactions at low energies implies that matter effects arise only when neutrinos have transversed sufficiently large distances or are in a sufficiently dense environment. In principle, for matter effects all that is needed is a net weak charge for the medium, provided by the neutrons in the case of the Earth. However, for such effects to be observable in neutrino oscillation experiments, the additional condition that different flavour states exhibit different interaction potential with the medium must be ensured. In the SM, this is possible due to the CC interactions that are exclusively present between electron-neutrino states and electrons in the medium.
+Neutrinos are neutral particles and their rare interactions allow them to propagate through matter without losing energy in collisions with the medium particles. Nevertheless, in a similar fashion to photons, neutrinos undergo coherent forward scattering, acquiring an effective refractive index in the presence of a medium. In contrast to photons, which undergo Compton scattering, neutrinos are only charged under the weak force and undergo CC and NC interactions. Therefore, matter effects are present whenever the medium displays a net weak charge, provided by neutrons, protons and electrons in the case of the Earth. The weakness of these interactions at low energies, however, implies that matter effects are only important when neutrinos have transversed sufficiently large distances or are in a sufficiently dense environment. In addition, for such effects to be observable in the flavour evolution of neutrinos, different neutrino flavour fields must exhibit different interactions with the medium. In the SM, this is possible only due to the CC interactions that are exclusively present between electron-neutrinos and electrons in the medium.
 
-We want to avoid the complications from the previous discussion due to coherence and focus on the effects of matter. Similar conditions to the ones we found in the previous section apply for oscilation probabilities in matter to be well-defined, and with this caveat we proceed with the plane-wave picture. By applying the same momentum approximation and assuming neutrinos to be relativistic we can write the Schr\"oedinger equation in matrix form as 
+We will now comment on the impact of matter in the flavor evolution, and derive the neutrino interaction potential. We want to avoid the complications from the previous discussion due to coherence and focus on the effects of matter. We merely note that similar conditions to the ones we found in the previous section apply for oscilation probabilities in matter to be well-defined, and with this caveat we proceed with a plane-wave picture of the flavour evolution. By applying the same momentum approximation and assuming neutrinos to be relativistic, we can write the Schr\"oedinger equation in matrix form as 
 %
 \begin{equation}\label{eq:matter_evolution}
  i \frac{\dd}{\dd x} \ket{\nu_\alpha} = \left[ U \frac{\hat{m}^2}{2E} U^\dagger + \hat{V}(x) \right] \ket{\nu_\alpha}, 
 \end{equation}
 %
-where we used $H_0 \ket{\nu_\alpha} \approx U \left[ p \hat{1} + \hat{m}^2/2 p \right] U^\dagger \ket{\nu_\alpha} $ and $t \approx x$. Here $\hat{V}(x)$ is a matrix containing the interaction potential of each neutrino flavour with the background, which depends on the density of matter particles. Solving this equation is a much more complicated task than in the vacuum case. Full analytical solutions are only known in specific cases, such as when the column density of matter particles is constant. In general, this may be solved numerically for a given choice of $\hat{V}(x)$, although several perturbative expansions exist. In this sense, the problem reduces to finding the appropriate potential and solving \refeq{eq:matter_evolution}.
+where we used $H_0 \ket{\nu_\alpha} \approx U \left[ p \hat{1} + \hat{m}^2/2 p \right] U^\dagger \ket{\nu_\alpha} $ and $t \approx x$. Here, $\hat{V}(x)$ is a matrix containing the interaction potential of each neutrino flavour with the background. Note that $\hat{V}(x)$ depends on the density profile of matter particles. Solving this equation is a much more complicated task than in the vacuum case and analytical solutions are only known in specific cases, such as when the matter density is constant. In general, this may be solved numerically for a given choice of $\hat{V}(x)$, although several perturbative expansions exist. In this sense, the problem reduces to finding the appropriate potential and solving \refeq{eq:matter_evolution}.
 
-Various calculations of the neutrino matter potential exist, but often these rely on statistical averages over the particle background and are difficult to generalize to non-standard cases. Here, we sketch the approach of Refs.~\cite{Notzold:1987ik,Nieves:1989ez}, where the neutrino potential arises from finite temperature and finite density corrections to the neutrino dispersion relation. In particular, the dispersion relations arises from
+The neutrino matter potential arises from finite temperature and finite density corrections to the neutrino dispersion relation. The derivation of the potential following the approach of Refs.~\cite{Notzold:1987ik,Nieves:1989ez} can easily be modified to early Universe and astrophysical media. The dispersion relation arises from
 %
 \begin{equation}
  \det{\slashed{k} - \Sigma} = 0,
 \end{equation}
 %
-guaranteeing non-trivial solutions to the Dirac equation $(\slashed{k} - \Sigma)\nu_L = 0$, with $k^\mu$ the neutrino four-momentum and $\Sigma$ its self-energy. For LH neutrino states $\nu_L$, we can write the neutrino self-energy in the most general form and make explicit the background dependent contribution as~\cite{Weldon:1982aq}
+ensuring non-trivial solutions to the Dirac equation $(\slashed{k} - \Sigma)\nu_L = 0$, with $k^\mu$ the neutrino four-momentum and $\Sigma$ its self-energy. For LH neutrino states $\nu_L$, we can write the neutrino self-energy in the most general form and make explicit the background dependent contribution as~\cite{Weldon:1982aq}
 %
 \begin{equation}
   \Sigma = m - \left( a_L \slashed{k} + b_L \slashed{u} + c_L [\slashed{k},\slashed{u}] \right) P_L.
@@ -164,55 +246,14 @@ Putting it all together, the potential for neutrinos of flavour $\alpha$ on a ba
 For antineutrino an overall minus sign is introduced. Note the $\nu_e$ potential is the only one where CC interactions contribute, and so it is the sole responsible for non-trivial flavour evolution in \refeq{eq:matter_evolution}. One may wonder about radiative corrections to these potentials in the SM and whether additional flavour non-universality can be achieved through the difference in charged-lepton masses. These effects, however, are known to be extremely small in the SM~\cite{Botella:1986wy}, where $\left(V_\tau - V_\mu\right)/V_e \approx 5 \times 10^{-5}$ for a neutral unpolarized medium like the Earth. 
 
 
-\section{Mass mechanisms}
+\subsection{Current status}
 
-A more ambitious task than measuring the low-energy properties of neutrinos is to understand the theoretical origins of neutrino mass and mixing. Here, the possibilities are manifold. The high-scale dynamics, typical of many neutrino mass models, is incredibly hard to test, so it is fair to say we have more neutrino mass models than ways to test them. Nevertheless, many of these models possess similar features. They may rely on the seesaw mechanism, on radiative neutrino mass generation or in extended scalar sectors. On top of that, new symmetries and fundamental forces may also be at play. We will explore a small fraction of this model space.
-%
-\begin{figure}[t]
-\centering
-\includegraphics[width=\textwidth]{seesaw_mechanisms.pdf}
-\caption[The tree-level UV completions of the Weinberg operator.]{The only three UV completions of the $d=5$ Weinberg operator with their respective contributions to light neutrino masses.\label{fig:seesaw_mechanisms}}
-\end{figure}
 
-We have already alluded to the first possibility to introduce light neutrino masses in the SM. All that is needed are at least 2 RH neutrino fields, singlets under all SM symmetries. We shall refer to them as $N^\alpha$, where $\alpha$ is their generation index. This may be chosen to be $\alpha = e, \mu, \tau$ or any combination of 2 of these. The full new neutrino mass Lagrangian then becomes
-%
-\begin{equation}
- \mathscr{L}_{\nu-{\rm mass}} = \overline{N}^\alpha i\slashed{\partial} N_\alpha + y^\nu_{\alpha\beta} \left( \overline{L}^\alpha \cdot H \right) N^\beta + M_{\alpha \beta} \overline{N^c}^\alpha N^\beta,
-\end{equation}
-%
-where $N^c = C \overline{N}^T$ with $C$ the charge conjugation matrix ($C = i \gamma^0 \gamma^2$ in the chiral basis). The middle term endows neutrinos with Dirac masses, but the latter is a new ingredient. This is the Majorana mass matrix for the new RH neutrinos, and it is allowed by the symmetries of the model. It does, however, violate any $U(1)$ symmetry associated with the fields $N$, as
-%
-\begin{equation}
- N \to e^{i\theta} N \,\implies\, \overline{N^c} N \to e^{2i\theta}\overline{N^c} N.
-\end{equation}
-%
-So if $N$ are assigned lepton number, then the accidental global symmetries of the SM $B-L$ and $L$ are violated by the Majorana mass term. If we insist and set $L(N)=0$, then the Dirac mass term will, instead, explicitly break these global symmetries. This interesting observation, together with the fact that $B-L$ is anomaly-free with 3 RH neutrinos, had led to many theorists to propose Dirac neutrino mass models with gauged $B-L$. On top of that, the scale of the entries in $\bm{M}$ is not set by the Higgs vev and, therefore, may be wildly different from the EW scale. We may argue that it has to be small, since in the limit that all $M_{\alpha\beta}\to0$, the SM symmetry is enhanced. This choice is then said to be technically natural, in the t'Hooft sense. Regardless of our mechanism to prevent this term, one thing is clear, a purely Dirac neutrino mass model has to deal with the fact that the neutrino Yukawas are extremely small $y^\nu/y^t \approx 10^{-12}$. The smallness of this coupling and the reason for it being so only aggravate the flavour problem. We may be tempted to stop here, but while we continue to look for any experimental evidence that this is not the final word, we cannot rule out the many other alternatives.
 
-In the same way that the $N$ particles admitted a Majorana mass term, we may wonder if the SM may also provide a similar term for the LH states. Clearly $SU(2)$ invariance forbids any renormalizable operator that would give rise to this term, but at $d=5$, we can write the so-called Weinberg operator
-%
-\begin{equation}
- \mathscr{L}_{d=5} = \frac{c_{\alpha\beta}}{\Lambda} \left( \overline{L^c} \widetilde{H}^* \right) \left( \widetilde{H}^\dagger L  \right) \to  \frac{c_{\alpha\beta}}{\Lambda} \frac{v^2}{2} \overline{\nu_L^c}^\alpha \nu_L^\beta
-\end{equation}
-%
-where we go from the unbroken to the broken phase. This operator is, in fact, the only $d=5$ operators allowed in the SM effective field theory (SMEFT). The fact that the lowest dimension non-renormalizable operator in the SMEFT gives neutrino masses is, yet again, an indication that neutrino masses point towards BSM physics. In this case, neutrinos turn out to be Majorana. Testing this hypothesis is extremely difficult because of the smallness of $m_\nu$, any process containing lepton number violation (LNV) will be suppressed by $m_\nu^2/E^2$, where $E$ is the typical energy involved. Another way to understand this is that any process where the operator above is important must be sensitive to the neutrino mass, which we have not measured so far. Curiously, neutrino oscillations are insensitive to the nature of neutrinos, that is, the oscillation probabilities are the same for Dirac or Majorana states. The most promising search for the Majorana nature of neutrinos is neutrinoless double-beta decay ($0\nu\beta\beta$), $(A,Z)\to(A,Z+2) + e^- + e^-\$. Here, we
-
-In \reffig{fig:seesaw_mechanisms}, we show these unique tree-level completions of the Weinberg operator.
-
-For a review on low-scale models see \cite{Boucenna:2014zba}.
-
-\subsection{Conventional seesaws}
-
-\subsection{Low scale seesaw variants}
-
-\subsection{Radiative masses}
-
-The most straightforward extension of the SM which can generate neutrino masses at loop level is perhaps the so-called Zee-Babu model.
-
-\subsection{Sources}\label{sec:sources}
+\section{Neutrino scattering}
 
 To find a source of neutrinos, all we have to do is to look for environments where the Weak force is prominently manifested. A natural candidate, as we have seen in the discovery of the neutrino, are nuclear reactors. Fortunately, the list does not stop there. Abundant neutrino sources include the Sun, the atmosphere, the Big-Bang, particle accelerators and astrophysical environments processes such as supernovae, active galactic nuclei and others. 
 
-\section{Scattering}
 
 Neutrino cross sections are an invaluable observable to understand the weak force and to search be able to study oscillation physics. Due to the purely weakly interacting nature of neutrinos, they also serve as a strong test of \emph{stronger than weak} interactions with matter, that is, new interactions with $G_X > G_F$. In fact, if sufficiently clean, neutrino scattering processes provide the strongest limits on light new mediators of masses from a few MeV to a few GeV~\cite{}. In this section, we present the standard scattering channels used in oscillation experiments, as well as other curious processes that are relatively poorly studied. 
 
@@ -221,3 +262,182 @@ Accelerator experiments typically produce neutrinos of a few GeV energies to ach
 Take the MiniBooNE experiment, for instance, where the average neutrino energy is $\langle E_\nu \rangle \approx 800 $ MeV. The nucleons struck by the neutrinos in the processes of interst are inside Carbon nuclei, and so their interactions with the nuclear medium are important. Even in the crudest approximation for a nucleus, that of a $T=0$ Fermi gas of free protons and neutrons, nucleons may have quite large momenta in the rest frame of the nucleus, $|p| \lesssim 250$ MeV, being comparable to the incoming neutrino energies. In addition to Fermi motion, the Pauli exclusion principle suppresses possible final state configurations in the nucleus. This is known as Pauli blocking, and typically suppresses the neutrino interactions on nuclei. On their way out of the nucleus, the nucleons may also exchange EM charges, knock-out additional particles or be absorbed in the nuclear medium. The importance of nuclear effects is perhaps most famously illustrated by the CCQE measurement at MiniBooNE~\cite{AguilarArevalo:2010zc}, where a disagreement of $20\%$ was observed between the MC prediction and the data, unless the axial mass $M_A$ was set to be $\approx1.32$ GeV, much larger than the world-average of $M_A = 1.03 \pm 0.02$ GeV. This was later understood as a missing contribution from two-particle two-hole meson exchange currents (where the neutrino interacts with a nucleon pair, rather than with an individual nucleon), shown to be as large as $30\%$ of the CCQE cross section used by the experiment~\cite{Nieves:2011yp}.
 
 Currently several neutrino event generators exists, the most popular being GENIE~\cite{Andreopoulos:2009rq}, GiBUU~\cite{Buss:2011mx}, NEUT~\cite{Hayato:2002sd} and NuWro~\cite{Juszczak:2005zs}.
+
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% MASS MODELS
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\section{Mass mechanisms}
+
+Understanding the theoretical origins of neutrino mass and mixing is an ambitious task. The possibilities are endless and the high-scale dynamics, typical of many neutrino mass models, is extremely hard to test. Presently, it is fair to say we have more neutrino mass models than ways to test them. Nevertheless, many of these models possess similar features. They may rely on the seesaw mechanism, on radiative neutrino mass generation or in extended scalar sectors. On top of that, new symmetries and fundamental forces may also be at play. We will explore a small fraction of this model space.
+
+We have already alluded to the first possibility to introduce light neutrino masses in the SM. All that is needed are at least 2 RH neutrino fields, singlets under all SM symmetries. We shall refer to them as $N^\alpha$, where $\alpha$ is their generation index. This may be chosen to be $\alpha = e, \mu, \tau$ or any combination of 2 of these. The full new neutrino mass Lagrangian then becomes
+%
+\begin{equation}\label{eq:typeILagrangian}
+ \mathscr{L}_{\nu-{\rm mass}} = \overline{N}^\alpha i\slashed{\partial} N_\alpha - y^\nu_{\alpha\beta} \left( \overline{L}^\alpha H \right) N^\beta - M_{\alpha \beta} \overline{N^c}^\alpha N^\beta,
+\end{equation}
+%
+where $N^c = C \overline{N}^T$ with $C$ the charge conjugation matrix ($C = i \gamma^0 \gamma^2$ in the chiral basis). The middle term endows neutrinos with Dirac masses, but the latter is a new ingredient. This is the Majorana mass matrix for the new RH neutrinos, and it is allowed by the symmetries of the model. It does, however, violate any $U(1)$ symmetry associated with the fields $N$, as
+%
+\begin{equation}
+ N \to e^{i\theta} N \,\implies\, \overline{N^c} N \to e^{2i\theta}\overline{N^c} N.
+\end{equation}
+%
+So if $N$ are assigned lepton number, then the accidental global symmetries of the SM $B-L$ and $L$ are violated by the Majorana mass term. If we insist and set $L(N)=0$, then the Dirac mass term will, instead, explicitly break these global symmetries. This interesting observation, together with the fact that gauging $B-L$ leads to an anomaly-free theory with 3 RH neutrinos, has led proposals of Dirac neutrino mass models with gauged and unbroken $B-L$~\cite{Heeck:2014zfa}. On top of that, the scale of the entries in $\textbf{M}$ is not set by the Higgs vev and, therefore, may be wildly different from the EW scale. We may argue that it has to be small, since in the limit that all $M_{\alpha\beta}\to0$, the SM symmetry is enhanced and the theory is said to be technically natural in the t'Hooft sense. Regardless of our argument to prevent this term, one thing is clear, a purely Dirac neutrino mass model has to deal with the fact that the neutrino Yukawas are extremely small $y^\nu/y^t \approx 10^{-12}$. If the arbitrariness of Yukawa couplings in the SM already made us uncomfortable, this SM extension dramatically worsens the picture. Of course, we may be tempted to ignore the flavour puzzle and just stop here. This solution, however, as underwhelming as it is, is not unique. Many other models for neutrino masses exist and, while we cannot rule all of them out, it is worthwhile to study the alternatives.
+
+In the same way that the $N$ particles admitted a Majorana mass term, we may wonder if the SM may also provide a similar term for the LH states. Clearly $SU(2) \times U(1)$ invariance forbids any renormalizable operator that would give rise to this operator before SSB, but at $d=5$, we can write the so-called Weinberg operator
+%
+\begin{equation}\label{eq:weinberg}
+ \mathscr{L}_{d=5} = \frac{c_{\alpha\beta}}{\Lambda} \left( \overline{L^c} \widetilde{H}^* \right) \left( \widetilde{H}^\dagger L  \right) \to  \frac{c_{\alpha\beta}}{\Lambda} \frac{v^2}{2} \overline{\nu_L^c}^\alpha \nu_L^\beta
+\end{equation}
+%
+where we go from the unbroken to the broken phase. This operator is, in fact, the only $d=5$ operators allowed in the SM effective field theory (SMEFT). The fact that the lowest dimension non-renormalizable operator in the SMEFT gives neutrino masses is, yet again, another indication that neutrino masses point towards BSM physics. Unfortunately, assuming the coefficients to be $\mathcal{O}(1)$ and saturating the upper bound on the sum of neutrino masses $m_\nu \lesssim 0.1 $ eV~cite{}, we are led to conclude that $\Lambda \approx 10^{14}$ GeV, eeringly close to the Planck scale. There is, however, no reason to expect the couplings of the theory to be large and for the mass mechanism to be simple. Technical naturalness, for instance, is commonly invoked to claim that the mass mechanism may reside at low scales, where we trade unreachable energies for tiny couplings. We will see shortly all tree-level UV-completions to the Weinberg operator, and, as it turns out, these can already be tested at current and future experiments. Of course, neutrino masses need not be tree-level effects, and loop-induced mechanism for generating Dirac or Majorana neutrino masses are also important. In this case, the smallness of neutrino masses is explained through loop suppression factors. We come back to these issues in \refsec{sec:seesaws}.
+
+
+The mass term induced by \refeq{eq:weinberg} turn out to be of the Majorana kind. Testing this hypothesis is extremely difficult because of the smallness of $m_\nu$. Any process containing lepton number violation (LNV), the hallmark of Majorana neutrinos, will be suppressed by $m_\nu^2/E^2$, where $E$ is the typical energy involved. Another way to understand this is that any process where the operator above is important must be sensitive to the effects of neutrino mass, which we have yet to measure. Curiously, this holds also for neutrino oscillations. In that case, one might also worry about additional phases that appear in the Majorana case, but these can be shown to drop out. Currently, the most promising search for the Majorana nature of neutrinos is neutrinoless double-beta decay ($0\nu\beta\beta$), $(A,Z)\to(A,Z+2) + e^- + e^-$. This process is only allowed if neutrinos are Majorana, and should be contrasted with double-beta decays ($2\nu\beta\beta$), where two neutrinos are present in the final state.  
+
+
+
+\subsection{Conventional seesaw mechanisms}\label{sec:seesaws}
+
+There exist only three ways to UV complete the Weinberg operator at tree-level. These correspond to introducing a new fermion which is a singlet of $SU(2)_L$, a new scalar that transforms as a triplet of $SU(2)_L$ or a new fermion that also transforms as a triplet. These models are usually referred to as the Type I~\cite{Minkowski:1977sc,Mohapatra:1979ia,Yanagida:1979as,GellMann:1980vs}, Type II~\cite{Konetschny:1977bn,Cheng:1980qt,Lazarides:1980nt,Schechter:1980gr,Mohapatra:1980yp} and Type III~\cite{Foot:1988aq} seesaw mechanism, respectively. They are shown in \reffig{fig:seesaw_mechanisms} and we discuss each one individually below.
+%
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{seesaw_mechanisms.pdf}
+\caption[The tree-level UV completions of the Weinberg operator.]{The only three UV completions of the $d=5$ Weinberg operator with their respective contributions to light neutrino masses.\label{fig:seesaw_mechanisms}}
+\end{figure}
+%
+
+
+\paragraph{Type I} The Lagrangian for this extension is precisely the one in \refeq{eq:typeILagrangian}. For convenience, let us work in the single generation case. We collect all mass terms into a single mass matrix of the form
+%
+\renewcommand{\arraystretch}{0.8}
+\begin{equation}
+  -\mathscr{L}_{\nu-{\rm mass}} \supset \frac{1}{2} \left( \begin{matrix}  \overline{\nu_L} & \overline{N^c} \end{matrix} \right) \left( \begin{matrix}  0 &  m \\ m & M_N \end{matrix} \right)  \left( \begin{matrix} \nu_L \\ N^c \end{matrix} \right) \,+\, {\rm h.c.},
+\end{equation}
+%
+where $m = y^\nu_N v/\sqrt{2}$ and $M_N$ is the Majorana mass for $N$. Diagonalizing this mass matrix with a simple rotation $R(\theta)$, we find
+%
+\begin{equation}
+ m_{1,2} = \frac{M_N \pm \sqrt{M_N^2 - 4m^2}}{2},\quad {\rm with}  \quad\tan{2 \theta} = \frac{2 m}{M_N}.
+\end{equation}
+%
+In the so-called seesaw limit ($m \ll M_N$), this simplifies to 
+%
+\begin{equation}
+ m_{1} \approx -\frac{m^2}{M_N} = \frac{(y^\nu_N v)^2}{2 M_N}, \quad m_2 \approx M_N  \quad {\rm with}, \quad \theta \approx \frac{m}{M_N},
+\end{equation}
+%
+where the seesaw mechanism is in action: the large separation of scales between $m$ and $M_N$ explains the smallness of the light neutrino masses $m_1$. Saturating the upper bound on neutrino masses $m_1 \approx 0.1$ eV, we can infer that
+\begin{equation}
+ \left(y^\nu_N\right)^2 \approx 3 \times 10^{-15} \, \left(\frac{M_N}{{\rm GeV}} \right), \qquad \theta^2 \approx 10^{-10} \, \left(\frac{M_N}{{\rm GeV}} \right)^{-1}.
+\end{equation}
+%
+Again, we conclude that the scale of new physics for couplings of $\mathcal{O}(1)$ lies at $M_N \approx 10^{15}$ GeV, in this case with very small mixing angles between the light states and the flavour $N$. Of course, this is only a naive scaling and becomes more complicated in the full three generation case~\cite{Casas:2001sr}. Nevertheless, it shows that heavy neutrinos at reasonably low scales are a reachable candidate to realise the seesaw mechanism, provided we are comfortable with small values for $y^\nu_N$.
+
+\paragraph{Type II} In the presence of a scalar $\bm{\Delta}$, triplet under $SU(2)$, we can write
+%
+\begin{equation}\label{eq:typeIILagrangian}
+ - \mathscr{L}_{\nu-{\rm mass}} \supset y^\nu_\Delta \, \overline{L^c} i\sigma_2 \bm\Delta L, \quad {\rm with}\quad \bm{\Delta} = \left( \begin{matrix} \Delta^+/\sqrt{2} & \Delta^{++} \\ \Delta^0 & -\Delta^+/\sqrt{2} \end{matrix} \right),
+\end{equation}
+%
+where new charged scalars are appear. The scalar potential acquires the term
+\begin{equation}
+ -V(H,\Delta) \supset  \mu_\Delta H^T \,i\sigma_2\bm{\Delta} H + M_\Delta^2 \Tr{\bm{\Delta}^\dagger\bm{\Delta}},
+\end{equation}
+%
+and is in general much more complicated. One can show that the neutral component acquires a vev $\langle \Delta^0 \rangle \approx \mu_\Delta v^2/M_\Delta^2$, where we ignored additional mixing terms between the Higgs and the new scalar degrees of freedom~\cite{Arhrib:2011uy}. This vev, then gives neutrinos mass through \refeq{eq:typeIILagrangian}, which interestingly, is linear in the neutrino Yukawa and suppressed by the typical mass scale of $\Delta$
+%
+\begin{equation}
+ m_1 \approx y^\nu_\Delta  \frac{\mu_\Delta \,v^2}{M_\Delta^2}.
+\end{equation}
+%
+The field $\bm{\Delta}$, in fact, carries lepton number $L=2$, and so the LNV parameter $\mu_\Delta$ being small is a technically natural choice. In this model, the vev of $\Delta^0$ is constrained to be very low, $\langle \Delta^0 \rangle \lesssim 5$ GeV, as $\bm{\Delta}$ contributes to the EW gauge boson masses through its kinetic term ${\rm Tr}\left[ (D_\mu \bm{\Delta})^\dagger (D^\mu\bm{\Delta}) \right]$. Finally, we can see for $m_1 \approx 0.1$ eV, we get
+%
+\begin{equation}
+ y^\nu_\Delta \approx \left( \frac{1 {\rm eV}}{ \mu_\Delta}\right)  \, \left( \frac{M}{1 \,{\rm TeV}}\right)^2,
+\end{equation}
+%
+suggesting a clear target for experimental searches around at EW scale.
+
+\paragraph{Type III} The fermionic triplet couples to the doublets through
+%
+\begin{equation}\label{eq:TypeIII}
+ - \mathscr{L}_{\nu-{\rm mass}} \supset y^\nu_\Sigma \, \overline{L} \bm{\Sigma} H, \quad {\rm with } \quad 
+\bm{\Sigma} = \left( \begin{matrix} \Sigma^0 &  \Sigma^+/\sqrt{2} \\ \Sigma^-/\sqrt{2} & - \Sigma^0 \end{matrix} \right).
+\end{equation}
+%
+In this case, the scalar sector may remain unchanged and the field $\Sigma^0$ behaves very similarly to the field $N$ in the Type I seesaw. Analogously to the Type I, we can write 
+%
+\begin{equation}
+ m_1 \approx \frac{(y^\nu_\Sigma v)^2}{2 M_\Sigma}.
+\end{equation}
+%
+This model is much less explored in the literature, but its phenomenology is quite rich. The term related to charged-leptons in \refeq{eq:TypeIII} induces charged-lepton mixing, and leads to rare processes such as $\mu\to e\gamma $ and $\mu \to e e e $ already at tree-level, contrary to the Type-I seesaw where they appear at one loop.
+
+\subsection{Low scale seesaw variants} All of the previous models may be searched for at low or high scale, but for large Yukawas, are regarded as high scale solutions to the neutrino problem. Exceptions to this arise in construction where additional symmetry arguments are at play. Most famous are the Inverse Seesaw (ISS)~\cite{Mohapatra:1986bd,GonzalezGarcia:1988rw} and the Linear Seesaw (LSS)~\cite{Wyler:1982dd,Akhmedov:1995ip,Akhmedov:1995vm}, where the lightness of neutrino masses is explained by an approximate conservation of lepton number, and the Extended Seesaw (ESS)~\cite{Kang:2006sn,Barry:2011wb,Zhang:2011vh}, where new hierarchies appear in the heavy sector. All these extensions arise from introducing a additional neutral fermions to the Type I seesaw particle content. In particular, in the single generation case, the most general mass matrix we can construct with the new fermions $N$ and $S$ is given by~\cite{LopezPavon:2012zg}
+%
+\begin{equation} \label{eq:typeIvariants}
+   -\mathscr{L}_{\nu-{\rm mass}} \supset \frac{1}{2} \left( \begin{matrix}  \overline{\nu_L} & \overline{N} &  \overline{S} \end{matrix} \right) \left( \begin{matrix}  0 &  m & \epsilon \\ m & \mu^\prime & \Lambda  \\ \epsilon & \Lambda & \mu \end{matrix} \right)  \left( \begin{matrix} \nu_L^c \\ N^c \\ S^c \end{matrix} \right) \,+\, {\rm h.c.}
+\end{equation}
+%
+Note that lepton number, defined as $L = L_e + L_\mu+L_\tau+L_N+L_S$, is violated by $\mu$, $\mu^\prime$ and $\epsilon$ if we assign, as usual, $L_N = - L_S$. From the diagonalization of this mass matrix, we learn that 
+\begin{equation}
+ m_1 = \frac{\mu m^2 - 2 \epsilon m\Lambda  + \epsilon^2 \mu^\prime }{\Lambda^2 - \mu \mu^\prime}.
+\end{equation}
+%
+Therefore, we see that if all LNV parameters are set to zero, neutrino masses vanish. In the same way, if we set $\epsilon,\mu \to 0$, then we also get vanishing neutrino masses, at tree level. This accidental cancellation is very peculiar, and will be realised in the model introduced in Chapter 5. As it turns out, $\mu^\prime$ breaks lepton number, and so radiative corrections can be large, responsible for the light neutrino masses in this case. 
+
+The ISS model can be recovered in the limit $\Lambda \gg m \gg \mu \gg \mu^\prime, \epsilon$. Now, the smallness of neutrino masses are controlled by the LNV parameter $\mu$, which is small due to approximate conservation of $L$, and suppressed by $1/\Lambda^2$, realising the seesaw mechanism. In this way, the additional neutrino states combine into a pseudo-Dirac pair, with a mass of $m_{2,3} \approx \Lambda \mp (\mu+\mu^\prime)/2$. These type of models predict small LNV, but the new heavy fermions will reside at much smaller scales while mainting the Yukawa couplings large. The LSS is another special case where $\Lambda \gg m \gg \epsilon \gg \mu^\prime,\mu$. In this case the light neutrino mass is \emph{linear} in $m$ and suppressed by $\epsilon/\Lambda^2$. 
+
+
+In the ESS limit, $\mu^\prime \gg \Lambda, m \gg \mu, \epsilon$, LNV is large and the light neutrino masses are suppressed by the scale $\mu^\prime$. The seesaw, in this case, happens both for light and intermediate neutrinos, and so light new fermions are typical predictions of the model, of interest to the literature on scale sterile neutrinos.
+
+% These models have been extensively studied in the framework of Minimal Flavour Violation (MFV)~\cite{Gavela:2009cd}, where the only source of flavour violation is assumed to be equal to that in the SM (through Yukawa couplings). 
+%
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{LNV_diagrams.pdf}
+\caption[Diagrams for inverse seesaw and scotogenic model.]{On the left, the inverse seesaw flavour diagram for Majorana neutrino masses. On the right, the flavour diagram for the scotogenic mode. Arrows represent lepton number. \label{fig:LNVdiagrams}}
+\end{figure}
+%
+\subsection{Radiative masses}\label{sec:radiative}
+
+A further possibility to generate the Weinberg operator is that Majorana neutrino masses arise from higher-order diagrams in perturbation theory. Since in the SM $L$ is an accidental symmetry, neutrino masses vanish at all orders, but this may not be the case in a generic SM extension. For instance, neutrino masses may arise at $n$ loops, in which case a naive estimate for the scale of new physics is
+%
+\begin{equation}
+ \frac{c}{\Lambda} \approx  \left( \prod_{i}^\text{\# of vertices} g_i \right) \left(\frac{1}{4\pi}\right)^{2n} \frac{1}{M},
+\end{equation}
+%
+where $g_i$ stand for the new couplings of the theory and $M$ is a new mass scale. The loop suppression factor is of interest since it lowers the scale $\Lambda$ without the need for small couplings or large masses. Many models for radiative neutrino masses exist, where typically new particles are introduced together with a new symmetry that prevents any of the mechanisms discussed previously to take place. 
+
+The most illustrative example is perhaps the \emph{scotogenic} model~\cite{Ma:2006km}, sometimes also referred to as the radiative seesaw. Here, new SM singlet fermions $N$ are introduced together with $\eta$, a copy of the Higgs doublet with $\eta = (\eta^+, \eta^0\,)^T$ and $Y_\eta = Y_{H} = 1$. To forbid tree-level masses, an additional $Z_2$ discrete symmetry is introduced, under which all new states are odd ($N \to -N$ and $\eta \to -\eta$) and all SM particles are even (\eg, $L \to L$). In the single generation case, the new fermion mass terms are
+%
+\begin{equation}
+-\mathscr{L}_{\nu-{\rm mass}} \supset \frac{M_N}{2} \overline{N^c} N + \left[y^N \left(\overline{L} \, \widetilde{\eta} \right) N \,+\, {\rm h.c.} \right],
+\end{equation}
+%
+where the Yukawa term $(\overline{L} \widetilde{H}) N$ is not allowed by virtue of the $Z_2$ symmetry. The scalar potential now contains 
+%
+\begin{equation}
+ V(H,\eta) \supset m_{\eta}^2 \eta^\dagger \eta + \frac{\lambda^\prime}{2} \left[ \left( H^\dagger \eta\right)^2 + \left( \eta^\dagger H \right)^2 \right],
+\end{equation}
+%
+where $m_\eta^2 > 0$ and $\eta^0 = (\eta_R + i \eta_I)/\sqrt{2}$ acquires no vev. After SSB, we end up with an additional neutral scalar $\eta_R$ and neutral pseudo-scalar $\eta_I$ of masses $m_{R,\, I}^2 = m_\eta^2 \pm \lambda^\prime v^2/2$. The one-loop neutrino masses are then given by 
+%
+\begin{equation}
+ m_1 = \frac{1}{2}\left(\frac{y^N}{4\pi}\right)^2 M_N \left[ \frac{m_R^2}{m_R^2 - M_N^2 } \ln \left( \frac{m_R^2}{M_N^2} \right) - \frac{m_I^2}{m_I^2 - M_N^2 } \ln \left( \frac{m_I^2}{M_N^2} \right) \right].
+\end{equation}
+%
+In this case, we can see the loop suppression and the new Yukawas. To find what mass scale appears in the denominator, we may choose a limit. For $M_N \gg m_\eta$, we find $m_1 \propto \lambda^\prime v^2/M_N$ up to loop factors and the Yukawas, while for $M_N \ll m_\eta$, we have $m_1 \propto \lambda^\prime v^2 M_N/m_\eta^2$. The diagram on the right in \reffig{fig:LNVdiagrams} explicitly shows how this dependence comes about. 
+
+
+Note that due to the $Z_2$ symmetry, $N$ and $\eta^0$ define a dark sector, with the lightest particle being a DM candidate. Despite the absence of the neutrino portal operator in this case, neutrino mixing between light states and the flavour $N$ is generated at one loop. In addition, the $\eta^\pm$ provides a strong connection between the SM and the dark sector. Many models for radiative neutrino masses display similar features to these, where new dark states often solve the neutrino and DM puzzle at the same time. This connection is explored in more detail in Chapter 5. Beyond one loop, neutrino mass models have been studied up to three-loop level~\cite{Krauss:2002px}.
+
+
+
