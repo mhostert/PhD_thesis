@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: JHEP.bst
-Reallocated field_info (elt_size=4) to 17390 items from 5000.
+Reallocated field_info (elt_size=4) to 17420 items from 5000.
 Database file #1: introduction/introduction.bib
 Database file #2: theory/theory.bib
 Database file #3: tridentSM/tridentSM.bib
@@ -144,6 +144,7 @@ Repeated entry---line 58 of file dark_nus/three_portals.bib
  : @inproceedings{Alexander:2016aln
  :                                 ,
 I'm skipping whatever remains of this entry
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Repeated entry---line 263 of file dark_nus/three_portals.bib
  : @article{Keshavarzi:2018mgv
  :                            ,
@@ -156,7 +157,6 @@ Repeated entry---line 299 of file dark_nus/three_portals.bib
  : @article{Bennett:2006fi
  :                        ,
 I'm skipping whatever remains of this entry
-Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Repeated entry---line 505 of file dark_nus/three_portals.bib
  : @article{Chu:2018gxk
  :                     ,
@@ -1038,45 +1038,45 @@ Warning--empty author in DUNE:flux_updated
 Warning--empty author in DUNE:GArOption
 Warning--empty booktitle in Aguilar-Arevalo:2012fmn
 Warning--empty publisher in Leo:1987kd
-You've used 411 entries,
+You've used 412 entries,
             2217 wiz_defined-function locations,
-            3878 strings with 92514 characters,
-and the built_in function-call counts, 129191 in all, are:
-= -- 13448
-> -- 4965
+            3887 strings with 92780 characters,
+and the built_in function-call counts, 129548 in all, are:
+= -- 13486
+> -- 4979
 < -- 0
-+ -- 1465
-- -- 1054
-* -- 11043
-:= -- 17680
-add.period$ -- 414
-call.type$ -- 411
-change.case$ -- 408
++ -- 1469
+- -- 1057
+* -- 11073
+:= -- 17726
+add.period$ -- 415
+call.type$ -- 412
+change.case$ -- 409
 chr.to.int$ -- 0
-cite$ -- 417
-duplicate$ -- 6685
-empty$ -- 11191
-format.name$ -- 1054
-if$ -- 34034
+cite$ -- 418
+duplicate$ -- 6706
+empty$ -- 11220
+format.name$ -- 1057
+if$ -- 34130
 int.to.chr$ -- 0
-int.to.str$ -- 411
-missing$ -- 1529
-newline$ -- 1241
-num.names$ -- 408
-pop$ -- 739
+int.to.str$ -- 412
+missing$ -- 1533
+newline$ -- 1244
+num.names$ -- 409
+pop$ -- 741
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 5528
+skip$ -- 5547
 stack$ -- 0
-substring$ -- 5919
-swap$ -- 3552
+substring$ -- 5931
+swap$ -- 3565
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 901
-width$ -- 414
-write$ -- 4273
+while$ -- 903
+width$ -- 415
+write$ -- 4284
 (There were 254 error messages)

@@ -1,15 +1,12 @@
 \graphicspath{{}{theory/}{Diagrams/}}
 
-Neutrinos are special in many ways. They are the only singlets under the broken symmetry group of the SM, and the only fermion that is strictly massless in the SM. As we now know, the second fact is contradicted by neutrino oscillations. This chapter starts with a discussion about neutrino oscillations in vacuum and in matter. We then move on to study the most common neutrino interactions, as they provide a direct probe of the weak interactions. We will find that it is hard to ignore the strong force in many of these cases. Later, we have a short overview of the most popular models to explain the non-zero neutrino masses beyond the SM.
-
-\section{Neutrino history}
-
+This chapter is dedicated to studying some important and more technical aspects of neutrino physics for the rest of the thesis. We start by introducing neutrino masses and mixing, and discuss neutrino oscillations in vacuum and in matter. We then move on to study the most common neutrino interactions, as they provide a direct probe of the weak interactions. We will find that it is hard to ignore the strong force in many of these cases. Later, we take a glance at some of the most popular models to explain the non-zero neutrino masses beyond the SM.
 
 Some history --Madame Wu + Feinberg numus + Lederman + Paul Davies 
 
 \section{Neutrino mixing}
 
-With several possibilities laid out to generate non-zero neutrino masses, we would like to understand some of their consequences at low energies. Most importantly, neutrino oscillations and flavour transition. For our current purposes, we may assume the low-energy operators for Majorana and Dirac neutrino masses
+Before studying concrete models to generate non-zero neutrino masses, we would like to understand the consequences of a neutrino mass at low energies and how did we learn about them. For our current purposes, we may assume the low-energy operators for Majorana and Dirac neutrino masses
 %
 \begin{equation}\label{eq:lowEmasses}
  \mathscr{L}_{\nu-{\rm mass}}^{\rm M} = \frac{M_{\alpha \beta}}{2} {\overline{\nu_L^c}^\alpha \nu_L^\beta} \,+\, {\rm h.c.,} \qquad %
@@ -35,7 +32,16 @@ where $\textbf{M}$ and $\textbf{Y}$ are diagonal matrices~\footnote{Note that in
 \overline{e_L}^\alpha \gamma_\mu P_L \nu_L^\alpha \to \overline{e_L}^k P_L \, \left(U_{\rm PMNS}\right)_{kj} \,\nu_L^j, \qquad \textbf{U}_{\rm PMNS} = \textbf{U}^{e\,\dagger} \textbf{U}^\nu.
 \end{equation}
 %
-At this point, we can identify the charged-lepton fields $e^k$ with their gauge basis (\ie, their flavour and mass basis coincide $\alpha \sim k$) and define the LH flavour neutrino field $\widehat{\nu}^\alpha = \left(U_{\rm PMNS}\right)_{\alpha j} \nu_L^j$. This is the relevant field for all neutrino CC interactions, but it does not have a well-defined mass.
+At this point, we can identify the charged-lepton fields $e^k$ with their gauge basis (\ie, their flavour and mass basis coincide $\alpha \sim k$) and define the LH flavour neutrino field $\widehat{\nu}^\alpha = \left(U_{\rm PMNS}\right)_{\alpha j} \nu_L^j$. This is the relevant field for all neutrino CC interactions, but it does not have a well-defined mass. For simplicity, we will now adopt the notation $\widehat{\nu}^\alpha \equiv \nu^\alpha$.
+%
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{plots/precision2.pdf}
+% \includegraphics[width=0.49\textwidth]{plots/precision.pdf}
+% \includegraphics[width=0.49\textwidth]{plots/delta_profile.pdf}
+  \caption[Oscillation global fit comparison between 2010, 2014 and 2018 datasets.]{The neutrino oscillation global fit results in 2010~\cite{Schwetz:2011qt}, 2014~\cite{Gonzalez-Garcia:2014bfa} and 2018~\cite{Esteban:2018azc}. We show the best-fit point, together with the $3\sigma$ regions for normal ordering (NO) and inverted ordering (IO).\label{fig:measurements}}
+\end{figure}
+%
 
 The PMNS mixing matrix is responsible for neutrino mixing and its entries are model dependent, arising from the flavour structure of the neutrino Yukawas and Majorana masses. In the general case, it is parametrized by
 \renewcommand{\arraystretch}{0.9}
@@ -76,18 +82,10 @@ c_{12}  & s_{12} & 0 \\
 % \right),
 \end{align}
 %
-where $c_{ij} = \cos{\theta_{ij}}$ and $s_{ij}= \sin{\theta_{ij}}$ are the cosine and sine of the mixing angles to be measured from oscillation data. The matrix $D = {\rm diag}\{1,e^{i\alpha_2/2}, e^{i\alpha_3/2}\}$ contains additional phases that are physical when neutrinos are Majorana. Oscillation data can shed light on all mixing angles, mass-squared differences $m^2_{ij} = m_i^2 - m_j^2$, and the phase $\delta$. It is insensitive, however, to any such Majorana phases.
+where $c_{ij} = \cos{\theta_{ij}}$ and $s_{ij}= \sin{\theta_{ij}}$ are the cosine and sine of the mixing angles to be measured from oscillation data. The matrix $D = {\rm diag}\{1,e^{i\alpha_2/2}, e^{i\alpha_3/2}\}$ contains additional phases that are physical when neutrinos are Majorana. As we will see in the next section, oscillation data can shed light on all mixing angles, mass-squared differences $m^2_{ij} = m_i^2 - m_j^2$, and on the CP-violating phase $\delta$. It is insensitive, however, to any Majorana phases.
 
-Immense efforts to measure all parameters in the PMNS have been carried out in the past 26 years. In \reffig{fig:measurements}, we show the relative precision reported by a global fit to neutrino oscillation data, comparing the data release from September of 2014, to November of 2018. This gives an idea of how the situation changed from the start of this degree, to the end. All mixing angles and mass-squared splittings are measured to within $\approx 20\%$ precision, with the exception of the CP violation phase $\delta$. Although hints from CP violation have been found by T2K and NO$\nu$A data, the statistics is still insufficient to claim any measurements. Another intersting development is the determination of the ordering. This essentially a measurement of the sign of $\Delta m^2_{3\ell}$, where $\ell = 1$ for normal ordering (NO) and $\ell = 2$ for inverted ordering (IO).
-
-%
-\begin{figure}[t]
-\centering
-\includegraphics[width=0.49\textwidth]{plots/precision.pdf}
-\includegraphics[width=0.49\textwidth]{plots/delta_profile.pdf}
-  \caption[Global fit comparison between 2014 and 2018 datasets.]{On the left, the relative precision $R = (x_{\rm best-fit} \pm x_{3\sigma})/x_{\rm best-fit}$ calculated from the best-fit point and $3\sigma$ ranges of Ref.~\cite{Esteban:2018azc}. We compare the data release from 2014~\cite{Esteban:2018azc} to the most recent one in 2018~\cite{Gonzalez-Garcia:2014bfa}, for normal ordering (NO) and inverted ordering (IO). On the right, the $\sqrt{\Delta \chi^2}$ profiles minimized over all other parameters except $\delta$, also from \cite{Esteban:2018azc}.\label{fig:measurements}}
-\end{figure}
-%
+Immense efforts to measure all parameters in the PMNS have been carried out in the past 26 years. In \reffig{fig:measurements}, we show the relative precision reported by a global fit to neutrino oscillation data, comparing the data release from after the Neutrino conferences of 2010~\cite{Schwetz:2011qt}, 2014~\cite{Gonzalez-Garcia:2014bfa} and 2018~\cite{Esteban:2018azc}. All three mixing angles and two mass-squared splittings have been succesfully measured to at least $3\sigma$, with the exception of the CP-violating phase $\delta$, which is still largely unknown. Another intersting development is our knowledge of the mass ordering. This is a measurement of the sign of $\Delta m^2_{3\ell}$, where $\ell = 1$ for normal orderImmense efforts to measure all parameters in the PMNS have been carried out in the past 26 years. In \reffig{fig:measurements}, we show the relative precision reported by a global fit to neutrino oscillation data, comparing the data release from after the Neutrino conferences of 2010~\cite{Schwetz:2011qt}, 2014~\cite{Gonzalez-Garcia:2014bfa} and 2018~\cite{Esteban:2018azc}. All three mixing angles and two mass-squared splittings have been succesfully measured to at least $3\sigma$, with the exception of the CP-violating phase $\delta$, which is still largely unknown. Another intersting development is our knowledge of the mass ordering. This is a measurement of the sign of $\Delta m^2_{3\ell}$, where $\ell = 1$ for normal ordering (NO) and $\ell = 2$ for inverted ordering (IO). While currently the global fit in Ref.~\cite{Esteban:2018azc} displays a mild preference for NO ($\Delta \chi^2 = 4.7$), future measurements are needed. For $\Delta m^2_{21}$, this sign is known, as it strongly impacts the matter potential of solar neutrinos.
+ing (NO) and $\ell = 2$ for inverted ordering (IO). While currently the global fit in Ref.~\cite{Esteban:2018azc} displays a mild preference for NO ($\Delta \chi^2 = 4.7$), future measurements are needed. For $\Delta m^2_{21}$, this sign is known, as it strongly impacts the matter potential of solar neutrinos.
 
 
 \subsection{Neutrino oscillations}
@@ -101,7 +99,7 @@ Neutrino oscillations arise when a superposition of neutrino mass eigenstates is
 \end{figure}
 %
 
-Our setup typical of neutrino oscillations experiments and is represented in \reffig{fig:oscillations_diagram}. We will first discuss the role of production and detection processes, and then later study the oscillations \emph{per se}. Initially, a neutrino flavour state $\nu_\beta$ is produced in a CC reaction at the source, $P_\textsc{i} \to \nu_\beta X_\textsc{i}$. More precisely, a state $\bra{f}$ is produced,
+Our setup typical of neutrino oscillations experiments and is represented in \reffig{fig:oscillations_diagram}. We will first discuss the role of production and detection processes, and then later study the oscillations \emph{per se}. Initially, a neutrino flavour state $\nu_\beta$ is produced in a CC reaction at the source, $P_\textsc{i} \to \nu_\beta X_\textsc{i}$. More precisely, a state $\ket{f}$ is produced,
 %
 \begin{equation}\label{eq:flavour_source}
  \ket{f} = \hat{S} \ket{P_\textsc{i}}, \quad \hat{S} \approx  \hat{1} - i \int \dd^4 x \, H_{\rm int}^{\rm CC} (x),
@@ -113,7 +111,7 @@ where $\hat{S}$ is the S-matrix operator approximated to first order in weak cou
  H_{\rm int}^{\rm CC} (x) = \sqrt{2} G_F\, \sum_\alpha \overline{\nu}_\alpha (x) \gamma^\mu P_L \ell_\alpha(x) \, J_\mu (x) \,+\, {\rm h.c.},
 \end{equation}
 %
-is the interaction Hamiltanian between the neutrino current and the current $J_\mu(x)$ that describes the transition $P_\textsc{i} \to X_\textsc{i}$. After $\ell_\alpha$ and the final particles interact with the medium, $\bra{f}$ is reduced to $\bra{\ell_\alpha,\,X_\textsc{i}}\ket{f}$, which ought to ensure that the neutrino state produced is a superposition of physical states weighed by the PMNS matrix elements $U_{\alpha i}^*$ and other factors. Note that this may differ from the usual definition of a flavour state, which can be misleading in this situation as these do not span a Fock space (for a recent and illuminating discussion on this issue, see Ref.~\cite{Cozzella:2018zwm}). We want to work instead with the eigenstates of the free Hamiltonian, which are the ones we can easilly evolve in time. With this in mind, we define the following amplitude
+is the interaction Hamiltonian between the neutrino current and the current $J_\mu(x)$ that describes the transition $P_\textsc{i} \to X_\textsc{i}$. After $\ell_\alpha$ and the final particles interact with the medium, $\ket{f}$ is reduced to $\bra{\ell_\alpha,\,X_\textsc{i}}\ket{f}$, which ought to ensure that the neutrino state produced is a superposition of massive states weighed by the PMNS matrix elements $U_{\alpha i}^*$ and other kinematic factors. Note that this may differ from the usual definition of a flavour state $\ket{\nu^\alpha} = U_{\alpha i}^* \ket{\nu_i}$, which can be misleading in this situation as these do have a definite mass and do not span a Fock space (for a recent and illuminating discussion on this issue, see Ref.~\cite{Cozzella:2018zwm}). We want to work instead with the eigenstates of the free Hamiltonian, which are the ones with a definite mass and that can easily be evolved in time. With this in mind, we define the following amplitude
 %
 \begin{equation}
  A_{\alpha k}(\vec{p},h)^P \equiv \bra{\nu_k(\vec{p},h),\ell_\beta,X_{\textsc{i}}} \hat{S}\ket{P_\textsc{i}}, \quad {\rm with} \quad A_{\alpha k}(\vec{p},h) = U^*_{\alpha k} M_{\alpha k}(\vec{p},h),
@@ -125,7 +123,7 @@ where we factored out a mixing angle in the definition of $M_{\alpha k}$ and mad
  \ket{\nu_\alpha}^P = N_P \,\sum_{k, h} \, \int \dd^3 p\, A^P_{\alpha k} (\vec{p},h) \ket{\nu_k(\vec{p},h)}, \quad N_P^{-2} = \sum_{k,h} \int \dd^3 p \, \left|A^P_{\alpha k} (\vec{p},h)\right|^2.
 \end{equation}
 %
-An analogous discussion holds for the detection process $\nu_\beta \, P_\textsc{f} \to \ell_\beta \, X_\textsc{f}$, where a detection flavour state $\ket{\nu_\alpha}^D$ with an amplitude for detection $A_{\alpha k}(\vec{p},h)^D$ can be defined. Before we move on to a discussion about oscillations, we want to emphasize two points. First, the normalization of the flavour state is a clear sign that we are working in a quantum mechanical description. To compute probabilities, we rely on normalized states. In a QFT description, however, the normalization is not necessary, but so is the concept of $P_\textsc{i} \to X_\textsc{i}$ in the first place. There, the full process in \reffig{fig:oscillations_diagram} can be compute directly through the use of long-distance propagators, and if the production, propagation and detection parts of the amplitude squared factorize, an object equivalent to the oscillation probability can be extracted. This factorization is implicitly assumed in our calculation. Secondly, the decay rate of the $P_\text{I}$ particle can be computed as
+An analogous discussion holds for the detection process $\nu_\beta \, P_\textsc{f} \to \ell_\beta \, X_\textsc{f}$, where a detection flavour state $\ket{\nu_\alpha}^D$ with an amplitude for detection $A_{\alpha k}(\vec{p},h)^D$ can be defined. Before we move on to a discussion about oscillations, we want to emphasize two points. First, the normalization of the flavour state is a clear sign that we are working in a quantum mechanical description. To compute probabilities, we rely on normalized states. In a QFT description, however, the normalization is not necessary, but neither is the concept of $P_\textsc{i} \to X_\textsc{i}$ in the first place. There, the full process in \reffig{fig:oscillations_diagram} can be compute directly through the use of long-distance propagators. If the production, propagation and detection parts of the amplitude squared factorize, an object analogous to the oscillation probability can be extracted. This factorization is implicitly assumed in our calculation. Secondly, the decay rate of the $P_\text{I}$ particle can be computed as
 %
 \begin{equation}
  \left|A^P\right|^2 =  \left|  \bra{\nu_\alpha (\vec{p},h),\ell_\beta, X_{\textsc{i}}} \hat{S} \ket{P_\textsc{i}}  \right|^2 = \sum_{k,h} \,|U_{\alpha k}|^2\, \int \dd^3 p \, \left|M^P_{\alpha k} (\vec{p},h) \right|^2,
@@ -149,7 +147,7 @@ Now that the flavour states are written in terms of the eigenstates of the free 
  A(\nu_\alpha \to \nu_\beta) &= \bra{\nu_\beta^D} e^{-i \hat{E} t + i \hat{P} L} \ket{\nu_\alpha^P}
  \nonumber \\ &= N \,\sum_k U_{\alpha k}^* U_{\beta k} \int \dd p \exp\left[ -i E_k(p) t + ip L - (p -p_k)^2/4 \sigma_p^2\right],
 \end{align}
-where $E_k(p) = \sqrt{p^2 + m_k^2}$ and N is a normalization factor coming from the normalization of the wavepackets and a single integral over $p$. We have also defined the global energy uncertainty on momentum $\sigma_p^{-2} = \left(\sigma_p^{P}\right)^{-2} + \left(\sigma_p^{D}\right)^{-2}$. This may also be related to the global uncertainty on production and detection positions through $\sigma_x \sigma_p \approx 1/2$. Finally, to integrate over the remaining $p$ integral, we can taylor expand around the central wavepacket momentum
+where $E_k(p) = \sqrt{p^2 + m_k^2}$ and $N$ is a normalization factor coming from the normalization of the wavepackets and a single integral over $p$. We have also defined the global uncertainty on momentum $\sigma_p^{-2} = \left(\sigma_p^{P}\right)^{-2} + \left(\sigma_p^{D}\right)^{-2}$. This may also be related to the global uncertainty on production and detection positions through $\sigma_x \sigma_p \approx 1/2$. Finally, to integrate over the remaining $p$ integral, we can Taylor expand around the central wavepacket momentum
 %
 \begin{equation}
  E_k(p) \approx E_k + v_k (p-p_k), \quad{\rm with}\quad v_k = \left.\frac{\partial E_k(p)}{\partial p}\right|_{p=p_k} = \frac{p_k}{E_k},  \quad E_k = \sqrt{p_k^2 + m_k^2}.
@@ -167,15 +165,15 @@ where we defined
   P^{\rm loc}_{kj} = \exp\left( -2 \pi^2 \xi^2 \left(\frac{\sigma_x}{L_{kj}^{\rm osc}} \right)^2 \right),\quad  P^{\rm coh}_{kj} = \exp\left( \frac{L \left|\Delta m^2_{kj} \right|^2}{16 E^2 \sigma_x} \right),
 \end{equation}
 %
-and the important scales of the problem can be identified as
+with the important scales of the problem identified as
 %
 \begin{equation}
  L_{kj}^{\rm osc} = \frac{4 \pi E}{\Delta m_{kj}^2}, \quad  p_k \approx E - (1-\xi) \frac{m_k^2}{2E}, \quad E_k \approx E + \xi \frac{m_k^2}{2E},
 \end{equation}
-with $\xi$ measuring the deviation from ultra-relativistic behaviour.
+with $\xi$ measuring the deviation from ultra-relativistic behaviour. The factors $P^{\rm coh}_{kj}$ and $P^{\rm loc}_{kj}$ are related to the coherence of the propagating wavepackets and the localization of the source and detector, respectively.
 %
 
-For most application, $P^{\rm coh}_{kj} = P^{\rm loc}_{kj} = 1$, and one recovers the standard oscillation formulae. A more useful way of writing it is
+For most applications, $P^{\rm coh}_{kj} = P^{\rm loc}_{kj} = 1$, and one recovers the standard oscillation formula. A more useful way of writing it is
 %
 \begin{align}
  P(\nu_\alpha \to \nu_\beta) =
@@ -184,12 +182,13 @@ For most application, $P^{\rm coh}_{kj} = P^{\rm loc}_{kj} = 1$, and one recover
  &- 2\sum_{k>j} \Im{U_{\alpha k}^*U_{\alpha j}U_{\beta k}U_{\beta j}^*} \sin \left( \frac{\Delta m^2_{kj} L}{2E}\right).
 \end{align}
 %
+Note that for very small distances, $L/E\to0$, no oscillations happen, $P(\nu_\alpha \to \nu_\beta) = \delta_{\alpha\beta}$. For very large $L/E \to \infty$, the oscillatory arguments are large and the oscillations are averaged out, although flavour transitions are still allowed. 
 
 \subsection{Matter effects}\label{sec:matter_effects}
 
 Neutrinos are neutral particles and their rare interactions allow them to propagate through matter without losing energy in collisions with the medium particles. Nevertheless, in a similar fashion to photons, neutrinos undergo coherent forward scattering, acquiring an effective refractive index in the presence of a medium. In contrast to photons, which undergo Compton scattering, neutrinos are only charged under the weak force and undergo CC and NC interactions. Therefore, matter effects are present whenever the medium displays a net weak charge, provided by neutrons, protons and electrons in the case of the Earth. The weakness of these interactions at low energies, however, implies that matter effects are only important when neutrinos have transversed sufficiently large distances or are in a sufficiently dense environment. In addition, for such effects to be observable in the flavour evolution of neutrinos, different neutrino flavour fields must exhibit different interactions with the medium. In the SM, this is possible only due to the CC interactions that are exclusively present between electron-neutrinos and electrons in the medium.
 
-We will now comment on the impact of matter in the flavor evolution, and derive the neutrino interaction potential. We want to avoid the complications from the previous discussion due to coherence and focus on the effects of matter. We merely note that similar conditions to the ones we found in the previous section apply for oscilation probabilities in matter to be well-defined, and with this caveat we proceed with a plane-wave picture of the flavour evolution. By applying the same momentum approximation and assuming neutrinos to be relativistic, we can write the Schr\"oedinger equation in matrix form as 
+We will now comment on the impact of matter in the flavour evolution, and derive the neutrino interaction potential. We want to avoid the complications from the previous discussion due to coherence and focus on the effects of matter. We merely note that similar conditions to the ones we found in the previous section apply for oscilation probabilities in matter to be well-defined, and with this caveat we proceed with a plane-wave picture of the flavour evolution. By applying the same momentum approximation and assuming neutrinos to be relativistic, we can write the Schr\"oedinger equation in matrix form as 
 %
 \begin{equation}\label{eq:matter_evolution}
  i \frac{\dd}{\dd x} \ket{\nu_\alpha} = \left[ U \frac{\hat{m}^2}{2E} U^\dagger + \hat{V}(x) \right] \ket{\nu_\alpha}, 
@@ -197,7 +196,7 @@ We will now comment on the impact of matter in the flavor evolution, and derive 
 %
 where we used $H_0 \ket{\nu_\alpha} \approx U \left[ p \hat{1} + \hat{m}^2/2 p \right] U^\dagger \ket{\nu_\alpha} $ and $t \approx x$. Here, $\hat{V}(x)$ is a matrix containing the interaction potential of each neutrino flavour with the background. Note that $\hat{V}(x)$ depends on the density profile of matter particles. Solving this equation is a much more complicated task than in the vacuum case and analytical solutions are only known in specific cases, such as when the matter density is constant. In general, this may be solved numerically for a given choice of $\hat{V}(x)$, although several perturbative expansions exist. In this sense, the problem reduces to finding the appropriate potential and solving \refeq{eq:matter_evolution}.
 
-The neutrino matter potential arises from finite temperature and finite density corrections to the neutrino dispersion relation. The derivation of the potential following the approach of Refs.~\cite{Notzold:1987ik,Nieves:1989ez} can easily be modified to early Universe and astrophysical media. The dispersion relation arises from
+The neutrino matter potential arises from finite temperature and finite density corrections to the neutrino dispersion relation. The derivation of the potential following the approach of Refs.~\cite{Notzold:1987ik,Nieves:1989ez} can easily be modified to early Universe physics and to exotic astrophysical media such as supernovae and environments with large magnetic fields. The dispersion relation arises from
 %
 \begin{equation}
  \det{\slashed{k} - \Sigma} = 0,
@@ -209,13 +208,13 @@ ensuring non-trivial solutions to the Dirac equation $(\slashed{k} - \Sigma)\nu_
   \Sigma = m - \left( a_L \slashed{k} + b_L \slashed{u} + c_L [\slashed{k},\slashed{u}] \right) P_L.
 \end{equation}
 %
-where $u$ is the 4-velocity of the medium, $a_L,b_L$ and $c_L$ are scalar functions of Lorentz invariants $w=k \cdot u$ and $\kappa=(w^2 - k^2)^{1/2}$, and $m$ is the vacuum neutrino mass. The presence of the medium introduces a preferential frame, namely the rest frame of the medium with $u = (1,0,0,0)$. Also note that in vacuum, only terms proportional to $\slashed{k}$ exist, and the pole of the neutrino propagator is unchanged. To lowest order, $g^2/m_\textsc{w}^2$, only $b_L$ contributes and it is proportional to the medium particle-antiparticle asymmetry, both statements not holding for higher order terms of the form $g^2/m_\textsc{w}^4$~\cite{DOlivo:1992lwg}. The neutrino self-energy is in fact a gauge-dependent quantity, so the physical observables of interest are the dispersion relations, $(1-a_L)(w-\kappa)- b_L = 0$ for neutrinos and $(1-a_L)(w+\kappa) - b_L = 0$ for antineutrinos. To lowest order, however, the dispersion relations are much simpler,
+where $u$ is the 4-velocity of the medium, $a_L,b_L$ and $c_L$ are scalar functions of Lorentz invariants $w=k \cdot u$ and $\kappa=(w^2 - k^2)^{1/2}$, and $m$ is the vacuum neutrino mass. The presence of the medium introduces a preferential frame, namely the rest frame of the medium with $u = (1,0,0,0)$. Also note that in vacuum, only terms proportional to $\slashed{k}$ exist, and the pole of the neutrino propagator is unchanged. To lowest order, $g^2/m_\textsc{w}^2$, only $b_L$ contributes and it is proportional to the medium particle-antiparticle asymmetry. Higher order terms of the form $g^2/m_\textsc{w}^4$~\cite{DOlivo:1992lwg} complicate the picture, but can be safely neglected in the Earth, for instance. The neutrino self-energy is, in fact, a gauge-dependent quantity, and the physical observables of interest are the dispersion relations, $(1-a_L)(w-\kappa)- b_L = 0$ for neutrinos and $(1-a_L)(w+\kappa) - b_L = 0$ for antineutrinos. To lowest order, however, the dispersion relations are much simpler,
 %
 \begin{equation}
  w \approx \kappa + \frac{m^2}{2\kappa} + V_{\rm eff}, \quad V_{\rm eff} = -b_L,
 \end{equation}
 %
-where we defined the effective potential, which for ultra-relativistic neutrinos arises precisely from the difference between the total and kinetic energy $V_{\rm eff} = w - \kappa$. This also shows us how to calculate the neutrino refractive index $n =|\vec{k}|/k^0$.
+where we defined the effective potential, which for ultra-relativistic neutrinos arises precisely from the difference between the total and kinetic energy $V_{\rm eff} = w - \kappa$. This also shows us how to calculate the neutrino refractive index $n =\kappa/w$.
 %
 \begin{figure}[t]
  \includegraphics[width=\textwidth]{thermal_diagrams.pdf}
@@ -228,38 +227,36 @@ Now the problem reduces to computing $\Sigma$ in finite temperature field theory
  S(P) = (\slashed{p} + m)\left[ \frac{1}{P^2 - m^2 +i\epsilon } + i 2\pi \delta(P^2 - m^2) f(P)\right],
 \end{equation}
 %
-with $f(P) = \left\{ \exp\left[(|P\cdot u| - {\rm sgn}(P \cdot u) \,\mu_f)/T\right] + 1\right\}^{-1}$ is the occupational number of the fermions in the thermal bath of temperature $T$ and chemical potential $\mu_f$. Similar expressions exist for bosonic propagators. Finally, as an example, explicit computation of the self-energy in \reffig{fig:thermal_diagrams} yields
+with $f(P) = \left\{ \exp\left[(|P\cdot u| - {\rm sgn}(P \cdot u) \,\mu_f)/T\right] + 1\right\}^{-1}$ is the occupational number of the fermions in the thermal bath of temperature $T$ and chemical potential $\mu_f$. Similar expressions exist for bosonic propagators. Finally, as an example, explicit computation of the tadpole self-energy contribution in \reffig{fig:thermal_diagrams} yields
 %
 \begin{equation}
  \Sigma = -i \frac{g^2}{16 c_\textsc{w}^2}\int \frac{\dd^4 P}{(2\pi)^4} \gamma^\mu P_L \,iS(P+K) \,\gamma^\nu \, P_L \,iD_{\mu\nu} (P),  \quad D_{\mu\nu} = \frac{-g_{\mu\nu} + \frac{P_\mu P_\nu}{M_Z^2}}{P^2 - M_Z^2 + i\epsilon}.
 \end{equation}
 %
 
-Putting it all together, the potential for neutrinos of flavour $\alpha$ on a background of protons, neutrons and electrons is
+By explicit computation in the rest frame of the medium, the potential for neutrinos of flavour $\alpha$ on a zero-temperature background of protons, neutrons and electrons is
 %
 \begin{align}
- V^e_\alpha =& -\frac{G_F}{\sqrt{2}} \left( 2\delta_{\alpha e} 1-4s^2_\textsc{w} \right) \left( N_e - N_{\overline{e}} \right),\nonumber\\%
+ V^e_\alpha =& -\frac{G_F}{\sqrt{2}} \left( 1-4s^2_\textsc{w} - 2\delta_{\alpha e}\right) \left( N_e - N_{\overline{e}} \right),\nonumber\\%
  V^p_\alpha =& \frac{G_F}{\sqrt{2}} \left( 1-4s^2_\textsc{w} \right) \left( N_p - N_{\overline{p}} \right),\nonumber\\%
- V^n_\alpha =& -\frac{G_F}{\sqrt{2}} \left(N_n - N_{\overline{n}} \right).
+ V^n_\alpha =& -\frac{G_F}{\sqrt{2}} \left(N_n - N_{\overline{n}} \right),
 \end{align}
 %
-For antineutrino an overall minus sign is introduced. Note the $\nu_e$ potential is the only one where CC interactions contribute, and so it is the sole responsible for non-trivial flavour evolution in \refeq{eq:matter_evolution}. One may wonder about radiative corrections to these potentials in the SM and whether additional flavour non-universality can be achieved through the difference in charged-lepton masses. These effects, however, are known to be extremely small in the SM~\cite{Botella:1986wy}, where $\left(V_\tau - V_\mu\right)/V_e \approx 5 \times 10^{-5}$ for a neutral unpolarized medium like the Earth. 
+where $N_f = 2 \int \dd^3P f(P)/(2\pi)^3 $ are the number density of the background particles. For antineutrino an overall minus sign is introduced. Note the total $\nu_e$ potential is the only one where CC interactions contribute, and so it is the sole responsible for non-trivial flavour evolution in \refeq{eq:matter_evolution}. One may wonder about radiative corrections to these potentials in the SM and whether additional flavour non-universality can be achieved through the difference in charged-lepton masses. These effects, however, are known to be extremely small in the SM~\cite{Botella:1986wy}, where $\left(V_\tau - V_\mu\right)/V_e \approx 5 \times 10^{-5}$ for a neutral unpolarized medium like the Earth. 
 
 
-\subsection{Current status}
+\section{Neutrinos in the laboratory}
+
+To find a source of neutrinos, all we have to do is to look for environments where the weak force is prominently manifested. Natural candidates that led to the discovery of the neutrino are nuclear reactors. Fortunately, the list does not stop there. Abundant neutrino sources include the Sun, the atmosphere, the Big-Bang, particle accelerators and more violent astrophysical environments such as supernovae, active galactic nuclei and others. In this thesis, we will focus mostly on accelerator neutrinos.
+
+Accelerator experiments typically produce neutrinos of a few GeV energies to achieve $\mathcal{O}(1)$ oscillation phases $\Delta m^2_{\rm atm} L/E$ within thousands of km. Drastically different energy regimes are impractical either due to diluted fluxes at longer baselines ($\Phi \propto 1/L^2$), or due to thresholds to produce muons in CC interactions ($E_\nu > m_\ell + m_\ell^2/2 m_{\mathcal{H}}$ in reactions of the type $\nu_\ell \mathcal{H} \,\to\, \ell^\pm \mathcal{H}^\prime$). Also important is the fact that such experiments rely on the neutrino flux produced in proton-on-target collisions. Multi-GeV energy proton beams can be used to produce neutrinos through the following steps: direct the protons onto a dense target, focus the charged mesons generated in the beam-target collisions, and absorb the particles further down of a decay pipeline. This allows the mesons to decay into neutrinos, most often through the process $\pi^\pm \to \overset{(-)}{\nu_\mu} \mu^\pm$. This sequence produces neutrinos with a wide spectrum, typically referred to as wide-band-beam spectrum. The shape and normalization of the neutrino flux produced are hard to model due to hadro-production and focusing uncertainties~\cite{}. In this way, the expected neutrino event rate in neutrino detectors inherits two sources of uncertainties which are difficult to disentangle: the un-oscillated flux spectra and the neutrino cross sections. 
+
+To disentangle the uncertainties in the event rate and the effects of oscillations, most accelerator neutrino experiments rely on near detectors, where one measures the un-oscillated rate, as well as far detectors, where oscillations are studied. By definition, near detectors have to be limited by the systematics of the experiment, and so present an opportunity to study neutrino interactions with large statistics. 
 
 
+Neutrino cross sections are an invaluable observable to understand the weak force and to search be able to study oscillation physics. Due to the purely weakly interacting nature of neutrinos, they also serve as a strong test of \emph{stronger than weak} interactions with matter, that is, new interactions with $G_X > G_F$. In fact, if sufficiently clean, neutrino scattering processes provide the strongest limits on light new mediators of masses from a few MeV to a few GeV.
 
-\section{Neutrino scattering}
-
-To find a source of neutrinos, all we have to do is to look for environments where the Weak force is prominently manifested. A natural candidate, as we have seen in the discovery of the neutrino, are nuclear reactors. Fortunately, the list does not stop there. Abundant neutrino sources include the Sun, the atmosphere, the Big-Bang, particle accelerators and astrophysical environments processes such as supernovae, active galactic nuclei and others. 
-
-
-Neutrino cross sections are an invaluable observable to understand the weak force and to search be able to study oscillation physics. Due to the purely weakly interacting nature of neutrinos, they also serve as a strong test of \emph{stronger than weak} interactions with matter, that is, new interactions with $G_X > G_F$. In fact, if sufficiently clean, neutrino scattering processes provide the strongest limits on light new mediators of masses from a few MeV to a few GeV~\cite{}. In this section, we present the standard scattering channels used in oscillation experiments, as well as other curious processes that are relatively poorly studied. 
-
-Accelerator experiments typically produce neutrinos of a few GeV energies to achieve $\mathcal{O}(1)$ oscillation phases $\Delta m^2_{\rm atm} L/E$ within thousands of km. Drastically different energy regimes are impractical either due to diluted fluxes at longer baselines ($\Phi \propto 1/L^2$), or due to thresholds to produce muons in CC interactions ($E_\nu > m_\ell + m_\ell^2/2 m_{\mathcal{H}}$ in reactions of the type $\nu_\ell \mathcal{H} \,\to\, \ell^\pm \mathcal{H}^\prime$). Also important is the fact that such experiments rely on the neutrino flux produced in proton-on-target collisions, where charged mesons are subject to magnetic fields for focusing (see \refsec{sec:sources}). This produces neutrinos with a wide spectrum, typically referred to as wide-band-beam spectram, and are hard to model due to hadroproduction and focusing uncertainties~\cite{}. In this way, the expected neutrino event rate in neutrino detectors inherits two sources of uncertainties which are difficult to disentangle: the un-oscillated flux spectra and the neutrino-nucleus cross sections. The latter observable is subject to large nuclear effects, which require either precision data or accurate descriptions of the nuclear environment. 
-
-Take the MiniBooNE experiment, for instance, where the average neutrino energy is $\langle E_\nu \rangle \approx 800 $ MeV. The nucleons struck by the neutrinos in the processes of interst are inside Carbon nuclei, and so their interactions with the nuclear medium are important. Even in the crudest approximation for a nucleus, that of a $T=0$ Fermi gas of free protons and neutrons, nucleons may have quite large momenta in the rest frame of the nucleus, $|p| \lesssim 250$ MeV, being comparable to the incoming neutrino energies. In addition to Fermi motion, the Pauli exclusion principle suppresses possible final state configurations in the nucleus. This is known as Pauli blocking, and typically suppresses the neutrino interactions on nuclei. On their way out of the nucleus, the nucleons may also exchange EM charges, knock-out additional particles or be absorbed in the nuclear medium. The importance of nuclear effects is perhaps most famously illustrated by the CCQE measurement at MiniBooNE~\cite{AguilarArevalo:2010zc}, where a disagreement of $20\%$ was observed between the MC prediction and the data, unless the axial mass $M_A$ was set to be $\approx1.32$ GeV, much larger than the world-average of $M_A = 1.03 \pm 0.02$ GeV. This was later understood as a missing contribution from two-particle two-hole meson exchange currents (where the neutrino interacts with a nucleon pair, rather than with an individual nucleon), shown to be as large as $30\%$ of the CCQE cross section used by the experiment~\cite{Nieves:2011yp}.
+The latter observable is subject to large nuclear effects, which require either precision data or accurate descriptions of the nuclear environment. Take the MiniBooNE experiment, for instance, where neutrinos with an average energy of $\langle E_\nu \rangle \approx 800 $ MeV hit a detector filled with mineral oil, $CH$. The nucleons struck by the neutrinos in the processes of interest are inside Carbon nuclei, and so their interactions with the nuclear medium are important. Even in the crudest approximation for a nucleus, that of a $T=0$ Fermi gas of free protons and neutrons, nucleons may have quite large momenta in the rest frame of the nucleus, $|p| \lesssim 250$ MeV, being comparable to the incoming neutrino energies. In addition to Fermi motion, the Pauli exclusion principle suppresses possible final state configurations in the nucleus. This is known as Pauli blocking, and typically suppresses the neutrino interactions in nuclei. On their way out of the nucleus, the nucleons may also exchange EM charge, knock-out additional particles or be absorbed in the nuclear medium. The importance of nuclear effects is perhaps most famously illustrated by the CCQE measurement at MiniBooNE~\cite{AguilarArevalo:2010zc}, where a disagreement of $20\%$ was observed between the MC prediction and the data, unless the axial mass $M_A$ was set to be $\approx1.32$ GeV, much larger than the world-average of $M_A = 1.03 \pm 0.02$ GeV. This was later understood as a missing contribution from two-particle two-hole meson exchange currents (where the neutrino interacts with a nucleon pair, rather than with an individual nucleon), shown to be as large as $30\%$ of the CCQE cross section used by the experiment~\cite{Nieves:2011yp}.
 
 Currently several neutrino event generators exists, the most popular being GENIE~\cite{Andreopoulos:2009rq}, GiBUU~\cite{Buss:2011mx}, NEUT~\cite{Hayato:2002sd} and NuWro~\cite{Juszczak:2005zs}.
 
@@ -273,7 +270,7 @@ Currently several neutrino event generators exists, the most popular being GENIE
 %
 \section{Mass mechanisms}
 
-Understanding the theoretical origins of neutrino mass and mixing is an ambitious task. The possibilities are endless and the high-scale dynamics, typical of many neutrino mass models, is extremely hard to test. Presently, it is fair to say we have more neutrino mass models than ways to test them. Nevertheless, many of these models possess similar features. They may rely on the seesaw mechanism, on radiative neutrino mass generation or in extended scalar sectors. On top of that, new symmetries and fundamental forces may also be at play. We will explore a small fraction of this model space.
+Understanding the theoretical origins of neutrino mass and mixing is a worthwhile but ambitious task. The possibilities are endless and the high-scale dynamics, typical of many neutrino mass models, is hard to test in the laboratory. Presently, it is fair to say there are more neutrino mass models than ways to test them. Nonetheless, many of these models possess similar features and just a couple of low energy observables is sufficient to probe a large class of models. These models may rely on the seesaw mechanism, on radiative effects or in extended scalar sectors. On top of that, new symmetries and fundamental forces may also be at play, making the theories more predictive. We will now explore a small fraction of this model space.
 
 We have already alluded to the first possibility to introduce light neutrino masses in the SM. All that is needed are at least 2 RH neutrino fields, singlets under all SM symmetries. We shall refer to them as $N^\alpha$, where $\alpha$ is their generation index. This may be chosen to be $\alpha = e, \mu, \tau$ or any combination of 2 of these. The full new neutrino mass Lagrangian then becomes
 %
