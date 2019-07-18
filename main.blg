@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: JHEP.bst
-Reallocated field_info (elt_size=4) to 17060 items from 5000.
+Reallocated field_info (elt_size=4) to 16550 items from 5000.
 Database file #1: introduction/introduction.bib
 Database file #2: theory/theory.bib
 Database file #3: tridentSM/tridentSM.bib
@@ -35,10 +35,6 @@ Repeated entry---line 113 of file Zprime_scattering/Zprime_scattering.bib
  : @article{Acciarri:2014eit
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 587 of file Zprime_scattering/Zprime_scattering.bib
- : @article{Abe:2015biq
- :                     ,
-I'm skipping whatever remains of this entry
 Repeated entry---line 795 of file Zprime_scattering/Zprime_scattering.bib
  : @article{Geiregat:1990gz
  :                         ,
@@ -55,91 +51,91 @@ Repeated entry---line 873 of file Zprime_scattering/Zprime_scattering.bib
  : @article{Schechter:1980gr
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1022 of file Zprime_scattering/Zprime_scattering.bib
+Repeated entry---line 1038 of file Zprime_scattering/Zprime_scattering.bib
  : @article{Esteban:2018azc
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1055 of file Zprime_scattering/Zprime_scattering.bib
+Repeated entry---line 1071 of file Zprime_scattering/Zprime_scattering.bib
  : @article{Cheng:1980qt
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1068 of file Zprime_scattering/Zprime_scattering.bib
+Repeated entry---line 1083 of file Zprime_scattering/Zprime_scattering.bib
  : @article{Lazarides:1980nt
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1227 of file Zprime_scattering/Zprime_scattering.bib
+Repeated entry---line 1241 of file Zprime_scattering/Zprime_scattering.bib
  : @article{Ma:2006km
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1324 of file Zprime_scattering/Zprime_scattering.bib
+Repeated entry---line 1338 of file Zprime_scattering/Zprime_scattering.bib
  : @article{Falkowski:2018dmy
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1373 of file Zprime_scattering/Zprime_scattering.bib
+Repeated entry---line 1387 of file Zprime_scattering/Zprime_scattering.bib
  : @article{Kaneta:2016uyt
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1390 of file Zprime_scattering/Zprime_scattering.bib
+Repeated entry---line 1404 of file Zprime_scattering/Zprime_scattering.bib
  : @article{Magill:2017mps
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1480 of file Zprime_scattering/Zprime_scattering.bib
+Repeated entry---line 1494 of file Zprime_scattering/Zprime_scattering.bib
  : @article{Anni1994
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1510 of file Zprime_scattering/Zprime_scattering.bib
+Repeated entry---line 1524 of file Zprime_scattering/Zprime_scattering.bib
  : @article{Sprung1997
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1522 of file Zprime_scattering/Zprime_scattering.bib
+Repeated entry---line 1536 of file Zprime_scattering/Zprime_scattering.bib
  : @article{Hand:1963bb
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1548 of file Zprime_scattering/Zprime_scattering.bib
+Repeated entry---line 1562 of file Zprime_scattering/Zprime_scattering.bib
  : @article{Shabalin:1963aa
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1557 of file Zprime_scattering/Zprime_scattering.bib
+Repeated entry---line 1571 of file Zprime_scattering/Zprime_scattering.bib
  : @article{Frixione:1993yw
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1799 of file Zprime_scattering/Zprime_scattering.bib
+Repeated entry---line 1813 of file Zprime_scattering/Zprime_scattering.bib
  : @article{DUNECDRvolII
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1824 of file Zprime_scattering/Zprime_scattering.bib
+Repeated entry---line 1838 of file Zprime_scattering/Zprime_scattering.bib
  : @article{Jentschura2009
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1880 of file Zprime_scattering/Zprime_scattering.bib
+Repeated entry---line 1894 of file Zprime_scattering/Zprime_scattering.bib
  : @article{Ge2017
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1891 of file Zprime_scattering/Zprime_scattering.bib
+Repeated entry---line 1905 of file Zprime_scattering/Zprime_scattering.bib
  : @article{SBNproposal
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1987 of file Zprime_scattering/Zprime_scattering.bib
+Repeated entry---line 2001 of file Zprime_scattering/Zprime_scattering.bib
  : @article{Heeck:2014zfa
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2018 of file Zprime_scattering/Zprime_scattering.bib
+Repeated entry---line 2032 of file Zprime_scattering/Zprime_scattering.bib
  : @article{Bilmis:2015lja
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2132 of file Zprime_scattering/Zprime_scattering.bib
+Repeated entry---line 2146 of file Zprime_scattering/Zprime_scattering.bib
  : @article{Benvenuti1977
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2147 of file Zprime_scattering/Zprime_scattering.bib
+Repeated entry---line 2161 of file Zprime_scattering/Zprime_scattering.bib
  : @article{Barish1977
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2166 of file Zprime_scattering/Zprime_scattering.bib
+Repeated entry---line 2180 of file Zprime_scattering/Zprime_scattering.bib
  : @article{Smith1978
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2289 of file Zprime_scattering/Zprime_scattering.bib
+Repeated entry---line 2303 of file Zprime_scattering/Zprime_scattering.bib
  : @unpublished{DUNE:flux
  :                       ,
 I'm skipping whatever remains of this entry
@@ -196,11 +192,6 @@ Repeated entry---line 623 of file dark_nus/three_portals.bib
  : @article{Hannestad:2013ana
  :                           ,
 I'm skipping whatever remains of this entry
-Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Repeated entry---line 807 of file dark_nus/three_portals.bib
- : @article{Boucenna:2014zba
- :                          ,
-I'm skipping whatever remains of this entry
 Repeated entry---line 821 of file dark_nus/three_portals.bib
  : @article{Cheng:1980qt
  :                      ,
@@ -245,6 +236,7 @@ Repeated entry---line 1080 of file dark_nus/three_portals.bib
  : @article{Bakhti:2018avv
  :                        ,
 I'm skipping whatever remains of this entry
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Repeated entry---line 1139 of file dark_nus/three_portals.bib
  : @article{Ballett:2018ynz
  :                         ,
@@ -333,10 +325,6 @@ I'm skipping whatever remains of this entry
 Repeated entry---line 90 of file dark_nus/nu_masses.bib
  : @article{Song:2018zyl
  :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 148 of file dark_nus/nu_masses.bib
- : @article{Bertuzzo:2017sbj
- :                          ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 164 of file dark_nus/nu_masses.bib
  : @article{Holdom:1985ag
@@ -446,18 +434,6 @@ Repeated entry---line 645 of file dark_nus/nu_masses.bib
  : @article{Dev:2012sg
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 676 of file dark_nus/nu_masses.bib
- : @article{Eguchi:2002dm
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 691 of file dark_nus/nu_masses.bib
- : @article{Ahmad:2002jz
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 707 of file dark_nus/nu_masses.bib
- : @article{Fukuda:1998ah
- :                       ,
-I'm skipping whatever remains of this entry
 Repeated entry---line 725 of file dark_nus/nu_masses.bib
  : @article{Baek:2015mna
  :                      ,
@@ -481,10 +457,6 @@ I'm skipping whatever remains of this entry
 Repeated entry---line 797 of file dark_nus/nu_masses.bib
  : @article{Dib:2014fua
  :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 813 of file dark_nus/nu_masses.bib
- : @article{Boucenna:2014zba
- :                          ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 827 of file dark_nus/nu_masses.bib
  : @article{Cheng:1980qt
@@ -937,10 +909,6 @@ Repeated entry---line 3351 of file miniboone/miniboone.bib
  : @article{Masip:2012ke
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3366 of file miniboone/miniboone.bib
- : @article{Asaka:2005pn
- :                      ,
-I'm skipping whatever remains of this entry
 Repeated entry---line 3440 of file miniboone/miniboone.bib
  : @inproceedings{Alexander:2016aln
  :                                 ,
@@ -997,10 +965,6 @@ Repeated entry---line 5312 of file miniboone/miniboone.bib
  : @article{Dasgupta:2013zpn
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5368 of file miniboone/miniboone.bib
- : @article{Asaka:2005pn
- :                      ,
-I'm skipping whatever remains of this entry
 Repeated entry---line 5426 of file miniboone/miniboone.bib
  : @inproceedings{Alexander:2016aln
  :                                 ,
@@ -1034,54 +998,52 @@ Repeated entry---line 30 of file appendices/loop_masses.bib
  : @article{Kniehl:1996bd
  :                       ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "*Boehm:2003ha"
 Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "ballet"
 Warning--empty booktitle in Alexander:2016aln
 Warning--empty author in DUNE:flux
 Warning--empty author in DUNE:flux_updated
 Warning--empty author in DUNE:GArOption
 Warning--empty booktitle in Aguilar-Arevalo:2012fmn
 Warning--empty publisher in Leo:1987kd
-You've used 399 entries,
+You've used 384 entries,
             2217 wiz_defined-function locations,
-            3783 strings with 89708 characters,
-and the built_in function-call counts, 125065 in all, are:
-= -- 12987
-> -- 4850
+            3654 strings with 86353 characters,
+and the built_in function-call counts, 119784 in all, are:
+= -- 12434
+> -- 4638
 < -- 0
-+ -- 1430
-- -- 1031
-* -- 10713
-:= -- 17141
-add.period$ -- 402
-call.type$ -- 399
-change.case$ -- 396
++ -- 1370
+- -- 986
+* -- 10234
+:= -- 16436
+add.period$ -- 387
+call.type$ -- 384
+change.case$ -- 381
 chr.to.int$ -- 0
-cite$ -- 405
-duplicate$ -- 6453
-empty$ -- 10837
-format.name$ -- 1031
-if$ -- 32927
+cite$ -- 390
+duplicate$ -- 6172
+empty$ -- 10393
+format.name$ -- 986
+if$ -- 31523
 int.to.chr$ -- 0
-int.to.str$ -- 399
-missing$ -- 1481
-newline$ -- 1205
-num.names$ -- 396
-pop$ -- 721
+int.to.str$ -- 384
+missing$ -- 1421
+newline$ -- 1160
+num.names$ -- 381
+pop$ -- 701
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 5315
+skip$ -- 5066
 stack$ -- 0
-substring$ -- 5709
-swap$ -- 3416
+substring$ -- 5501
+swap$ -- 3255
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 873
-width$ -- 402
-write$ -- 4139
-(There were 255 error messages)
+while$ -- 839
+width$ -- 387
+write$ -- 3968
+(There were 246 error messages)
