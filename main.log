@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.13)  16 JUL 2019 19:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.13)  17 JUL 2019 20:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2439,7 +2439,7 @@ LaTeX Info: Redefining \nameref on input line 8.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-<img/durham_logo.pdf, id=280, 213.79875pt x 92.345pt>
+<img/durham_logo.pdf, id=252, 213.79875pt x 92.345pt>
 File: img/durham_logo.pdf Graphic file (type pdf)
 
 <use img/durham_logo.pdf>
@@ -2543,13 +2543,12 @@ LaTeX Font Info:    Try loading font information for TS1+lmr on input line 40.
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [10
 
-] [11
-
-
-] [12
+] [11] [12
 
 
 ] [13
+
+
 
 ] [14
 
@@ -2558,11 +2557,13 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 Chapter 1.
 (./introduction/introduction.tex [16
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+] [17]
+Underfull \vbox (badness 4242) has occurred while \output is active []
 
- [17]
-[18] [19]
+ [18]
+Underfull \vbox (badness 3098) has occurred while \output is active []
+
+ [19]
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -2573,13 +2574,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 6477) has occurred while \output is active []
 
  [21]
-[22] <Diagrams/SM_zoo3.pdf, id=621, 607.26875pt x 351.3125pt>
+<Diagrams/SM_zoo3.pdf, id=601, 607.26875pt x 351.3125pt>
 File: Diagrams/SM_zoo3.pdf Graphic file (type pdf)
 
 <use Diagrams/SM_zoo3.pdf>
 Package pdftex.def Info: Diagrams/SM_zoo3.pdf used on input line 145.
 (pdftex.def)             Requested size: 362.77525pt x 209.87245pt.
- [23 <./Diagrams/SM_zoo3.pdf>]
+ [22] [23 <./Diagrams/SM_zoo3.pdf>]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 169.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -2626,96 +2627,106 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[28] <Diagrams/Dark_sectors.pdf, id=842, 607.26875pt x 250.9375pt>
+[28] <Diagrams/Dark_sectors.pdf, id=831, 607.26875pt x 250.9375pt>
 File: Diagrams/Dark_sectors.pdf Graphic file (type pdf)
 
 <use Diagrams/Dark_sectors.pdf>
 Package pdftex.def Info: Diagrams/Dark_sectors.pdf used on input line 206.
 (pdftex.def)             Requested size: 405.45049pt x 167.54523pt.
-
-Underfull \vbox (badness 1776) has occurred while \output is active []
-
- [29]
-<Diagrams/Dark_portals.pdf, id=848, 607.26875pt x 301.125pt>
+ [29 <./Diagrams/Dark_sectors.pdf>]
+<Diagrams/Dark_portals.pdf, id=935, 607.26875pt x 301.125pt>
 File: Diagrams/Dark_portals.pdf Graphic file (type pdf)
 
 <use Diagrams/Dark_portals.pdf>
 Package pdftex.def Info: Diagrams/Dark_portals.pdf used on input line 218.
 (pdftex.def)             Requested size: 405.45049pt x 201.05428pt.
- [30 <./Diagrams/Dark_sectors.pdf>]
-Underfull \vbox (badness 1762) has occurred while \output is active []
-
- [31 <./Diagrams/Dark_portals.pdf>]
-<Diagrams/Triangles.pdf, id=1122, 607.26875pt x 200.75pt>
+ [30 <./Diagrams/Dark_portals.pdf>] [31]
+<Diagrams/Triangles.pdf, id=1112, 607.26875pt x 200.75pt>
 File: Diagrams/Triangles.pdf Graphic file (type pdf)
 
 <use Diagrams/Triangles.pdf>
 Package pdftex.def Info: Diagrams/Triangles.pdf used on input line 252.
 (pdftex.def)             Requested size: 341.43439pt x 112.87257pt.
- [32 <./Diagrams/Triangles.pdf>]) [33] [34]
+
+Underfull \vbox (badness 2680) has occurred while \output is active []
+
+ [32 <./Diagrams/Triangles.pdf>]) [33]
 Chapter 2.
-(./theory/theory.tex [35
+(./theory/theory.tex [34
 
 ]
-<plots/precision2.pdf, id=1190, 505.89pt x 247.48608pt>
-File: plots/precision2.pdf Graphic file (type pdf)
-
-<use plots/precision2.pdf>
-Package pdftex.def Info: plots/precision2.pdf used on input line 39.
-(pdftex.def)             Requested size: 426.79137pt x 208.79318pt.
-
-Underfull \vbox (badness 4108) has occurred while \output is active []
-
- [36]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37 <./plots/precision2.pdf>]
-<Diagrams/oscillations_diagram.pdf, id=1263, 607.26875pt x 200.75pt>
-File: Diagrams/oscillations_diagram.pdf Graphic file (type pdf)
-
-<use Diagrams/oscillations_diagram.pdf>
-Package pdftex.def Info: Diagrams/oscillations_diagram.pdf used on input line 9
-7.
-(pdftex.def)             Requested size: 426.79137pt x 141.09071pt.
- [38]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [39 <./Diagrams/oscillations_diagram.pdf>] [40] [41] [42]
-<Diagrams/thermal_diagrams.pdf, id=1407, 752.8125pt x 200.75pt>
-File: Diagrams/thermal_diagrams.pdf Graphic file (type pdf)
-
-<use Diagrams/thermal_diagrams.pdf>
-Package pdftex.def Info: Diagrams/thermal_diagrams.pdf used on input line 220.
-(pdftex.def)             Requested size: 426.79137pt x 113.81297pt.
-
-Underfull \vbox (badness 1975) has occurred while \output is active []
-
- [43]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [44 <./Diagrams/thermal_diagrams.pdf>] [45] [46]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [47]
-Underfull \vbox (badness 1776) has occurred while \output is active []
-
- [48]
-<Diagrams/seesaw_mechanisms.pdf, id=1537, 607.26875pt x 351.3125pt>
+ [35]
+<Diagrams/seesaw_mechanisms.pdf, id=1185, 607.26875pt x 351.3125pt>
 File: Diagrams/seesaw_mechanisms.pdf Graphic file (type pdf)
 
 <use Diagrams/seesaw_mechanisms.pdf>
-Package pdftex.def Info: Diagrams/seesaw_mechanisms.pdf used on input line 308.
-
+Package pdftex.def Info: Diagrams/seesaw_mechanisms.pdf used on input line 48.
 (pdftex.def)             Requested size: 426.79137pt x 246.90877pt.
- [49 <./Diagrams/seesaw_mechanisms.pdf>]
-[50] [51] <Diagrams/LNV_diagrams.pdf, id=1782, 607.26875pt x 200.75pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36]
+[37 <./Diagrams/seesaw_mechanisms.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+[39] <Diagrams/LNV_diagrams.pdf, id=1437, 607.26875pt x 200.75pt>
 File: Diagrams/LNV_diagrams.pdf Graphic file (type pdf)
 
 <use Diagrams/LNV_diagrams.pdf>
-Package pdftex.def Info: Diagrams/LNV_diagrams.pdf used on input line 402.
+Package pdftex.def Info: Diagrams/LNV_diagrams.pdf used on input line 142.
 (pdftex.def)             Requested size: 426.79137pt x 141.09071pt.
- [52] [53 <./Diagrams/LNV_diagrams.pdf>])
-[54]
+
+Underfull \vbox (badness 1009) has occurred while \output is active []
+
+ [40 <./Diagrams/LNV_diagrams.pdf>] [41]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42]
+<plots/precision2.pdf, id=1564, 505.89pt x 247.48608pt>
+File: plots/precision2.pdf Graphic file (type pdf)
+
+<use plots/precision2.pdf>
+Package pdftex.def Info: plots/precision2.pdf used on input line 208.
+(pdftex.def)             Requested size: 426.79137pt x 208.79318pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43 <./plots/precision2.pdf>]
+<Diagrams/oscillations_diagram.pdf, id=1626, 607.26875pt x 200.75pt>
+File: Diagrams/oscillations_diagram.pdf Graphic file (type pdf)
+
+<use Diagrams/oscillations_diagram.pdf>
+Package pdftex.def Info: Diagrams/oscillations_diagram.pdf used on input line 2
+63.
+(pdftex.def)             Requested size: 426.79137pt x 141.09071pt.
+ [44] [45 <./Diagrams/oscillations_diagram.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [46]
+[47] [48] [49] <Diagrams/thermal_diagrams.pdf, id=1779, 752.8125pt x 200.75pt>
+File: Diagrams/thermal_diagrams.pdf Graphic file (type pdf)
+
+<use Diagrams/thermal_diagrams.pdf>
+Package pdftex.def Info: Diagrams/thermal_diagrams.pdf used on input line 386.
+(pdftex.def)             Requested size: 426.79137pt x 113.81297pt.
+ [50 <./Diagrams/thermal_diagrams.pdf>]
+[51] <Diagrams/interactions.pdf, id=1866, 607.26875pt x 200.75pt>
+File: Diagrams/interactions.pdf Graphic file (type pdf)
+
+<use Diagrams/interactions.pdf>
+Package pdftex.def Info: Diagrams/interactions.pdf used on input line 424.
+(pdftex.def)             Requested size: 426.79137pt x 141.09071pt.
+
+<Diagrams/cross_sections.jpg, id=1867, 206.25858pt x 197.44164pt>
+File: Diagrams/cross_sections.jpg Graphic file (type jpg)
+
+<use Diagrams/cross_sections.jpg>
+Package pdftex.def Info: Diagrams/cross_sections.jpg used on input line 435.
+(pdftex.def)             Requested size: 213.39568pt x 204.27998pt.
+ [52 <./Diagrams/interactions.pdf>] [53 <./Diagrams/cross_sections.jpg>]) [54]
 Chapter 3.
 (./tridentSM/tridentSM.tex [55
 
@@ -2724,7 +2735,7 @@ Underfull \vbox (badness 1590) has occurred while \output is active []
 
  [56]
 (./tridentSM/diagramsSM.tex
-<Diagrams/Neutrino_trident_production.pdf, id=1971, 702.625pt x 200.75pt>
+<Diagrams/Neutrino_trident_production.pdf, id=2081, 702.625pt x 200.75pt>
 File: Diagrams/Neutrino_trident_production.pdf Graphic file (type pdf)
 
 <use Diagrams/Neutrino_trident_production.pdf>
@@ -2779,7 +2790,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Warning: Reference `app:formfactors' on page 61 undefined on input line 1
 68.
 
-[61] <tridentSM/figs/Xsec_4PS_coh.pdf, id=2172, 576.1525pt x 302.12875pt>
+[61] <tridentSM/figs/Xsec_4PS_coh.pdf, id=2282, 576.1525pt x 302.12875pt>
 File: tridentSM/figs/Xsec_4PS_coh.pdf Graphic file (type pdf)
 
 <use tridentSM/figs/Xsec_4PS_coh.pdf>
@@ -2795,7 +2806,7 @@ LaTeX Warning: Reference `app:formfactors' on page 63 undefined on input line 2
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [63]
-<tridentSM/figs/Xsec_4PS_diff.pdf, id=2229, 576.1525pt x 300.12125pt>
+<tridentSM/figs/Xsec_4PS_diff.pdf, id=2339, 576.1525pt x 300.12125pt>
 File: tridentSM/figs/Xsec_4PS_diff.pdf Graphic file (type pdf)
 
 <use tridentSM/figs/Xsec_4PS_diff.pdf>
@@ -2806,14 +2817,14 @@ Package pdftex.def Info: tridentSM/figs/Xsec_4PS_diff.pdf used on input line 25
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [65 <./tridentSM/figs/Xsec_4PS_diff.pdf>] [66]
-<tridentSM/figs/4PS_vs_EPA.pdf, id=2308, 1205.50375pt x 718.685pt>
+<tridentSM/figs/4PS_vs_EPA.pdf, id=2418, 1205.50375pt x 718.685pt>
 File: tridentSM/figs/4PS_vs_EPA.pdf Graphic file (type pdf)
 
 <use tridentSM/figs/4PS_vs_EPA.pdf>
 Package pdftex.def Info: tridentSM/figs/4PS_vs_EPA.pdf used on input line 325.
 (pdftex.def)             Requested size: 426.79137pt x 254.4386pt.
  [67] [68 <./tridentSM/figs/4PS_vs_EPA.pdf>] <tridentSM/figs/XSec_ratio.pdf, id
-=2325, 573.14125pt x 315.1775pt>
+=2434, 573.14125pt x 315.1775pt>
 File: tridentSM/figs/XSec_ratio.pdf Graphic file (type pdf)
 
 <use tridentSM/figs/XSec_ratio.pdf>
@@ -2823,7 +2834,7 @@ Package pdftex.def Info: tridentSM/figs/XSec_ratio.pdf used on input line 336.
 Underfull \vbox (badness 3954) has occurred while \output is active []
 
  [69 <./tridentSM/figs/XSec_ratio.pdf>] [70]
-<tridentSM/figs/Ratio_CDvsT.pdf, id=2381, 655.44875pt x 308.15125pt>
+<tridentSM/figs/Ratio_CDvsT.pdf, id=2491, 655.44875pt x 308.15125pt>
 File: tridentSM/figs/Ratio_CDvsT.pdf Graphic file (type pdf)
 
 <use tridentSM/figs/Ratio_CDvsT.pdf>
@@ -2852,11 +2863,15 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [77]
-[78] [79]
+[78]
+
+LaTeX Warning: Citation `ballet' on page 79 undefined on input line 557.
+
+[79]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [80]
-<tridentSM/figs/SigvsBkg.pdf, id=2516, 544.0325pt x 367.3725pt>
+<tridentSM/figs/SigvsBkg.pdf, id=2625, 544.0325pt x 367.3725pt>
 File: tridentSM/figs/SigvsBkg.pdf Graphic file (type pdf)
 
 <use tridentSM/figs/SigvsBkg.pdf>
@@ -2865,45 +2880,17 @@ Package pdftex.def Info: tridentSM/figs/SigvsBkg.pdf used on input line 595.
  [81]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [82 <./tridentSM/figs/SigvsBkg.pdf>] [83] [84] [85] [86]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 659.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 659.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 659.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 659.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 659.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 659.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 659.
-
-) [87] [88]
+ [82 <./tridentSM/figs/SigvsBkg.pdf>] [83]) [84] [85]
 Chapter 4.
-(./Zprime_scattering/Zprime_scattering.tex [89
+(./Zprime_scattering/Zprime_scattering.tex [86
 
 ]
 Underfull \vbox (badness 1776) has occurred while \output is active []
 
- [90]
+ [87]
 Underfull \vbox (badness 1776) has occurred while \output is active []
 
- [91]
+ [88]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14.4> on input line 20.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -2931,30 +2918,30 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 20.
 
-[92]
+[89]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [93]
-[94]
+ [90]
+[91]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [95]
-[96] <Diagrams/BSM_tridents.pdf, id=2835, 607.26875pt x 200.75pt>
+ [92]
+[93] <Diagrams/BSM_tridents.pdf, id=2885, 607.26875pt x 200.75pt>
 File: Diagrams/BSM_tridents.pdf Graphic file (type pdf)
 
 <use Diagrams/BSM_tridents.pdf>
 Package pdftex.def Info: Diagrams/BSM_tridents.pdf used on input line 109.
 (pdftex.def)             Requested size: 426.79137pt x 141.09071pt.
- [97] [98 <./Diagrams/BSM_tridents.pdf>]
+ [94] [95 <./Diagrams/BSM_tridents.pdf>]
 
-LaTeX Warning: Reference `app:formfactors' on page 99 undefined on input line 1
+LaTeX Warning: Reference `app:formfactors' on page 96 undefined on input line 1
 38.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [99]
-<Zprime_scattering/SMvsBSMmass_xsec_mmmm_vec.pdf, id=2983, 284.56313pt x 221.32
+ [96]
+<Zprime_scattering/SMvsBSMmass_xsec_mmmm_vec.pdf, id=3031, 284.56313pt x 221.32
 687pt>
 File: Zprime_scattering/SMvsBSMmass_xsec_mmmm_vec.pdf Graphic file (type pdf)
  <use Zprime_scattering/SMvsBSMmass_xsec_mmmm_vec.pdf>
@@ -2962,7 +2949,7 @@ Package pdftex.def Info: Zprime_scattering/SMvsBSMmass_xsec_mmmm_vec.pdf used o
 n input line 150.
 (pdftex.def)             Requested size: 209.13011pt x 162.66484pt.
 
-<Zprime_scattering/SMvsBSMmass_xsec_mmmm_ax.pdf, id=2984, 284.56313pt x 221.326
+<Zprime_scattering/SMvsBSMmass_xsec_mmmm_ax.pdf, id=3032, 284.56313pt x 221.326
 87pt>
 File: Zprime_scattering/SMvsBSMmass_xsec_mmmm_ax.pdf Graphic file (type pdf)
  <use Zprime_scattering/SMvsBSMmass_xsec_mmmm_ax.pdf>
@@ -2970,7 +2957,7 @@ Package pdftex.def Info: Zprime_scattering/SMvsBSMmass_xsec_mmmm_ax.pdf used on
  input line 151.
 (pdftex.def)             Requested size: 209.13011pt x 162.66484pt.
 
-<Zprime_scattering/SMvsBSMmass_xsec_mmee_vec.pdf, id=2985, 284.56313pt x 221.32
+<Zprime_scattering/SMvsBSMmass_xsec_mmee_vec.pdf, id=3033, 284.56313pt x 221.32
 687pt>
 File: Zprime_scattering/SMvsBSMmass_xsec_mmee_vec.pdf Graphic file (type pdf)
  <use Zprime_scattering/SMvsBSMmass_xsec_mmee_vec.pdf>
@@ -2978,15 +2965,15 @@ Package pdftex.def Info: Zprime_scattering/SMvsBSMmass_xsec_mmee_vec.pdf used o
 n input line 160.
 (pdftex.def)             Requested size: 209.13011pt x 162.66484pt.
 
-<Zprime_scattering/SMvsBSMmass_xsec_mmee_ax.pdf, id=2986, 284.56313pt x 221.326
+<Zprime_scattering/SMvsBSMmass_xsec_mmee_ax.pdf, id=3034, 284.56313pt x 221.326
 87pt>
 File: Zprime_scattering/SMvsBSMmass_xsec_mmee_ax.pdf Graphic file (type pdf)
  <use Zprime_scattering/SMvsBSMmass_xsec_mmee_ax.pdf>
 Package pdftex.def Info: Zprime_scattering/SMvsBSMmass_xsec_mmee_ax.pdf used on
  input line 161.
 (pdftex.def)             Requested size: 209.13011pt x 162.66484pt.
- [100 <./Zprime_scattering/SMvsBSMmass_xsec_mmmm_vec.pdf> <./Zprime_scattering/
-SMvsBSMmass_xsec_mmmm_ax.pdf
+ [97 <./Zprime_scattering/SMvsBSMmass_xsec_mmmm_vec.pdf> <./Zprime_scattering/S
+MvsBSMmass_xsec_mmmm_ax.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Zprime_scattering/SMvsBSMmass_xsec_mm
 mm_ax.pdf): PDF inclusion: multiple pdfs with page group included in a single p
@@ -3002,7 +2989,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Zprime_scattering/SMvsBSMmass_xsec_mm
 ee_ax.pdf): PDF inclusion: multiple pdfs with page group included in a single p
 age
 >]
-<Zprime_scattering/BSM_invmass_mumu.pdf, id=3097, 284.60612pt x 221.88408pt>
+<Zprime_scattering/BSM_invmass_mumu.pdf, id=3146, 284.60612pt x 221.88408pt>
 File: Zprime_scattering/BSM_invmass_mumu.pdf Graphic file (type pdf)
 
 <use Zprime_scattering/BSM_invmass_mumu.pdf>
@@ -3010,19 +2997,19 @@ Package pdftex.def Info: Zprime_scattering/BSM_invmass_mumu.pdf used on input l
 ine 182.
 (pdftex.def)             Requested size: 209.13011pt x 163.04729pt.
 
-<Zprime_scattering/BSM_sepangle_mumu.pdf, id=3098, 284.60612pt x 221.88408pt>
+<Zprime_scattering/BSM_sepangle_mumu.pdf, id=3147, 284.60612pt x 221.88408pt>
 File: Zprime_scattering/BSM_sepangle_mumu.pdf Graphic file (type pdf)
 
 <use Zprime_scattering/BSM_sepangle_mumu.pdf>
 Package pdftex.def Info: Zprime_scattering/BSM_sepangle_mumu.pdf used on input 
 line 183.
 (pdftex.def)             Requested size: 209.13011pt x 163.04729pt.
- [101 <./Zprime_scattering/BSM_invmass_mumu.pdf> <./Zprime_scattering/BSM_sepan
-gle_mumu.pdf
+ [98 <./Zprime_scattering/BSM_invmass_mumu.pdf> <./Zprime_scattering/BSM_sepang
+le_mumu.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Zprime_scattering/BSM_sepangle_mumu.p
 df): PDF inclusion: multiple pdfs with page group included in a single page
->] <Zprime_scattering/BSM_invmass_ee.pdf, id=3155, 284.60612pt x 221.88408pt>
+>] <Zprime_scattering/BSM_invmass_ee.pdf, id=3203, 284.60612pt x 221.88408pt>
 File: Zprime_scattering/BSM_invmass_ee.pdf Graphic file (type pdf)
 
 <use Zprime_scattering/BSM_invmass_ee.pdf>
@@ -3030,7 +3017,7 @@ Package pdftex.def Info: Zprime_scattering/BSM_invmass_ee.pdf used on input lin
 e 198.
 (pdftex.def)             Requested size: 209.13011pt x 163.04729pt.
 
-<Zprime_scattering/BSM_sepangle_ee.pdf, id=3156, 284.60612pt x 221.88408pt>
+<Zprime_scattering/BSM_sepangle_ee.pdf, id=3204, 284.60612pt x 221.88408pt>
 File: Zprime_scattering/BSM_sepangle_ee.pdf Graphic file (type pdf)
 
 <use Zprime_scattering/BSM_sepangle_ee.pdf>
@@ -3038,7 +3025,7 @@ Package pdftex.def Info: Zprime_scattering/BSM_sepangle_ee.pdf used on input li
 ne 199.
 (pdftex.def)             Requested size: 209.13011pt x 163.04729pt.
 
-<Zprime_scattering/Etheta2_nu_new.pdf, id=3159, 284.60612pt x 221.88408pt>
+<Zprime_scattering/Etheta2_nu_new.pdf, id=3207, 284.60612pt x 221.88408pt>
 File: Zprime_scattering/Etheta2_nu_new.pdf Graphic file (type pdf)
 
 <use Zprime_scattering/Etheta2_nu_new.pdf>
@@ -3046,7 +3033,7 @@ Package pdftex.def Info: Zprime_scattering/Etheta2_nu_new.pdf used on input lin
 e 274.
 (pdftex.def)             Requested size: 209.13011pt x 163.04729pt.
 
-<Zprime_scattering/Etheta2_nubar_new.pdf, id=3160, 284.60612pt x 221.88408pt>
+<Zprime_scattering/Etheta2_nubar_new.pdf, id=3208, 284.60612pt x 221.88408pt>
 File: Zprime_scattering/Etheta2_nubar_new.pdf Graphic file (type pdf)
 
 <use Zprime_scattering/Etheta2_nubar_new.pdf>
@@ -3056,29 +3043,29 @@ line 275.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [102 <./Zprime_scattering/BSM_invmass_ee.pdf> <./Zprime_scattering/BSM_sepangl
-e_ee.pdf
+ [99 <./Zprime_scattering/BSM_invmass_ee.pdf> <./Zprime_scattering/BSM_sepangle
+_ee.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Zprime_scattering/BSM_sepangle_ee.pdf
 ): PDF inclusion: multiple pdfs with page group included in a single page
->] [103 <./Zprime_scattering/Etheta2_nu_new.pdf> <./Zprime_scattering/Etheta2_n
+>] [100 <./Zprime_scattering/Etheta2_nu_new.pdf> <./Zprime_scattering/Etheta2_n
 ubar_new.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Zprime_scattering/Etheta2_nubar_new.p
 df): PDF inclusion: multiple pdfs with page group included in a single page
->] [104] [105]
+>] [101] [102]
 
-LaTeX Warning: Reference `eq:effective_nue_xsec' on page 106 undefined on input
+LaTeX Warning: Reference `eq:effective_nue_xsec' on page 103 undefined on input
  line 355.
 
-[106] [107] <Zprime_scattering/lelmu.pdf, id=3333, 578.16pt x 274.626pt>
+[103] [104] <Zprime_scattering/lelmu.pdf, id=3382, 578.16pt x 274.626pt>
 File: Zprime_scattering/lelmu.pdf Graphic file (type pdf)
 
 <use Zprime_scattering/lelmu.pdf>
 Package pdftex.def Info: Zprime_scattering/lelmu.pdf used on input line 367.
 (pdftex.def)             Requested size: 426.79137pt x 202.72557pt.
 
-<Zprime_scattering/lelmu_fluxes.pdf, id=3344, 289.08pt x 274.626pt>
+<Zprime_scattering/lelmu_fluxes.pdf, id=3393, 289.08pt x 274.626pt>
 File: Zprime_scattering/lelmu_fluxes.pdf Graphic file (type pdf)
 
 <use Zprime_scattering/lelmu_fluxes.pdf>
@@ -3086,14 +3073,17 @@ Package pdftex.def Info: Zprime_scattering/lelmu_fluxes.pdf used on input line
 373.
 (pdftex.def)             Requested size: 209.13011pt x 198.67342pt.
 
-<Zprime_scattering/lelmu_sys.pdf, id=3345, 289.08pt x 274.626pt>
+<Zprime_scattering/lelmu_sys.pdf, id=3394, 289.08pt x 274.626pt>
 File: Zprime_scattering/lelmu_sys.pdf Graphic file (type pdf)
 
 <use Zprime_scattering/lelmu_sys.pdf>
 Package pdftex.def Info: Zprime_scattering/lelmu_sys.pdf used on input line 374
 .
 (pdftex.def)             Requested size: 209.13011pt x 198.67342pt.
- [108]
+ [105]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 387.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 387.
@@ -3114,12 +3104,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 387.
 
-[109 <./Zprime_scattering/lelmu.pdf>] [110 <./Zprime_scattering/lelmu_fluxes.pd
+[106 <./Zprime_scattering/lelmu.pdf>] [107 <./Zprime_scattering/lelmu_fluxes.pd
 f> <./Zprime_scattering/lelmu_sys.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Zprime_scattering/lelmu_sys.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
->] <Zprime_scattering/lmultau_nokm.pdf, id=3527, 578.16pt x 274.626pt>
+>] <Zprime_scattering/lmultau_nokm.pdf, id=3575, 578.16pt x 274.626pt>
 File: Zprime_scattering/lmultau_nokm.pdf Graphic file (type pdf)
 
 <use Zprime_scattering/lmultau_nokm.pdf>
@@ -3127,7 +3117,7 @@ Package pdftex.def Info: Zprime_scattering/lmultau_nokm.pdf used on input line
 402.
 (pdftex.def)             Requested size: 426.79137pt x 202.72557pt.
 
-<Zprime_scattering/lmultau_km.pdf, id=3528, 578.16pt x 274.626pt>
+<Zprime_scattering/lmultau_km.pdf, id=3576, 578.16pt x 274.626pt>
 File: Zprime_scattering/lmultau_km.pdf Graphic file (type pdf)
 
 <use Zprime_scattering/lmultau_km.pdf>
@@ -3135,7 +3125,7 @@ Package pdftex.def Info: Zprime_scattering/lmultau_km.pdf used on input line 40
 3.
 (pdftex.def)             Requested size: 426.79137pt x 202.72557pt.
 
-<Zprime_scattering/lmultau_fluxes.pdf, id=3541, 289.08pt x 274.626pt>
+<Zprime_scattering/lmultau_fluxes.pdf, id=3589, 289.08pt x 274.626pt>
 File: Zprime_scattering/lmultau_fluxes.pdf Graphic file (type pdf)
 
 <use Zprime_scattering/lmultau_fluxes.pdf>
@@ -3143,14 +3133,14 @@ Package pdftex.def Info: Zprime_scattering/lmultau_fluxes.pdf used on input lin
 e 410.
 (pdftex.def)             Requested size: 209.13011pt x 198.67342pt.
 
-<Zprime_scattering/lmultau_bkgs.pdf, id=3542, 289.08pt x 274.626pt>
+<Zprime_scattering/lmultau_bkgs.pdf, id=3590, 289.08pt x 274.626pt>
 File: Zprime_scattering/lmultau_bkgs.pdf Graphic file (type pdf)
 
 <use Zprime_scattering/lmultau_bkgs.pdf>
 Package pdftex.def Info: Zprime_scattering/lmultau_bkgs.pdf used on input line 
 411.
 (pdftex.def)             Requested size: 209.13011pt x 198.67342pt.
- [111]
+ [108]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 417.
@@ -3175,102 +3165,92 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 417.
 
-[112]
+[109]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [113]
-[114]) [115] [116 <./Zprime_scattering/lmultau_nokm.pdf> <./Zprime_scattering/l
+ [110]
+[111]) [112] [113 <./Zprime_scattering/lmultau_nokm.pdf> <./Zprime_scattering/l
 multau_km.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Zprime_scattering/lmultau_km.pdf): PD
 F inclusion: multiple pdfs with page group included in a single page
->] [117 <./Zprime_scattering/lmultau_fluxes.pdf> <./Zprime_scattering/lmultau_b
+>] [114 <./Zprime_scattering/lmultau_fluxes.pdf> <./Zprime_scattering/lmultau_b
 kgs.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Zprime_scattering/lmultau_bkgs.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
 >]
 Chapter 5.
-(./dark_nus/dark_nus.tex [118
+(./dark_nus/dark_nus.tex [115
 
-] [119]
-<Diagrams/portals.pdf, id=3883, 401.5pt x 200.75pt>
+] [116]
+<Diagrams/portals.pdf, id=3931, 401.5pt x 200.75pt>
 File: Diagrams/portals.pdf Graphic file (type pdf)
  <use Diagrams/portals.pdf>
 Package pdftex.def Info: Diagrams/portals.pdf used on input line 35.
 (pdftex.def)             Requested size: 298.75264pt x 149.38585pt.
 
-[120 <./Diagrams/portals.pdf>] [121] [122] [123]
+[117 <./Diagrams/portals.pdf>] [118] [119] [120]
 Overfull \hbox (16.63814pt too wide) in paragraph at lines 166--167
  []\T1/lmr/bx/n/10.95 Dark pho-ton searches[] \T1/lmr/m/n/10.95 (-10) Bounds on
- the vec-tor por-tal come from sev-eral dif-fer-ent sources [[]183[],
+ the vec-tor por-tal come from sev-eral dif-fer-ent sources [[]169[],
  []
 
-
-Underfull \vbox (badness 7081) has occurred while \output is active []
-
- [124]
-[125] [126] [127] [128]
-<Diagrams/Loop_masses.pdf, id=4129, 752.8125pt x 200.75pt>
+[121] [122] [123] [124]
+<Diagrams/Loop_masses.pdf, id=4166, 752.8125pt x 200.75pt>
 File: Diagrams/Loop_masses.pdf Graphic file (type pdf)
 
 <use Diagrams/Loop_masses.pdf>
-Package pdftex.def Info: Diagrams/Loop_masses.pdf used on input line 229.
+Package pdftex.def Info: Diagrams/Loop_masses.pdf used on input line 230.
 (pdftex.def)             Requested size: 426.79137pt x 113.81297pt.
- [129 <./Diagrams/Loop_masses.pdf>] [130]
-[131]
-Underfull \vbox (badness 3977) has occurred while \output is active []
-
- [132]
-<dark_nus/paper_plot_nu5_highmz.pdf, id=4285, 365.86688pt x 240.29774pt>
+ [125] [126 <./Diagrams/Loop_masses.pdf>]
+[127] [128] [129]
+<dark_nus/paper_plot_nu5_highmz.pdf, id=4331, 365.86688pt x 240.29774pt>
 File: dark_nus/paper_plot_nu5_highmz.pdf Graphic file (type pdf)
 
 <use dark_nus/paper_plot_nu5_highmz.pdf>
 Package pdftex.def Info: dark_nus/paper_plot_nu5_highmz.pdf used on input line 
-365.
+370.
 (pdftex.def)             Requested size: 209.13011pt x 137.35612pt.
 
-<dark_nus/paper_plot_nu4.pdf, id=4286, 365.86688pt x 240.29774pt>
+<dark_nus/paper_plot_nu4.pdf, id=4332, 365.86688pt x 240.29774pt>
 File: dark_nus/paper_plot_nu4.pdf Graphic file (type pdf)
 
 <use dark_nus/paper_plot_nu4.pdf>
-Package pdftex.def Info: dark_nus/paper_plot_nu4.pdf used on input line 366.
+Package pdftex.def Info: dark_nus/paper_plot_nu4.pdf used on input line 371.
 (pdftex.def)             Requested size: 209.13011pt x 137.35612pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [133]
-[134 <./dark_nus/paper_plot_nu5_highmz.pdf> <./dark_nus/paper_plot_nu4.pdf
+ [130] [131 <./dark_nus/paper_plot_nu5_highmz.pdf> <./dark_nus/paper_plot_nu4.p
+df
 
 pdfTeX warning: /usr/bin/pdflatex (file ./dark_nus/paper_plot_nu4.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
 >]
 Underfull \vbox (badness 1776) has occurred while \output is active []
 
- [135]
-[136]) [137]
+ [132])
+[133]
 Chapter 6.
-(./miniboone/miniboone.tex [138
+(./miniboone/miniboone.tex [134
 
 ]
-<Diagrams/Dark_neutrinos.pdf, id=4485, 607.26875pt x 301.125pt>
+<Diagrams/Dark_neutrinos.pdf, id=4526, 607.26875pt x 301.125pt>
 File: Diagrams/Dark_neutrinos.pdf Graphic file (type pdf)
 
 <use Diagrams/Dark_neutrinos.pdf>
 Package pdftex.def Info: Diagrams/Dark_neutrinos.pdf used on input line 17.
 (pdftex.def)             Requested size: 384.10962pt x 190.47247pt.
- [139]
+ [135]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [140 <./Diagrams/Dark_neutrinos.pdf>]
-<miniboone/figs/cross_sections.pdf, id=4650, 245.718pt x 170.68007pt>
+ [136 <./Diagrams/Dark_neutrinos.pdf>]
+<miniboone/figs/cross_sections.pdf, id=4690, 245.718pt x 170.68007pt>
 File: miniboone/figs/cross_sections.pdf Graphic file (type pdf)
 
 <use miniboone/figs/cross_sections.pdf>
 Package pdftex.def Info: miniboone/figs/cross_sections.pdf used on input line 4
 9.
 (pdftex.def)             Requested size: 209.13011pt x 145.27145pt.
- [141 <./miniboone/figs/cross_sections.pdf>]
+ [137 <./miniboone/figs/cross_sections.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 61.
@@ -3283,7 +3263,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 61.
 
-[142] <Diagrams/MiniBooNE_tests.pdf, id=4709, 406.51875pt x 200.75pt>
+[138] <Diagrams/MiniBooNE_tests.pdf, id=4749, 406.51875pt x 200.75pt>
 File: Diagrams/MiniBooNE_tests.pdf Graphic file (type pdf)
 
 <use Diagrams/MiniBooNE_tests.pdf>
@@ -3292,8 +3272,8 @@ Package pdftex.def Info: Diagrams/MiniBooNE_tests.pdf used on input line 75.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [143]
-<miniboone/figs/bounds.pdf, id=4723, 244.9953pt x 247.48608pt>
+ [139]
+<miniboone/figs/bounds.pdf, id=4764, 244.9953pt x 247.48608pt>
 File: miniboone/figs/bounds.pdf Graphic file (type pdf)
 
 <use miniboone/figs/bounds.pdf>
@@ -3302,51 +3282,47 @@ Package pdftex.def Info: miniboone/figs/bounds.pdf used on input line 89.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [144 <./Diagrams/MiniBooNE_tests.pdf>]
+ [140 <./Diagrams/MiniBooNE_tests.pdf>]
 Underfull \vbox (badness 3158) has occurred while \output is active []
 
- [145 <./miniboone/figs/bounds.pdf>])
+ [141 <./miniboone/figs/bounds.pdf>])
 Underfull \vbox (badness 1776) has occurred while \output is active []
 
- [146]
-[147]
+ [142]
+[143]
 Chapter 7.
-[148
+(./conclusions/conclusions.tex) [144
 
-]
-Chapter 8.
-(./conclusions/conclusions.tex) [149
-
-] [150
+] [145
 
 
 ]
 Appendix A.
-(./appendices/appendix_PS.tex [151
+(./appendices/appendix_PS.tex [146
 
 ]
 
-LaTeX Warning: Reference `...' on page 152 undefined on input line 31.
+LaTeX Warning: Reference `...' on page 147 undefined on input line 31.
 
-[152]) [153]
+[147]) [148]
 Appendix B.
 (./appendices/form_factors.tex
 Underfull \vbox (badness 1515) has occurred while \output is active []
 
- [154
+ [149
 
 ])
-[155]
+[150]
 Appendix C.
-(./appendices/trident_kinematics.tex [156
+(./appendices/trident_kinematics.tex [151
 
 ]
 
-LaTeX Warning: Reference `app:distributions' on page 157 undefined on input lin
+LaTeX Warning: Reference `app:distributions' on page 152 undefined on input lin
 e 10.
 
 
-<appendices/figs/DUNE_nu_3horn_mll_theta_E.pdf, id=4935, 864.22874pt x 1169.368
+<appendices/figs/DUNE_nu_3horn_mll_theta_E.pdf, id=4973, 864.22874pt x 1169.368
 74pt>
 File: appendices/figs/DUNE_nu_3horn_mll_theta_E.pdf Graphic file (type pdf)
  <use appendices/figs/DUNE_nu_3horn_mll_theta_E.pdf>
@@ -3354,7 +3330,7 @@ Package pdftex.def Info: appendices/figs/DUNE_nu_3horn_mll_theta_E.pdf used on
 input line 23.
 (pdftex.def)             Requested size: 426.79137pt x 577.47432pt.
 
-<appendices/figs/DUNE_nu_3horn_aC_Q2_thetapm.pdf, id=4938, 864.22874pt x 1167.3
+<appendices/figs/DUNE_nu_3horn_aC_Q2_thetapm.pdf, id=4976, 864.22874pt x 1167.3
 6125pt>
 File: appendices/figs/DUNE_nu_3horn_aC_Q2_thetapm.pdf Graphic file (type pdf)
  <use appendices/figs/DUNE_nu_3horn_aC_Q2_thetapm.pdf>
@@ -3364,25 +3340,20 @@ n input line 32.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [157])
+ [152])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [158 <./appendices/figs/DUNE_nu_3horn_mll_theta_E.pdf>] [159 <./appendices/fig
+ [153 <./appendices/figs/DUNE_nu_3horn_mll_theta_E.pdf>] [154 <./appendices/fig
 s/DUNE_nu_3horn_aC_Q2_thetapm.pdf>]
 Appendix D.
-(./appendices/loop_masses.tex
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 14.
-
-[160
+(./appendices/loop_masses.tex [155
 
 ]
-Underfull \vbox (badness 1360) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [161])
-(./main.bbl [162]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 38.
+ [156])
+(./main.bbl [157]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 9.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -3390,19 +3361,19 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [163
+ [158
 
-] [164]
-[165] [166] [167] [168] [169] [170] [171] [172] [173] [174] [175] [176]
-[177] [178] [179] [180] [181] [182] [183] [184] [185] [186] [187] [188]
-[189] [190] [191] [192] [193] [194] [195] [196] [197]) [198]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
+] [159]
+[160] [161] [162] [163] [164] [165] [166] [167] [168] [169] [170] [171]
+[172] [173] [174] [175] [176] [177] [178] [179] [180] [181] [182] [183]
+[184] [185] [186] [187] [188] [189] [190] [191]) [192]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 151.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 151.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 151.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E7E5C84BE16BA714F0CFD08BBC4EF4D1;4705.
+(rerunfilecheck)             Checksum: 3A140D1F7B53429AB588AE7C64F9033D;4212.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -3414,20 +3385,20 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
  ) 
 Here is how much of TeX's memory you used:
- 32106 strings out of 494953
- 588491 string characters out of 6180976
- 663442 words of memory out of 5000000
- 33582 multiletter control sequences out of 15000+600000
- 263004 words of font info for 301 fonts, out of 8000000 for 9000
+ 32073 strings out of 494953
+ 588102 string characters out of 6180976
+ 663137 words of memory out of 5000000
+ 33572 multiletter control sequences out of 15000+600000
+ 262915 words of font info for 300 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  57i,21n,54p,10403b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/te
-xmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ma
-thit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texlive
+ips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/
@@ -3474,10 +3445,10 @@ msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/m
 sbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txmia.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (198 pages, 6256562 bytes).
+Output written on main.pdf (192 pages, 6989014 bytes).
 PDF statistics:
- 6354 PDF objects out of 7423 (max. 8388607)
- 5615 compressed objects within 57 object streams
- 969 named destinations out of 1000 (max. 500000)
- 54542 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 6356 PDF objects out of 7423 (max. 8388607)
+ 5600 compressed objects within 56 object streams
+ 946 named destinations out of 1000 (max. 500000)
+ 54496 words of extra memory for PDF output out of 61914 (max. 10000000)
 

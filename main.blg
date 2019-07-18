@@ -2,10 +2,14 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: JHEP.bst
-Reallocated field_info (elt_size=4) to 17420 items from 5000.
+Reallocated field_info (elt_size=4) to 17060 items from 5000.
 Database file #1: introduction/introduction.bib
 Database file #2: theory/theory.bib
 Database file #3: tridentSM/tridentSM.bib
+Repeated entry---line 246 of file tridentSM/tridentSM.bib
+ : @article{Aliaga:2016oaz
+ :                        ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 1040 of file tridentSM/tridentSM.bib
  : @article{Heeck:2014zfa
  :                       ,
@@ -144,7 +148,6 @@ Repeated entry---line 58 of file dark_nus/three_portals.bib
  : @inproceedings{Alexander:2016aln
  :                                 ,
 I'm skipping whatever remains of this entry
-Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Repeated entry---line 263 of file dark_nus/three_portals.bib
  : @article{Keshavarzi:2018mgv
  :                            ,
@@ -193,6 +196,7 @@ Repeated entry---line 623 of file dark_nus/three_portals.bib
  : @article{Hannestad:2013ana
  :                           ,
 I'm skipping whatever remains of this entry
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Repeated entry---line 807 of file dark_nus/three_portals.bib
  : @article{Boucenna:2014zba
  :                          ,
@@ -1032,51 +1036,52 @@ Repeated entry---line 30 of file appendices/loop_masses.bib
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "*Boehm:2003ha"
 Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "ballet"
 Warning--empty booktitle in Alexander:2016aln
 Warning--empty author in DUNE:flux
 Warning--empty author in DUNE:flux_updated
 Warning--empty author in DUNE:GArOption
 Warning--empty booktitle in Aguilar-Arevalo:2012fmn
 Warning--empty publisher in Leo:1987kd
-You've used 412 entries,
+You've used 399 entries,
             2217 wiz_defined-function locations,
-            3887 strings with 92780 characters,
-and the built_in function-call counts, 129548 in all, are:
-= -- 13486
-> -- 4979
+            3783 strings with 89708 characters,
+and the built_in function-call counts, 125065 in all, are:
+= -- 12987
+> -- 4850
 < -- 0
-+ -- 1469
-- -- 1057
-* -- 11073
-:= -- 17726
-add.period$ -- 415
-call.type$ -- 412
-change.case$ -- 409
++ -- 1430
+- -- 1031
+* -- 10713
+:= -- 17141
+add.period$ -- 402
+call.type$ -- 399
+change.case$ -- 396
 chr.to.int$ -- 0
-cite$ -- 418
-duplicate$ -- 6706
-empty$ -- 11220
-format.name$ -- 1057
-if$ -- 34130
+cite$ -- 405
+duplicate$ -- 6453
+empty$ -- 10837
+format.name$ -- 1031
+if$ -- 32927
 int.to.chr$ -- 0
-int.to.str$ -- 412
-missing$ -- 1533
-newline$ -- 1244
-num.names$ -- 409
-pop$ -- 741
+int.to.str$ -- 399
+missing$ -- 1481
+newline$ -- 1205
+num.names$ -- 396
+pop$ -- 721
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 5547
+skip$ -- 5315
 stack$ -- 0
-substring$ -- 5931
-swap$ -- 3565
+substring$ -- 5709
+swap$ -- 3416
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 903
-width$ -- 415
-write$ -- 4284
-(There were 254 error messages)
+while$ -- 873
+width$ -- 402
+write$ -- 4139
+(There were 255 error messages)

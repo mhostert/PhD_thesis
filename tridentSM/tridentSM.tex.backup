@@ -3,78 +3,7 @@
 
 This chapter is dedicated to the study of rare neutrino scattering processes. Before we can explore the possibilities to constrain new physics, it is very important we understand our theoretical predictions in the SM. In this thesis we will see that leptonic and semi-leptonic neutrino scattering is a crucial tool to understanda and go beyond the SM. This chapter is dedicated to a refresher on neutrino-electron scattering and to original work developed on the calculation and phenomenology of neutrino trident scattering. These two processes were the object of study of experiments back in the 80's and 90's, but the high beam luminosity achieved at current neutrino experiments and expected at future facilitites (typically beyond $10^{21}$ protons on target), the relatively large fiducial masses of high-$Z$ materials (typically 100~ton) of modern detectors, and improved particle idenditification (PID) capabilities allows to return to this topic at lower energies ($E_\nu =$ few~GeV) with a refreshed approach.
 
-\section{Neutrino-electron scattering}
-
-Neutrino-electron scattering has long been a valuable probe of both the SM and potential new physics \cite{Marciano:2003eq,deGouvea:2006hfo,PhysRevD.93.093019,Lindner:2018kjo}. It is important to note that in the presence of novel leptophilic currents, experiments searching for $e^+e^-$ tridents would also observe anomalous $\nu-e$ event rates. In fact, given the larger statistics present in the $\nu-e$ scattering sample, this channel is expected to provide the leading constraints in our scenarios with tree-level couplings to electrons. 
-
-In order to compute the $\nu-e$ cross section in the presence of the new leptophilic interactions we need to consider an analogous modification of the NC scattering amplitude
-% neutrino-electron scattering amplitude in the presence of new physics. This is a purely leptonic amplitude and can be written as
-\begin{align}
-    \mathcal{M}_{\rm \nu_\alpha-e} = - \frac{G_F}{\sqrt{2}}  & \left[\bar{u}(k_2)\gamma^\mu(1-\gamma_5)u(k_1)\right] \nonumber\\ & \times \left[\bar{u}(p_2)\gamma_\mu(C^{\rm V}_\alpha-C^{\rm A}_\alpha\gamma_5)u(p_1)\right],
-\end{align}
-where the vector ($C_V$) and axial ($C_A$) effective couplings include both the SM and BSM contributions
-%
-\begin{subequations}
-\begin{align}
-%
-C^{\rm V}_\alpha &= -\frac{1}{2}+2s^2_{\rm W} + \delta_{\alpha e} + \frac{Q^{\rm V}_{e} Q^{\rm L}_{\alpha} }{2\sqrt{2}G_F} \frac{(g^\prime)^2}{M_{Z^\prime}^2+2m_eT_e},\\
-%
-C^{\rm A}_\alpha &= -\frac{1}{2} + \delta_{\alpha e} + \frac{Q^{\rm A}_{e} Q^{\rm L}_{\alpha} }{2\sqrt{2} G_F} \frac{(g^\prime)^2}{ M_{Z^\prime}^2 + 2m_e T_e},
-\label{eq:c_prescription_nue}
-%
-\end{align}
-\end{subequations}
-with, as usual, $s_{\rm W}\equiv\sin\theta_{\rm W}$, being $\theta_{\rm W}$ the weak angle and $T_e$ is the kinetic energy of the recoil electron. The loop-induced kinetic mixing in the $L_\mu-L_\tau$ model also induces a $\nu - e$ coupling
-%
-\begin{equation}
-C^{\rm V}_\alpha = -\frac{1}{2}+2s^2_{\rm W} + \delta_{\alpha e} + \frac{1 }{\sqrt{2}G_F} \frac{g^\prime \, e\, \varepsilon(q^2)}{M_{Z^\prime}^2+2m_eT_e}.
-\end{equation}
-%
-The differential cross section is then given by 
-%
-\begin{align}\label{nuexsection}
-  \frac{d\sigma_{\nu_{\alpha}-e}}{dT_e} = \frac{2m_eG_F^2}{\pi} \Bigg[ \left(C^{\rm L}_\alpha\right)^2 &+\left(C^{\rm R}_\alpha\right)^2\left(1-\frac{T_e}{E_\nu}\right)^2\nonumber\\&-C^{\rm L}_\alpha C^{\rm R}_\alpha \, m_e \frac{T_e}{E_\nu^2} \Bigg].
-\end{align}
-%
-where the left and right handed constants are given by
-%
-\begin{align*}
-%
-C^{\rm L}_\alpha \equiv \frac{1}{2}\left(C^{\rm V}_\alpha + C^{\rm A}_\alpha\right) \qquad\text{and}\qquad
-%
-C^{\rm R}_\alpha \equiv \frac{1}{2}\left(C^{\rm V}_\alpha - C^{\rm A}_\alpha\right).
-%
-\end{align*}
-%
-For antineutrino scattering one obtains the cross section by exchanging $C_{\alpha}^{\rm L} \leftrightarrow C_{\alpha}^{\rm R}$. 
-
-\subsection{Kinematics} The kinetic energy of the outgoing electron is bounded by kinematics and the energy resolution of the detector, which effectively sets a threshold energy $T_{\rm th}$ such that
-%
-\begin{align}
-  T_{\rm th}  \le T_e \le T_{\rm max},
-\end{align}
-%   
-with $T_{\rm max} = 2E_\nu^2/m_e+2E_\nu$, the maximum kinetic energy attainable. We define the effective total cross section for an initial neutrino energy $E_\nu$ as
-%
-\begin{equation}\label{eq:effective_nue_xsec}
-\sigma_\text{eff}(E_\nu,T_\text{th}) = \int_{T_\text{th}}^{T_{\rm max}} \frac{d\sigma}{dT_e}\,dT_e.
-\end{equation}
-%
-This definition also ensures that the enhancement due to very light mediators becomes constant at around $\sqrt{2 m_e T_\text{th}}$, as discussed in \refref{Lindner:2018kjo}. This is a consequence of the detector threshold and of the 2-body kinematics of the process. Finally, electroweak radiative corrections have been computed in the SM \cite{Bahcall:1995mm,Passera:2000ug}, but 
-will not be included here. Since they correspond to a change of a few percent we do not expect them to affect very much our results.
-
-
-\subsection{Measurements}
-
-MINERvA
-
-CHARM-II, CHARM, 
-
-TEXONO, GEMMA, DAYA BAY?
-
-Solar neutrinos - BOREXINO, SNO, Super-K
-
-\section{Neutrino trident scattering}
+\section{Overview of neutrino trident production}
 
 Trident events are processes predicted by the SM as the result of (anti)neutrino-nucleus scattering with the production of a charged lepton pair \cite{Czyz:1964zz,Lovseth:1971vv,Fujikawa:1971nx,Brown:1971qr,Koike:1971tu}, $\pbar{\nu}_{\alpha}+{\cal{H}} \to \pbar{\nu}_{\alpha \,{\rm{or}} \, \kappa(\beta)} + \ell_{\beta}^- + \ell_\kappa^+ +{\cal{H}}$, $\{\alpha,\beta,\kappa\}\in \{e,\mu,\tau\}$\footnote{Throughout the manuscript we will consider ${\alpha,\beta, \kappa}$ as flavour indexes.} where $\cal{H}$ denotes a hadronic target. Depending on the (anti)neutrino and charged lepton flavours in the final-state, the process will be mediated by the $Z^0$ boson, $W$ boson or both. Coherent interactions between (anti)neutrinos and the atomic nuclei are expected to dominate these processes as long as the momentum transferred $Q$ is significantly smaller than the inverse of the nuclear size \cite{Czyz:1964zz}. For larger momentum transfers incoherent elastic and deep-inelastic scattering become increasingly relevant \cite{Magill:2016hgc}.
 %
@@ -82,17 +11,9 @@ Although this process exists for all combinations of same-flavour or mixed flavo
 
 As the measurement of trident events may provide a sensitive test of the weak sector~\cite{Brown:1973ih} as well as placing constraints on physics beyond the SM~\cite{Mishra:1991bv,Gaidaenko:2000hg,Altmannshofer:2014pba,Kaneta:2016uyt,Ge2017,Magill:2017mps,Falkowski:2018dmy} it is relevant to investigate how to probe it further at current and future neutrino experiments. Atmospheric neutrinos, for instance, may provide a feasible measurement of the dimuon channel, as pointed out in \refref{Ge2017}\footnote{The authors of \refref{Ge2017} have performed the full calculation of the trident process and made their code publicly available.}. Other trident modes were also re\-cog\-ni\-zed to be relevant by the authors of Ref.~\cite{Magill:2016hgc} who calculated the cross sections for trident production in all possible flavour combinations and estimated the number of events expected for the DUNE and SHiP experiments. They used the Equivalent Photon Approximation (EPA)~\cite{Belusevic:1987cw} to compute the cross section in the coherent and incoherent regimes of the scattering. The EPA, however, is known to breakdown for final state electrons~\cite{Kozhushner:1962aa, Shabalin:1963aa, Czyz:1964zz} leading, as we will demonstrate here, to an overestimation of the cross section that in some cases is by more than 200\%. 
 
-In this work, we present a unified treatment of the coherent and incoherent trident calculation beyond the EPA for all modes. We then compute the number and distribution of events expected in each mode at various near detectors, devoting particular attention to the case of liquid argon (LAr) detectors, as they are expected to lead the field of precision neutrino scattering measurements over the next few decades thanks to their excellent tracking and calorimetry capabilities. Finally, we address the likely backgrounds that may hinder these experimental searches --- a question that we believe to be of utmost importance given the rarity of the process, and one that has been omitted in earlier sensitivity studies \cite{Magill:2016hgc,Altmannshofer:2014pba}. 
-
-This paper is organized as follows. In Sec.~\ref{sec:xsec}, we explain how to correctly calculate the trident SM cross sections, comparing our results to the EPA and explicitly showing the breakdown of this approximation. In Sec.~\ref{sec:LAr}, we discuss the trident event rates and kinematic distributions at the near detectors of several present and future neutrino oscillation experiments based on LAr technology: the three detectors of the Short-Baseline Neutrino (SBN) Program at Fermilab~\cite{SBNproposal} and the near detector for the long-baseline Deep Underground Neutrino Experiment (DUNE)~\cite{Acciarri:2016ooe,DUNECDRvolII}, also located at Fermilab. We also consider the potential gains from an optimistic future facility: a 100 t LAr detector subject to the novel low-systematics neutrino beam of the Neutrinos from STORed Muons ($\nu$STORM) project~\cite{Soler:2015ada,nuSTORM2017}. 
-%
-We discuss the sources of background events at these facilities, providing a GENIE-level analysis \cite{Andreopoulos2009} of how to reduce these backgrounds and assessing the impact they are expected to have on the trident measurement. 
-%
-In Sec.~\ref{sec:others}, we discuss other near detectors that use more conventional technologies: the Interactive Neutrino GRID (INGRID)~\cite{Abe:2011xv,Abe:2015biq,Abe:2016fic,Abe:2016tez}, the on-axis iron near detector for T2K at J-PARC, as well as three detectors at the Neutrino at the Main Injector (NuMI) beamline at Fermilab, the one for the Main INjector ExpeRiment $\nu$-A (MINER$\nu$A)~\cite{Altinok:2017xua,MINERvA:2017} and the near detectors for the Main Injector Oscillation Search (MINOS)~\cite{Adamson:2014pgc,AlpernBoehm} and the Numi Off-axis $\nu_e$ Appearance (NO$\nu$A) experiment~\cite{Wang:Biao,sanchez_mayly_2018_1286758}. 
-%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Trident Production Cross Section}\label{sec:xsec}
+\section{Cross section at low energies}\label{sec:xsec}
 
 In this section we consider neutrino trident production in the SM, defined as the process where a (anti)neutrino scattering off a hadronic system ${\cal H}$ produces a pair of same-flavour or mixed flavour charged leptons 
 %
@@ -491,10 +412,9 @@ After that we study the proposed near detector for DUNE. This turns out to be th
 Finally, having in mind the novel flavour composition of neutrino beams from muon facilities, we investigate trident rates at a 100~t LAr detector for the $\nu$STORM project. This last facility could offer a very well understood neutrino beam with as many electron neutrinos as muon antineutrinos from muon decays, creating new possibilities for trident scattering measurements.
 %%
 \begin{table}[h!]
-\scalebox{0.9}{
 \begin{tabular}{|cccccc|}
 \hline
-		\bf Channel & \bf SBND& \bf $\mu$BooNE & \bf ICARUS & \bf DUNE ND &\bf  $\nu$STORM ND \\ \hline \hline
+		 Channel &  SBND&  $\mu$BooNE &  ICARUS &  DUNE ND &  $\nu$STORM ND \\ \hline \hline
 		$\nu_\mu\to\nu_e e^+ \mu^-$& $10$ &$0.7$ &$1$ &$2844 ~ (235)$ & $159$ \\
         &$1$ &$0.08$ &$0.1$ &$369 ~ (33)$& $18$\\\hline
         $\overline\nu_\mu\to\overline\nu_e e^- \mu^+$&$0.4$ &$0.02$ &$0.04$ &$122~(2051)$ & $23$\\
@@ -531,7 +451,7 @@ Finally, having in mind the novel flavour composition of neutrino beams from muo
     ${\rm{Total}} \ \mu^+ \mu^-$ &$0.4$ &$0.0$ &$0.0$ &$286~(210)$ & $11$ \\
     &$0.3$ &$0.0$ &$0.0$ &$143~(108)$ & $6$\\
     \hline
-\end{tabular}}
+\end{tabular}
 \caption[Trident rates in LAr detectors.]{\label{tab:LArrates}Total number of \textbf{coherent} (top row) and \textbf{incoherent} (bottom row) trident events expected at different LAr experiments for a given channel.
 The numbers in parentheses are for the antineutrino running mode, when present. These calculations  
 considered a detector efficiency of 100\%. }
@@ -606,7 +526,7 @@ The total number of mixed flavour, dielectron and dimuon channel events is, resp
 %
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Background Estimates for Neutrino Trident in LAr}
+\section{Backgrounds to tridents in LAr}
 \label{subsec:bck}
 
 The study of any rare process is a struggle against both systematic uncertainties in the event rates and unavoidable background processes. True dilepton signatures are naturally rare in neutrino scattering experiments, but with modest rates of particle misidentification a non-trivial background arises. In this section we estimate the background to trident processes in LAr and its impact on the trident measurement. We perform our analysis only for DUNE ND, in neutrino and antineutrino mode, but our results are expected to be broadly applicable to other LAr detectors. We have generated a sample of $1.1 \times 10^6$ background events using GENIE~\cite{Andreopoulos2009} for incident electron and muon flavour neutrinos and antineutrinos. It is worth noting, however, that this event sample will in fact be smaller than the total number of neutrino interactions expected in the DUNE ND. 
@@ -620,14 +540,16 @@ To account for misreconstruction in the detector, we implement resolutions as a 
 \label{subsubsec:misID}
 We focus on three final-state charged lepton combinations: $\mu^+\mu^-$, $\mu^\pm e^\mp$ and $e^+e^-$. Genuine production of these states is possible in background processes, but usually rare, deriving from meson resonances or other prompt decays. The majority of the background is expected to be from particle misidentification (misID). We assume that protons can always be identified above threshold and that neutrons leave no detectable signature in the detector. In addition, we require no charge ID capabilities from the detector and assume that the interaction vertex can always be reconstructed. Under these assumptions, we have incorporated three misidentifications which will affect our analysis, and give our naive estimates for their rates in Tab.~\ref{tab:misIDlist}. Any other particle pairs are assumed to be distinguishable from each other when needed.
 %
-\renewcommand{\arraystretch}{1.2}
+\renewcommand{\arraystretch}{1.4}
 \begin{table}[h]
 \centering 
-\begin{tabular}{c c}
+\begin{tabular}{clll}
 \hline
-misID $\gamma$ as $e^\pm$ & $\gamma$ as $e^+e^-$ & $\pi^\pm$ as $\mu^\pm$ \\
-\multirow{2}{*}{Rate} & \multirow{2}{*}{0.05} & 0.1 (w/ vertex) &  \multirow{2}{*}{0.1} \\
-     &      & 1 (no vertex + overlapping) 
+ & $\gamma$ as $e^\pm$ & $\gamma$ as $e^+e^-$ & $\pi^\pm$ as $\mu^\pm$ \\
+\hline
+\multirow{2}{*}{Rate} & \multirow{2}{*}{5\%} & 10\% (w/ vertex) &  \multirow{2}{*}{10\%} \\
+       &      & 100\% (no vertex + overlapping)  &  \\
+\hline
 \end{tabular}
 \caption[Rates for particle misID in LAr.]{\label{tab:misIDlist} Assumed misID rates for various particles in a LAr detector. We take these values to be constant in energy.}
 \end{table}
@@ -709,36 +631,3 @@ We conclude that reaching background rates of the order
 ${\cal O}(10^{-6}-10^{-5})$ times the CC rate is necessary to observe trident events at DUNE ND, and given the distinctive kinematic behaviour of the trident signal a simple cut-based GENIE-level analysis suggests that this is an attainable goal in a LAr TPC. 
 
 Existing facilities may also be able to make a neutrino trident measurement at their near detectors. Despite not including reconstruction efficiencies nor an indication of the impact of backgrounds, we find that the largest trident statistics is available at INGRID, the T2K on-axis near detector. We predict about 660 (1700) events for the mixed flavour, 300 (770) events for the dielectron and 50 (130) events for the dimuon channel for T2K-I (T2K-II). The more fine-grained near detector of MINOS and MINOS+ is also expected to have collected a significant numbers of events during its run. As such, the very first measurement of neutrino trident production of mixed and dielectron channels may be at hand.
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Individual Backgrounds}
-\label{app:backgrounds}
-Here we discuss backgrounds to trident final-states in more detail. We start by motivating our misID rates shown in \reftab{tab:misIDlist}, and then discuss the dominant background processes individually.
-
-In LAr photons can be distinguished from a single electron if their showers start displaced from the vertex (if present). Photons have a conversion length in LAr of around 18 cm, meaning $5$--$10\%$ could be expected to convert quickly enough to hinder electron-photon discrimination by this means if the resolution on the gap is from $1$--$2$ cm \cite{Acciarri:2016sli}. Once pair conversion happens, photons can be distinguished from a single electron purely by $\dd E/\dd x$ measurements in the first 1--2 cm of their showers. Motivated by the success of this method as shown at ArgoNeuT \cite{Acciarri:2016sli} and based on projections for DUNE \cite{Acciarri:2016ooe}, we assume that $5\%$ of photons would be taken as $e^\pm$ with perfect efficiency, without the need for an event vertex. Needless to say that a dedicated study for trident topologies would be necessary for a more complete study. It is worth noting that our remarks concern only the misID of a single photon for a single electron, whilst the distinction between a photon and an overlapping $e^+e^-$ pair without a vertex can be much more challenging. For this reason we take the misID rate between an overlapping $e^+e^-$ pair and a photon to be 1 in the absence of a vertex.  
-
-Charged pions are notorious for faking long muon tracks. We estimate this misID rate as arising from through-going pions, which do not exhibit the decay kink used in their identification. We assume an interaction length of around $1$ m, meaning that about $5\%$ of particles travel $\sim3$ meters and escape the fiducial volume. Assuming that this is the most likely way a pion can spoof a muon, we estimate a naive suppression rate of $10^{-2}$. In a more complete study, it is desirable to explore the length of the muon and pion tracks inside the detector as a function of energy. The length of the contained tracks can also be an important tool for background suppression which we leave to future studies.  
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Pion Production}
-
-Coherent pion production in its charged ($\nu + A \to \ell^\mp + \pi^\pm + A$) and neutral ($\nu + A \to \nu + \pi^0 + A$) current version is very abundant at GeV energies. The cross section for these processes is modelled in GENIE using a modern version of the Rein-Sehgal model \cite{REIN198329,Rein:2006di}. The charged current version serves mainly as a background to $\mu^+ \mu^-$ tridents, but can also appear as a background for $e^\pm \mu^\mp$ tridents for incoming electron neutrinos or antineutrinos. It has been studied before at MiniBooNE \cite{AguilarArevalo:2010xt}, MINER$\nu$A \cite{Higuera:2014azj,Mislivec:2017qfz}, T2K \cite{Abe:2016fic,Abe:2016aoo}, and for the first time in LAr at ArgoNeuT \cite{Acciarri:2014eit}. This process has a very distict low 4-momentum transfer to the nucleus $|t|$ \cite{Higuera:2014azj}, but a much flatter distribution in invariant mass if compared to trident. The neutral current version of coherent pion production serves as a background to $e^+e^-$ tridents. This process has been studied before by the MiniBooNE \cite{AguilarArevalo:2009ww}, SciBooNE \cite{Kurimoto:2010rc} and in LAr by the ArgoNeuT collaboration \cite{Acciarri:2015ncl}. There are two possibilities for these events to fake an $e^+e^-$ trident: when one of the gammas produced in the $\pi^0$ decay is missed and the other is misIDed for an overlapping $e^+e^-$ pair, and when both photons are each misIDed for a single electron. This signature also comes with low hadronic activity, but for separated visible photons the invariant mass is a natural discriminator, as in the detector $m_{\gamma \gamma} \approx m_{\pi^0}$.
-
-Resonant pion production can also contribute to trident backgrounds in the absence of any reconstructed protons. Resonant pion production can be larger than its coherent counterpart and is modelled in GENIE by the Rein-Sehgal model \cite{Rein:1980wg}. Its CC version was measured by MiniBooNE \cite{AguilarArevalo:2010xt}, K2K \cite{Mariani:2010ez}, MINOS \cite{Adamson:2014pgc}, and MINER$\nu$A \cite{Altinok:2017xua}. In the latter measurement one can clearly see the large number of events with undetected protons. The misIDed photon and the charged lepton invariant mass are once more flatter than the trident ones, allowing for a kinematical discrimination whenever a single photon is undetected. It is worth noting that these are some of the dominant underlying processes for pion production in GENIE, but all events leading to topologies relevant for trident are included in our analysis.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Charm Production}
-
-Since the first observation of dimuon pairs from charm production in neutrino interaction by the HPWF experiment in 1974 \cite{Benvenuti:1975ru}, a lot has been learned about these processes (see \cite{Lellis:2004yn} for a review) in neutrino experiments. Particularly, the production of charm quarks and their subsequent weak decays into muons or electrons have been identified as a major source of background for early trident searches. At the lower neutrino energies at DUNE, however, this is expected to be a smaller yet non-negligible contribution. From our GENIE samples, we estimate that a charmed state is produced at a rate of around $10^{-4}(N_\text{CC}+N_\text{NC})$. Most of these produce either D mesons, 
-$\Lambda_c$ or $\Sigma_c$ baryons. These particles decay in chains, emitting a muon with a branching ratio of around $0.1$, and are always accompanied by pions or other hadronic particles. We therefore expect these rates to be negligible with a hadronic veto, and do not consider them further. We hope, however, that future studies will address these channels in more detail.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{CC$\gamma$ and NC$\gamma$}
-
-The emission of a single photon alongside a CC process could be a background for $\mu e$ tridents if the photon is misIDed as a single electron. When the photon is produced in a NC event, it can be a background to overlapping $e^+e^-$ tridents. In GENIE, these topologies arise mainly due to resonance radiative decays and from the intra-nuclear processes. For this reason, it usually comes accompanied with extra hadronic activity. For hadronic resonances, we have simulated CC processes in GENIE and estimated
-the multiplicities: $0.5\%$ single
-photon and $1\%$ double photon emission from CC rates. Radiative photon production from the charged lepton, on the other hand, does not need to come accompanied by hadrons. It is phase space and $\alpha\approx1/137$ suppressed with respect to CCQE rates, and therefore could occur at appreciable rates compared to our signal. This contribution, however, is not included in GENIE and is absent from our samples. The rates of internal photon bremsstrahlung have been estimated before, particularly for T2K where a low-energy photon is an important background for electron
-appearance searches \cite{Efrosinin:2009zz}, and as a background to the low energy events at MiniBooNE \cite{Bodek:2007wb}. De-excitation gammas from the struck nuclei can also generate CC$\gamma$ or NC$\gamma$ topologies \cite{PhysRevLett.108.052505}. These contributions for Ar are not included in GENIE, but are expected to come with a distinct energy profile, which can be tagged on.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
