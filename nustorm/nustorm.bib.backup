@@ -1,0 +1,886 @@
+@article{Antonello:2013ypa,
+      author         = "Antonello, M. and others",
+      title          = "{ICARUS at FNAL}",
+      year           = "2013",
+      eprint         = "1312.7252",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.ins-det",
+      SLACcitation   = "%%CITATION = ARXIV:1312.7252;%%"
+}
+
+@article{Gandhi:2017vzo,
+      author         = "Gandhi, Raj and Kayser, Boris and Prakash, Suprabh and
+                        Roy, Samiran",
+      title          = "{What measurements of neutrino neutral current events can
+                        reveal}",
+      journal        = "JHEP",
+      volume         = "11",
+      year           = "2017",
+      pages          = "202",
+      doi            = "10.1007/JHEP11(2017)202",
+      eprint         = "1708.01816",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "FERMILAB-PUB-17-276-T",
+      SLACcitation   = "%%CITATION = ARXIV:1708.01816;%%"
+}
+@article{Coloma:2017ptb,
+      author         = "Coloma, Pilar and Forero, David V. and Parke, Stephen J.",
+      title          = "{DUNE sensitivities to the mixing between sterile and tau
+                        neutrinos}",
+      year           = "2017",
+      eprint         = "1707.05348",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "FERMILAB-PUB-17-271-T",
+      SLACcitation   = "%%CITATION = ARXIV:1707.05348;%%"
+}
+@article{Giunti2015a,
+      author         = "Giunti, C. and Zavanin, E. M.",
+      title          = "{Appearance–disappearance relation in $3 + N_s$
+                        short-baseline neutrino oscillations}",
+      journal        = "Mod. Phys. Lett.",
+      volume         = "A31",
+      year           = "2015",
+      number         = "01",
+      pages          = "1650003",
+      doi            = "10.1142/S0217732316500036",
+      eprint         = "1508.03172",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1508.03172;%%"
+}
+@article{Astier2003,
+      author         = "Astier, P. and others",
+      title          = "{Search for nu(mu) ---> nu(e) oscillations in the NOMAD
+                        experiment}",
+      collaboration  = "NOMAD",
+      journal        = "Phys. Lett.",
+      volume         = "B570",
+      year           = "2003",
+      pages          = "19-31",
+      doi            = "10.1016/j.physletb.2003.07.029",
+      eprint         = "hep-ex/0306037",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CERN-EP-2003-038",
+      SLACcitation   = "%%CITATION = HEP-EX/0306037;%%"
+}
+
+@article{Sorel:2003hf,
+      author         = "Sorel, Michel and Conrad, Janet M. and Shaevitz, Michael",
+      title          = "{A Combined analysis of short baseline neutrino
+                        experiments in the (3+1) and (3+2) sterile neutrino
+                        oscillation hypotheses}",
+      journal        = "Phys. Rev.",
+      volume         = "D70",
+      year           = "2004",
+      pages          = "073004",
+      doi            = "10.1103/PhysRevD.70.073004",
+      eprint         = "hep-ph/0305255",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = HEP-PH/0305255;%%"
+}
+@article{Archidiacono2014,
+      author         = "Archidiacono, Maria and Hannestad, Steen and Hansen,
+                        Rasmus Sloth and Tram, Thomas",
+      title          = "{Cosmology with self-interacting sterile neutrinos and
+                        dark matter - A pseudoscalar model}",
+      journal        = "Phys. Rev.",
+      volume         = "D91",
+      year           = "2015",
+      number         = "6",
+      pages          = "065021",
+      doi            = "10.1103/PhysRevD.91.065021",
+      eprint         = "1404.5915",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.CO",
+      SLACcitation   = "%%CITATION = ARXIV:1404.5915;%%"
+}
+@article{Collin2016a,
+      author         = "Collin, G. H. and Argüelles, C. A. and Conrad, J. M. and
+                        Shaevitz, M. H.",
+      title          = "{Sterile Neutrino Fits to Short Baseline Data}",
+      journal        = "Nucl. Phys.",
+      volume         = "B908",
+      year           = "2016",
+      pages          = "354-365",
+      doi            = "10.1016/j.nuclphysb.2016.02.024",
+      eprint         = "1602.00671",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1602.00671;%%"
+}
+@article{Peres:2000ic,
+      author         = "Peres, O. L. G. and Smirnov, A. {\relax Yu}.",
+      title          = "{(3+1) spectrum of neutrino masses: A Chance for LSND?}",
+      journal        = "Nucl. Phys.",
+      volume         = "B599",
+      year           = "2001",
+      pages          = "3",
+      doi            = "10.1016/S0550-3213(01)00012-8",
+      eprint         = "hep-ph/0011054",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = HEP-PH/0011054;%%"
+}
+@article{Antusch2006,
+      author         = "Antusch, S. and Biggio, C. and Fernandez-Martinez, E. and
+                        Gavela, M. B. and Lopez-Pavon, J.",
+      title          = "{Unitarity of the Leptonic Mixing Matrix}",
+      journal        = "JHEP",
+      volume         = "10",
+      year           = "2006",
+      pages          = "084",
+      doi            = "10.1088/1126-6708/2006/10/084",
+      eprint         = "hep-ph/0607020",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "FTUAM-06-8, IFT-UAM-CSIC-06-30",
+      SLACcitation   = "%%CITATION = HEP-PH/0607020;%%"
+}
+@article{Adey2014a,
+      author         = "Adey, D. and others",
+      title          = "{Light sterile neutrino sensitivity at the nuSTORM
+                        facility}",
+      collaboration  = "nuSTORM",
+      journal        = "Phys. Rev.",
+      volume         = "D89",
+      year           = "2014",
+      number         = "7",
+      pages          = "071301",
+      doi            = "10.1103/PhysRevD.89.071301",
+      eprint         = "1402.5250",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "FERMILAB-PUB-14-043-APC-PPD",
+      SLACcitation   = "%%CITATION = ARXIV:1402.5250;%%"
+}
+@article{Neuffer2015a,
+      author         = "Neuffer, David and Liu, Ao and Bross, A.",
+      title          = "{NuSTORM $\mu$ Ring – Design and Injection
+                        Optimization}",
+      booktitle      = "{Proceedings, 16th International Workshop on Neutrino
+                        Factories and Future Neutrino Beam Facilities (NUFACT
+                        2014): Glasgow, Scotland, UK, 25–30 August 2014}",
+      journal        = "PoS",
+      volume         = "NUFACT2014",
+      year           = "2014",
+      pages          = "068",
+      eprint         = "1502.03751",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.acc-ph",
+      reportNumber   = "MAP-DOC-4404, FERMILAB-CONF-14-462-AD-APC",
+      SLACcitation   = "%%CITATION = ARXIV:1502.03751;%%"
+}
+@article{Schmitz,
+      author         = "Antonello, M. and others",
+      title          = "{A Proposal for a Three Detector Short-Baseline Neutrino
+                        Oscillation Program in the Fermilab Booster Neutrino
+                        Beam}",
+      collaboration  = "LAr1-ND, ICARUS-WA104, MicroBooNE",
+      year           = "2015",
+      eprint         = "1503.01520",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.ins-det",
+      SLACcitation   = "%%CITATION = ARXIV:1503.01520;%%"
+}
+@article{Fukuda2016,
+      author         = "Fukuda, T.",
+      title          = "{Discovery of $\nu_\tau$ appearance and recent results
+                        from OPERA}",
+      booktitle      = "{Proceedings, 30th Rencontres de Physique de La Vallée
+                        d'Aoste: La Thuile, Aosta Valley, Italy, March 6-12,
+                        2016}",
+      collaboration  = "OPERA",
+      journal        = "Nuovo Cim.",
+      volume         = "C39",
+      year           = "2017",
+      number         = "4",
+      pages          = "315",
+      doi            = "10.1393/ncc/i2016-16315-9",
+      eprint         = "1606.04632",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      SLACcitation   = "%%CITATION = ARXIV:1606.04632;%%"
+}
+@article{Giunti1992,
+      author         = "Giunti, C. and Kim, C. W. and Lee, U. W.",
+      title          = "{Comments on the weak states of neutrinos}",
+      journal        = "Phys. Rev.",
+      volume         = "D45",
+      year           = "1992",
+      pages          = "2414-2420",
+      doi            = "10.1103/PhysRevD.45.2414",
+      reportNumber   = "JHU-TIPAC-910019, SNUTP-91-39",
+      SLACcitation   = "%%CITATION = PHRVA,D45,2414;%%"
+}
+@article{Hollander2015,
+author = {Hollander, D. and Mocioiu, I.},
+doi = {10.1103/PhysRevD.91.013002},
+issn = {1550-7998},
+journal = {Physical Review D},
+month = {jan},
+number = {1},
+pages = {013002},
+publisher = {American Physical Society},
+title = {{Minimal  3 + 2  sterile neutrino model at LBNE}},
+url = {http://link.aps.org/doi/10.1103/PhysRevD.91.013002},
+volume = {91},
+year = {2015}
+}
+@article{Escrihuela2015,
+      author         = "Escrihuela, F. J. and Forero, D. V. and Miranda, O. G.
+                        and Tortola, M. and Valle, J. W. F.",
+      title          = "{On the description of nonunitary neutrino mixing}",
+      journal        = "Phys. Rev.",
+      volume         = "D92",
+      year           = "2015",
+      number         = "5",
+      pages          = "053009",
+      doi            = "10.1103/PhysRevD.93.119905, 10.1103/PhysRevD.92.053009",
+      note           = "[Erratum: Phys. Rev.D93,no.11,119905(2016)]",
+      eprint         = "1503.08879",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "IFIC-15-14",
+      SLACcitation   = "%%CITATION = ARXIV:1503.08879;%%"
+}
+@article{Archidiacono2016,
+      author         = "Archidiacono, Maria and Gariazzo, Stefano and Giunti,
+                        Carlo and Hannestad, Steen and Hansen, Rasmus and Laveder,
+                        Marco and Tram, Thomas",
+      title          = "{Pseudoscalar—sterile neutrino interactions:
+                        reconciling the cosmos with neutrino oscillations}",
+      journal        = "JCAP",
+      volume         = "1608",
+      year           = "2016",
+      number         = "08",
+      pages          = "067",
+      doi            = "10.1088/1475-7516/2016/08/067",
+      eprint         = "1606.07673",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.CO",
+      SLACcitation   = "%%CITATION = ARXIV:1606.07673;%%"
+}
+@article{Parke2015,
+      author         = "Parke, Stephen and Ross-Lonergan, Mark",
+      title          = "{Unitarity and the three flavor neutrino mixing matrix}",
+      journal        = "Phys. Rev.",
+      volume         = "D93",
+      year           = "2016",
+      number         = "11",
+      pages          = "113009",
+      doi            = "10.1103/PhysRevD.93.113009",
+      eprint         = "1508.05095",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "IPPP-15-53, DCPT-15-106, FERMILAB-PUB-15-363-T",
+      SLACcitation   = "%%CITATION = ARXIV:1508.05095;%%"
+}
+@article{Antusch2009,
+      author         = "Antusch, Stefan and Blennow, Mattias and
+                        Fernandez-Martinez, Enrique and Lopez-Pavon, Jacobo",
+      title          = "{Probing non-unitary mixing and CP-violation at a
+                        Neutrino Factory}",
+      journal        = "Phys. Rev.",
+      volume         = "D80",
+      year           = "2009",
+      pages          = "033002",
+      doi            = "10.1103/PhysRevD.80.033002",
+      eprint         = "0903.3986",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "MPP-2009-31, IFT-UAM-CSIC-09-16, EURONU-WP6-09-04",
+      SLACcitation   = "%%CITATION = ARXIV:0903.3986;%%"
+}
+@article{Conrad2012b,
+      author         = "Conrad, J. M. and Ignarra, C. M. and Karagiorgi, G. and
+                        Shaevitz, M. H. and Spitz, J.",
+      title          = "{Sterile Neutrino Fits to Short Baseline Neutrino
+                        Oscillation Measurements}",
+      journal        = "Adv. High Energy Phys.",
+      volume         = "2013",
+      year           = "2013",
+      pages          = "163897",
+      doi            = "10.1155/2013/163897",
+      eprint         = "1207.4765",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      SLACcitation   = "%%CITATION = ARXIV:1207.4765;%%"
+}
+@article{Akhmedov2012,
+      author         = "Akhmedov, Evgeny and Hernandez, Daniel and Smirnov,
+                        Alexei",
+      title          = "{Neutrino production coherence and oscillation
+                        experiments}",
+      journal        = "JHEP",
+      volume         = "04",
+      year           = "2012",
+      pages          = "052",
+      doi            = "10.1007/JHEP04(2012)052",
+      eprint         = "1201.4128",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1201.4128;%%"
+}
+
+@inproceedings{Lagrange2016,
+      author         = "Soler, F. J. P.",
+      title          = "{nuSTORM: Neutrinos from Stored Muons}",
+      booktitle      = "{Proceedings, Topical Research Meeting on Prospects in
+                        Neutrino Physics (NuPhys2014): London, UK, December 15-17,
+                        2014}",
+      url            = "https://inspirehep.net/record/1385878/files/arXiv:1507.08836.pdf",
+      year           = "2015",
+      eprint         = "1507.08836",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.ins-det",
+      SLACcitation   = "%%CITATION = ARXIV:1507.08836;%%"
+}
+@article{Shrock1981,
+      author         = "Shrock, Robert E.",
+      title          = "{General Theory of Weak Leptonic and Semileptonic Decays.
+                        1. Leptonic Pseudoscalar Meson Decays, with Associated
+                        Tests For, and Bounds on, Neutrino Masses and Lepton
+                        Mixing}",
+      journal        = "Phys. Rev.",
+      volume         = "D24",
+      year           = "1981",
+      pages          = "1232",
+      doi            = "10.1103/PhysRevD.24.1232",
+      reportNumber   = "ITP-SB-80-56",
+      SLACcitation   = "%%CITATION = PHRVA,D24,1232;%%"
+}
+
+@phdthesis{Liu2015,
+      author         = "Liu, Ao",
+      title          = "{Design and simulation of the nuSTORM facility}",
+      school         = "Indiana U.",
+      year           = "2015",
+      url            = "http://lss.fnal.gov/archive/thesis/2000/fermilab-thesis-2015-04.pdf",
+      doi            = "10.2172/1209538",
+      reportNumber   = "FERMILAB-THESIS-2015-04",
+      SLACcitation   = "%%CITATION = FERMILAB-THESIS-2015-04;%%"
+}
+
+@article{Winter2012a,
+      author         = "Winter, Walter",
+      title          = "{Optimization of a Very Low Energy Neutrino Factory for
+                        the Disappearance Into Sterile Neutrinos}",
+      journal        = "Phys. Rev.",
+      volume         = "D85",
+      year           = "2012",
+      pages          = "113005",
+      doi            = "10.1103/PhysRevD.85.113005",
+      eprint         = "1204.2671",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "IDS-NF-034, EURONU-WP6-12-48",
+      SLACcitation   = "%%CITATION = ARXIV:1204.2671;%%"
+}
+@article{Dragoun2015,
+      author         = "Dragoun, Otokar and Vénos, Drahoslav",
+      title          = "{Constraints on the Active and Sterile Neutrino Masses
+                        from Beta-Ray Spectra: Past, Present and Future}",
+      journal        = "J. Phys.",
+      volume         = "3",
+      year           = "2016",
+      pages          = "77-113",
+      doi            = "10.2174/1874843001603010073",
+      eprint         = "1504.07496",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      SLACcitation   = "%%CITATION = ARXIV:1504.07496;%%"
+}
+@article{Maltoni:2007zf,
+      author         = "Maltoni, Michele and Schwetz, Thomas",
+      title          = "{Sterile neutrino oscillations after first MiniBooNE
+                        results}",
+      journal        = "Phys. Rev.",
+      volume         = "D76",
+      year           = "2007",
+      pages          = "093005",
+      doi            = "10.1103/PhysRevD.76.093005",
+      eprint         = "0705.0107",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "CERN-PH-TH-2007-075, IFT-UAM-CSIC-07-19",
+      SLACcitation   = "%%CITATION = ARXIV:0705.0107;%%"
+}
+@article{Bandyopadhyay2007a,
+      author         = "Bandyopadhyay, Abhijit and Choubey, Sandhya",
+      title          = "{The (3+2) neutrino mass spectrum and double chooz}",
+      year           = "2007",
+      eprint         = "0707.2481",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "HRI-P-07-07-003",
+      SLACcitation   = "%%CITATION = ARXIV:0707.2481;%%"
+}
+
+@article{TheIceCubeCollaboration2016,
+      author         = "Aartsen, M. G. and others",
+      title          = "{Searches for Sterile Neutrinos with the IceCube
+                        Detector}",
+      collaboration  = "IceCube",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "117",
+      year           = "2016",
+      number         = "7",
+      pages          = "071801",
+      doi            = "10.1103/PhysRevLett.117.071801",
+      eprint         = "1605.01990",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      SLACcitation   = "%%CITATION = ARXIV:1605.01990;%%"
+}
+@article{DeGouvea2015a,
+      author         = "de Gouvêa, André and Kelly, Kevin J. and Kobach,
+                        Andrew",
+      title          = "{$CP$-invariance violation at short-baseline experiments
+                        in 3$+$1 neutrino scenarios}",
+      journal        = "Phys. Rev.",
+      volume         = "D91",
+      year           = "2015",
+      number         = "5",
+      pages          = "053005",
+      doi            = "10.1103/PhysRevD.91.053005",
+      eprint         = "1412.1479",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "NUHEP-TH-14-10",
+      SLACcitation   = "%%CITATION = ARXIV:1412.1479;%%"
+}
+
+@article{Cianci2017,
+      author         = "Cianci, Davio and Furmanski, Andy and Karagiorgi, Georgia
+                        and Ross-Lonergan, Mark",
+      title          = "{Prospects of Light Sterile Neutrino Oscillation and CP
+                        Violation Searches at the Fermilab Short Baseline Neutrino
+                        Facility}",
+      journal        = "Phys. Rev.",
+      volume         = "D96",
+      year           = "2017",
+      number         = "5",
+      pages          = "055001",
+      doi            = "10.1103/PhysRevD.96.055001",
+      eprint         = "1702.01758",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "IPPP-17-11",
+      SLACcitation   = "%%CITATION = ARXIV:1702.01758;%%"
+}
+@article{Huber2016
+      author         = "Huber, Patrick",
+      title          = "{Prospects for neutrino oscillation parameters}",
+      booktitle      = "{Proceedings, Neutrino Oscillation Workshop (NOW 2016):
+                        Otranto (Lecce), Italy, September 4-11, 2016}",
+      journal        = "PoS",
+      volume         = "NOW2016",
+      year           = "2017",
+      pages          = "025",
+      eprint         = "1612.04843",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1612.04843;%%"
+}
+
+@inproceedings{Neuffer,
+      author         = "Neuffer, D. and Liu, A.",
+      title          = "{Stochastic injection scenarios and performance for
+                        NuSTORM}",
+      booktitle      = "{Proceedings, 4th International Particle Accelerator
+                        Conference (IPAC 2013): Shanghai, China, May 12-17, 2013}",
+      collaboration  = "Neutrino Factory and Muon Collider",
+      year           = "2013",
+      url            = "http://lss.fnal.gov/archive/2013/conf/fermilab-conf-13-139-apc.pdf",
+      pages          = "TUPFI055",
+      reportNumber   = "FERMILAB-CONF-13-139-APC",
+      SLACcitation   = "%%CITATION = FERMILAB-CONF-13-139-APC;%%"
+}
+@article{Karagiorgi2007,
+      author         = "Karagiorgi, G. and Aguilar-Arevalo, A. and Conrad, J. M.
+                        and Shaevitz, M. H. and Whisnant, K. and Sorel, M. and
+                        Barger, V.",
+      title          = "{Leptonic CP violation studies at MiniBooNE in the (3+2)
+                        sterile neutrino oscillation hypothesis}",
+      journal        = "Phys. Rev.",
+      volume         = "D75",
+      year           = "2007",
+      pages          = "013011",
+      doi            = "10.1103/PhysRevD.75.013011, 10.1103/PhysRevD.80.099902",
+      note           = "[Erratum: Phys. Rev.D80,099902(2009)]",
+      eprint         = "hep-ph/0609177",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = HEP-PH/0609177;%%"
+}
+
+@article{Giunti2015,
+      author         = "Giunti, Carlo",
+      title          = "{Light Sterile Neutrinos: Status and Perspectives}",
+      journal        = "Nucl. Phys.",
+      volume         = "B908",
+      year           = "2016",
+      pages          = "336-353",
+      doi            = "10.1016/j.nuclphysb.2016.01.013",
+      eprint         = "1512.04758",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1512.04758;%%"
+}
+@article{Chu2015,
+      author         = "Chu, Xiaoyong and Dasgupta, Basudeb and Kopp, Joachim",
+      title          = "{Sterile neutrinos with secret interactions—lasting
+                        friendship with cosmology}",
+      journal        = "JCAP",
+      volume         = "1510",
+      year           = "2015",
+      number         = "10",
+      pages          = "011",
+      doi            = "10.1088/1475-7516/2015/10/011",
+      eprint         = "1505.02795",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "MITP-15-033, TIFR-TH-15-14",
+      SLACcitation   = "%%CITATION = ARXIV:1505.02795;%%"
+}
+@article{Avvakumov2002,
+      author         = "Avvakumov, S. and others",
+      title          = "{A Search for muon-neutrino ---> electron-neutrino and
+                        muon-anti-neutrino ---> electron-anti-neutrino
+                        oscillations at NuTeV}",
+      collaboration  = "NuTeV",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "89",
+      year           = "2002",
+      pages          = "011804",
+      doi            = "10.1103/PhysRevLett.89.011804",
+      eprint         = "hep-ex/0203018",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "UR-1640, FERMILAB-PUB-02-051-E",
+      SLACcitation   = "%%CITATION = HEP-EX/0203018;%%"
+}
+@article{Tang2009,
+      author         = "Tang, Jian and Winter, Walter",
+      title          = "{Physics with near detectors at a neutrino factory}",
+      journal        = "Phys. Rev.",
+      volume         = "D80",
+      year           = "2009",
+      pages          = "053001",
+      doi            = "10.1103/PhysRevD.80.053001",
+      eprint         = "0903.3039",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:0903.3039;%%"
+}
+@article{Blennow2016,
+      author         = "Blennow, Mattias and Coloma, Pilar and
+                        Fernandez-Martinez, Enrique and Hernandez-Garcia, Josu and
+                        Lopez-Pavon, Jacobo",
+      title          = "{Non-Unitarity, sterile neutrinos, and Non-Standard
+                        neutrino Interactions}",
+      journal        = "JHEP",
+      volume         = "04",
+      year           = "2017",
+      pages          = "153",
+      doi            = "10.1007/JHEP04(2017)153",
+      eprint         = "1609.08637",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "IFT-UAM-CSIC-16-090, FTUAM-16-35, FERMILAB-PUB-16-400-T",
+      SLACcitation   = "%%CITATION = ARXIV:1609.08637;%%"
+}
+
+@article{Paschos2001,
+      author         = "Paschos, E. A. and Yu, J. Y.",
+      title          = "{Neutrino interactions in oscillation experiments}",
+      journal        = "Phys. Rev.",
+      volume         = "D65",
+      year           = "2002",
+      pages          = "033002",
+      doi            = "10.1103/PhysRevD.65.033002",
+      eprint         = "hep-ph/0107261",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "DO-TH-01-08",
+      SLACcitation   = "%%CITATION = HEP-PH/0107261;%%"
+}
+@article{Cherry2016,
+      author         = "Cherry, John F. and Friedland, Alexander and Shoemaker,
+                        Ian M.",
+      title          = "{Short-baseline neutrino oscillations, Planck, and
+                        IceCube}",
+      year           = "2016",
+      eprint         = "1605.06506",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "SLAC-PUB-16517",
+      SLACcitation   = "%%CITATION = ARXIV:1605.06506;%%"
+}
+@article{Fernandez-Martinez2016,     author         = "Fernandez-Martinez, Enrique and Hernandez-Garcia, Josu
+                        and Lopez-Pavon, Jacobo",
+      title          = "{Global constraints on heavy neutrino mixing}",
+      journal        = "JHEP",
+      volume         = "08",
+      year           = "2016",
+      pages          = "033",
+      doi            = "10.1007/JHEP08(2016)033",
+      eprint         = "1605.08774",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1605.08774;%%"
+}
+
+@article{Schael2006,
+      author         = "Schael, S. and others",
+      title          = "{Precision electroweak measurements on the $Z$
+                        resonance}",
+      collaboration  = "SLD Electroweak Group, DELPHI, ALEPH, SLD, SLD Heavy
+                        Flavour Group, OPAL, LEP Electroweak Working Group, L3",
+      journal        = "Phys. Rept.",
+      volume         = "427",
+      year           = "2006",
+      pages          = "257-454",
+      doi            = "10.1016/j.physrep.2005.12.006",
+      eprint         = "hep-ex/0509008",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "SLAC-R-774",
+      SLACcitation   = "%%CITATION = HEP-EX/0509008;%%"
+}
+@article{Mirizzi2014,
+      author         = "Mirizzi, Alessandro and Mangano, Gianpiero and Pisanti,
+                        Ofelia and Saviano, Ninetta",
+      title          = "{Collisional production of sterile neutrinos via secret
+                        interactions and cosmological implications}",
+      journal        = "Phys. Rev.",
+      volume         = "D91",
+      year           = "2015",
+      number         = "2",
+      pages          = "025019",
+      doi            = "10.1103/PhysRevD.91.025019",
+      eprint         = "1410.1385",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "IPPP-14-87, DCPT-14-174",
+      SLACcitation   = "%%CITATION = ARXIV:1410.1385;%%"
+}
+@misc{Karagiorgi2010,
+author = {Karagiorgi, Georgia S.},
+keywords = {BooNE,Fermilab,antineutrino/e: particle identification,antineutrino/mu: secondary beam,experimental results,flavor: 2,neutrino/e: particle identification,neutrino/mu: secondary beam,neutrino: energy,neutrino: mass difference,neutrino: mixing angle,neutrino: oscillation,neutrino: path length,neutrino: sterile,new physics,thesis},
+title = {{Searches for New Physics at MiniBooNE: Sterile Neutrinos and Mixing Freedom}},
+url = {http://inspirehep.net/record/870554},
+year = {2010}
+}
+@article{WhitePaper2012,
+      author         = "Abazajian, K. N. and others",
+      title          = "{Light Sterile Neutrinos: A White Paper}",
+      year           = "2012",
+      eprint         = "1204.5379",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "FERMILAB-PUB-12-881-PPD",
+      SLACcitation   = "%%CITATION = ARXIV:1204.5379;%%"
+}
+@article{Meloni2011a,
+      author         = "Meloni, Davide and Tang, Jian and Winter, Walter",
+      title          = "{Sterile neutrinos beyond LSND at the Neutrino Factory}",
+      journal        = "Phys. Rev.",
+      volume         = "D82",
+      year           = "2010",
+      pages          = "093008",
+      doi            = "10.1103/PhysRevD.82.093008",
+      eprint         = "1007.2419",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "EURONU-WP6-10-23, IDS-NF-018",
+      SLACcitation   = "%%CITATION = ARXIV:1007.2419;%%"
+}
+@article{Kopp2013,
+      author         = "Kopp, Joachim and Machado, Pedro A. N. and Maltoni,
+                        Michele and Schwetz, Thomas",
+      title          = "{Sterile Neutrino Oscillations: The Global Picture}",
+      journal        = "JHEP",
+      volume         = "05",
+      year           = "2013",
+      pages          = "050",
+      doi            = "10.1007/JHEP05(2013)050",
+      eprint         = "1303.3011",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "IFT-UAM-CSIC-13-026",
+      SLACcitation   = "%%CITATION = ARXIV:1303.3011;%%"
+}
+
+@article{Giunti2011a,
+      author         = "Giunti, Carlo and Laveder, Marco",
+      title          = "{3+1 and 3+2 Sterile Neutrino Fits}",
+      journal        = "Phys. Rev.",
+      volume         = "D84",
+      year           = "2011",
+      pages          = "073008",
+      doi            = "10.1103/PhysRevD.84.073008",
+      eprint         = "1107.1452",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "EURONU-WP6-11-37",
+      SLACcitation   = "%%CITATION = ARXIV:1107.1452;%%"
+}
+@article{Giunti2004,
+      author         = "Giunti, Carlo",
+      title          = "{Flavor neutrinos states}",
+      year           = "2004",
+      eprint         = "hep-ph/0402217",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = HEP-PH/0402217;%%"
+}
+
+@article{Ghalsasi2016,
+      author         = "Ghalsasi, Akshay and McKeen, David and Nelson, Ann E.",
+      title          = "{Probing nonstandard neutrino cosmology with terrestrial
+                        neutrino experiments}",
+      journal        = "Phys. Rev.",
+      volume         = "D95",
+      year           = "2017",
+      number         = "11",
+      pages          = "115039",
+      doi            = "10.1103/PhysRevD.95.115039",
+      eprint         = "1609.06326",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1609.06326;%%"
+}
+@article{Globes2005,
+      author         = "Huber, Patrick and Lindner, M. and Winter, W.",
+      title          = "{Simulation of long-baseline neutrino oscillation
+                        experiments with GLoBES (General Long Baseline Experiment
+                        Simulator)}",
+      journal        = "Comput. Phys. Commun.",
+      volume         = "167",
+      year           = "2005",
+      pages          = "195",
+      doi            = "10.1016/j.cpc.2005.01.003",
+      eprint         = "hep-ph/0407333",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "TUM-HEP-553-04",
+      SLACcitation   = "%%CITATION = HEP-PH/0407333;%%"
+}
+@article{NuSTORMprop2013,
+      author         = "Adey, D. and others",
+      title          = "{nuSTORM - Neutrinos from STORed Muons: Proposal to the
+                        Fermilab PAC}",
+      collaboration  = "nuSTORM",
+      year           = "2013",
+      eprint         = "1308.6822",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.acc-ph",
+      reportNumber   = "FERMILAB-PROPOSAL-1028",
+      SLACcitation   = "%%CITATION = ARXIV:1308.6822;%%"
+}
+@inproceedings{Soler2015,
+      author         = "Soler, F. J. P.",
+      title          = "{nuSTORM: Neutrinos from Stored Muons}",
+      booktitle      = "{Proceedings, Topical Research Meeting on Prospects in
+                        Neutrino Physics (NuPhys2014): London, UK, December 15-17,
+                        2014}",
+      url            = "https://inspirehep.net/record/1385878/files/arXiv:1507.08836.pdf",
+      year           = "2015",
+      eprint         = "1507.08836",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.ins-det",
+      SLACcitation   = "%%CITATION = ARXIV:1507.08836;%%"
+}
+
+@article{Akhmedov2010,
+      author         = "Akhmedov, Evgeny Kh. and Kopp, Joachim",
+      title          = "{Neutrino oscillations: Quantum mechanics vs. quantum
+                        field theory}",
+      journal        = "JHEP",
+      volume         = "04",
+      year           = "2010",
+      pages          = "008",
+      doi            = "10.1007/JHEP04(2010)008, 10.1007/JHEP10(2013)052",
+      note           = "[Erratum: JHEP10,052(2013)]",
+      eprint         = "1001.4815",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "FERMILAB-PUB-10-014-T",
+      SLACcitation   = "%%CITATION = ARXIV:1001.4815;%%"
+}
+@article{Akhmedov2013,
+      author         = "Akhmedov, Evgeny Kh. and Wilhelm, Alina",
+      title          = "{Quantum field theoretic approach to neutrino
+                        oscillations in matter}",
+      journal        = "JHEP",
+      volume         = "01",
+      year           = "2013",
+      pages          = "165",
+      doi            = "10.1007/JHEP01(2013)165",
+      eprint         = "1205.6231",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1205.6231;%%"
+}
+@article{Akhmedov2009,
+      author         = "Akhmedov, Evgeny Kh. and Smirnov, Alexei {\relax Yu}.",
+      title          = "{Paradoxes of neutrino oscillations}",
+      journal        = "Phys. Atom. Nucl.",
+      volume         = "72",
+      year           = "2009",
+      pages          = "1363-1381",
+      doi            = "10.1134/S1063778809080122",
+      eprint         = "0905.1903",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:0905.1903;%%"
+}
+
+@article{Hernandez2011,
+      author         = "Hernandez, D. and Smirnov, A. {\relax Yu}.",
+      title          = "{Active to sterile neutrino oscillations: Coherence and
+                        MINOS results}",
+      journal        = "Phys. Lett.",
+      volume         = "B706",
+      year           = "2012",
+      pages          = "360-366",
+      doi            = "10.1016/j.physletb.2011.11.031",
+      eprint         = "1105.5946",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1105.5946;%%"
+}
+
+@article{Bross,
+abstract = {Neutrino beams produced from the decay of muons in a racetrack-like decay ring (the so called Neutrino Factory) provide a powerful way to study neutrino oscillation physics and, in addition, provide unique beams for neutrino interaction studies. The Neutrinos from STORed Muons (nuS-TORM) facility uses a neutrino factory-like design. Due to the particular nature of nuSTORM, it can also provide an intense, very pure, muon neutrino beam from pion decay. This so-called " Neo-conventional" muon neutrino beam from nuSTORM makes nuSTORM a hybrid neutrino factory. In this paper we describe the facility and give a detailed description of the neutrino beam fluxes that are available and the precision to which these fluxes can be determined. We then present sensitivity plots that indicated how well the facility can perform for short-baseline oscillation searches and show its potential for a neutrino interaction physics program. Finally, we comment on the performance potential of the "Neo-conventional" muon neutrino beam optimized for long-baseline neutrino-oscillation physics. The nuSTORM facility is the simplest implementation of the Neutrino Factory concept [1]. Our studies have assumed that 120 GeV/c protons impinge on a conventional solid target to produce pions . The pions are collected with a magnetic horn and quadrupole magnets and they are then transported to, and injected into, a storage ring. The pions that decay in the first straight (production straight) of the ring can yield muons that are captured in the ring. The circulating muons then subsequently decay into electrons and neutrinos. The storage ring design is optimized for 3.8 GeV/c muon central momentum. This momentum was selected to maximize the physics reach for both short-baseline {\$}\nu{\$} oscillation and {\$}\nu{\$} interaction physics. See Figure 1 for a schematic of the facility. The facility can deliver beams of {\$}\nu{\$} e and {\$}\nu{\$} µ from the decay of the stored µ ± beam, but Figure 1: Schematic of the facility},
+author = {Bross, Alan D and Liu, Ao and Lagrange, Jean-Baptiste and Pasternak, Jaroslaw},
+file = {:mt/home/mhostert/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Bross et al. - Unknown - Status of the nuSTORM facility and a possible extension for long-baseline {\$}\nu{\$} oscillation experiments.pdf:pdf},
+journal = {The European Physical Society Conference on High Energy Physics},
+title = {{Status of the nuSTORM facility and a possible extension for long-baseline {\$}\nu{\$} oscillation experiments}},
+url = {http://pos.sissa.it/}
+}
+
+
+@phdthesis{Tunnell2013,
+author = {Tunnell, C. D.},
+file = {:mt/home/mhostert/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Tunnell - 2013 - Designing a 3.8-GeVc muon-decay ring and experiment sensitive to electronvolt-scale sterile neutrinos.pdf:pdf},
+keywords = {Particle physics,neutrino factory,nuSTORM,sterile neutrino},
+publisher = {University of Oxford},
+school = {University of Oxford},
+title = {{Designing a 3.8-GeV/c muon-decay ring and experiment sensitive to electronvolt-scale sterile neutrinos}},
+type = {Doctor of Philosophy Thesis},
+year = {2013}
+}
+
+
+@article{Ross-Lonergan2016,
+author = {Ross-Lonergan, Mark},
+file = {:mt/home/mhostert/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Ross-Lonergan - Unknown - Constraining Non-Unitarity in the Neutrino Sector using the SBN Facility.pdf:pdf},
+title = {{Constraining Non-Unitarity in the Neutrino Sector using the SBN Facility}},
+url = {https://indico.fnal.gov/getFile.py/access?contribId=68{\&}sessionId=3{\&}resId=0{\&}materialId=slides{\&}confId=11435}
+}

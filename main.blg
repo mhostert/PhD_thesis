@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: JHEP.bst
-Reallocated field_info (elt_size=4) to 16550 items from 5000.
+Reallocated field_info (elt_size=4) to 17480 items from 5000.
 Database file #1: introduction/introduction.bib
 Database file #2: theory/theory.bib
 Database file #3: tridentSM/tridentSM.bib
@@ -232,11 +232,11 @@ Repeated entry---line 1009 of file dark_nus/three_portals.bib
  : @article{Arguelles:2018mtc
  :                           ,
 I'm skipping whatever remains of this entry
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Repeated entry---line 1080 of file dark_nus/three_portals.bib
  : @article{Bakhti:2018avv
  :                        ,
 I'm skipping whatever remains of this entry
-Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Repeated entry---line 1139 of file dark_nus/three_portals.bib
  : @article{Ballett:2018ynz
  :                         ,
@@ -998,52 +998,69 @@ Repeated entry---line 30 of file appendices/loop_masses.bib
  : @article{Kniehl:1996bd
  :                       ,
 I'm skipping whatever remains of this entry
+Database file #9: nustorm/nustorm.bib
+Repeated entry---line 70 of file nustorm/nustorm.bib
+ : @article{Sorel:2003hf
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 143 of file nustorm/nustorm.bib
+ : @article{Adey:2014rfv
+ :                      ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 476 of file nustorm/nustorm.bib
+ :       
+ :       author         = "Huber, Patrick",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Abdurashitov:2017kka"
 Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "Neuffer2015"
+Warning--I didn't find a database entry for "Akhmedov2009a"
 Warning--empty booktitle in Alexander:2016aln
 Warning--empty author in DUNE:flux
 Warning--empty author in DUNE:flux_updated
 Warning--empty author in DUNE:GArOption
 Warning--empty booktitle in Aguilar-Arevalo:2012fmn
 Warning--empty publisher in Leo:1987kd
-You've used 384 entries,
+You've used 412 entries,
             2217 wiz_defined-function locations,
-            3654 strings with 86353 characters,
-and the built_in function-call counts, 119784 in all, are:
-= -- 12434
-> -- 4638
+            3850 strings with 91843 characters,
+and the built_in function-call counts, 128309 in all, are:
+= -- 13289
+> -- 5004
 < -- 0
-+ -- 1370
-- -- 986
-* -- 10234
-:= -- 16436
-add.period$ -- 387
-call.type$ -- 384
-change.case$ -- 381
++ -- 1477
+- -- 1065
+* -- 11006
+:= -- 17614
+add.period$ -- 415
+call.type$ -- 412
+change.case$ -- 409
 chr.to.int$ -- 0
-cite$ -- 390
-duplicate$ -- 6172
-empty$ -- 10393
-format.name$ -- 986
-if$ -- 31523
+cite$ -- 418
+duplicate$ -- 6604
+empty$ -- 11143
+format.name$ -- 1065
+if$ -- 33753
 int.to.chr$ -- 0
-int.to.str$ -- 384
-missing$ -- 1421
-newline$ -- 1160
-num.names$ -- 381
-pop$ -- 701
+int.to.str$ -- 412
+missing$ -- 1519
+newline$ -- 1244
+num.names$ -- 409
+pop$ -- 758
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 5066
+skip$ -- 5404
 stack$ -- 0
-substring$ -- 5501
-swap$ -- 3255
+substring$ -- 5838
+swap$ -- 3473
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 839
-width$ -- 387
-write$ -- 3968
-(There were 246 error messages)
+while$ -- 896
+width$ -- 415
+write$ -- 4260
+(There were 249 error messages)

@@ -1,6 +1,49 @@
 
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{100}
 
+\bibitem{Cianci2017}
+D.~Cianci, A.~Furmanski, G.~Karagiorgi and M.~Ross-Lonergan, \emph{{Prospects
+  of Light Sterile Neutrino Oscillation and CP Violation Searches at the
+  Fermilab Short Baseline Neutrino Facility}},
+  \href{https://doi.org/10.1103/PhysRevD.96.055001}{\emph{Phys. Rev.}
+  {\bfseries D96} (2017) 055001},
+  [\href{https://arxiv.org/abs/1702.01758}{{\ttfamily 1702.01758}}].
+
+\bibitem{TheIceCubeCollaboration2016}
+{\scshape IceCube} collaboration, M.~G. Aartsen et~al., \emph{{Searches for
+  Sterile Neutrinos with the IceCube Detector}},
+  \href{https://doi.org/10.1103/PhysRevLett.117.071801}{\emph{Phys. Rev. Lett.}
+  {\bfseries 117} (2016) 071801},
+  [\href{https://arxiv.org/abs/1605.01990}{{\ttfamily 1605.01990}}].
+
+\bibitem{Dragoun2015}
+O.~Dragoun and D.~Vénos, \emph{{Constraints on the Active and Sterile Neutrino
+  Masses from Beta-Ray Spectra: Past, Present and Future}},
+  \href{https://doi.org/10.2174/1874843001603010073}{\emph{J. Phys.} {\bfseries
+  3} (2016) 77--113}, [\href{https://arxiv.org/abs/1504.07496}{{\ttfamily
+  1504.07496}}].
+
+\bibitem{Astier2003}
+{\scshape NOMAD} collaboration, P.~Astier et~al., \emph{{Search for nu(mu) --->
+  nu(e) oscillations in the NOMAD experiment}},
+  \href{https://doi.org/10.1016/j.physletb.2003.07.029}{\emph{Phys. Lett.}
+  {\bfseries B570} (2003) 19--31},
+  [\href{https://arxiv.org/abs/hep-ex/0306037}{{\ttfamily hep-ex/0306037}}].
+
+\bibitem{Avvakumov2002}
+{\scshape NuTeV} collaboration, S.~Avvakumov et~al., \emph{{A Search for
+  muon-neutrino ---> electron-neutrino and muon-anti-neutrino --->
+  electron-anti-neutrino oscillations at NuTeV}},
+  \href{https://doi.org/10.1103/PhysRevLett.89.011804}{\emph{Phys. Rev. Lett.}
+  {\bfseries 89} (2002) 011804},
+  [\href{https://arxiv.org/abs/hep-ex/0203018}{{\ttfamily hep-ex/0203018}}].
+
+\bibitem{Kopp2013}
+J.~Kopp, P.~A.~N. Machado, M.~Maltoni and T.~Schwetz, \emph{{Sterile Neutrino
+  Oscillations: The Global Picture}},
+  \href{https://doi.org/10.1007/JHEP05(2013)050}{\emph{JHEP} {\bfseries 05}
+  (2013) 050}, [\href{https://arxiv.org/abs/1303.3011}{{\ttfamily 1303.3011}}].
+
 \bibitem{Ballett:2018uuc}
 P.~Ballett, M.~Hostert, S.~Pascoli, Y.~F. Perez-Gonzalez, Z.~Tabrizi and
   R.~Zukanovich~Funchal, \emph{{Neutrino Trident Scattering at Near
@@ -2360,6 +2403,146 @@ J.~R. Jordan, Y.~Kahn, G.~Krnjaic, M.~Moschella and J.~Spitz, \emph{{Severe
   \href{https://doi.org/10.1103/PhysRevLett.117.111801}{\emph{Phys. Rev. Lett.}
   {\bfseries 117} (2016) 111801},
   [\href{https://arxiv.org/abs/1604.01728}{{\ttfamily 1604.01728}}].
+
+\bibitem{Soler2015}
+F.~J.~P. Soler, \emph{{nuSTORM: Neutrinos from Stored Muons}},  in
+  \emph{{Proceedings, Topical Research Meeting on Prospects in Neutrino Physics
+  (NuPhys2014): London, UK, December 15-17, 2014}}, 2015,
+  \href{https://arxiv.org/abs/1507.08836}{{\ttfamily 1507.08836}},
+  \href{https://inspirehep.net/record/1385878/files/arXiv:1507.08836.pdf}{https://inspirehep.net/record/1385878/files/arXiv:1507.08836.pdf}.
+
+\bibitem{Adey:2013pio}
+{\scshape nuSTORM} collaboration, D.~Adey et~al., \emph{{nuSTORM - Neutrinos
+  from STORed Muons: Proposal to the Fermilab PAC}},
+  \href{https://arxiv.org/abs/1308.6822}{{\ttfamily 1308.6822}}.
+
+\bibitem{Tunnell2013}
+C.~D. Tunnell, \emph{{Designing a 3.8-GeV/c muon-decay ring and experiment
+  sensitive to electronvolt-scale sterile neutrinos}}, doctor of philosophy
+  thesis, University of Oxford, 2013.
+
+\bibitem{Schael2006}
+{\scshape SLD Electroweak Group, DELPHI, ALEPH, SLD, SLD Heavy Flavour Group,
+  OPAL, LEP Electroweak Working Group, L3} collaboration, S.~Schael et~al.,
+  \emph{{Precision electroweak measurements on the $Z$ resonance}},
+  \href{https://doi.org/10.1016/j.physrep.2005.12.006}{\emph{Phys. Rept.}
+  {\bfseries 427} (2006) 257--454},
+  [\href{https://arxiv.org/abs/hep-ex/0509008}{{\ttfamily hep-ex/0509008}}].
+
+\bibitem{Akhmedov2009}
+E.~K. Akhmedov and A.~{\relax Yu}. Smirnov, \emph{{Paradoxes of neutrino
+  oscillations}}, \href{https://doi.org/10.1134/S1063778809080122}{\emph{Phys.
+  Atom. Nucl.} {\bfseries 72} (2009) 1363--1381},
+  [\href{https://arxiv.org/abs/0905.1903}{{\ttfamily 0905.1903}}].
+
+\bibitem{Akhmedov2012}
+E.~Akhmedov, D.~Hernandez and A.~Smirnov, \emph{{Neutrino production coherence
+  and oscillation experiments}},
+  \href{https://doi.org/10.1007/JHEP04(2012)052}{\emph{JHEP} {\bfseries 04}
+  (2012) 052}, [\href{https://arxiv.org/abs/1201.4128}{{\ttfamily 1201.4128}}].
+
+\bibitem{Hernandez2011}
+D.~Hernandez and A.~{\relax Yu}. Smirnov, \emph{{Active to sterile neutrino
+  oscillations: Coherence and MINOS results}},
+  \href{https://doi.org/10.1016/j.physletb.2011.11.031}{\emph{Phys. Lett.}
+  {\bfseries B706} (2012) 360--366},
+  [\href{https://arxiv.org/abs/1105.5946}{{\ttfamily 1105.5946}}].
+
+\bibitem{Giunti1992}
+C.~Giunti, C.~W. Kim and U.~W. Lee, \emph{{Comments on the weak states of
+  neutrinos}}, \href{https://doi.org/10.1103/PhysRevD.45.2414}{\emph{Phys.
+  Rev.} {\bfseries D45} (1992) 2414--2420}.
+
+\bibitem{Mirizzi2014}
+A.~Mirizzi, G.~Mangano, O.~Pisanti and N.~Saviano, \emph{{Collisional
+  production of sterile neutrinos via secret interactions and cosmological
+  implications}}, \href{https://doi.org/10.1103/PhysRevD.91.025019}{\emph{Phys.
+  Rev.} {\bfseries D91} (2015) 025019},
+  [\href{https://arxiv.org/abs/1410.1385}{{\ttfamily 1410.1385}}].
+
+\bibitem{Chu2015}
+X.~Chu, B.~Dasgupta and J.~Kopp, \emph{{Sterile neutrinos with secret
+  interactions—lasting friendship with cosmology}},
+  \href{https://doi.org/10.1088/1475-7516/2015/10/011}{\emph{JCAP} {\bfseries
+  1510} (2015) 011}, [\href{https://arxiv.org/abs/1505.02795}{{\ttfamily
+  1505.02795}}].
+
+\bibitem{Archidiacono2014}
+M.~Archidiacono, S.~Hannestad, R.~S. Hansen and T.~Tram, \emph{{Cosmology with
+  self-interacting sterile neutrinos and dark matter - A pseudoscalar model}},
+  \href{https://doi.org/10.1103/PhysRevD.91.065021}{\emph{Phys. Rev.}
+  {\bfseries D91} (2015) 065021},
+  [\href{https://arxiv.org/abs/1404.5915}{{\ttfamily 1404.5915}}].
+
+\bibitem{Archidiacono2016}
+M.~Archidiacono, S.~Gariazzo, C.~Giunti, S.~Hannestad, R.~Hansen, M.~Laveder
+  et~al., \emph{{Pseudoscalar—sterile neutrino interactions: reconciling the
+  cosmos with neutrino oscillations}},
+  \href{https://doi.org/10.1088/1475-7516/2016/08/067}{\emph{JCAP} {\bfseries
+  1608} (2016) 067}, [\href{https://arxiv.org/abs/1606.07673}{{\ttfamily
+  1606.07673}}].
+
+\bibitem{Antusch2006}
+S.~Antusch, C.~Biggio, E.~Fernandez-Martinez, M.~B. Gavela and J.~Lopez-Pavon,
+  \emph{{Unitarity of the Leptonic Mixing Matrix}},
+  \href{https://doi.org/10.1088/1126-6708/2006/10/084}{\emph{JHEP} {\bfseries
+  10} (2006) 084}, [\href{https://arxiv.org/abs/hep-ph/0607020}{{\ttfamily
+  hep-ph/0607020}}].
+
+\bibitem{Giunti2004}
+C.~Giunti, \emph{{Flavor neutrinos states}},
+  \href{https://arxiv.org/abs/hep-ph/0402217}{{\ttfamily hep-ph/0402217}}.
+
+\bibitem{Globes2005}
+P.~Huber, M.~Lindner and W.~Winter, \emph{{Simulation of long-baseline neutrino
+  oscillation experiments with GLoBES (General Long Baseline Experiment
+  Simulator)}}, \href{https://doi.org/10.1016/j.cpc.2005.01.003}{\emph{Comput.
+  Phys. Commun.} {\bfseries 167} (2005) 195},
+  [\href{https://arxiv.org/abs/hep-ph/0407333}{{\ttfamily hep-ph/0407333}}].
+
+\bibitem{Winter2012a}
+W.~Winter, \emph{{Optimization of a Very Low Energy Neutrino Factory for the
+  Disappearance Into Sterile Neutrinos}},
+  \href{https://doi.org/10.1103/PhysRevD.85.113005}{\emph{Phys. Rev.}
+  {\bfseries D85} (2012) 113005},
+  [\href{https://arxiv.org/abs/1204.2671}{{\ttfamily 1204.2671}}].
+
+\bibitem{Collin2016a}
+G.~H. Collin, C.~A. Argüelles, J.~M. Conrad and M.~H. Shaevitz, \emph{{Sterile
+  Neutrino Fits to Short Baseline Data}},
+  \href{https://doi.org/10.1016/j.nuclphysb.2016.02.024}{\emph{Nucl. Phys.}
+  {\bfseries B908} (2016) 354--365},
+  [\href{https://arxiv.org/abs/1602.00671}{{\ttfamily 1602.00671}}].
+
+\bibitem{DeGouvea2015a}
+A.~de~Gouvêa, K.~J. Kelly and A.~Kobach, \emph{{$CP$-invariance violation at
+  short-baseline experiments in 3$+$1 neutrino scenarios}},
+  \href{https://doi.org/10.1103/PhysRevD.91.053005}{\emph{Phys. Rev.}
+  {\bfseries D91} (2015) 053005},
+  [\href{https://arxiv.org/abs/1412.1479}{{\ttfamily 1412.1479}}].
+
+\bibitem{Ross-Lonergan2016}
+M.~Ross-Lonergan, \emph{{Constraining Non-Unitarity in the Neutrino Sector
+  using the SBN Facility}}, .
+
+\bibitem{Karagiorgi2010}
+G.~S. Karagiorgi, \emph{{Searches for New Physics at MiniBooNE: Sterile
+  Neutrinos and Mixing Freedom}},  2010.
+
+\bibitem{Blennow2016}
+M.~Blennow, P.~Coloma, E.~Fernandez-Martinez, J.~Hernandez-Garcia and
+  J.~Lopez-Pavon, \emph{{Non-Unitarity, sterile neutrinos, and Non-Standard
+  neutrino Interactions}},
+  \href{https://doi.org/10.1007/JHEP04(2017)153}{\emph{JHEP} {\bfseries 04}
+  (2017) 153}, [\href{https://arxiv.org/abs/1609.08637}{{\ttfamily
+  1609.08637}}].
+
+\bibitem{Escrihuela2015}
+F.~J. Escrihuela, D.~V. Forero, O.~G. Miranda, M.~Tortola and J.~W.~F. Valle,
+  \emph{{On the description of nonunitary neutrino mixing}},
+  \href{https://doi.org/10.1103/PhysRevD.93.119905,
+  10.1103/PhysRevD.92.053009}{\emph{Phys. Rev.} {\bfseries D92} (2015) 053009},
+  [\href{https://arxiv.org/abs/1503.08879}{{\ttfamily 1503.08879}}].
 
 \bibitem{Fricke:1995zz}
 G.~Fricke, C.~Bernhardt, K.~Heilig, L.~A. Schaller, L.~Schellenberg, E.~B.
