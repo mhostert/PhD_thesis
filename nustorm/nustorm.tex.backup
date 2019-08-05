@@ -1,30 +1,14 @@
 %%%%%%%%%%%%%%%%%%%%%%5
 \graphicspath{{}{nustorm/}{Diagrams/}}
 
-Neutrinos from STORed Muons ($\nu$STORM) is an experimental proposal for a non-conventional but well-understood neutrino beam from the decay of stored muons. The energy range and the small uncertainties in the flux normalisation make \nus the ideal place to measure neutrino-nucleon cross sections. This can serve as a crucial input for long-baseline physic~\cite{Soler2015}, increasing the sensitivity of future experiments to CP violation and other oscillation parameters. In addition, it provides a clean and intense environment to look for new physics in accelerator neutrino beams. One immediate application is to search for light sterile neutrinos~\cite{Adey:2013pio,Adey:2014rfv}, either via short-baseline oscillations or via short-distance flavour transitions. In this chapter, we will explore this topic emphasizing the two detector setup for \nus and its sub-percent flux uncertainties. \nus was originally proposed as a facility to be based at Fermilab, using 60 GeV protons~\cite{Adey:2013pio}. This design, however, is currently being adapted for siting at CERN instead. At the time of writing, no further developments in terms of ring design and detector considerations has been agreed on. This work is based mostly on the original design of Ref.~\cite{Adey:2013pio}, with a few modifications we clarify below. 
 
-\section{\nus}
-%
-\begin{figure}[t]
-\centering
-\includegraphics[width=\textwidth]{nustorm.pdf}
-\caption[The \nus setup in a diagramatic representation.]{\nus in a diagram. \label{fig:nustorm_diagram}}
-\end{figure}
-%
-
-The neutrino beam at \nus is derived from the decay of pions and stored muons. \nus is an accelerator neutrino experiment, and so relies on meson production in the usual way: high-energy protons colliding onto a solid target. A magnetic horn then collects $5.0 \pm 0.5$ GeV charged pions of the desired polarity, and inject them in the first straight of a racetrack like storage ring, where $52$\% of the collected charged pions are expected to decay before being stopped at the end of the straight. Muons with an energy of $3.8 \pm 0.38$ GeV are then collected and stored in the ring, where they are expected to circulate for a mean number of 50 turns. The first straight section of the ring, the decay pipeline, is estimated to be $180$ m long~\cite{Neuffer2015}, which will determine the size of the neutrino production region. 
-In this setup, one obtains a beam of  $\nu_{\mu}$ ($\overline{\nu}_{\mu}$) from the decays of the injected $\pi^+$ ($\pi^-$) in what we call the \emph{pion flash}. The useful decays of the stored $\mu^+$ ($\mu^-$) then yield a beam of $\overline{\nu}_{\mu}$ ($\nu_{\mu}$) and $\nu_e$ ($\overline{\nu}_{e}$). The injection of pions into the ring is assumed to happen at large enough time intervals to allow for a discrimination between the neutrinos coming from the pion flash and the ones coming from the useful muon decays (a timing cut of the order of $180/c = 600$ ns or greater is needed to account for all pion decays before the muon data collection~\cite{Tunnell2013}). This allows us, for example, to completely separate the oscillations channels involving $\nu_{e}$ and $\overline{\nu}_{\mu}$ from the ones involving $\nu_{\mu}$ as initial states, for the $\pi^+$ polarity. It is clear, however, that a small contamination of muon decays happens during the pion flash. This is a small number of the neutrinos produced, and is taken into account by including $1\%$ of the muon decay flux into the pion flash neutrino flux. Kaons also contribute to the pion flash flux, albeit at larger energies~\reffig{fig:nustorm_flux}. 
-%
-\begin{figure}[t]
-\centering
-\includegraphics[width=0.49\textwidth]{figs/flux_ND.pdf}
-\includegraphics[width=0.49\textwidth]{figs/flux_FD.pdf}
-\caption[The \nus neutrino flux for the near and far detector.]{The neutrino flux at the near (left) and far (right) detectors of \nus. Note that the neutrinos from stored muons are separated from the ones generated in the pion flash through timing. \label{fig:nustorm_diagram}}
-\end{figure}
-%
+This chapter is dedicated to studying sterile neutrinos in short-baseline oscillations, and discusses two well-known but distinct types of non-unitarity. As a novelty, we investigate these effects with the experimental proposal of Neutrinos from STORed Muons ($\nu$STORM). \nus is a proposal for a non-conventional but well-understood neutrino beam from the decay of stored muons. The energy range and the sub-percent uncertainties on the neutrino flux make \nus a precision facility with GeV neutrinos. On top of its importance as a first step towards large scale muon facilities (\eg, neutrino factories~\cite{Choubey:2011zzq} and muon colliders), the project is very timely as it would provides precise measurements of neutrino-nucleus cross sections. This would serve as an input for long-baseline physic~\cite{Soler2015}, increasing the sensitivity of future experiments to CP violation and other oscillation parameters. The key step ingredient for this project lies in the precise knowledge of the flux, disentangling for the first time the knowledge of the flux from that of the cross sections. In this way, \nus also provides a clean and intense environment to search for new physics~\cite{Adey:2013pio,Adey:2014rfv}. In this chapter, we will explore a \nus setup with two iron-scintillator detectors, resembling the original proposal for siting at Fermilab, using 60 GeV protons~\cite{Adey:2013pio} and $3.8$ GeV stored muons. At the time of writing, the Fermilab design is currently being reconsidered for siting at CERN instead. While the details of the new proposal are uncertain, it is likely to incorporate larger muon energies (up to $E_\mu \lesssim 6$ GeV) and reviewed detector options~\cite{Long:2018zpc}.
 
 
-\subsection{3+N short-baseline oscillations}
+In this chapter we discuss sterile neutrinos in the most minimal extension of the SM by the neutrino portal. Although the scale of the new state is arbitrary, we would like to focus on light states which can be probed in laboratory. We adopt a pure phenomenological approach, and refrain from connecting such steriles to neutrino mass generation. In particular, we consider steriles from sub-eV masses to arbitrarily heavy states. The interest in the eV scale arises from the series of experimental anomalies at short baselines (see Refs.~\cite{Diaz:2019fwt} and~\cite{Dentler:2018sju} for a review on this topic). For instance, the excess of $\nu_e$-like events in a beam of predominantly $\nu_\mu$ states at the Liquid Scintillator Neutrino Detector (LSND)~\cite{Aguilar:2001ty} and at the MiniBooNE experiment~\cite{Aguilar-Arevalo:2018gpe}. Other short-baseline anomalies exist also in the form of a deficit of $\nu_e$ and $\overline{\nu}_e$ states in radioactive source experiments~\cite{Hampel:1997fc,Abdurashitov:2005tb}, as well as in reactor experiments~\cite{Mention:2011rk}. It is intriguing, however, that these results are in severe conflict with null-results from $\nu_\mu \to \nu_\mu$ experiments, such as MINOS~\cite{Adamson:2017uda} and IceCUBE~\cite{TheIceCubeCollaboration2016}. The tensions between datasets in an eV sterile neutrino interpretation of these anomalies are large. For this reason, we also refrain from connecting our discussion to such anomalies. Nevertheless, searching for steriles and non-unitarity of the PMNS matrix is a worthwhile goal of next generation experiments, and in case of future positive results from near future experiments, the experiment considered in this chapter would offer a unique and conclusive chance to study eV scale sterile neutrinos.
+
+
+\section{Short-Baseline Oscillations}
 %
 Standard Model neutrinos produced in charged current interactions are flavour eigenstates $\nu_{\alpha}$ ($\alpha = e,\mu$ or $\tau$). The misalignment between the flavour eigenstates $\ket{\nu_{\alpha}}$ and the mass eigenstates $\ket{\nu_i}$ in the presence of non-degenrate masses is responsible for neutrino oscillations and mixing. The mixing is described by a matrix $U$, which in the case of 3 active neutrinos is given by the $3 \times 3$ Pontecorvo-Maki-Nakagawa-Sakata (PMNS) matrix. In general, for $3+N$ flavour and $3+N$ mass eigenstates, we have
 %
@@ -43,7 +27,7 @@ In general, in a quantum mechanical treatment of neutrino oscillations, the osci
 \begin{align} \label{eq:general_prob}
 P_{\nu_{\alpha} \to \nu_{\beta}}= \delta_{\alpha \beta} -& 2 \sum_{k>j}^{3+N} \Re(U_{\alpha k}^* U_{\beta k} U_{\alpha j} U_{\beta j}^*)\, \left(1 - \Re\left[I_{k j}(L, E)\right]\right) \nonumber\\ -& 2\sum_{k>j}^{3+N} \Im(U_{\alpha k}^* U_{\beta k} U_{\alpha j} U_{\beta j}^*) \Im\left[I_{k j}(L, E) \right],
 \end{align}
-where the factor $I_{k j}(L, E)$ satisfies $I_{k k} = 1$ and $I^*_{k j} = I_{j k}$ \cite{Akhmedov2009a} and will contain any information about the coherence of production, propagation and detection of neutrino mass states. More commonly, under the plane-wave approximation and assuming ultra-relativistic neutrinos with $L = t$, this factor is related to the time evolution of the mass eigenstates and reads
+where the factor $I_{k j}(L, E)$ satisfies $I_{k k} = 1$ and $I^*_{k j} = I_{j k}$ \cite{Akhmedov2009} and will contain any information about the coherence of production, propagation and detection of neutrino mass states. More commonly, under the plane-wave approximation and assuming ultra-relativistic neutrinos with $L = t$, this factor is related to the time evolution of the mass eigenstates and reads
 %
 \begin{equation} \label{eq:Iplanewave}
 I_{k j}(L, E) = \exp\left(-i \frac{\Delta m^2_{k j} L}{2 E}\right).
@@ -80,12 +64,12 @@ for apperance, and
 P^{3+2}_{\nu_{\alpha} \to \nu_{ \alpha}}  =\,1 - &2(1 - |U_{\alpha 4}|^2 - |U_{\alpha 5}|^2) \times \left[ |U_{\alpha 4}|^2 \big(1 - \Re(I_{41}))  + |U_{\alpha 5}|^2 \big( 1 - \Re(I_{51}) \big)\right] \nonumber \\ - &2 |U_{\alpha 4}|^2 |U_{\alpha 5}|^2 \left(1 - \Re(I_{54})\right), 
 \end{align}
 %
-for disappearance. Note how the CP complex phase only appears in the appearance formulae since CPT invariance implies CP conservation for the disappearance channel. Full expressions for the oscillation probability in the plane wave approximation can be obtained by using equation \ref{eq:Iplanewave}, and for production decoherence assuming point like parent particles one can use the expressions for $I_{k j}$ as shown in \refapp{sec:appendix_prob}.
+for disappearance. Note how the CP complex phase only appears in the appearance formulae since CPT invariance implies CP conservation for the disappearance channel. Full expressions for the oscillation probability in the plane wave approximation can be obtained by using \refeq{eq:Iplanewave}, and for production decoherence assuming point-like parent particles one can use the expressions for $I_{k j}$ we discuss below.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-\subsubsection{Localization at production \label{sec:prodcoh}}
+\subsection{Localization at Production \label{sec:prodcoh}}
 
-The presence of light sterile neutrinos with masses above the eV scale can realise the interesting scenario where the coherence at production might be broken. For a neutrino to be created as a coherent superposition of different mass eigenstates we should not be able to resolve what mass eigenstate was produced, {\it i.e.} $\sigma_{m^2} \gg \Delta m^2$ for all the involved mass-splittings is a condition for production coherence \cite{Akhmedov2012}. Using the relativistic expression for the neutrino energy, the condition for the uncertainty on the neutrino momentum $\sigma_P$ can be written as
+The presence of light sterile neutrinos with masses above the eV scale can realise the interesting scenario where the localization at production might be broken. For a neutrino to be created as a coherent superposition of different mass eigenstates we should not be able to resolve what mass eigenstate was produced, {\it i.e.} $\sigma_{m^2} \gg \Delta m^2$ for all the involved mass-splittings is a condition for production coherence~\cite{Akhmedov2012}. Using the relativistic expression for the neutrino energy, the condition for the uncertainty on the neutrino momentum $\sigma_P$ can be written as
 %
 \begin{equation}
 \sigma_P \gg \frac{\Delta m^2}{2P}.
@@ -99,30 +83,17 @@ If we assume that $\sigma_P$ is related to the uncertainty in the spatial coordi
 %
 where $L_{\text{osc}} = 4 \pi P/\Delta m^2$ and factors of 2 and $\pi$ were ignored. This condition says that the production or detection decoherence effects are equivalent to the averaging of the oscillations due to finite size of sources and detectors.
 
-The production region at \nus, for example, is given by the size of the decay pipeline $\ell_p = 180$ m. This is only an order of magnitude smaller than the far detector baseline ($\approx 2$ km) and, more importantly for higher mass sterile searches, it is larger than the near detector distance from the end of the decay pipeline. For instance, if a sterile neutrino with a mass larger than $10$ eV is present, the near detector would only see flavour transitions constant in energy.
+The production region at $\nu$STORM, for example, is given by the size of the decay pipeline $\ell_p = 180$ m. This is only an order of magnitude smaller than the far detector baseline ($\approx 2$ km) and, more importantly for higher mass sterile searches, it is larger than the near detector distance from the end of the decay pipeline. For instance, if a sterile neutrino with a mass larger than $10$ eV is present, the near detector would only see flavour transitions constant in energy.
 
 The probabilities derived in the previous section have been derived for a general factor $I_{k j}$, which under the plane-wave approximation is given by equation \ref{eq:Iplanewave}. In the wavepacket treatment for neutrino oscillations, $I_{k j}$ is corrected by production, detection and propagation coherence factors \cite{Akhmedov2009}:
 %
 \begin{equation}
-I_{k j} = \exp\left(-i \frac{\Delta m^2_{k j} L}{2 P}\right) S_{\text{prop}}(L/\ell_p) S_{\text{P/D}}(\Delta m^2/\sigma_{m^2}),
+I_{k j} = \exp\left(-i \frac{\Delta m^2_{k j} L}{2 P}\right) S_{\text{prop}}(L/L^{\rm coh}_{kj}) S_{\text{P/D}}(\sigma_x/L^{\rm osc}_{k j}),
 \end{equation}
 %
-where the $S$ damping factors are due to propagation coherence, and localization at production and detection. The quantity $\ell_p$ is the coherence lenght of a pair of mass eigenstates, \textit{i.e.} the lenght in which the two states continue to have a significant overlap of their coordinate wave packets. The $S$ factors are equal to unity for zero arguments and quickly decrease for increasing arguments.  In this study, we ignore any propagation and detection effects and focus only on the production coherence damping $S_{P}$. We choose to work with the formalism developed in references \cite{Hernandez2011,Akhmedov2012}, working with oscillation probabilities derived in the quantum mechanical wavepacket approach. This approach is in contrast with the incoherent summation of the probability along the production region, where the straight averaged neutrino flux is given by a convolution of the plane wave probability formula and the neutrino flux at different points of the decay straight. The equivalence of the two approaches is discussed in \cite{Akhmedov2012}, and for all our purposes they lead to the same results as long as the neutrino parent particles can be treated as pointlike, i.e have vanishingly small wavepacket spatial width \textcolor{blue}{reasons why that is true here}. It should be emphasized, however, that the wavepacket formalism is more general than the incoherent probability summation. Moreover, the available neutrino fluxes for \nus already take the finite size of the production region into account \cite{Tunnell2013}, and cannot be convolved with the oscillation probability over the production region once more. Expressions for the $S_P$ factors as well as the full oscillation probabilities for some channels are given in the appendix \ref{sec:appendix_prob}.
+where the $S$ damping factors are due to propagation coherence, and localization at production and detection. The quantity $L^{\rm coh}_{kj}= 4\sqrt{2} E^2 \sigma_x /|\Delta m^2_{kj}|$ is the coherence lenght of a pair of mass eigenstates, \textit{i.e.} the lenght in which the two states continue to have a significant overlap of their coordinate wave packets. The $S$ factors are equal to unity for zero arguments and quickly decrease for increasing arguments. In this study, we ignore any propagation and detection effects and focus only on the production localization $S_{P}$. We choose to work with the formalism developed in references~\cite{Hernandez2011,Akhmedov2012}, where oscillation probabilities were derived in the quantum mechanical wavepacket approach. This approach is in contrast with the incoherent summation of the probability along the production region, where the straight averaged neutrino flux is given by a convolution of the plane wave probability formula and the neutrino flux at different points of the decay straight. The equivalence of the two approaches is discussed in Ref.~\cite{Akhmedov2012}, and for all our purposes they lead to the same results as long as the neutrino parent particles can be treated as pointlike, \emph{i.e.} have vanishingly small wavepacket spatial width. It should be emphasized, however, that the wavepacket formalism is more general than the incoherent probability summation. Moreover, the available neutrino fluxes for \nus already take the finite size of the production region into account~\cite{Tunnell2013}, and cannot be convolved with the oscillation probability over the production region once more. 
 
-%To calculate the $I_{j k}$ factors one has to coherently add the neutrino production amplitude over the decay straight
-
-%It is customary to write the flux of neutrinos from a finite source as a convolution of the neutrino flux at different points of the production region and the oscillation probability \cite{Hernandez2011}:
-%\begin{equation}
-%\Phi^{\text{avg}}_{\nu_{\beta}}(E, L) = \int_{0}^{\ell_p} \dif x P_{\nu_{\alpha\to\beta}} (L - x) \Phi_{\nu_{\alpha}}(E, x).
-%\end{equation}
-%Here $\prob{\alpha}{\beta}(L, E)$ is the oscillation probabilty at a baseline L and neutrino energy E for neutrinos from a point source. $\Phi_{\alpha}(E,x) \dif x$ is the neutrino flux density in the interval $\dif x$. When $\prob{\alpha}{\beta}$ is equal to $\delta_{\alpha \beta}$, we get the straight averaged unoscillated flux $\Phi^0_{\nu_{\beta}}$.
-
-%When only $\Phi^0_{\beta}$ is known, an effective oscillation probability $P^{\text{eff}}$ can be defined to be used in the oscillation analysis:  
-%\begin{equation}
-%P^{\text{eff}}_{\nu_{\alpha} \to \nu_{\beta}} = \frac{\Phi^{\text{avg}}_{\nu_{\beta}}(E, L)}{\Phi^0_{\nu_{\alpha}}(E, L)}.
-%\end{equation}
-
-For completeness, we show the $I_{k j}$ factors that have been used in our calculations. They correspond to the case of pointlike parent particles and pontlike detection approximations derived in~\cite{Akhmedov2009a}. For clarity, we omit all $k\,j$ mass subscripts in our expression, leaving only indices corresponding to the neutrino parent particle $X = \mu, \pi$. We write it in two forms: a compact formula, and one in which the real and imaginary parts are explicitly separated: 
+Expressions for the $S_P$ factors as well as the full oscillation probabilities for some channels are given below. For completeness, we show the $I_{k j}$ factors that have been used in our calculations, corresponding to the case of pointlike parent particles and pontlike detection approximations derived in~\cite{Akhmedov2009}. For clarity, we omit all $k\,j$ mass subscripts in our expression, leaving only indices corresponding to the neutrino parent particle $X = \mu, \pi$. We write it in two forms: a compact formula, and one in which the real and imaginary parts are explicitly separated: 
 %
 \begin{align}\label{eq:Ijk}
 I_{k j} = \, & \frac{1}{1 - e^{-\sfrac{\Delta_p}{\xi_X}}} \frac{1}{1 - i\xi_X} \left[ 1  - e^{-\sfrac{\Delta_p}{ \xi_X} } e^{i  \Delta_p}\right] e^{-i \Delta}\nonumber \\
@@ -136,66 +107,57 @@ In the expression above we denote the lenght of the decay pipeline by $\ell_p$ a
 \end{align}
 where the parent particle properties enter our probability formulas via $\xi_X$ with the velocity $v_{X}$ and the decay lenght $\ell_{\text{dec}_X} = 1 / \Gamma _X$.
 
-Using the definitions above and the $I_{k j}$ factor in equation \ref{eq:Ijk}, we can write the probability formulas for our 3+N models. As an example, we show the 3+1 apperance and disapperance formulas of interest, choosing  $\sin^2{2 \theta_{e \mu}} = 4 |U_{e \mu}|^2 |U_{\mu \mu}|^2$ and $\sin^2{2 \theta_{\mu \mu}} = 4 |U_{e \mu}|^2 (1 - |U_{\mu \mu}|^2)$. They read
+Using the definitions above and the $I_{k j}$ factor in \refeq{eq:Ijk}, we can write the probability formulas for our 3+N models. As an example, we show the 3+1 apperance and disapperance formulas of interest, choosing  $\sin^2{2 \theta_{e \mu}} = 4 |U_{e \mu}|^2 |U_{\mu \mu}|^2$ and $\sin^2{2 \theta_{\mu \mu}} = 4 |U_{e \mu}|^2 (1 - |U_{\mu \mu}|^2)$. For appearance, it reads
 %
 \begin{align} \label{eq:probApp3+1}
-P^{3+1}_{\nu_{e} \to \nu_{\mu}} = \sin{2 \theta_{e \mu}} \bigg\{1 - \frac{1}{1 - e^{-\sfrac{\Delta_p}{ \xi_X} }} & \frac{1}{1 + \xi^2_X} \Big[ \cos{\Delta} + \xi_X \sin{\Delta} \\ \nonumber &- e^{-\sfrac{\Delta_p}{ \xi_X}} \big( \cos{(\Delta- \Delta_p)} + \xi_X \sin{(\Delta - \Delta_p)}\big) \Big] \bigg\},
+P^{3+1}_{\nu_{e} \to \nu_{\mu}} = \sin{2 \theta_{e \mu}} \bigg\{1 &- \frac{1}{1 - e^{-\sfrac{\Delta_p}{ \xi_X} }} \frac{1}{1 + \xi^2_X} \Big[ \cos{\Delta} + \xi_X \sin{\Delta} \nonumber \\  &- e^{-\sfrac{\Delta_p}{ \xi_X}} \big( \cos{(\Delta- \Delta_p)} + \xi_X \sin{(\Delta - \Delta_p)}\big) \Big] \bigg\},
 \end{align}
 %
-for appearance, and
+while for disappearance, 
 \begin{align}
-P^{3+1}_{\nu_{\mu} \to \nu_{\mu}} = \sin^4{\theta_{\mu \mu}}+\cos^4{\theta_{\mu \mu}} + \frac{\sin^2{2 \theta_{\mu \mu}}}{1 - e^{-\sfrac{\Delta_p}{ \xi_X} }} & \frac{1}{1 + \xi^2_X} \bigg[ \cos{\Delta} + \xi_X \sin{\Delta} \\ \nonumber &- e^{-\sfrac{\Delta_p}{ \xi_X}} \big( \cos{(\Delta- \Delta_p)} + \xi_X \sin{(\Delta - \Delta_p)}\big) \bigg],
+P^{3+1}_{\nu_{\mu} \to \nu_{\mu}} = \sin^4{\theta_{\mu \mu}}+\cos^4{\theta_{\mu \mu}} &+ \frac{\sin^2{2 \theta_{\mu \mu}}}{1 - e^{-\sfrac{\Delta_p}{ \xi_X} }}  \frac{1}{1 + \xi^2_X} \bigg[ \cos{\Delta} + \xi_X \sin{\Delta} \nonumber \\ &- e^{-\sfrac{\Delta_p}{ \xi_X}} \big( \cos{(\Delta- \Delta_p)} + \xi_X \sin{(\Delta - \Delta_p)}\big) \bigg].
 \end{align}
 %
-for disappearance.
 
-\subsection{Connecting non-unitarity from heavy and light sterile neutrinos}
+\subsection{Non-Unitarity from Light and Heavy Sterile Neutrinos}
 %
-Below I reproduce the notes on non-unitarity I sent around a few weeks ago. Any progress beyond what is detailed below comes from reading reference \cite{Giunti1992}
 
-The scale of a new sterile state is completely arbitrary from a theoretical point of view, each one with its own distinct phenomenology. At an oscillation experiment, however, any sterile neutrino with a mass above $\mathcal{O}(10)$ eV leads to what we call an effective ``zero-distance" effect, whether through its averaged out oscillations or due to the non-unitarity of the PMNS matrix. In the following, we will explore the connection between these two regimes. In all our discussion we will neglect the decay of the heavy states, although we note that extra interactions of the new states trying to reconcile cosmology and sterile neutrinos might decrease its lifetime \cite{Mirizzi2014,Chu2015,Archidiacono2014,Archidiacono2016}. 
+The scale of the new sterile state is completely arbitrary from a theoretical point of view, each one with its own distinct phenomenology. At most oscillation experiments, however, any sterile neutrino with a mass above $\mathcal{O}(10)$ eV leads to what we call an effective \emph{zero-distance} effect, whether through its averaged-out oscillations or due to integrating out the heavy states. In the following, we will have a glimpse these two regimes. In all our discussion we will neglect the decay of the heavy states, although we note that extra interactions of the new states trying to reconcile cosmology and sterile neutrinos might decrease its lifetime~\cite{Mirizzi2014,Chu2015,Archidiacono2014,Archidiacono2016}. 
 
-It is instructive to divide the parameter space into three regions: 
+It is instructive to divide the parameter space into three regions.
+%
 \begin{itemize}
- \item The sterile neutrino is kinematically accessible and can be produced in muon or pion decays, but its oscillation lenght is too small to be seen at any reasonable experiment. This case is referred to as an averaged out sterile.
- \item The sterile mass is close to but still smaller than the parent particle mass and deforms the neutrino production and detection rate due to kinematical factors. This intermediate regions is expected to be very small.
- \item The sterile is much heavier than the parent particle masses and cannot be produced at the oscillation experiments.
+ \item The sterile neutrino is kinematically accessible and can be produced in muon or pion decays, but its oscillation lenght is too small to be seen at any reasonable experiment.
+ \item The sterile mass is close to but still smaller than the parent particle mass and impacts the neutrino production and detection rate due to kinematical factors. This intermediate region is relevant for meson decay peak searches, but less important for oscillation experiments.
+ \item The sterile is much heavier than the parent particle and cannot be produced at the oscillation experiments. This is effectively identical to integrating out the heavy state.
 \end{itemize}
+%
+There is no fundamental difference between the first two scenarios, except that in the first one the effects due to the mass of the sterile are too small to be relevant. The third case concerns masses above the electroweak scale, and is typically studied under the minimal unitarity violation (MUV) formalism~\cite{Antusch2006}. In an effective field theory, one can parametrize the effects of these large mass steriles via the non-unitarity of the PMNS matrix. One can show that this arises from the non-orthonormality of the low-scale flavour states at oscillation experiments. 
 
-There is no fundamental difference between the first two scenarios, except that in the first one the effects due to the mass of the sterile are too small to be relevant. The third case concerns masses above the electroweak scale, and is typically studied under the MUV formalism \cite{Antusch2006}. In an effective field theory, one can parametrize the effects of these large mass steriles via the non-unitarity of the mixing matrix. One can show that this non-unitarity arises from the non-orthonormality of the low-scale flavour states. 
+We will aim at connecting the high-scale non-unitarity and the averaged out oscillations of light steriles. First, however, we will explore where the zero-distance effects are coming from in the two cases. Later, by trying to be as general as possible in the derivation of the event rates, we will attempt to develop a formalism that explicitly shows how these effects change at different mass scales. 
 
-We will aim at connecting the high-scale non-unitarity and the averaged out oscillations of light steriles. First, however, we will explore where the zero-distance effects are coming from in the two theories. Later, by trying to as general as possible in the derivation of the event rates, we will attempt to develop a formalism that explicitly shows how these effects change at different mass scales. 
+\subsubsection{Averaged-Out Steriles} First, we will explore the phenomenology of sterile neutrinos above the eV scale but lighter than their parent particles. Once the sterile mass is too large to allow for oscillation with active neutrinos to happen (\eg, due to production localization effects) the sterile states contribute to the oscillation probability only through a constant term. This contribution stems from the fact that even in the absence of oscillations, flavour transitions are still possible. This regimes comprises masses of $10 \, \text{eV}\, \lesssim m_{4} < m_{\mu} (m_{\pi}) $. 
 
-
-\subsubsection{Averaged Out Steriles}
-
-First, we will explore the phenomenology of sterile neutrinos above the eV scale but lighter than their parent particles. Once the sterile mass is too large to allow for oscillation with active neutrinos to happen (due to production decoherence effects or even to wave-packet separation) the sterile states contribute to the oscillation probability only through a constant term. This contribution stems from the fact that even in the absence of oscillations, flavour transitions are still possible. This regimes comprises masses of $10 \, \text{eV}\, \lesssim m_{4} < m_{\mu} (m_{\pi}) $. 
-
-If we neglect any effects on the neutrino production due to the sterile mass, we can simply write down our most general oscillation probability
-\begin{equation}
- P_{\nu_{\alpha} \to \nu_{\beta}} = \sum_{k, j}^{3+N} U^*_{\alpha k} U_{\alpha j} U_{\beta k} U^*_{\beta j} e^{- i \phi_{k j}}, \label{eq:prob}
-\end{equation}
-where $\phi_{k j}$ is the oscillation phase. Under the plane-wave assumption \footnote{the plane-wave approximation suffices for the purposes of our argument, but one can also show our result working with the wave-packet formulae as well.}, we can write $\phi_{k j} = 2\pi L / L^{\text{osc}}_{k j}$, where we defined the oscillation lenght $L^{\text{osc}}_{k j} = 4 \pi E / \Delta m^2_{k j}$. If we are interested in the short-baseline limit (in the absence of active oscillations) and sterile masses such that $L^{\text{osc}}_{41} \ll L$, Eq. \ref{eq:prob} reduces to
+If we neglect any effects on the neutrino production due to the sterile mass, and take the limit of $L \ll L^{\text{osc}}_{k j}$ (or $\sigma_x \ll L^{\text{osc}}_{k j}$), we get
+%
 \begin{align}
  P_{\nu_{\alpha} \to \nu_{\beta}} &= \sum_{k}^{3+N} |U_{\alpha k}|^2|U_{\beta k}|^2 + 2 \sum_{k > j}^{3}\Re{\left( U^*_{\alpha k} U_{\alpha j} U_{\beta k} U^*_{\beta j} \right)}, \nonumber \\
  &= \left| \sum_{k}^{3} U_{\alpha k}^* U_{\beta k} \right|^2 + \sum_{k=3+1}^{3+N} |U_{\alpha k}|^2 |U_{\beta k}|^2,
 \end{align}
-where we averaged out active-sterile phases to zero and kept all active terms for which $L \ll L^{\text{osc}}_{k j}$. In a 3+1 model, for instance, one can reduce this expression using the unitarity of the mixing matrix $\sum_k^{3+1} U_{\alpha k} U_{\beta k}^* = \delta_{\alpha \beta}$ to
+%
+where we averaged out active-sterile phases to zero and kept all active terms for which $L \ll L^{\text{osc}}_{k j}= 4 \pi E / \Delta m^2_{k j}$. In a 3+1 model, for instance, one can reduce this expression using the unitarity of the mixing matrix $\sum_k^{3+1} U_{\alpha k} U_{\beta k}^* = \delta_{\alpha \beta}$ to
+%
 \begin{equation}
- P_{\nu_{\alpha} \to \nu_{\beta}} = 2 |U_{\alpha 4}|^2 |U_{\beta 4}|^2,\label{eq:AOS3+1app}
+ P_{\nu_{\alpha} \to \nu_{\beta}} = 2 |U_{\alpha 4}|^2 |U_{\beta 4}|^2,\quad P_{\nu_{\alpha} \to \nu_{\alpha}} = 1 - 2 |U_{\alpha 4}|^2 + 2|U_{\alpha 4}|^4,\label{eq:AOS3+1dis}
 \end{equation}
-\begin{equation}
- P_{\nu_{\alpha} \to \nu_{\alpha}} = 1 - 2 |U_{\alpha 4}|^2 + 2|U_{\alpha 4}|^4,\label{eq:AOS3+1dis}
-\end{equation}
+%
 for appearance and disappearance, respectively. The interpretation of the appearance formula is clear: the constant oscillation probability only provides the mixing factor required to obtain the flux of sterile states from the flux of $\nu_{\alpha}$ at production and another mixing factor to obtain the probability that such a state interacts as a neutrino of flavour $\beta$. The zero-distance effects in this case is given by the possibility that the sterile state is produced, propagates ballistically to the detector and scatters off a nuclei creating another flavour lepton.
 
-\subsubsection{Minimal Unitarity Violation}
-
-In this section we summarize the main results of \cite{Antusch2006}. The mixing amongst active neutrinos is given by the sub-block $N$ of the neutrino mixing matrix $U$, such that the flavour neutrino fields are given by
+\subsubsection{Integrated-Out Steriles} In this section we summarize the main results of Ref.~\cite{Antusch2006}. The mixing amongst active neutrinos is given by the sub-block $N$ of the neutrino mixing matrix $U$, such that the flavour neutrino fields are given by
 \begin{equation}
- \nu_{\alpha} = \sum_i ^{3} N_{\alpha i} \, \nu_i.
+ \nu_{\alpha} = \sum_i ^{3} N_{\alpha i} \, \nu_i, \quad \text{where} \quad U = \left(\begin{matrix} N & \Theta \\ R & S\end{matrix} \right).
 \end{equation}
-The orthonormality of the neutrino mass states still holds, but the quantum states associated to neutrinos of a specific flavour (like the state produced from the decay of a pion or a muon) are no longer formed by a complete basis, and are no longer orthonormal. The true flavour states are orthonormal, but they require the presence of the heavy neutrino state, which is not produced in terrestrial oscillation experiments. Additional normalization factors are then necessary for the flavour state produced
+Here, $U$ is the full unitary mixing matrix of neutral leptons, and $N$ the non-unitary PMNS matrix describing the mixing of active-light states. $R$, $S$ and $\Theta$ contain the mixing between active-heavy, sterile-heavy and sterile-light states, respectively, and are also not unitary in general. Note that the orthonormality of the neutrino mass states still holds, but the quantum states associated to neutrinos of a specific flavour (like the state produced from the decay of a pion or a muon) are no longer formed by a complete basis, and are no longer orthonormal. The true flavour states are orthonormal, but they require the presence of the heavy neutrino state, which is not produced in terrestrial oscillation experiments. Additional normalization factors are then necessary for the flavour state produced
 \begin{equation}
  \ket{\nu_{\alpha}} = \frac{1}{\sqrt{(NN^{\dagger})_{\alpha \alpha}}} \sum_{i}^{3} N_{\alpha i}^* \ket{\nu_i},
 \end{equation}
@@ -215,120 +177,189 @@ whilst for CC processes with two neutrino flavours (\textit{e.g.}, muon decay) r
 \begin{equation}
  \sigma_{\alpha}^{\text{CC}} =  \sigma_{\alpha}^{\text{CC (SM)}} (NN^{\dagger})_{\alpha \alpha}(NN^{\dagger})_{\beta \beta}, \quad \frac{ d\Phi^{\text{CC}}_{\beta}}{dE} = \frac{ d\Phi^{\text{CC (SM)}}_{\beta}}{dE} (NN^{\dagger})_{\alpha \alpha} (NN^{\dagger})_{\beta \beta}.
 \end{equation}
-Neutral current processes also receive corrections, but of the type $|(NN^{\dagger})_{i j}|^2$. The previous expressions hint at a cancellation between the normalization factors in the probability and the corrections to the production and detection. This means that at an oscillation experiment neutrinos from pion decay would not be affected by the normalization factors, whilst neutrinos from muons could. In addition, the oscillation probability differs from the averaged out one, even when the cancellations are in place. We can see that by comparing the quartic term in the following 3+1 probability with the one in the previous section (Eqs. \ref{eq:AOS3+1app} and \ref{eq:AOS3+1dis})
+Neutral current processes also receive corrections, but of the type $|(NN^{\dagger})_{i j}|^2$. The previous expressions hint at a cancellation between the normalization factors in the probability and the corrections to the production and detection. This means that at an oscillation experiment neutrinos from pion decay would not be affected by the normalization factors, whilst neutrinos from muons could. In addition, the oscillation probability differs from the averaged out one, even when the cancellations are in place. We can see that by comparing the quartic term in the following 3+1 probability with the one in the previous section (\refeq{eq:AOS3+1dis})
 \begin{equation}
  P_{\nu_{\alpha} \to \nu_{\beta}} = \frac{\left| \delta_{\alpha \beta} - U_{\alpha 4}^*U_{\beta 4} \right|^2}{(1-|U_{\alpha 4}|^2)(1-|U_{\beta 4}|^2)} %
  = \frac{ \delta_{\alpha \beta} - 2 \delta_{\alpha \beta} |U_{\alpha 4}|^2 + |U_{\alpha 4}|^2 |U_{\beta 4}|^2}{(1-|U_{\alpha 4}|^2)(1-|U_{\beta 4}|^2)}.
 \end{equation}
 
-
-\subsubsection{Formalism}
-
-In this section we will try to be as general as possible and study the connection between the two regimes described above. Our formalism follows very closely the one in \cite{Giunti2004}, expanding it to include $N$ sterile neutrinos into account, either through non-unitarity or averaged out oscillations. We also take kinematical factors at production and detection into account. We begin with a neutrino flavour state produced in the interaction  $P_I \to P_F \, \ell^+_{\alpha} \, \nu_{\alpha}$, written as
+For completeness, we also show the parameterizations for the non-unitarity of the mixing matrix $N$ used in the literature. For instance, Ref.~\cite{Blennow:2016jkn} chooses to use a lower triangular matrix $\boldsymbol{\alpha}$ as in
 \begin{equation}
+ N = (\boldsymbol{1} - \boldsymbol{\alpha}) U,
+\end{equation}
+where $U$ is the analogue of the PMNS matrix and unitary and 
+\[
+\boldsymbol{\alpha} =
+  \begin{pmatrix}
+    \alpha_{e e} & 0 & 0 \\
+    \alpha_{\mu e} & \alpha_{\mu \mu} & 0 \\
+    \alpha_{\tau e} & \alpha_{\tau \mu} & \alpha_{\tau \tau} \\
+  \end{pmatrix},
+\]
+with real diagonal entries. Using the previous parametrization one can then write the quantity of interest $NN^{\dagger}$ (omitting the tau entries) as 
+%
+\begin{equation}
+ NN^{\dagger} = \boldsymbol{1} - \boldsymbol{\alpha} - \boldsymbol{\alpha}^{\dagger} + \boldsymbol{\alpha}\boldsymbol{\alpha}^{\dagger} =\begin{pmatrix}
+    1 - 2\alpha_{e e} +\alpha_{e e}^2 & \alpha_{\mu e}^*(\alpha_{ee}-1) & * \\
+    \alpha_{\mu e}(\alpha_{ee}-1) & 1 - 2\alpha_{\mu \mu} + \alpha_{\mu \mu}^2 + |\alpha_{\mu e}|^2 & * \\
+    * & * & * \\
+  \end{pmatrix}.
+\end{equation}
+%
+Alternatively, one can parametrize $N$ as $N = \boldsymbol{T} U$, where we use the matrix $\boldsymbol{T}$ from Ref.~\cite{Escrihuela2015}, which is written as
+%
+\begin{equation}
+\boldsymbol{T} =
+  \begin{pmatrix}
+    \alpha_{11} & 0 & 0 \\
+    \alpha_{21} & \alpha_{22} & 0 \\
+    \alpha_{31} & \alpha_{32} & \alpha_{33} \\
+  \end{pmatrix}.
+\end{equation}
+%
+In this parametrization, the quantity of interest $NN^{\dagger}$ is slightly simpler
+\begin{equation}
+NN^{\dagger} =
+  \begin{pmatrix}
+    \alpha_{11}^2 & \alpha_{11}\alpha_{21}^* & * \\
+    \alpha_{11}\alpha_{21} & \alpha_{22}^2 + |\alpha_{21}|^2 & * \\
+    * & * & * \\
+  \end{pmatrix},
+\end{equation}
+and the relation between the two parametrizations is clear: $\alpha_{\alpha \beta} \to \delta_{ij} - \alpha_{ij}$, with $e \to 1, \mu \to 2$ and $\tau \to 3$. Bounds on the non-unitarity parameters can be derived from a variety of processes and have been collected in Refs.~\cite{Fernandez-Martinez:2016lgt}, for instance.
+
+\subsubsection{Understanding the Gap}
+
+In this section we will connect the two regimes described above at the level of oscillation probabilities. For the sake of our argument, a plane wave treatment is sufficient. We begin with a neutrino flavour state produced in the interaction  $P_I \to P_F \, \ell^+_{\alpha} \, \nu_{\alpha}$, written as
+\begin{equation}\label{eq:general_flavor_state}
 \ket{\nu_{\alpha}} = \frac{1}{\sqrt{\sum_i \left|A_{\alpha i}\right|^2}} \sum_k^{3+N} A_{\alpha k} \ket{\nu_{k}},
 \end{equation}
 where the amplitude for producing a neutrino mass eigenstate is given by 
 \begin{equation}
 A_{\alpha k} = \bra{\nu_k , \ell^+_{\alpha} , P_F} \hat{S} \ket{P_I} = U_{\alpha k}^* \mathcal{F}_{k} M_{\alpha}. \label{eq:amplitude}
 \end{equation}
-Here we factorised the amplitude for neutrino production into a mixing matrix element $U_{\alpha k}$, a purely kinematical factor dependent on the neutrino mass, $\mathcal{F}_k$, and a common factor for the amplitude for all mass eigenstates $M_{\alpha}$. The factor $\mathcal{F}$ can be thought of as the Shrock factor in the calculation of the neutrino flux, and carries only information about the heavy neutrino mass and its ratio to the other scales involved. We assume that $\mathcal{F}_k = 1$ when $m_s \ll M_P$, where $M_P$ is the mass of the parent particle of the neutrino, and that $\mathcal{F}_k = 0$ when $m_s > M_P$. The amplitude for the production of a neutrino of specific flavour is then
+Here we factorised the amplitude for neutrino production into a mixing matrix element $U_{\alpha k}$, a factor $\mathcal{F}_k$ containing all the dependence on the neutrino mass $m_k$, and the remaining flavour-dependent factor $M_{\alpha}$. Just remains an \emph{assumption} in what follows. More concretely, the factor $\mathcal{F}$ can be thought of as a kinematical factor in the calculation of the neutrino production and detection, and carries information about the heavy neutrino mass and its ratio to the other scales involved. In writing the equation above, we are assuming that the matrix element $M_\alpha$ has no dependence on the neutrino mass~\footnote{While this is customary for $\mathcal{F}^P$, which can be thought of as a Shrock factor~\cite{Shrock:1980ct} in meson decay processes, $\mathcal{F}^D$ requires more care due to the more complex nature of the scattering process.}. Within our assumptions, $\mathcal{F}_k = 1$ when $m_k \ll M_P$, where $M_P$ is the mass of the parent particle of the neutrino, and $\mathcal{F}_k = 0$ when $m_k > M_P$. The amplitude for the production of a neutrino of specific flavour is then
+%
 \begin{equation}
 \left| A_{\alpha} \right|^2 = \sum_k \left| U_{\alpha k} \right|^2 \left| \mathcal{F}_k \right|^2 \left| M_{\alpha} \right|^2.
 \end{equation}     
-When only one heavy neutrino is present and all light ones have $\mathcal{F}_k = 1$, we can write
+%
+When only one heavy neutrino is present and all light states have $\mathcal{F}_k = 1$ for $k < 4$, we can write
+%
 \begin{align}
-\left| A_{\alpha} \right|^2 &= \left( \sum_k^3 \left| U_{\alpha k} \right|^2 + |U_{\alpha 4}|^2 \left| \mathcal{F}_4 \right|^2 \right)\left| M_{\alpha} \right|^2 \\ 
-	& = \left( 1 + \left( |\mathcal{F}_4|^2 - 1 \right) |U_{\alpha 4}|^2 \right) \left| M_{\alpha} \right|^2 \nonumber 
+\left| A_{\alpha} \right|^2 &= \left( \sum_k^3 \left| U_{\alpha k} \right|^2 + |U_{\alpha 4}|^2 \left| \mathcal{F}_4 \right|^2 \right)\left| M_{\alpha} \right|^2  = \left( 1 + \left( |\mathcal{F}_4|^2 - 1 \right) |U_{\alpha 4}|^2 \right) \left| M_{\alpha} \right|^2  
 \end{align}     
 reducing to
-\begin{itemize}
-\item \underline{Light sterile} \[|A_{\alpha}|^2 = |M_{\alpha}|^2\].
-\item \underline{MUV} \[|A_{\alpha}|^2 = \left( 1 - |U_{\alpha 4}|^2 \right)|M_{\alpha}|^2\].
-\end{itemize}
-The neutrino flux, which is proportional to $|A_{\alpha}|^2$, receives simialr corrections. A very similar discussion can be made for the amplitude of detection, where we will now call $\mathcal{F}^P_k$ and $\mathcal{F}^D_k$ the kinematical factor for the production and detection state, respectively\footnote{Whilst $\mathcal{F}^P$ will be something like the Shrock factor for the produced neutrino, it is not entirely obvious what $\mathcal{F}^D$ would be.}.
+\begin{equation}
+|A_{\alpha}|^2 = |M_{\alpha}|^2,
+\end{equation}
+for averaged-out steriles, and
+\begin{equation}
+|A_{\alpha}|^2 = \left( 1 - |U_{\alpha 4}|^2 \right)|M_{\alpha}|^2,
+\end{equation}
+for integrated-out steriles. The neutrino flux, which is proportional to $|A_{\alpha}|^2$, receives similar corrections. A very similar discussion can be made for the amplitude of detection, where we will now call $\mathcal{F}^P_k$ and $\mathcal{F}^D_k$ the kinematical factor for the production and detection state, respectively.
 
-We will now calculate the flavour transition probability assuming that the fourth mass eigenstate is heavy enough that it will not oscillate, allowing only for flavour transitions at the detectors. We start by defining general flavour states
+We will now calculate the flavour transition probability assuming that the fourth mass eigenstate is heavy enough that it will not oscillate, allowing only for zero-distance effects. We start by defining general flavour states as in \refeq{eq:general_flavor_state} for production and detection, $ \ket{\nu_{\alpha}^P}$ and $\ket{\nu_{\beta}^D}$. Expanding the amplitude as in \refeq{eq:amplitude}, we obtain the production state
 \begin{align}
-\ket{\nu_{\alpha}^P} =& \frac{1}{\sqrt{\sum_k^{3+N} \left|A^P_{\alpha k}\right|^2}} \sum_i^{3+N} A^P_{\alpha i} \ket{\nu_{i}},\\
-\ket{\nu_{\beta}^D} =& \frac{1}{\sqrt{\sum_k^{3+N} \left|A^D_{\alpha k}\right|^2}}  \sum_i^{3+N}A^D_{\alpha i} \ket{\nu_{i}}.
+\ket{\nu_{\alpha}^P} &=  N^{P}_\alpha \, \hat{M}_{\alpha}^P \,\sum_i^{3+N} U_{\alpha i}^* \mathcal{F}^P_i \ket{\nu_{i}},
 \end{align}
-For the produced eigenstate, we can expand the amplitude as in Eq. \ref{eq:amplitude}, to obtain
+where $\hat{M}_{\alpha}^P = M_{\alpha}^P / |M_{\alpha}^P|$ and $\left(N^{P}_\alpha\right)^{-2} = {\sum_{i}^{3+N} \left|U_{\alpha i} \mathcal{F}_i^{P}\right|^2 }$. An analogous expression is valid for the detection state. When calculating the oscillation probability, we will need the transition amplitude
+%
 \begin{align}
-\ket{\nu_{\alpha}^P} =& \frac{1}{ |M_{\alpha}|\sqrt{\sum_{k=1}^{3} \left|U_{\alpha k}\right|^2 + \sum_{k=3+1}^{3+N} |\mathcal{F}_k|^2\left| U_{\alpha k}\right|^2 }} \sum_i^{3+N} U_{\alpha i}^* \mathcal{F}_i M_{\alpha} \ket{\nu_{i}} \\
-=& \frac{1}{ \sqrt{ \sum_{k=3+1}^{3+N} \left( 1 - |\mathcal{F}_k|^2\right) \left| U_{\alpha k}\right|^2 }} \hat{M}_{\alpha}^P \sum_i^{3+N} U_{\alpha i}^* \mathcal{F}_i \ket{\nu_{i}}, \nonumber
+\mathcal{A}_{\alpha \to \beta} =&  \bra{\nu_{\beta}^D} e^{- i \hat{E} T + i \hat{p} L} \ket{\nu_{\alpha}^P} = N^{P}_\alpha N^{D}_\beta \, \hat{M}_{\alpha}^P \hat{M}_{\beta}^{D*} \sum_{k}^{3+N} U_{\alpha k}^{*} \mathcal{F}_k^P U_{\beta k}\mathcal{F}_k^{D*} e^{-i \phi_{kj}}.
 \end{align}
-where $\hat{M}_{\alpha}^P = M_{\alpha}^P / |M_{\alpha}^P|$. One expects a similar expression for the detection state. When calculating the oscillation probability, we will need the transition amplitude
-\begin{align}
-\mathcal{A}_{\alpha \to \beta} =&  \bra{\nu_{\beta}^D} e^{- i \hat{E} T + i \hat{p} L} \ket{\nu_{\alpha}^P} \\ 
-=&  \left({\sum_{i}^{3+N} |A_{\alpha i}^P|^2 }\right)^{-1/2} \left({\sum_{i'}^{3+N} |A_{\beta i'}^D|^2 }\right)^{-1/2}  \sum_{k}^{3+N} A_{\alpha k}^P A_{\beta k}^{D*} e^{- i E_k T + i p_k L} \nonumber \\
-=&  \left({\sum_{i}^{3+N} |U_{\alpha i} \mathcal{F}_i^P|^2 }\right)^{-1/2} \left({\sum_{i'}^{3+N} |U_{\beta i'} \mathcal{F}_{i'}^D|^2 }\right)^{-1/2}  \hat{M}_{\alpha}^P \hat{M}_{\beta}^{D*} \sum_{k}^{3+N} U_{\alpha k}^{*} \mathcal{F}_k^P U_{\beta k}\mathcal{F}_k^{D*} e^{- i E_k T + i p_k L}. \nonumber
-\end{align}
+%
 Squaring it, we get the oscillation probability
 \begin{align}
-P_{\alpha \to \beta} =  &\left({\sum_{i}^{3+N} |U_{\alpha i} \mathcal{F}_i^P|^2 }\right)^{-1} \left({\sum_{i'}^{3+N} |U_{\beta i'} \mathcal{F}_{i'}^D|^2 }\right)^{-1} \\ \nonumber & \times  \sum_{k, j}^{3+N} U_{\alpha k}^{*} U_{\alpha j} U_{\beta k} U_{\beta j}^* \, \mathcal{F}_k^P \mathcal{F}_j^{P*} \mathcal{F}_k^{D*}\mathcal{F}_j^{D} e^{- i (E_k - E_j)T + i (p_k-p_j) L}.
+P_{\alpha \to \beta} =  & \left( N^{P}_\alpha \, N^{D}_\beta \right)^2 \, \sum_{k, j}^{3+N} U_{\alpha k}^{*} U_{\alpha j} U_{\beta k} U_{\beta j}^* \, \mathcal{F}_k^P \mathcal{F}_j^{P*} \mathcal{F}_k^{D*}\mathcal{F}_j^{D} e^{-i \phi_{kj}}.
 \end{align}
-The oscillation phase can be rewritten in different ways, but for simplicity let us just call it $\phi_{k j}$ and focus on the term proportional to $L/L^{\text{osc}}_{k j}$ (under the plane-wave assumption, this is the only term that appears). We make the following two assumptions: $e^{-i \phi_{k j}}$ goes to one for undeveloped oscillations ($L/L^{\text{osc}}_{k j} \to 0$), and $e^{-i \phi_{k j}}$ gets averaged out to zero for oscillations developed too early compared to the experimental baselines ($L/L^{\text{osc}}_{k j} \to \infty$). In the presence of $N$ not-so-light sterile neutrinos (with $L_{k j} \ll L_{\text{ND}}$, where $k > 3$ and $j \leq 3$), we can write
+The oscillation phase $\phi_{k j} = (E_k - E_j)T - (p_k-p_j) L$ was obtained under the plane-wave assumption, so only the oscillation term $L/L^{\text{osc}}_{k j}$ is relevant here. The following two extreme cases are important: $e^{-i \phi_{k j}}$ goes to one for undeveloped oscillations ($L/L^{\text{osc}}_{k j} \to 0$), and $e^{-i \phi_{k j}}$ gets averaged out to zero for oscillations developed too early compared to the experimental baselines ($L/L^{\text{osc}}_{k j} \to \infty$). In the presence of $N$ sterile neutrinos (with $L_{k j} \ll L_{\text{detector}}$, where $k > 3$ and $j \leq 3$), we can write
 \begin{align}
-P_{\alpha \to \beta} =  &\left({\sum_{i}^{3+N} |U_{\alpha i} \mathcal{F}_i^P|^2 }\right)^{-1} \left({\sum_{i'}^{3+N} |U_{\beta i'} \mathcal{F}_{i'}^D|^2 }\right)^{-1} \\ \nonumber & \times \left[\sum_{k}^{3+N} |U_{\alpha k}|^2|U_{\beta k}|^2 |\mathcal{F}_k^P|^2 |\mathcal{F}_k^D|^2 + 2 \sum_{k > j}^{3}\Re{\left( U_{\alpha k}^{*} U_{\alpha j} U_{\beta k} U_{\beta j}^* \, \mathcal{F}_k^P \mathcal{F}_j^{P*} \mathcal{F}_k^{D*}\mathcal{F}_j^{D} \right)}\right] \nonumber \\
-% 
-= &\left({\sum_{i}^{3+N} |U_{\alpha i} \mathcal{F}_i^P|^2 }\right)^{-1} \left({\sum_{j}^{3+N} |U_{\beta j} \mathcal{F}_j^D|^2 }\right)^{-1} \\ \nonumber & \times \left[\left| \sum_{k}^{3} U_{\alpha k}^* U_{\beta k} \mathcal{F}_k^P \mathcal{F}_k^{D*} \right|^2 + \sum_{k=3+1}^{3+N} |U_{\alpha k}|^2 |U_{\beta k}|^2 |\mathcal{F}_k^P|^2 |\mathcal{F}_k^D|^2\right].
+P_{\alpha \to \beta} = &\left( N^{P}_\alpha \, N^{D}_\beta \right)^2 \,\left(\left| \sum_{k}^{3} U_{\alpha k}^* U_{\beta k} \mathcal{F}_k^P \mathcal{F}_k^{D*} \right|^2 + \sum_{k=3+1}^{3+N} |U_{\alpha k}|^2 |U_{\beta k}|^2 |\mathcal{F}_k^P|^2 |\mathcal{F}_k^D|^2\right).
 \end{align}%
 %
-Using the unitarity of the whole mixing matrix and assuming $\mathcal{F}_i = 1$ for $i = 1,2$ and $3$, we can rewrite the previous expression as
-%
-\begin{align}
-P_{\alpha \to \beta} = &\left({1 + \sum_{i= 3+1}^{3+N} (|\mathcal{F}_i^P|^2 - 1) |U_{\alpha i}|^2 }\right)^{-1} \left({1+\sum_{i' = 3+1}^{3+N} (|\mathcal{F}_{i'}^D|^2-1)|U_{\beta i'}|^2 }\right)^{-1} \\ \nonumber & \times \left[\left|\delta_{\alpha \beta} - \sum_{k= 3+1}^{3+N} U_{\alpha k}^* U_{\beta k}  \right|^2 + \sum_{k=3+1}^{3+N} |U_{\alpha k}|^2 |U_{\beta k}|^2 |\mathcal{F}_k^P|^2 |\mathcal{F}_k^D|^2\right] \\ 
-%
-= &\left({1 + \sum_{i= 3+1}^{3+N} (|\mathcal{F}_i^P|^2 - 1) |U_{\alpha i}|^2 }\right)^{-1} \left({1+\sum_{i' = 3+1}^{3+N} (|\mathcal{F}_{i'}^D|^2-1)|U_{\beta i'}|^2 }\right)^{-1} \\ \nonumber & \times \left[ \delta_{\alpha \beta} - 2 \delta_{\alpha \beta} \sum_{k= 3+1}^{3+N} |U_{\alpha k}|^2  + \sum_{k=3+1}^{3+N} |U_{\alpha k}|^2 |U_{\beta k}|^2 \left(|\mathcal{F}_k^P|^2 |\mathcal{F}_k^D|^2 +1 \right) + 2 \sum_{k>j>3}^{3+N} \Re(U_{\alpha k}^* U_{\beta k} U_{\alpha j} U_{\beta j}^*) \right],
-\end{align}
-%
-or, more simply, for a 3+1 model
+Using the unitarity of the whole mixing matrix and assuming $\mathcal{F}_i = 1$ for $i = 1,2$ and $3$, we can rewrite the previous expression more simply for a 3+1 model as
 \begin{align}
 P_{\alpha \to \beta} = &\left({1 + (|\mathcal{F}_4^P|^2 - 1) |U_{\alpha 4}|^2 }\right)^{-1} \left({1+(|\mathcal{F}_{4}^D|^2-1)|U_{\beta 4}|^2 }\right)^{-1} \\ \nonumber & \times \left[ \delta_{\alpha \beta} - 2 \delta_{\alpha \beta} |U_{\alpha 4}|^2  + |U_{\alpha 4}|^2 |U_{\beta 4}|^2 \left(|\mathcal{F}_4^P|^2 |\mathcal{F}_4^D|^2 +1 \right) \right].
 \end{align}
-To check we recover the known expressions for a kinematically allowed light sterile ($|\mathcal{F}_k| = 1$) and a non-unitary mixing matrix ($|\mathcal{F}_k| = 0$) in a 3+1 model, we rewrite the previous expression for each case:
-\begin{itemize}
- \item \underline{Light Sterile}
-   \begin{align}
-P_{\alpha \to \beta} = \delta_{\alpha \beta} - 2 \delta_{\alpha \beta} |U_{\alpha 4}|^2  + 2|U_{\alpha 4}|^2 |U_{\beta 4}|^2.
-\end{align}
- \item \underline{MUV}
+To check we recover the known expressions for an averaged-out sterile ($|\mathcal{F}_k| = 1$) and an integrated-out sterile ($|\mathcal{F}_k| = 0$) in a 3+1 model, we rewrite the previous expression for each case.
+%
 \begin{align}
-P_{\alpha \to \beta} = \frac{\delta_{\alpha \beta} - 2 \delta_{\alpha \beta} |U_{\alpha 4}|^2  + |U_{\alpha 4}|^2 |U_{\beta 4}|^2}{\left({1 - |U_{\alpha 4}|^2 }\right) \left({1-|U_{\beta 4}|^2 }\right)}. \label{eq:MUV3+1prob}
+\text{Averaged-out sterile:} \quad P_{\alpha \to \beta} = \delta_{\alpha \beta} - 2 \delta_{\alpha \beta} |U_{\alpha 4}|^2  + 2|U_{\alpha 4}|^2 |U_{\beta 4}|^2.
 \end{align}
-\end{itemize}
 %
-We see that even with the two regimes being fundamentally different, one with a sterile neutrino propagating from source to detector and the other with a completely decoupled sterile, their effect on neutrino oscillation experiments is very similar. If we assume that the two factors in the denominator of expression \ref{eq:MUV3+1prob} cancel with the production and detection factors discussed in the previous section, then the only difference between the two regimes is a factor of 2 in the quartic term.
+\begin{align}
+\text{Integrated-out sterile:} \quad P_{\alpha \to \beta} = \frac{\delta_{\alpha \beta} - 2 \delta_{\alpha \beta} |U_{\alpha 4}|^2  + |U_{\alpha 4}|^2 |U_{\beta 4}|^2}{\left({1 - |U_{\alpha 4}|^2 }\right) \left({1-|U_{\beta 4}|^2 }\right)}. \label{eq:MUV3+1prob}
+\end{align}
+%
+We see that even with the two regimes being fundamentally different, one with a sterile neutrino propagating from source to detector and the other with a completely decoupled sterile, their effect on neutrino oscillation experiments is very similar. If we assume that the two factors in the denominator of expression \ref{eq:MUV3+1prob} cancel with the production and detection factors discussed in the previous section, then the only difference between the two regimes is a factor of 2 in the term of order $\mathcal{O}(|U|^4)$. Finally, the wave packet version of our argument is more involved, but one can show that the averaged out wave packet probability is indentical to the averaged out plane-wave probability, making our result very general in that sense.
 
-Finally, the wave-packet version of our argument is more involved, but one can show that the averaged out wave-packet probability is indentical to the averaged out plane-wave probability, making our result very general in that sense.
-
-
-
-
-\section{\nus sensitivity}
-
-
-\begin{figure}
-\includegraphics[width=0.49\textwidth]{figs/NDFD_Shape_app.pdf}
-\includegraphics[width=0.49\textwidth]{figs/NDFD_Shape_dis.pdf}
-\includegraphics[width=0.49\textwidth]{figs/NDFD_Shape_edis.pdf}
-\caption{Appearance (a) and disappearance (b) sensitivities to the phenomenological parameters $\theta_{\mu \mu}$ and $\theta_{e \mu}$ at \nus. The orange and light blue curves assume only a single near and a far detector, respectively, and do not take decoherence into account. The solid and dashed purple curves assume the presence of both detectors. %Correlated and uncorrelated flux systematics between detectors are both taken to be 0.5 \%. Cross sections $\times$ efficiencies uncertainties are 20\% and background errors 35 \%.
-\label{fig:3+1sens}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+%
+\section{\nus}
+%
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{nustorm.pdf}
+\caption[The \nus setup in a diagramatic representation.]{\nus in a diagram. \label{fig:nustorm_diagram}}
 \end{figure}
 %
 
-\begin{figure}
-\includegraphics[width=0.49\textwidth]{figs/Comparison_app.pdf}
-\includegraphics[width=0.49\textwidth]{figs/Comparison_dis.pdf}
-\caption{Appearance (a) and disappearance (b) sensitivities to the phenomenological parameters $\theta_{\mu \mu}$ and $\theta_{e \mu}$ at \nus for far detector distances of 2 km and 600 m. We also show the recent SBN analysis in \cite{Cianci2017} and IceCUBE bounds \cite{TheIceCubeCollaboration2016} \label{fig:3+1comp}.}
+The neutrino beam at \nus is derived from the decay of pions and stored muons. \nus is an accelerator neutrino experiment, and so relies on meson production in the usual way: high-energy protons colliding onto a solid target. A magnetic horn then collects $5.0 \pm 0.5$ GeV charged pions of the desired polarity, and inject them in the first straight of a racetrack like storage ring, where $52$\% of the collected charged pions are expected to decay before being stopped at the end of the straight. Muons with an energy of $3.8 \pm 0.38$ GeV are then collected and stored in the ring, where they are expected to circulate for a mean number of 50 turns. The first straight section of the ring, the decay pipeline, is estimated to be $180$ m long~\cite{Neuffer2015}, which will determine the size of the neutrino production region. 
+In this setup, one obtains a beam of  $\nu_{\mu}$ ($\overline{\nu}_{\mu}$) from the decays of the injected $\pi^+$ ($\pi^-$) in what we call the \emph{pion flash}. The useful decays of the stored $\mu^+$ ($\mu^-$) then yield a beam of $\overline{\nu}_{\mu}$ ($\nu_{\mu}$) and $\nu_e$ ($\overline{\nu}_{e}$). The injection of pions into the ring is assumed to happen at large enough time intervals to allow for a discrimination between the neutrinos coming from the pion flash and the ones coming from the useful muon decays (a timing cut of the order of $180/c = 600$ ns or greater is needed to account for all pion decays before the muon data collection~\cite{Tunnell2013}). This allows us, for example, to completely separate the oscillations channels involving $\nu_{e}$ and $\overline{\nu}_{\mu}$ from the ones involving $\nu_{\mu}$ as initial states, for the $\pi^+$ polarity. It is clear, however, that a small contamination of muon decays happens during the pion flash. This is a small number of the neutrinos produced, and is taken into account by including $1\%$ of the muon decay flux into the pion flash neutrino flux. Kaons also contribute to the pion flash flux, albeit at larger energies. \reffig{fig:nustorm_flux} shows the neutrino flux at the near and far site, considered here.
+%
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.49\textwidth]{figs/flux_ND.pdf}
+\includegraphics[width=0.49\textwidth]{figs/flux_FD.pdf}
+\caption[The \nus neutrino flux for the near and far detector.]{The neutrino flux at the near (left) and far (right) detectors of $\nu$STORM. Note that the neutrinos from stored muons are separated from the ones generated in the pion flash through timing. \label{fig:nustorm_flux}}
 \end{figure}
 %
-In this section we present the results of our sensitivity analysis for \nus, for which we used the GLoBES package \cite{Globes2005}. We start by noting that in an experiment like \nus, the charge identification of muons is extremely important to separate neutrino and antineutrino events in the detectors. This is true independently of whether we are interested in oscillation analyses or cross section measurements. For instance, in an $\nu_{e} \to \nu_{\mu}$ appearance experiment, the greatest source of background comes from the misidentified intrinsic antineutrinos in the $\overline{\nu}_{\mu} \to \overline{\nu}_{\mu}$ channel. This, however, can be circumvented with large enough magnetic fields at the detectors and curvature analyses of the muon tracks. In all our simulations we assume that both the near and far detectors are magnetised \textcolor{blue}{quote a value for the background in an appearance search}. More specifically, we implement migration matrices from the SuperBIND style iron-scintillator detector, which have kindly been provided to us by the collaboration~\footnote{Ryan Bayes, private communication}. The far detector is assumed to have a fiducial mass of 1.3 kt, whilst the near detector is taken to be a smaller version of it with 0.2 kt of fiducial mass.  
 
-\subsection{Systematics Implementation \label{sec:appendix_sys}}
+For the remainder of this section we present the results of our sensitivity studies for $\nu$STORM. We used the GLoBES package~\cite{Globes2005}, and implementing our own oscillation engine as well as our own treatment of the systematics. We start by noting that in an experiment like $\nu$STORM, the charge identification of muons is extremely important to separate neutrino and antineutrino events in the detectors. This is true independently of whether we are interested in oscillation analyses or cross section measurements. For instance, in an $\nu_{e} \to \nu_{\mu}$ appearance experiment, the greatest source of background comes from the misidentified intrinsic antineutrinos in the $\overline{\nu}_{\mu} \to \overline{\nu}_{\mu}$ channel. This, however, can be circumvented with large enough magnetic fields at the detectors and curvature analyses of the muon tracks. In all our simulations we assume that both the near and far detectors are magnetised. More specifically, we implement migration matrices for the SuperBIND style iron-scintillator detector, which have kindly been provided to us by the collaboration~\footnote{Ryan Bayes, private communication}. The far detector is assumed to have a fiducial mass of 1.3 kt, while the near detector is taken to be an identical but smaller version of the far detector with 0.2 kt of fiducial mass.
 
-Here, we detail our methodology for dealing with systematics errors at \nus. We choose to use the pull method, which adds penalties to the best-fit parameter when deviating the parameters that control the systematics away from their central values. We work with a $\chi^2$ test which can be written as
+%
+\renewcommand{\arraystretch}{1.2}
+\begin{table}[h]
+\begin{tabular}{lcc}
+\hline
+Sample&Channel& Sensitivity\\
+%
+\hline\hline
+%
+\multirow{2}{*}{$\pi^+$ flash} & $\nu_{\mu} \to \nu_{\mu} $ & $\sin^2{2\theta_{\mu\mu}}$ \\
+%
+\cline{2-3}
+%
+&$\nu_{\mu} \to \nu_{e}$&$\sin^2{2\theta_{e\mu}}$\\
+ \hline
+ %
+ %
+\multirow{3}{*}{Stored $\mu^+ $} & $\nu_{e} \to \nu_{e}$&$\sin^2{2\theta_{ee}}$\\
+%
+\cline{2-3}
+%
+&$\overline{\nu}_{\mu} \to \overline{\nu}_{\mu}$&$\sin^2{2\theta_{\mu\mu}}$\\
+%
+\cline{2-3}
+%
+&$\nu_{e} \to \nu_{\mu}$ & $\sin^2{2\theta_{e\mu}}$ \\
+\hline
+\end{tabular}
+\caption[Oscillation channels at $\nu$STORM.]{The oscillation channels at $\nu$STORM, indicating to what phenomenological parameter they are sensitive to.\label{tab:nustorm_channels}}
+\end{table}
+
+
+We study various channels simultaneously at $\nu$STORM, however, only $\nu_\mu (\overline{\nu}_\mu)$ disappearance and $\nu_e \to \nu_\mu$ appearance count with existing migration matrices. For illustration, we also include oscillation channels involving electrons flavour in the final state. These will, of course, be challenging for iron detectors, but can become an additional goal if the detector are made of liquid Argon (LAr), for instance. For the current purposes, we take the analogous migration matrix with a muon in the final state, reduce the signal efficiency by a factor of $1/2$ and increase backgrounds by a factor of $400$. \reftab{tab:nustorm_channels} contains a summary of the signal channels we consider, and to which of the following phenomenological parameters they are sensitive to:
+\begin{align}
+ \sin^2{2\theta_{e\mu}} &= 4 |U_{e 4}|^2|U_{\mu 4}|^2,\nonumber\\ \sin^2{2\theta_{ee}} =  4|U_{e 4}|^2(1 -|U_{e 4}|^2), \quad&\quad \sin^2{2\theta_{\mu\mu}} =  4|U_{\mu 4}|^2(1 -|U_{\mu 4}|^2).
+\end{align}
+
+
+
+\subsection{Treatment of Systematics\label{sec:appendix_sys}}
+
+Here, we detail our methodology for dealing with systematics errors at $\nu$STORM. We choose to use the pull method, which adds penalties to the best-fit parameter when deviating the parameters that control the systematics away from their central values. We work with a $\chi^2$ test which can be written as
 %
 \begin{equation}
 \chi^2 _{\text{TOT}} = \sum_{D} \sum_{C} \chi^2_{D, C} + \chi^2_{\text{Pull}}.
@@ -343,215 +374,144 @@ The $\chi^2_{D, C}$ for each detector $D$ and channel $C$ is a sum over the ener
 The set of systematical errors for the signal and the background are represented by auxialiary parameters $\alpha$ and $\beta$, respectively, and are to be profiled over when calculating the theoretical event rates
 %
 \begin{align}
-T^i_{D, C} =& (1 + \alpha_{\text{Flux}}^C + \alpha_{\text{Det}}^D + \alpha_{\text{Xsec}}^{i, C}) S^i_{D, C} \nonumber \\ & + (1 + \beta^{D,C}) B^i_{D, C},
+T^i_{D, C} =& (1 + \alpha_{\text{Flux}}^C + \alpha_{\text{Det}}^D + \alpha_{\text{Xsec}}^{i, C}) S^i_{D, C} + (1 + \beta^{D,C}) B^i_{D, C},
 \end{align}
 %
 where $S^i_{D, C}$ and $B^i_{D, C}$ are the signal and background in the $i$-th energy bin, respectively. The error $\alpha_{\text{Flux}}^C$ is the total flux normalization error, correlated between near and far detector,  $\alpha_{\text{Det}}^D$ are the uncorrelated detector specific systematics and $\alpha_{\sigma_C}^i$ are the bin dependent cross sections and efficiency errors, which take shape uncertainties into account. We emphasize that the total flux normalization for the channels of interest is only uncorrelated between the two flux components. For examaple, for a $\pi^+$ polarity run, we have:
 %
 \begin{eqnarray}
-\alpha_{\text{Flux}}^{\nu_{e} \to \nu_{\mu}} = \alpha_{\text{Flux}}^{\overline{\nu}_{\mu} \to \overline{\nu}_{\mu}} & =  \alpha_{\text{Flux}}^{\mu^+}, \nonumber \\
- \alpha_{\text{Flux}}^{\nu_{\mu} \to \nu_{\mu}} & =  \alpha_{\text{Flux}}^{\pi^+}.
+\alpha_{\text{Flux}}^{\nu_{e} \to \nu_{\mu}} = \alpha_{\text{Flux}}^{\overline{\nu}_{\mu} \to \overline{\nu}_{\mu}} & =  \alpha_{\text{Flux}}^{\mu^+}, \quad  \alpha_{\text{Flux}}^{\nu_{\mu} \to \nu_{\mu}}  =  \alpha_{\text{Flux}}^{\pi^+}.
 \end{eqnarray}
 %
 The background systematics take into account an overall normalization factor uncorrelated amongst all channels and detectors with $\beta_{BG}^{D,C}$ and shape effects with $\beta_{BG}^{i}$, also uncorrelated for all channels and detectors. Depending on what channel we are considering, there will be cross section uncertainties in the charge misidentificiation component of the background, which are taken into account in our analysis but not included in this discussion. In total, for our 4 channels of interest, 16 energy bins and one beam polarity, we have 52 signal systematic errors and 8 for the background.
 
-In all our results, except when explicitly stated otherwise, we include 0.5\% flux normalisation uncertainties correlated between near and far detectors, and 0.5\% for detector specific uncertainties. Bin dependent cross section times efficiency uncertainties are taken to be 20\% at the time of the measurement, and overall background normalisation uncertainties 35\%. We also include an energy calibration error of 0.5\%. Finally, we point out that the $\chi^2$ analysis is done for the far and near detectors datasets, without resorting to near to far ratios.
+In all our results, except when explicitly stated otherwise, we include 0.5\% flux normalisation uncertainties correlated between near and far detectors, and 0.5\% for detector specific uncertainties. Bin dependent cross section times efficiency uncertainties are taken to be 20\% at the time of the measurement, and overall background normalisation uncertainties 35\%. We also include an energy calibration error of 0.5\%. Finally, we point out that the $\chi^2$ analysis is done for the far and near detectors datasets separately, without resorting to near to far ratios.
  
-\subsubsection{3+1 Model}
+\section{Sensitivity Results}
 
-For easier comparison with other studies, we choose to work with the 3+1 phenomenological parameters $\sin^2{2 \theta_{\alpha \beta}} = 4 |U_{\alpha 4}|^2|U_{\beta 4}|^2$ and $\sin^2{2 \theta_{\alpha \alpha}} = 4|U_{\alpha 4}|^2(1 - |U_{\alpha 4}|^2)$. Figure \ref{fig:3+1sens} shows the sensitivity of \nus to the phenomenological parameters in the 3+1 model. We show the curve including the decoherence treatment and the one using the plane wave formulae. 
+In the following sections we present our results for the sensitivity of \nus to different physical scenarios. 
 
-The interplay between the near and the far detectors in this study is pivotal and has been studied in the literature before in the context of VLENF \cite{Winter2012a}. For low $\Delta m^2_{41}$, the near detector is not affected by oscillations and can safely measure cross sections and the flux normalisation, whilst the far detector measures the oscillation parameters. The detector roles are swapped for larger $\Delta m^2_{41}$, however, where oscillations now develop at the near detector and are already washed out at the far detector. In fact, due to decoherence effects, the oscillations are washed out at the near detector in this region anyway. 
+\subsubsection{3+1 Oscillations}
 
-
-In figure \ref{fig:3+1comp}, we compare \nus exclusion curves to the recent analysis of SBN \cite{Cianci2017}, and overlay the IceCUBE bounds\cite{TheIceCubeCollaboration2016}. One sees that whilst one does not need an experiment like \nus to test lower mass regions, it does perform much better than any other experiment for larger masses, where the measurement is essentially one of the zero-distance effects of the non-unitarity of the PMNS matrix. For this reason, we show the sensitivity of an alternative setup of \nus, where we put the far detector at a distance of $600$ m, which strengthens this aspect of the sterile search. 
-
-We show the set of bounds coming from oscillation experiments and beta decay experiments in figure \ref{fig:bounds}. We only show appearance bounds for electron-muon or the inverse channel. The different beta decay bounds correspond to the following radioactive isotopes: 1 -- $^3$H, 2 -- $^3$H, 3 -- $^{187}$Re, 4 -- $^3$H, 5 -- $^3$H, 6 -- $^{63}$Ni, 7 -- $^{63}$Ni, 8 -- $^{35}$S, 9 -- $^{64}$Cu, 10 -- $^{20}$F. The bound labelled 11 is from the Troitsk nu-mass experiment as reported in Ref.\cite{Abdurashitov:2017kka}
+In a 3+1 model, it is customary to present results in terms of the phenomenological parameters $\sin^2{2 \theta_{\alpha \beta}} = 4 |U_{\alpha 4}|^2|U_{\beta 4}|^2$ and $\sin^2{2 \theta_{\alpha \alpha}} = 4|U_{\alpha 4}|^2(1 - |U_{\alpha 4}|^2)$. \reffig{fig:3+1sens} shows the sensitivity of \nus to the phenomenological parameters in the 3+1 model, where the parametrization allows for a clear separation between appearance, $\nu_\mu$ disappearance and $\nu_e$ disappearance channels. We also show curves for single detector fits with and without systematics. For the combinations of both near and far detectors, we show the curve that would be obtained with a plane-wave treatment of oscillations, as well as the full localized oscillation probabilities. The latter represent our final results. 
 %
-As these experiments measure slighly different combinations of matrix elements, we show the bounds under two assumptions. In the first case we assume comparable mixings between the fourth mass state and all flavours, $|U_{e4}| = |U_{\mu 4}|$. In the second, we make no such assumption, instead using the relation $|U_{e4}U_{\mu 4}|\le |U_{e4}|\sqrt{1-|U_{e4}|^2}$ which weakens the bounds from electron only experiments significantly.
+\begin{figure}[t]
+\includegraphics[width=0.49\textwidth]{figs/NDFD_Shape_app.pdf}
+\includegraphics[width=0.49\textwidth]{figs/NDFD_Shape_dis.pdf}
+\includegraphics[width=0.49\textwidth]{figs/NDFD_Shape_edis.pdf}
+\caption[The sensitivity of \nus to short-baseline oscillations in a 3+1 model.]{The $99\%$ C.L. sensitivities of \nus to the phenomenological parameters $\theta_{e \mu}$ (top left), $\theta_{\mu \mu}$ (top right), and $\theta_{ee}$ (bottom). The \textcolor{orange}{orange} (\textcolor{Cyan}{cyan}) curves assume only a single near (far) detector, respectively, and do not take localization into account. For those, dashed lines are the statistical limit. The dashed \textcolor{darkindigo}{purple} curves assume the presence of both detectors. Solid \textcolor{darkindigo}{purple} curves take localization into account.
+\label{fig:3+1sens}}
+\end{figure}
+%
 
-\begin{figure*}
+The interplay between the near and far detectors in this study is pivotal and has been discussed in the literature before in the context of the very low energy neutrino factory (VLENF)~\cite{Winter2012a}. For low $\Delta m^2_{41}$, the near detector is not affected by oscillations and can safely measure cross sections and detector efficiencies, while the far detector measures the oscillation parameters. The detector roles are swapped for larger $\Delta m^2_{41}$, however, where oscillations now develop at the near detector and are washed out at the far detector. In fact, due to localization effects, if $\Delta m^2_{41} \gtrsim 10$ eV$^2$, the oscillations are typically washed out at the near detector as well as at the far detector. In this case, the total effect is a constant shift of normalisation common between the near and far sites. This effect is less dramatic for $\nu_\mu$ disappearance as the pions are much shorter-lived. The production region, in this case, is $\ell_{{\rm dec}_\pi} \ll \ell_p = 180$ m, and so oscillations are localized for larger values of $\Delta m^2_{41}$. This effect is visible in \reffig{fig:3+1sens_v2}, where we show the $\nu_\mu$ disappearance sensitivity curves for the muon sample separately from that of the full sample (using neutrinos from pions as well as muon decays). \reffig{fig:3+1sens_v2} also shows the sensitivity obtained with our standard choice for systematics (20\% cross section $\times$ efficiencies, and $0.5\%$ correlated and uncorrelated flux uncertainties), as well as with a more pessimistic choice (35\% cross section $\times$ efficiencies, and $1\%$ correlated and uncorrelated flux uncertainties).
+
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.49\textwidth]{figs/Comparison_dis.pdf}
+\caption[Variations of the $\nu_\mu$ disappearance sensitivity.]{Variations of the $\nu_\mu$ disappearance sensitivity at $99\%$ C.L.. In \textcolor{darkindigo}{purple}, we show the main curve from \reffig{fig:3+1sens} and in \textcolor{blue}{blue} we increase all flux related systematic uncertainties to $1\%$ and cross sections $\times$ efficiencies uncertainties to $35\%$. With the standard systematics, in \textcolor{orange}{orange} we use only the events from stored muons (larger decay length).\label{fig:3+1sens_v2}}
+\end{figure}
+%
+In \reffig{fig:all_bounds}, we compare \nus sensitivity curves to expected sensitivities for the SBN program~\cite{Cianci2017}, and overlay the existing bounds on the different active-heavy neutrino mixing. When plotting our results, we disregard bounds coming from astrophysical and cosmological observations (although these can be severe, especially at larger masses~\cite{Abazajian:2017tcc,Bridle:2016isd}). We also omit bounds from neutrinoless double-beta decay, which are model dependent and apply only if neutrinos are Majorana particles. In short, we display the strongest direct constraints on the existence of a fourth heavy neutrino from laboratory experiments. 
+
+While an experiment like \nus is to test lower mass regions, it does perform much better than any other accelerator experiment for larger masses, where the measurement is essentially one of the zero-distance flavour transitions. As well as bounds from oscillation experiments, \reffig{fig:all_bounds} also shows bounds coming from $\beta$-decay experiments. These are obtained by searching for kinks in the kinematics of the outgoing electrons in beta decay. The curves shown are from Ref.~\cite{Dragoun2015} and correspond to the following radioactive isotopes: 1 -- $^3$H, 2 -- $^3$H, 3 -- $^{187}$Re, 4 -- $^3$H, 5 -- $^3$H, 6 -- $^{63}$Ni, 7 -- $^{63}$Ni, 8 -- $^{35}$S, 9 -- $^{64}$Cu, 10 -- $^{20}$F. The bound labelled 11 is from the Troitsk nu-mass experiment as reported in Ref.~\cite{Abdurashitov:2017kka}. Bounds on $|U_\mu4|^2$ come mainy from searches at IceCube~\cite{TheIceCubeCollaboration2016}, MINOS and MINOS+~\cite{Adamson:2017uda}~\footnote{This bound has generated debates in the literature and has been claimed to be too aggressive at large masses~\cite{Louis:2018yeg,Diaz:2019fwt}. In view of that, we hatch the relevant region in our plot.}. For $|U_{e4}||U_{\mu4}|$, we show bounds obtained from appearance experiments (electron-muon or muon-electron channels), where the NOMAD and CCFR curves were taken from Ref.~\cite{Astier2003}, and the NuTEV and KARMEN ones from Ref.~\cite{Avvakumov2002}.
+%
+Another way to bound the product of mixing elements is through the unitarity of the full mixing matrix. In fact, in any $3+N$ model, one can show that 
+\begin{equation}
+ P_{\alpha \to \beta} \leq \frac{1}{2} (1 - P_{\alpha \to \alpha})(1 - P_{\beta \to \beta}),
+\end{equation}
+or in terms of mixing matrix elements
+\begin{equation}
+\left( \sum_k 4 |U_{\alpha k}|^2|U_{\beta k}|^2 \right)^2 \leq \left( \sum_j 4 |U_{\alpha j}|^2( 1- |U_{\alpha j}|^2) \right)^2 \left( \sum_i 4 |U_{\beta i}|^2(1 - |U_{\beta i}|^2) \right)^2.
+\end{equation}
+This allows us to translate the bounds on $|U_{e 4}|$ and $|U_{\mu 4}|$ into bounds on the product $|U_{e 4} U_{\mu 4}|$, as we do in the bottom axes of \reffig{fig:all_bounds}.
+
+\begin{figure}
 \includegraphics[width=\textwidth]{figs/Bounds_edis.pdf}
 \includegraphics[width=\textwidth]{figs/Bounds_dis.pdf}
-\includegraphics[width=\textwidth]{figs/Bounds_UeUmuapp.pdf}
-\caption{ Bounds on the electron-sterile mixing for different values of the muon-sterile mixing. The numbered bounds labels follow the sequence in \cite{Dragoun2015} and 11 comes from \cite{Abdurashitov:2017kka}. All bounds are at 95\% C.L., except 2 and 9, which are at 90\%. The past accelerator experiment bounds were taken from \cite{Astier2003} for NOMAD and CCFR, and from \cite{Avvakumov2002} for NuTEV and KARMEN, all at 90\% C.L. The SBN \cite{Cianci2017} and the two $\nu$STORM bounds with different far detector distances are the expected limits at 90\% C.L.\label{fig:bounds}}
-\end{figure*}
+\includegraphics[width=\textwidth]{figs/Bounds_app_MH.pdf}
+\caption[Laboratory bounds on active-heavy neutrino mixing in a 3+1 model.]{Laboratory bounds on the active-heavy mixing for the 3+1 model with $m_4 \approx \Delta m^2_{41}$. Constraints on mixing with electron flavour (top), muon flavour (middle), and the product of the two (bottom) are shown. The numbered bounds on $|U_{e4}|$ come from kink searches in $\beta$-decay and are all at 95\% C.L., except 2 and 9, which are at 90\% C.L. The projected sensitivities for SBN~\cite{Cianci2017} and $\nu$STORM shown as \textcolor{orange}{orange} and \textcolor{blue}{blue} dashed lines, respectively.\label{fig:all_bounds}}
+\end{figure}
 
 
-\subsubsection{3+2 Model}
+\subsubsection{3+2 Oscillations}
 
-	We now present our results for the 3+2 model. In this case, the ordering of the two sterile neutrinos is non physical, hence $\Delta m^2_{54} > 0 $ without any loss of generality. Note that now the presence of two oscillation frequencies somewhat spoils the interplay of the near and far detectors mentioned above. If $\Delta m^2_{41}$ is in the $\mathcal{O}(1)$ ev$^2$ region and $\Delta m^2_{51}$ in the $\mathcal{O}(10^2)$ ev$^2$ region, then both the near and the far detectors are affected by oscillations and the systematics cannot be safely measured in any detector.
-	
-	Some of the bounds that \nus would be able to place on the 3+2 parameters are shown in figure \ref{fig:3+2sens_dis} for a disappearance only experiment, and in figure \ref{fig:3+2sens_app} for an appearance experiment. We emphasise that these bounds are extremely model dependent, and that if one was to marginalise over the extra "spectator" parameters then the null hypothesis is almost always allowed. The values chosen for the extra parameters in each plot is motivated by the global fit in \cite{Collin2016a}.
+We now present our results for the 3+2 model. In this case, the ordering of the two sterile neutrinos is not physical, hence $\Delta m^2_{54} > 0 $ without any loss of generality. Note that now the presence of two oscillation frequencies complicates the interplay of the near and far detectors. If $\Delta m^2_{41}$ is in the $\mathcal{O}(1)$ ev$^2$ region and $\Delta m^2_{51}$ in the $\mathcal{O}(10^2)$ ev$^2$ region, then both the near and the far detectors are affected by flavour transitions and the systematics cannot be disentangled from the new physics effects in all cases.
 
-% \begin{figure*}[t]
-% \centering
-% %All the original file paths were like the one below instead of "code/coh_5_ND/"
-% %\includegraphics[width=0.33\textwidth]{../../5_neutrinos_myprob/UUvsUU/Plots/Dis_dm_UU_v1.pdf}
-% \includegraphics[width=0.33\textwidth]{code/coh_5_ND/Plots/Dis_dm_UU_v1.pdf}
-% }
-% \subfloat[]{
-% \includegraphics[width=0.33\textwidth]{code/coh_5_ND/Plots/Dis_dm_UU_v2.pdf}
-% } 
-% \subfloat[]{
-% \includegraphics[width=0.33\textwidth]{code/coh_5_ND/Plots/Dis_dm_UU_UU.pdf}
-% }
-% \caption{Sensitivity of NuSTORM to 3+2 oscillation parameters for a disappearance experiment. In each plot, we bound the combination of parameters in the x and y axes using assumptions that are show in the legend. The shading corresponds to the $\chi^2$ surface in the systematics off case, with darker regions representing larger $\chi^2$'s.\label{fig:3+2sens_dis} }
-% \end{figure*}
-
-\begin{figure}
+A selected number of sensitivity curves in the 3+2 model are shown in figure \ref{fig:3+2sens_app}. We do not marginalise over the parameters that do not compose the axes, but rather set them to specific values. These are shown in the axes and were chosen based on the global-fit of Ref.~\cite{Collin2016a}, where the best fit is given by $\Delta m^2_{41} = 0.47 $ eV$^2$, $|U_{e4}|=0.13$, $|U_{e5}|=0.14$, $|U_{\mu4}|=0.15$, $|U_{\mu5}|=0.13$ and $\eta=-0.15\pi$.
+%
+\begin{figure}[t]
+\centering
 \includegraphics[width=0.49\textwidth]{figs/App_dm_UU.pdf}
-\includegraphics[width=0.49\textwidth]{figs/Dis_dm_UU.pdf}
+\includegraphics[width=0.49\textwidth]{figs/Dis_dm_UU.pdf}\\
 \includegraphics[width=0.49\textwidth]{figs/App_dm_UU_UU.pdf}
-\caption{Same as before but for an appearance experiment. In (b) we perform a combined analysis of appearance and disappearance data. The allowed regions found by J. Kopp et al in \cite{Kopp2013} are shown in dark green regions. \label{fig:3+2sens_app} }
+\caption[The sensitivity of \nus to short-baseline oscillations in a 3+2 model.]{The sensitivity of \nus to short-baseline oscillations in a 3+2 model at $99\%$ C.L. Top left shows the result of an appearance experiment, top right of a muon-disappearance experiment, and bottom of both channels combined.\label{fig:3+2sens_app} }
 \end{figure}
 
-
-\subsubsection{Precision Measurements and CPV}
-
-	In the previous section we explored the sensitivity of \nus to the 3+2 parameters, but in this section we assume a signal and explore its consequences. In particular, we look at the sensitivity of \nus to the effective CP violation phase $\eta$. This is to be contrasted with the study in \cite{DeGouvea2015a}, where the CP violation arises from the interference between the $\Delta m^2_{31}$ and $\Delta m^2_{41}$ mass differences. In our study, the CP violation arises exclusively due to the interference between the two active-sterile oscillations.
-
-	Assuming a precision of 10\% and 20\% in the measurement of the 3+2 model parameters, we evaluate the sensitivity to $\eta$ in figure \ref{fig:CP1D}, showing that \nus could be sensitive to maximally CP violating phases at 3 and 4 $\sigma$'s.  
-
-
-\begin{figure}[t!]
+Now, we assess the sensitivity of \nus to the effective short-baseline CP violation phase $\eta$ for a few choices of the 3+2 parameters. We repeat this study for different combinations of injected $\pi^+$ (stored $\mu^+$) and $\pi^-$ (stored $\mu^-$) modes, assuming the same efficiencies and fluxes for the CP conjugated channels.  Assuming a precision of 10\% and 20\% in the measurement of the 3+2 model parameters, we evaluate the sensitivity to $\eta$ in figure \ref{fig:CP1D}, showing that \nus could be sensitive to maximally CP violating phases at the 3 and 4 $\sigma$ level. This is to be contrasted with the study in Ref.~\cite{DeGouvea2015a}, where the CP violation arises from the interference between the $\Delta m^2_{31}$ and $\Delta m^2_{41}$ mass differences. Here, CP violation arises exclusively due to the interference between the two large oscillation frequencies.
+%
+\begin{figure}[t]
+\centering
 \includegraphics[width=0.49\textwidth]{figs/CP_sensitivity.pdf}
-\caption{The sensitivity of \nus to the CP violating phase $\eta$ when giving all other parameters $10 \%$ and $20 \%$ errors. In (a) $\Delta m^2_{51} = 0.87 $ eV$^2$, whilst in (b), we use a ten times larger value. We use three different configurations: 100\% $\mu^+$  runtime, 66\% $\mu^-$ and 33\% $\mu^+$ runtime, and 50\% runtime each. The other parameters in the 3+2 model are assumed to be $\Delta m^2_{41} = 0.47 $ eV$^2$, $|U_{e4}|=0.13$, $|U_{e5}|=0.14$, $|U_{\mu4}|=0.15$ and $|U_{\mu5}|=0.13$. \label{fig:CP1D}}
+\caption[The sensitivity of \nus to short-baseline CP violation in a 3+2 model.]{The sensitivity of \nus to the CP violating phase $\eta$ when giving all other parameters $10 \%$ and $20 \%$ gaussian priors. The top axes show the choice of $\Delta m^2_{51} = 0.87 $ eV$^2$, while the bottom axes show a ten times larger value. We use three different configurations: 100\% $\mu^+$  runtime, 66\% $\mu^-$ and 33\% $\mu^+$ runtime, and 50\% runtime each. The other parameters in the 3+2 model are assumed to be $\Delta m^2_{41} = 0.47 $ eV$^2$, $|U_{e4}|=0.13$, $|U_{e5}|=0.14$, $|U_{\mu4}|=0.15$ and $|U_{\mu5}|=0.13$. \label{fig:CP1D}}
 \end{figure}
+%
 
+\subsubsection{Averaged-out steriles}
+  
+Having discussed oscillations, we now focus on the flux normalization effects from averaged-out sterile neutrinos. This regime is already visible at large sterile masses in \reffig{fig:all_bounds}. Those bounds can be translated into model independent bounds on the sum of active-light neutrino mixing, as we do in this section. 
 
-\subsection{Averaged Out Steriles}
+The zero-distance effects present in this averaged-out regime are hard to constrain in disappearance channels given the large cross section uncertainties, assumed to be $20\%$ here~\footnote{Improvements may come from restricting the analysis to well-known cross sections, such as $\nu-e$ scattering and neutrino-nucleus scattering with low $\nu = E_\nu - E_\ell$ values.}. For the $\nu_e\to\nu_\mu$ appearance channels, sensitivity is limited by backgrounds. These are typically small at \nus, since the final states contain muons, much easier to identify than electrons, and due to the presence a magnetic field to differentiate $\mu^+$ and $\mu^-$.
 
-In this section I show the results I had obtained some time when bounding non-unitarity as it is interpreted in \cite{Ross-Lonergan2016}. 
-
-The oscillation probability for active neutrinos can be written as
-\begin{align} \label{eq:general_prob}
-P_{\nu_{\alpha} \to \nu_{\beta}}= \left| \sum_k^3 U_{\alpha k}^* U_{\beta k} \right|^2 - & 2 \sum_{k>j}^{3} \Re(U_{\alpha k}^* U_{\beta k} U_{\alpha j} U_{\beta j}^*)\, (1 - \Re(I_{k j})) \\\nonumber -& 2\sum_{k>j}^{3} \Im(U_{\alpha k}^* U_{\beta k} U_{\alpha j} U_{\beta j}^*) \Im(I_{k j}),
-\end{align}
-which at zero-distance ($L_{\text{osc}}$ due to atmospheric and solar mass-splittings is much larger than the baselines we are considering) becomes
-\begin{align} \label{eq:general_prob}
-P_{\nu_{\alpha} \to \nu_{\beta}}= \left| \sum_k^3 U_{\alpha k}^* U_{\beta k} \right|^2
-\end{align}
-For unitary mixing and no averaged out sterile neutrino, we expect the probability above to be equal to $\delta_{\alpha \beta}$. If we are dealing with a sterile neutrino whose oscillations have long been averaged out, then $P_{\alpha \to \beta}$ can deviate from 0 or 1 in the way we demonstrated in the previous sections. In that case we can bound this deviation by looking for ``zero"-distance flavour transitions. 
-
-The bounds we place are all on the assumption that the oscillation probability is either 0 or 1, where $\nu$STORM would be probing a constant normalization in its event rates. The results shown in \ref{fig:non-uni} for $\nu$STORM are compared with the analysis in MiniBoone \cite{Karagiorgi2010} and SBN\footnote{Through private communication, Mark has claimed that he and Giorgia do not trust the SBN results anymore. It is not clear why, but it seemed like the assumption of unitarity in MC generators made their result unreliable.} (taken from a talk given at Fermilab \cite{Ross-Lonergan2016}).
-
-\begin{figure}
+The results shown in \reffig{fig:non-uni} for $\nu$STORM are plotted compared with an existing study for MiniBoone~\cite{Karagiorgi2010} and SBN. We also show the bounds from  a global-fit to this type of non-unitarity in neutrino oscillations~\cite{Ross-Lonergan2016}.
+%
+\begin{figure}[t]
+\centering 
 \includegraphics[width=0.49\textwidth]{figs/Averaged_joined.pdf}
-\includegraphics[width=0.49\textwidth]{figs/Averaged_1D.pdf}
-\caption{Bounds on the non-unitarity of the mixing matrix in the averaged out sterile oscillation sense. \label{fig:non-uni}}
+\includegraphics[width=0.49\textwidth]{figs/Averaged_1D_app.pdf}
+\\
+\includegraphics[width=0.49\textwidth]{figs/Averaged_1D_dis.pdf}
+\includegraphics[width=0.49\textwidth]{figs/Averaged_1D_edis.pdf}
+\caption[Bounds and sensitivity of $\nu$STORM to averaged out sterile neutrinos.]{Bounds on the non-unitarity of the mixing matrix in the averaged-out sterile case. Top left shows the two dimensional plane to which $\nu_\mu$ disappearance and $\nu_e \to \nu_\mu$ apperance experiments are sensitive to. We then show the one-dimensional $\Delta \chi^2$ profile for appearance (top right), $\nu_\mu$ disappearance (bottom left) and $\nu_e$ disappearance (bottom right). All colorful dashed lines stand for the statistical limit at $\nu$STORM.\label{fig:non-uni}}
 \end{figure}
+%
 
-It is important to note that the bounds we just placed can be translated into model dependent bounds on the active-sterile mixing angle using expressions given earlier in these notes.
+\subsubsection{Integrated-out steriles}
 
-\subsection{MUV}
-
-If we want to explore the transition the regions we just discussed, it is instructive to constrain the MUV unitarity at $\nu$STORM as well. This will  be very similar to the previous analysis, however, different normalization factors are required depending on the production process of the neutrino. For this reason, we define an effective flavour transition probability which absorbs any factors due to non-unitarity at production and detection.
-
+Now we show results for the integrated-out sterile at $\nu$STORM. For simplicity, we show our results in terms of a 3+1 parametrization, but the constraints can easily be translated into constraints on non-unitarity parameters (\eg, the $\alpha$ parameters). This is very similar to the averaged-out regime, however, different normalization factors appear in the oscillation probabilities depending on the production process of the intial neutrino. Let us emphasize that in the integrated-out regime, the different oscillation channels are now dependent on mixing matrix elements that may not even involve the neutrino (low energy) flavours. In fact, the channels $\nu_{\mu} \to \nu_{\mu}$ and $\overline{\nu}_{\mu} \to \overline{\nu}_{\mu}$ depend on different mixings, since they involve neutrinos with different parent particles.
+%
+\begin{figure}
+\includegraphics[width=0.48\textwidth]{figs/MUV_joined.pdf}
+\includegraphics[width=0.49\textwidth]{figs/MUV_1D.pdf}
+\caption[Sensitivity to non-unitarity in the integrated-out sterile case.]{Sensitivity to non-unitarity in the integrated-out sterile case. Dashed lines stand for the statistical limit at $\nu$STORM. \label{fig:non-uni}}
+\end{figure}
+%
+In our implementation, we define an effective flavour transition probability $\hat{P}$ which absorbs any factors due to non-unitarity at production and detection
+%
 \begin{equation}
  \hat{P}_{\nu_{\alpha} \to \nu_{\beta}} = \frac{\sigma^{\text{CC}}_{\alpha}}{\sigma^{\text{CC (SM)}}_{\alpha}} \, P_{\nu_{\alpha} \to \nu_{\beta}} \, \frac{d\Phi^{\text{CC}}_{\alpha}/dE}{d\Phi^{\text{CC (SM)}}_{\alpha}/dE},
 \end{equation}
-where $P_{\nu_{\alpha} \to \nu_{\beta}}$ is the standard MUV flavour transition probability.
-
-The non-unitarity of the mixing matrix $N$ can be parametrized in different ways. Here, we choose to use a lower triangular matrix $\boldsymbol{\alpha}$ following Blennow et al \cite{Blennow2016}:
-\begin{equation}
- N = (\boldsymbol{1} - \boldsymbol{\alpha}) U,
-\end{equation}
-where $U$ is the standard (nearly?) unitary PMNS matrix and 
-\[
-\boldsymbol{\alpha} =
-  \begin{pmatrix}
-    \alpha_{e e} & 0 & 0 \\
-    \alpha_{\mu e} & \alpha_{\mu \mu} & 0 \\
-    \alpha_{\tau e} & \alpha_{\tau \mu} & \alpha_{\tau \tau} \\
-  \end{pmatrix},
-\]
-with real diagonal entries. Using the previous parametrization one can then write the quantity of interest $NN^{\dagger}$ as
-\begin{equation}
- NN^{\dagger} = \boldsymbol{1} - \boldsymbol{\alpha} - \boldsymbol{\alpha}^{\dagger} + \boldsymbol{\alpha}\boldsymbol{\alpha}^{\dagger},
-\end{equation}
-yielding (omitting the inaccessible entries)
-\[
-NN^{\dagger} =
-  \begin{pmatrix}
-    1 - 2\alpha_{e e} +\alpha_{e e}^2 & \alpha_{\mu e}^*(\alpha_{ee}-1) & - \\
-    \alpha_{\mu e}(\alpha_{ee}-1) & 1 - 2\alpha_{\mu \mu} + \alpha_{\mu \mu}^2 + |\alpha_{\mu e}|^2 & - \\
-    - & - & - \\
-  \end{pmatrix}.
-\]
-Alternatively, one can parametrize $N$ as $N = \boldsymbol{T} U$, where we use the matrix $\boldsymbol{T}$ from Escrihuela et al \cite{Escrihuela2015}, which is written as
-\[
-\boldsymbol{T} =
-  \begin{pmatrix}
-    \alpha_{11} & 0 & 0 \\
-    \alpha_{21} & \alpha_{22} & 0 \\
-    \alpha_{31} & \alpha_{32} & \alpha_{33} \\
-  \end{pmatrix}.
-\]
-In this parametrization, the quantity of interest $NN^{\dagger}$ is slightly simpler
-\[
-NN^{\dagger} =
-  \begin{pmatrix}
-    \alpha_{11}^2 & \alpha_{11}\alpha_{21}^* & - \\
-    \alpha_{11}\alpha_{21} & \alpha_{22}^2 + |\alpha_{21}|^2 & - \\
-    - & - & - \\
-  \end{pmatrix},
-\]
-where the relation between the two parametrizations is clear: $\alpha_{\alpha \beta} \to \delta_{ij} - \alpha_{ij}$, with $e \to 1, \mu \to 2$ and $\tau \to 3$. In table \ref{tab:PeffectiveNuSTORM}, we list the different channels at $\nu$STORM and the effective flavour transition probabilities associated with them in the different parametrizations.
-\renewcommand{\arraystretch}{0.4}
-\begin{table}[h]
-\begin{tabular}{lllll}
-P&Channel& $\hat{P}_{\nu_{\alpha} \to \nu_{\beta}}^{3+1}$
-& $\hat{P}_{\nu_{\alpha} \to \nu_{\beta}}^{\text{Blennow et al}} $&  $\hat{P}_{\nu_{\alpha} \to \nu_{\beta}}^{\text{Escrihuela et al}}$ \\
+where $P_{\nu_{\alpha} \to \nu_{\beta}}$ is the standard probability. The explicit expressions we use in this analysis are shown below for the different samples.
+\begin{itemize}
+ \item \underline{$\pi^+ (k^+) \to \mu^+ \nu_{\mu}$:}
+      \begin{align}
+	\hat{P}_{\nu_{\mu} \to \nu_{\mu}} &= 1 - 2 |U_{\mu 4}|^2 + |U_{\mu 4}|^4, \\
+	\hat{P}_{\nu_{\mu} \to \nu_{e}} &= |U_{e 4}|^2|U_{\mu 4}|^2.
+      \end{align}
+ \item \underline{$\mu^+ \to e^+ \nu_{e} \overline{\nu}_{\mu}$:}
+      \begin{align}
+	\hat{P}_{\nu_{e} \to \nu_{e}} &= \left(1 - 2 |U_{e 4}|^2 + |U_{e 4}|^4\right) \left( 1 - |U_{\mu4}|^2\right), \\	
+	\hat{P}_{\overline{\nu}_{\mu} \to \overline{\nu}_{\mu}} &= \left(1 - 2 |U_{\mu 4}|^2 + |U_{\mu 4}|^4\right) \left( 1 - |U_{e4}|^2\right), \\
+	\hat{P}_{\nu_{e} \to \nu_{\mu}} &= |U_{e 4}|^2|U_{\mu 4}|^2\left( 1 - |U_{\mu4}|^2\right).
+      \end{align}
+\end{itemize}
 %
-\hline
-%
-$\pi^+$ &$\nu_{\mu} \to \nu_{\mu} $&$1 - 2 |U_{\mu 4}|^2 + |U_{\mu 4}|^4 $&$((1-\alpha_{\mu \mu})^2+|\alpha_{\mu e}|^2)^2 $ & $(\alpha_{22}^2+|\alpha_{21}|^2)^2 $\\
-%
-\cline{2-5}
-%
-&$\nu_{\mu} \to \nu_{e}$&$|U_{e 4}|^2|U_{\mu 4}|^2$&$ (1-\alpha_{ee})^2|\alpha_{\mu e}|^2 $&$\alpha_{11}^2|\alpha_{21}|^2$\\
- \hline
- %
- %
-$\mu^+ $ & $\nu_{e} \to \nu_{e}$&$\left(1 - 2 |U_{e 4}|^2 + |U_{e 4}|^4\right) \left( 1 - |U_{\mu4}|^2\right) $ & $(1-\alpha_{e e})^4 ((1 - \alpha_{\mu \mu})^2 +|\alpha_{\mu e}|^2)$ & $\alpha_{11}^4(\alpha_{22}^2+|\alpha_{21}|^2)$\\
-%
-\cline{2-5}
-%
-&$\overline{\nu}_{\mu} \to \overline{\nu}_{\mu}$&$\left(1 - 2 |U_{\mu 4}|^2 + |U_{\mu 4}|^4\right) \left( 1 - |U_{e4}|^2\right)$ & $((1 - \alpha_{\mu \mu})^2 +|\alpha_{\mu e}|^2)^2(1-\alpha_{e e})^2$ & $(\alpha_{22}^2 +|\alpha_{21}|^2)^2\alpha_{11}^2$\\
-%
-\cline{2-5}
-%
-&$\nu_{e} \to \nu_{\mu}$ & $|U_{e 4}|^2|U_{\mu 4}|^2\left( 1 - |U_{\mu4}|^2\right)$ & $(1-\alpha_{ee})^2|\alpha_{\mu e}|^2((1 - \alpha_{\mu \mu})^2 +|\alpha_{\mu e}|^2)\,$&$\alpha_{11}^2|\alpha_{21}|^2(\alpha_{22}^2+|\alpha_{21}|^2)$\\
-\end{tabular}
-\caption{\label{tab:PeffectiveNuSTORM}Comparison of the effective flavour transition probability for the 3+1 model ($m_4 > m_{\pi^{\pm}}$) and the two parametrizations for the non-unitarity of the mixing matrix (Blennow et al \cite{Blennow2016} and Escrihuela et al \cite{Escrihuela2015})}
-\end{table}
-
-% 
-% \begin{itemize}
-%  \item \underline{$\pi^+ \to \mu^+ \nu_{\mu}$:}
-%       \begin{align*}
-% 	\hat{P}_{\nu_{\mu} \to \nu_{\mu}} &= 1 - 2 |U_{\mu 4}|^2 + |U_{\mu 4}|^4, \\
-% 	\hat{P}_{\nu_{\mu} \to \nu_{e}} &= |U_{e 4}|^2|U_{\mu 4}|^2.
-%       \end{align*}
-%  \item \underline{$\mu^+ \to e^+ \nu_{e} \overline{\nu}_{\mu}$:}
-%       \begin{align*}
-% 	\hat{P}_{\nu_{e} \to \nu_{e}} &= \left(1 - 2 |U_{e 4}|^2 + |U_{e 4}|^4\right) \left( 1 - |U_{\mu4}|^2\right), \\	
-% 	\hat{P}_{\overline{\nu}_{\mu} \to \overline{\nu}_{\mu}} &= \left(1 - 2 |U_{\mu 4}|^2 + |U_{\mu 4}|^4\right) \left( 1 - |U_{e4}|^2\right), \\
-% 	\hat{P}_{\nu_{e} \to \nu_{\mu}} &= |U_{e 4}|^2|U_{\mu 4}|^2\left( 1 - |U_{\mu4}|^2\right).
-%       \end{align*}
-% \end{itemize}
-
-One can see that in the MUV regime, the different oscillation channels are now dependent on mixing that might not even involve the neutrino (low energy) flavours. It is curious that at $\nu$STORM, the channels $\nu_{\mu} \to \nu_{\mu}$ and $\overline{\nu}_{\mu} \to \overline{\nu}_{\mu}$ are dependent on different mixings, since they involve neutrinos with different parent particles. In fact, one could hope to constrain $|U_{e4}|^2$ when measuring the two channels. Naively, one hopes for a cancellation similar to the near to far ratio, cancelling the dependence on cross sections and on the mixing $|U_{\mu4}|^2$ when bounding the ratio
-\[ \frac{ N_{ \overline{\nu}_{\mu} \to \overline{\nu}_{\mu}}}{N_{ \nu_{\mu} \to \nu_{\mu}}} .\]
-
-\begin{figure}
-\includegraphics[width=0.49\textwidth]{figs/MUV_joined.pdf}
-\includegraphics[width=0.49\textwidth]{figs/MUV_1D.pdf}
-\caption{Bounds on the non-unitarity of the mixing matrix in the averaged out sterile oscillation sense. \label{fig:non-uni}}
-\end{figure}
-
+Although \nus possesses the advantage of a precise flux, the bound in this regime are much less competitive with bounds obtained from the charged-lepton sector, and we do not discuss it further. 
 
 \section{Overview}
 
-All the great things we concluded in this wonderful study.
+The possibilities we explored so far are not exhaustive. In view of the redesign of the proposal for siting at CERN, this work can be adapted to higher neutrino energies and different detector materials. In particular, opting for (magnetized) LAr detectors, would allow to explore all oscillation channels available at \nus to the fullest. Other great improvements on searching for new physics can be achieved by combining well-known cross sections with the well-known flux at $\nu$STORM. As a next step, we envisage applying the same study to neutrino-electron scattering and low-$\nu$ CC neutrino-hadron for different detector choices. Both processes are currently methods to obtain information on the neutrino flux at accelerator experiments, since these cross sections are well known. At $\nu$STORM, they can be used to constrain new physics since the cross section $\times$ efficiencies uncertainties would be reduced from tens of a percent to the few percent level. Sterile neutrinos and non-unitarity need not be the only goal of such analyses. Precision measurements of electroweak parameters, such as $\theta_\textsc{w}$, can also be achieved through these methods. Here, the limitation lies mainly on the statistics and detector performance. 
+
+Other avenues to precise GeV neutrino beams also exist. For instance, the \textsc{enubet} proposal~\cite{Acerbi:2645532,Acerbi:2019qiv}, where a well-understood $\nu_e$ beam is obtained from decays of the type $K^+\to \pi^0 e^+ \nu_e$. In this way, the proposal aims to tag each neutrino interaction in the detector with a particular daughter lepton at production, promising the first tagged neutrino beam. At higher energies, above tens of GeV, the neutrino DIS cross sections offer better precision and higher rates, although also relying on our ability to understand the flux. 
+

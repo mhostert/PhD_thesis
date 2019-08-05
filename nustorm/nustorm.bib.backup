@@ -140,7 +140,7 @@
       reportNumber   = "FTUAM-06-8, IFT-UAM-CSIC-06-30",
       SLACcitation   = "%%CITATION = HEP-PH/0607020;%%"
 }
-@article{Adey2014a,
+@article{Adey:2014rfv,
       author         = "Adey, D. and others",
       title          = "{Light sterile neutrino sensitivity at the nuSTORM
                         facility}",
@@ -771,7 +771,7 @@ year = {2010}
       reportNumber   = "TUM-HEP-553-04",
       SLACcitation   = "%%CITATION = HEP-PH/0407333;%%"
 }
-@article{NuSTORMprop2013,
+@article{Adey:2013pio,
       author         = "Adey, D. and others",
       title          = "{nuSTORM - Neutrinos from STORed Muons: Proposal to the
                         Fermilab PAC}",
