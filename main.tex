@@ -1,4 +1,4 @@
-\documentclass[openany,twoside,frontopenright,chaprunninghead]{ip3thesis}
+\documentclass[openany,twoside,frontopenright,openright]{ip3thesis}
 \input{preamble}
 \input{commands}
 
@@ -6,7 +6,7 @@
 
 
 \begin{document}
-\title{The Hidden Physics of Neutrinos}
+\title{Hidden~Physics~at~the~Neutrino~Frontier}
 \subtitle{Tridents, Dark Forces, and Hidden Particles}
 \author{Matheus Hostert}
 \researchgroup{Institute for Particle Physics Phenomenology}
@@ -14,7 +14,7 @@
 
 \begin{abstract}
 %
-Neutrino masses stand as the most compelling evidence that the established theory of particle physics, the Standard Model, cannot be complete. This thesis explores the neutral, weakly interacting, and unexplained massive nature of neutrinos to propose models and experimental searches for new light particles that are very weakly coupled to ordinary matter. We study neutrino trident production, a rare neutrino scattering process that remains largely unexplored and unmeasured to date, as well as neutrino-electron scattering. We study the phenomenology of these processes at future neutrino facilities in the context of anomaly-free gauge symmetries. We also propose a dark neutrino model, where MeV scale heavy neutrinos display new hidden gauge interactions. Beyond generating neutrino masses radiatively, the model contains an unique interplay of the three neutral portals to hidden sectors and is strongly connected to the neutrino sector and dark matter. We also devise novel methods to search for such dark neutrinos using neutrino-electron scattering, aiming to shed light on the anomalous experimental results at MiniBooNE. Finally, we discuss light and heavy sterile neutrinos in the context of a novel and precise neutrino beam from stored muons.
+We explore the neutral, weakly interacting, and unexplained massive nature of neutrinos to propose models and experimental searches for new light particles that are very weakly coupled to ordinary matter. We revisit the Standard Model physics of neutrino trident production in view of future neutrino facilities and their unprecedented sensitivity. This rare neutrino scattering process, together with the well-known physics of neutrino-electron scattering, can probe unexplored anomaly-free extensions of the Standard Model. We also propose a novel dark neutrino model, where neutrinos are the most prominent portal to the dark sector and dark matter. We show how neutrino masses are generated radiatively, and discuss the unique interplay of the vector, scalar and neutrino portals. We also devise new methods to search for such dark neutrinos using neutrino-electron scattering data, aiming to shed light on the anomalous experimental results at MiniBooNE. Finally, we discuss light and heavy conventional sterile neutrinos in the context of $\nu$STORM, a precision neutrino beam from stored muons.
 %
 \end{abstract}
 
@@ -43,12 +43,12 @@ B\'arbara, Humberto and Luciana.
 	\end{itemize}
 % 	Chapter 5 is based on work in collaboration with Peter Ballett and Silvia Pascoli, and led to the following two articles.
 	\begin{itemize}
-	\item Ref.~\cite{Ballett:2019pyw}: \textit{``Dark Neutrinos and a Three Portal Connection to the Standard Model''}, P. Ballett, M. Hostert, S. Pascoli, \href{https://arxiv.org/abs/1903.07589}{arxiv:1903.07589}.
-	\item Ref.~\cite{Ballett:2019xoj}: \textit{``$Z^\prime$ in neutrino scattering at DUNE''}, P. Ballett, M. Hostert, S. Pascoli, Y. F. Perez-Gonzalez, Z. Tabrizi, R. Z. Funchal, \href{https://arxiv.org/abs/1902.08579}{arXiv:1902.08579}.
+	\item Ref.~\cite{Ballett:2019pyw}: \textit{``Dark Neutrinos and a Three Portal Connection to the Standard Model''}, P. Ballett, M. Hostert, S. Pascoli, \href{https://arxiv.org/abs/1903.07589}{arxiv:1903.07589}, to be published presently.
+	\item Ref.~\cite{Ballett:2019xoj}: \textit{``$Z^\prime$ in neutrino scattering at DUNE''}, P. Ballett, M. Hostert, S. Pascoli, Y. F. Perez-Gonzalez, Z. Tabrizi, R. Z. Funchal, \href{https://arxiv.org/abs/1902.08579}{arXiv:1902.08579}, accepted for publication in \emph{Phys.Rev.D.}
  	\end{itemize}
 % 	Chapter 6 is based on work with Carlos Argu\"elles and Yu-Dai Tsai, and is a based on the artcile below.
 	\begin{itemize}
-	\item Ref.~\cite{Arguelles:2018mtc}: \textit{``Testing New Physics Explanations of MiniBooNE Anomaly at Neutrino Scattering Experiments''}, C. Arg\"uelles, M. Hostert, Y. Tsai, \href{https://arxiv.org/abs/1812.08768}{arXiv:1812.08768}.
+	\item Ref.~\cite{Arguelles:2018mtc}: \textit{``Testing New Physics Explanations of MiniBooNE Anomaly at Neutrino Scattering Experiments''}, C. Arg\"uelles, M. Hostert, Y. Tsai, \href{https://arxiv.org/abs/1812.08768}{arXiv:1812.08768}, to be published presently.
 	\end{itemize}
 \end{declaration*}
 
@@ -63,7 +63,7 @@ B\'arbara, Humberto and Luciana.
 	Looking further back, I also want to thank D\'ebora Peres Menezes and Marcus Benghi Pinto for introducing me to scientific research so early in my career. Nuclear physics and symmetry ideas that at the time seemed so foreign to me, are now a recurrent aspect of my own research.
 	
 	\vspace{2ex}	
-	To all friends with whom I shared this adventure in Durham, you have made this place unforgettable. Special thanks go to Andrew Cheek, Kristian Moffat, Andres Olivares-del-Campo, Alexis Plascencia, and Jack Richings for their immense encouragement and lasting friendship.
+	To all friends with whom I shared this adventure in Durham, you have made this place unforgettable. Special thanks go to Andrew Cheek, Kristian Moffat, Andres Olivares-del-Campo, Alexis Plascencia, Jack Richings and Julia Stadler for their immense encouragement and lasting friendship.
 
 	\vspace{2ex}
 	To my family, thank you for supporting my decisions and for being unconditional allies. I will be forever grateful for the education of my mother, and for the advice and partnership of my father. B\^e, you have always been the \emph{best}.
@@ -79,19 +79,6 @@ B\'arbara, Humberto and Luciana.
 \cleardoublepage
 
 \begin{epigraph*}
-% 
-% \begin{center}
-% \centering 
-% \includegraphics[width=1\textwidth]{img/Jabberwocky.jpg}
-% 
-% 	%"It seems very pretty," she said when she had finished it, "but it's rather hard to understand!" (You see she didn't like to confess, even to herself, that she couldn't make it out at all.) "Somehow it seems to fill my head with ideas—only I don't exactly know what they are!
-% 	"It seems very pretty, [...] somehow it seems to fill my head with ideas—only I don't exactly know what they are!
-% 	\source{Through the Looking-Glass, and What Alice Found There}{Lewis Carroll}
-% \end{center}
-
-% ``Tudo no mundo começou com um sim. Uma mol\'ecula disse sim a outra mol\'ecula e nasceu a vida. Mas antes da pr\'e-hist\'oria havia a pr\'e-hist\'oria da pr\'e-hist\'oria e havia o nunca e havia o sim. Sempre houve. N\~ao sei o qu\^e, mas sei que o universo jamais começou. Que ningu\'em se engane, s\'o consigo a simplicidade
-% atrav\'es de muito trabalho."\source{A Hora da Estrela}{Clarice Lispector}
-
 ``Light seeking light, doth light of light beguile. \\So, ere you find where light in darkness lies, \\ Your light grows dark by losing of your eyes"
 
 \flushright --- \emph{Berowne in} Love's Labour's Lost
@@ -99,10 +86,9 @@ B\'arbara, Humberto and Luciana.
 
 \chapter*{Preface}
 
-These are exciting times in high-energy physics. The Standard Model (SM), our most powerful and well-tested theory of particles and their interactions, triumphs across the experimental landscape and proves to be much more robust than anticipated. Yet, once confronted with some of the simplest questions about the Universe, it provides unsatisfactory answers, and to our great frustration, little theoretical guidance on what may lie beyond. While there is no guarantee that some of the theoretical questions we ask are indeed ``good'' ones, we may rely on two indirect experimental evidences to claim the SM is incomplete: neutrino masses and the existence of dark matter in our Universe. These two unexplained observations suggest the existence of new neutral particles, calling not only for extended particle content but also for novel symmetries. It makes the series of negative results in particle physics all the more thrilling. Uncertain moments like the one we live are frequent in the history of physics. For many times we saw established theoretical expectations and increasingly fine-tuned models making way for elegant theories like Special Relativity, new particles such as the neutrino and for new ideas like spontaneous symmetry breaking (SSB). In practice, of course, such grandiose endeavours are reduced to much less noble but no less important efforts. The frequency of negative results and the need to over-constrain our models make the search for new physics a true exercise in patience. Nevertheless, it is in a persistent and curious spirit that this thesis stands.
+These are exciting times in high-energy physics. The Standard Model (SM), our most powerful and well-tested theory of particles and their interactions, triumphs across the experimental landscape and proves to be much more robust than anticipated. Yet, once confronted with some of the simplest questions about the Universe, it provides unsatisfactory answers, and to our great frustration, little theoretical guidance on what may lie beyond. While there is no guarantee that some of the theoretical questions we ask are indeed ``good'' ones, we may rely on two indirect experimental evidence to claim the SM is incomplete: neutrino masses and the existence of dark matter in our Universe. These two unexplained observations suggest the existence of new neutral particles, calling not only for extended particle content but also for novel symmetries. It makes the series of negative results in particle physics all the more thrilling. Uncertain moments like the one we live are frequent in the history of physics. For many times we saw established theoretical expectations and increasingly fine-tuned models making way for elegant theories like Special Relativity, new particles such as the neutrino and for new ideas like spontaneous symmetry breaking (SSB). In practice, of course, such grandiose endeavours are reduced to much less noble but no less important efforts. The frequency of negative results and the need to over-constrain our models make the search for new physics a true exercise in patience. Nevertheless, it is in a persistent and curious spirit that this thesis stands.
 
-
-Studying neutrinos in the laboratory is notoriously difficult due to their neutral and weakly interacting nature. Although a lot has been learned about their properties, the recent advances on the experimental side, such the advent of liquid Argon time projection chambers, allows us to study neutrino interactions to unprecedented levels of detail. Future large scale experiments such as the Deep Underground Neutrino Experiment (DUNE)~\cite{Acciarri:2015uup} and HyperKamiokande~\cite{Abe:2018uyc}, offer a powerful test of the three neutrino oscillation paradigm, as well as a vast amount of data on neutrino interactions. Therefore, given the frequency of surprises in the field of neutrino physics, it is all the more timely to explore such experimental efforts to their fullest and identify what new physics may surface from future data.  One interesting avenue for beyond the SM physics at neutrino experiments, marked by low energies but large exposures, is the existence of feebly-interacting light particles, \eg, \emph{dark} interactions or \emph{hidden} particles . We focus on this possibility, studying rare processes and new experimental ideas to search for them. Hidden particles of their own, neutrinos are the only singlets under the broken symmetry of the SM and provide a unique portal to additional neutral particles. Nevertheless, theoretical models that are strongly connected to the neutrino sector at low scales are not abundant, and most often neutrino experiments cannot compete with the precision achieved with charged particles. In this thesis, we both study and propose models where neutrinos offer our best chance of discovery. For the latter, we introduce a new class of self-consistent low-scale hidden sector that explains neutrino masses and can be tested at current and upcoming neutrino experiments. 
+Studying neutrinos in the laboratory is notoriously difficult due to their neutral and weakly interacting nature. Although a lot has been learned about their properties, the recent advances on the experimental side, such the advent of liquid argon time projection chambers, allows us to study neutrino interactions to unprecedented levels of detail. Future large scale experiments such as the Deep Underground Neutrino Experiment (DUNE)~\cite{Acciarri:2015uup} and HyperKamiokande~\cite{Abe:2018uyc}, offer a powerful test of the three neutrino oscillation paradigm, as well as a vast amount of data on neutrino interactions. Therefore, given the frequency of surprises in the field of neutrino physics, it is all the more timely to explore such experimental efforts to their fullest and identify what new physics may surface from future data.  One interesting avenue for beyond the SM physics at neutrino experiments, marked by low energies but large exposures, is the existence of feebly-interacting light particles, \eg, \emph{dark} interactions or \emph{hidden} particles. We focus on this possibility, studying rare processes and new experimental ideas to search for them. Hidden particles of their own, neutrinos are the only singlets under the broken symmetry of the SM and provide a unique portal to additional neutral particles. Nevertheless, theoretical models that are strongly connected to the neutrino sector at low scales are not abundant, and most often neutrino experiments cannot compete with the precision achieved with charged particles. In this thesis, we both study and propose models where neutrinos offer our best chance of discovery. For the latter, we introduce a new class of self-consistent low-scale hidden sector that explains neutrino masses and can be tested at current and upcoming neutrino experiments. 
 
 
 We start this thesis with a reminder of the main features and limitations of the SM, motivating the models we pursue in the chapters that follow. In Chapter 2, we concentrate on the theoretical basis and current status of neutrino physics. Chapter 3 is entirely dedicated to neutrino trident production, and is a testimony to the level of precision achieved in current and future generation neutrino experiments. As an application of this rare process, we will see in Chapter 4 how such signatures probe new gauge interactions much weaker than those in the SM ($g \lesssim 10^{-3}$). In Chapter 5, we build a new model for neutrino masses that can be tested below the Electroweak scale, and briefly discuss its novel phenomenology. This model has also great implications for short-baseline results, such as the observation of low-energy electron-like events at MiniBooNE. We study this in Chapter 6, proposing a new analyses to search for this kind of signature in neutrino-electron scattering measurements. In Chapter 7, we shift our focus to a new type of neutrino beam offering sub-percent precision in the neutrino flux. We study short-baseline oscillations and sterile neutrinos in the context of such an experiment. Finally, Chapter 8 contains our concluding remarks.    
@@ -119,6 +105,7 @@ We start this thesis with a reminder of the main features and limitations of the
 \chapter{Neutrino Trident Production}
 \input{tridentSM/tridentSM}
 
+\cleardoublepage
 \chapter{New Fundamental Forces at DUNE}
 \input{Zprime_scattering/Zprime_scattering}
 
@@ -128,6 +115,7 @@ We start this thesis with a reminder of the main features and limitations of the
 \chapter{Testing Dark Neutrino Explanations of MiniBooNE }
 \input{miniboone/miniboone}
 
+\cleardoublepage
 \chapter{Sterile Neutrinos and Stored Muons}
 \input{nustorm/nustorm}
 

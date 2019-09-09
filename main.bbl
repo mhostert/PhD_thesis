@@ -28,6 +28,11 @@ C.~A. Argüelles, M.~Hostert and Y.-D. Tsai, \emph{{Testing New Physics
   Explanations of MiniBooNE Anomaly at Neutrino Scattering Experiments}},
   \href{https://arxiv.org/abs/1812.08768}{{\ttfamily 1812.08768}}.
 
+\bibitem{Acciarri:2015uup}
+{\scshape DUNE} collaboration, R.~Acciarri et~al., \emph{{Long-Baseline
+  Neutrino Facility (LBNF) and Deep Underground Neutrino Experiment (DUNE)}},
+  \href{https://arxiv.org/abs/1512.06148}{{\ttfamily 1512.06148}}.
+
 \bibitem{Abe:2018uyc}
 {\scshape Hyper-Kamiokande} collaboration, K.~Abe et~al.,
   \emph{{Hyper-Kamiokande Design Report}},
@@ -61,6 +66,11 @@ P.~W. Higgs, \emph{{Broken symmetries, massless particles and gauge fields}},
 P.~W. Higgs, \emph{{Broken Symmetries and the Masses of Gauge Bosons}},
   \href{https://doi.org/10.1103/PhysRevLett.13.508}{\emph{Phys. Rev. Lett.}
   {\bfseries 13} (1964) 508--509}.
+
+\bibitem{Englert:1964et}
+F.~Englert and R.~Brout, \emph{{Broken Symmetry and the Mass of Gauge Vector
+  Mesons}}, \href{https://doi.org/10.1103/PhysRevLett.13.321}{\emph{Phys. Rev.
+  Lett.} {\bfseries 13} (1964) 321--323}.
 
 \bibitem{Chatrchyan:2012xdj}
 {\scshape CMS} collaboration, S.~Chatrchyan et~al., \emph{{Observation of a new
@@ -549,6 +559,13 @@ E.~Hernandez, J.~Nieves and M.~J. Vicente-Vacas, \emph{{Neutrino Induced
   {\bfseries D80} (2009) 013003},
   [\href{https://arxiv.org/abs/0903.5285}{{\ttfamily 0903.5285}}].
 
+\bibitem{Mousseau:2016snl}
+{\scshape MINERvA} collaboration, J.~Mousseau et~al., \emph{{Measurement of
+  Partonic Nuclear Effects in Deep-Inelastic Neutrino Scattering using
+  MINERvA}}, \href{https://doi.org/10.1103/PhysRevD.93.071101}{\emph{Phys.
+  Rev.} {\bfseries D93} (2016) 071101},
+  [\href{https://arxiv.org/abs/1601.06313}{{\ttfamily 1601.06313}}].
+
 \bibitem{Andreopoulos:2009rq}
 C.~Andreopoulos et~al., \emph{{The GENIE Neutrino Monte Carlo Generator}},
   \href{https://doi.org/10.1016/j.nima.2009.12.009}{\emph{Nucl. Instrum. Meth.}
@@ -693,6 +710,17 @@ E.~P. Shabalin, \emph{{The $\mu^+\mu^-$ and $e^+ e^-$ pair production cross
 L.~N. Hand, \emph{{Experimental investigation of pion electroproduction}},
   \href{https://doi.org/10.1103/PhysRev.129.1834}{\emph{Phys. Rev.} {\bfseries
   129} (1963) 1834--1846}.
+
+\bibitem{Donnelly:1975ze}
+T.~W. Donnelly and J.~D. Walecka, \emph{{Electron Scattering and Nuclear
+  Structure}},
+  \href{https://doi.org/10.1146/annurev.ns.25.120175.001553}{\emph{Ann. Rev.
+  Nucl. Part. Sci.} {\bfseries 25} (1975) 329--405}.
+
+\bibitem{Altmannshofer:2019zhy}
+W.~Altmannshofer, S.~Gori, J.~Martín-Albo, A.~Sousa and M.~Wallbank,
+  \emph{{Neutrino Tridents at DUNE}},
+  \href{https://arxiv.org/abs/1902.06765}{{\ttfamily 1902.06765}}.
 
 \bibitem{Kniehl:1990iv}
 B.~A. Kniehl, \emph{{Elastic e p scattering and the Weizsacker-Williams
@@ -2026,12 +2054,26 @@ F.~Capozzi, C.~Giunti, M.~Laveder and A.~Palazzo, \emph{{Joint short- and
   [\href{https://arxiv.org/abs/1612.07764}{{\ttfamily 1612.07764}}].
 
 \bibitem{Dentler:2018sju}
-M.~Dentler, A.~Hernandez-Cabezudo, J.~Kopp, P.~A.~N. Machado, M.~Maltoni,
+M.~Dentler, �.~Hernández-Cabezudo, J.~Kopp, P.~A.~N. Machado, M.~Maltoni,
   I.~Martinez-Soler et~al., \emph{{Updated Global Analysis of Neutrino
   Oscillations in the Presence of eV-Scale Sterile Neutrinos}},
   \href{https://doi.org/10.1007/JHEP08(2018)010}{\emph{JHEP} {\bfseries 08}
   (2018) 010}, [\href{https://arxiv.org/abs/1803.10661}{{\ttfamily
   1803.10661}}].
+
+\bibitem{AguilarArevalo:2008yp}
+{\scshape MiniBooNE} collaboration, A.~A. Aguilar-Arevalo et~al., \emph{{The
+  Neutrino Flux prediction at MiniBooNE}},
+  \href{https://doi.org/10.1103/PhysRevD.79.072002}{\emph{Phys. Rev.}
+  {\bfseries D79} (2009) 072002},
+  [\href{https://arxiv.org/abs/0806.1449}{{\ttfamily 0806.1449}}].
+
+\bibitem{AguilarArevalo:2008qa}
+{\scshape MiniBooNE} collaboration, A.~A. Aguilar-Arevalo et~al., \emph{{The
+  MiniBooNE Detector}},
+  \href{https://doi.org/10.1016/j.nima.2008.10.028}{\emph{Nucl. Instrum. Meth.}
+  {\bfseries A599} (2009) 28--46},
+  [\href{https://arxiv.org/abs/0806.4201}{{\ttfamily 0806.4201}}].
 
 \bibitem{AguilarArevalo:2008rc}
 {\scshape MiniBooNE} collaboration, A.~A. Aguilar-Arevalo et~al.,
@@ -2182,13 +2224,6 @@ C.~Giunti and E.~M. Zavanin, \emph{{Appearance–disappearance relation in $3 +
   {\bfseries A31} (2015) 1650003},
   [\href{https://arxiv.org/abs/1508.03172}{{\ttfamily 1508.03172}}].
 
-\bibitem{Liao:2016reh}
-J.~Liao and D.~Marfatia, \emph{{Impact of nonstandard interactions on sterile
-  neutrino searches at IceCube}},
-  \href{https://doi.org/10.1103/PhysRevLett.117.071802}{\emph{Phys. Rev. Lett.}
-  {\bfseries 117} (2016) 071802},
-  [\href{https://arxiv.org/abs/1602.08766}{{\ttfamily 1602.08766}}].
-
 \bibitem{Papoulias:2016edm}
 D.~K. Papoulias and T.~S. Kosmas, \emph{{Impact of Nonstandard Interactions on
   Neutrino-Nucleon Scattering}},
@@ -2209,6 +2244,13 @@ M.~Carena, Y.-Y. Li, C.~S. Machado, P.~A.~N. Machado and C.~E.~M. Wagner,
   \emph{{Neutrinos in Large Extra Dimensions and Short-Baseline $\nu_e$
   Appearance}},  \href{https://arxiv.org/abs/1708.09548}{{\ttfamily
   1708.09548}}.
+
+\bibitem{Liao:2016reh}
+J.~Liao and D.~Marfatia, \emph{{Impact of nonstandard interactions on sterile
+  neutrino searches at IceCube}},
+  \href{https://doi.org/10.1103/PhysRevLett.117.071802}{\emph{Phys. Rev. Lett.}
+  {\bfseries 117} (2016) 071802},
+  [\href{https://arxiv.org/abs/1602.08766}{{\ttfamily 1602.08766}}].
 
 \bibitem{Liao:2018mbg}
 J.~Liao, D.~Marfatia and K.~Whisnant, \emph{{MiniBooNE, MINOS+ and IceCube data
@@ -2266,6 +2308,53 @@ E.~Bertuzzo, S.~Jana, P.~A.~N. Machado and R.~Zukanovich~Funchal,
   Lett.} {\bfseries B791} (2019) 210--214},
   [\href{https://arxiv.org/abs/1808.02500}{{\ttfamily 1808.02500}}].
 
+\bibitem{Abe:2019cer}
+{\scshape T2K} collaboration, K.~Abe et~al., \emph{{Search for neutral-current
+  induced single photon production at the ND280 near detector in T2K}},
+  \href{https://arxiv.org/abs/1902.03848}{{\ttfamily 1902.03848}}.
+
+\bibitem{Auerbach:2001wg}
+{\scshape LSND} collaboration, L.~B. Auerbach et~al., \emph{{Measurement of
+  electron - neutrino - electron elastic scattering}},
+  \href{https://doi.org/10.1103/PhysRevD.63.112001}{\emph{Phys. Rev.}
+  {\bfseries D63} (2001) 112001},
+  [\href{https://arxiv.org/abs/hep-ex/0101039}{{\ttfamily hep-ex/0101039}}].
+
+\bibitem{Pospelov:2017kep}
+M.~Pospelov and Y.-D. Tsai, \emph{{Light scalars and dark photons in Borexino
+  and LSND experiments}},
+  \href{https://doi.org/10.1016/j.physletb.2018.08.053}{\emph{Phys. Lett.}
+  {\bfseries B785} (2018) 288--295},
+  [\href{https://arxiv.org/abs/1706.00424}{{\ttfamily 1706.00424}}].
+
+\bibitem{Magill:2018tbb}
+G.~Magill, R.~Plestid, M.~Pospelov and Y.-D. Tsai, \emph{{Millicharged
+  particles in neutrino experiments}},
+  \href{https://arxiv.org/abs/1806.03310}{{\ttfamily 1806.03310}}.
+
+\bibitem{Valencia:2019mkf}
+{\scshape MINERvA} collaboration, E.~Valencia et~al., \emph{{Constraint of the
+  MINERvA Medium Energy Neutrino Flux using Neutrino-Electron Elastic
+  Scattering}},  \href{https://arxiv.org/abs/1906.00111}{{\ttfamily
+  1906.00111}}.
+
+\bibitem{Valencia-Rodriguez:2016vkf}
+E.~Valencia-Rodriguez, \emph{{Neutrino - Electron Scattering in MINER$\nu$A for
+  Constraint NuMI Flux at Medium}}, Ph.D. thesis, Guanajuato U., 2016.
+\newblock 10.2172/1341804.
+
+\bibitem{DeWinter:1989zg}
+{\scshape CHARM-II} collaboration, K.~De~Winter et~al., \emph{{A Detector for
+  the Study of Neutrino - Electron Scattering}},
+  \href{https://doi.org/10.1016/0168-9002(89)91190-X}{\emph{Nucl. Instrum.
+  Meth.} {\bfseries A278} (1989) 670}.
+
+\bibitem{Geiregat:1992zv}
+{\scshape CHARM-II} collaboration, D.~Geiregat et~al., \emph{{Calibration and
+  performance of the CHARM-II detector}},
+  \href{https://doi.org/10.1016/0168-9002(93)91010-K}{\emph{Nucl. Instrum.
+  Meth.} {\bfseries A325} (1993) 92--108}.
+
 \bibitem{Formaggio:1998zn}
 J.~A. Formaggio, J.~M. Conrad, M.~Shaevitz, A.~Vaitaitis and R.~Drucker,
   \emph{{Helicity effects in neutral heavy lepton decays}},
@@ -2288,41 +2377,34 @@ S.~Parke and M.~Ross-Lonergan, \emph{{Unitarity and the Three Flavour Neutrino
   Mixing Matrix}},  \href{https://arxiv.org/abs/1508.05095}{{\ttfamily
   1508.05095}}.
 
-\bibitem{Auerbach:2001wg}
-{\scshape LSND} collaboration, L.~B. Auerbach et~al., \emph{{Measurement of
-  electron - neutrino - electron elastic scattering}},
-  \href{https://doi.org/10.1103/PhysRevD.63.112001}{\emph{Phys. Rev.}
-  {\bfseries D63} (2001) 112001},
-  [\href{https://arxiv.org/abs/hep-ex/0101039}{{\ttfamily hep-ex/0101039}}].
+\bibitem{Vilain:1998uw}
+{\scshape CHARM II} collaboration, P.~Vilain et~al., \emph{{Leading order QCD
+  analysis of neutrino induced dimuon events}},
+  \href{https://doi.org/10.1007/s100520050611}{\emph{Eur. Phys. J.} {\bfseries
+  C11} (1999) 19--34}.
 
-\bibitem{Pospelov:2017kep}
-M.~Pospelov and Y.-D. Tsai, \emph{{Light scalars and dark photons in Borexino
-  and LSND experiments}},
-  \href{https://doi.org/10.1016/j.physletb.2018.08.053}{\emph{Phys. Lett.}
-  {\bfseries B785} (2018) 288--295},
-  [\href{https://arxiv.org/abs/1706.00424}{{\ttfamily 1706.00424}}].
+\bibitem{Vilain:1993sf}
+{\scshape CHARM-II} collaboration, P.~Vilain et~al., \emph{{Coherent single
+  charged pion production by neutrinos}},
+  \href{https://doi.org/10.1016/0370-2693(93)91223-A}{\emph{Phys. Lett.}
+  {\bfseries B313} (1993) 267--275}.
 
-\bibitem{Magill:2018tbb}
-G.~Magill, R.~Plestid, M.~Pospelov and Y.-D. Tsai, \emph{{Millicharged
-  particles in neutrino experiments}},
-  \href{https://arxiv.org/abs/1806.03310}{{\ttfamily 1806.03310}}.
+\bibitem{Vilain:1992wx}
+{\scshape CHARM-II} collaboration, P.~Vilain et~al., \emph{{Neutral current
+  coupling constants from neutrino and anti-neutrino - electron scattering}},
+  \href{https://doi.org/10.1016/0370-2693(92)90291-B}{\emph{Phys. Lett.}
+  {\bfseries B281} (1992) 159--166}.
 
-\bibitem{Valencia-Rodriguez:2016vkf}
-E.~Valencia-Rodriguez, \emph{{Neutrino - Electron Scattering in MINER$\nu$A for
-  Constraint NuMI Flux at Medium}}, Ph.D. thesis, Guanajuato U., 2016.
-\newblock 10.2172/1341804.
+\bibitem{Geiregat:1991md}
+{\scshape CHARM-II} collaboration, D.~Geiregat et~al., \emph{{An Improved
+  determination of the electroweak mixing angle from muon-neutrino electron
+  scattering}}, \href{https://doi.org/10.1016/0370-2693(91)91665-I}{\emph{Phys.
+  Lett.} {\bfseries B259} (1991) 499--507}.
 
-\bibitem{DeWinter:1989zg}
-{\scshape CHARM-II} collaboration, K.~De~Winter et~al., \emph{{A Detector for
-  the Study of Neutrino - Electron Scattering}},
-  \href{https://doi.org/10.1016/0168-9002(89)91190-X}{\emph{Nucl. Instrum.
-  Meth.} {\bfseries A278} (1989) 670}.
-
-\bibitem{Geiregat:1992zv}
-{\scshape CHARM-II} collaboration, D.~Geiregat et~al., \emph{{Calibration and
-  performance of the CHARM-II detector}},
-  \href{https://doi.org/10.1016/0168-9002(93)91010-K}{\emph{Nucl. Instrum.
-  Meth.} {\bfseries A325} (1993) 92--108}.
+\bibitem{AliagaSoplin:2016shs}
+L.~Aliaga~Soplin, \emph{{Neutrino Flux Prediction for the NuMI Beamline}},
+  Ph.D. thesis, William-Mary Coll., 2016.
+\newblock 10.2172/1250884.
 
 \bibitem{NIST:2018}
 {Berger, M.J. and Coursey, J.S. and Zucker, M.A. and Chang, J.},
@@ -2382,6 +2464,12 @@ F.~J.~P. Soler, \emph{{nuSTORM: Neutrinos from Stored Muons}},  in
 {\scshape nuSTORM} collaboration, D.~Adey et~al., \emph{{nuSTORM - Neutrinos
   from STORed Muons: Proposal to the Fermilab PAC}},
   \href{https://arxiv.org/abs/1308.6822}{{\ttfamily 1308.6822}}.
+
+\bibitem{Ballett:2017bug}
+P.~Ballett, M.~Hostert and S.~Pascoli, \emph{{Light Sterile Neutrinos at
+  $\nu$STORM: Decoherence and CP violation}},  in \emph{{Proceedings, Prospects
+  in Neutrino Physics (NuPhys2016): London, UK, December 12-14, 2016}}, 2017,
+  \href{https://arxiv.org/abs/1705.09214}{{\ttfamily 1705.09214}}.
 
 \bibitem{Long:2018zpc}
 K.~Long, \emph{{The nuSTORM experiment}},

@@ -1,10 +1,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \graphicspath{{}{dark_nus/}{Diagrams/}}
 
-The most important evidences that the Standard Model (SM) of particle physics is incomplete are neutrino masses and mixing, and the presence of DM in the Universe. Both call for extensions of the SM and the possible existence of dark sectors which do not partake in SM interactions, or do so with extremely weak couplings while displaying strong ``dark" interactions~\cite{Boehm:2003hm,Boehm:2003ha,Alexander:2016aln}. Such sectors might exist at relatively light scales below the electroweak one, being within reach of present and future non-collider experiments. Generically, a neutral dark sector can communicate with the SM via three renormalizable portals. New neutral fermions mix with light neutrinos unless a symmetry differentiates the two, a possibility usually denoted as the neutrino portal. New vector particles can kinetically mix with the SM hypercharge, and new scalars mix with the Higgs boson through the so-called vector and scalar portals, respectively. The latter terms are generically allowed in the Lagrangian and an explanation of their smallness requires specific UV completions.  
+\section{Neutrinos and Dark Sectors}
 
-In this chapter, we propose a new neutrino model with a hidden $U(1)^\prime$ gauge symmetry under which no SM fields are charged. We introduce new SM-neutral fermions, $\nu_D$ and an additional sterile neutrino $N$. The symmetry is subsequently broken by the vacuum expectation value (vev) of a complex dark scalar $\Phi$, which gives mass to the new gauge boson. For concreteness, we restrict the scale of the breaking to be below the electroweak one. The interest in such \textit{dark neutrinos} $\nu_D$ arises from their novel dark interactions which may ``leak" into the SM sector via neutrino mixing, where they offer a variety of phenomenological and cosmological consequences. 
- 
+The most important evidence that the Standard Model (SM) of particle physics is incomplete are neutrino masses and mixing, and the presence of DM in the Universe. Both call for extensions of the SM and the possible existence of dark sectors which do not partake in SM interactions, or do so with extremely weak couplings while displaying strong ``dark" interactions~\cite{Boehm:2003hm,Boehm:2003ha,Alexander:2016aln}. Such sectors might exist at relatively light scales below the electroweak one, being within reach of present and future non-collider experiments. In this chapter, we propose a new neutrino model with a hidden $U(1)^\prime$ gauge symmetry under which no SM fields are charged, see  \reffig{fig:dark_nus_model}. We introduce new SM-neutral fermions, $\nu_D$ and an additional sterile neutrino $N$. The symmetry is subsequently broken by the vacuum expectation value (vev) of a complex dark scalar $\Phi$, which gives mass to the new gauge boson. For concreteness, we restrict the scale of the breaking to be below the electroweak one. The interest in such \textit{dark neutrinos} $\nu_D$ arises from their novel dark interactions which may ``leak" into the SM sector via neutrino mixing, where they offer a variety of phenomenological and cosmological consequences. 
 
 Models with heavy neutrinos which are not completely sterile and might participate in new gauge interactions have been studied in several contexts, including $B-L$, $L_\mu-L_\tau$ and left-right symmetric models~\cite{%
 Buchmuller:1991ce,% original
@@ -33,7 +32,7 @@ In its minimal form, the model is not anomaly-free. We discuss how this can be c
 \begin{figure}[t]
 \centering\includegraphics[width=0.7\textwidth]{portals.pdf}
 \caption[Dark neutrino model diagram.]{Schematic representation of our dark neutrino model. The dark neutrino, $\nu_{D}$ and the complex scalar $\Phi$ are the only fields charged under the new U$(1)^\prime$ gauge symmetry. The new vector boson $X_\mu$ acquires a mass after spontaneous symmetry breakig, and $N$ remains a complete singlet.
-\label{fig:Tdiagrams}}
+\label{fig:dark_nus_model}}
 \end{figure}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -50,8 +49,9 @@ $\Phi$ & $\mathbf{1}$ & $\mathbf{1}$ & 0 & $Q$\\
 \caption[Dark neutrino model particle content.]{\label{tab:fields}The additional field content of our model. $N$ and $\nu_D$ are left-handed fermions while $\varphi$ is a complex scalar. Although this field content implies $U(1)_X$ is anomalous, remedies which do not affect mass generation are discussed in \refsec{sec:DM}.}
 %
 \end{table}
-\section{Interplay of multiple portals}
+\section{Interplay of Multiple Portals}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 We extend the SM gauge group with a new abelian gauge symmetry $U(1)^\prime$ with associated mediator $X_\mu$ and introduce three new singlets of the SM gauge group: a complex scalar $\Phi$, and two left-handed fermions $\nu_{D,L} \equiv \nu_{D}$ and $N_L \equiv N$. 
 As shown in \reftab{tab:fields}, the scalar $\Phi$ and the fermion $\nu_{D}$ are equally charged under the new symmetry, and $N$ is neutral with respect to all gauge symmetries of the model. For simplicity, we restrict our discussion to a single generation of hidden fermions. The relevant terms in the gauge-invariant Lagrangian are 
 %
@@ -83,7 +83,11 @@ It is useful to consider the form of the neutrino mass matrix in the single gene
 \end{align}  
 %
 The form of this matrix appears in Inverse Seesaw (ISS)~\cite{Mohapatra:1986bd,GonzalezGarcia:1988rw} and in Extended Seesaw (ESS)~\cite{Barry:2011wb,Zhang:2011vh} models. In fact, it is the same matrix discussed in the so-called Minimal ISS~\cite{Dev:2012sg}, with the difference that in our case its structure is a consequence of the hidden symmetry.
-After diagonalisation of the mass matrix, the two heavy neutrinos, $\nu_h$ with $h=4,5$, acquire masses. Assuming that $m_D \ll \Lambda$, we focus on two interesting limiting cases. 
+After diagonalisation of the mass matrix, the two heavy neutrinos, $\nu_h$ with $h=4,5$, acquire masses
+\begin{equation}
+m_{4,5} = \frac{\mu^\prime \mp \sqrt{\mu^{\prime\,2} + 4 (\Lambda^2 + m_D^2) } }{2}.
+\end{equation}
+Assuming that $m_D \ll \Lambda$, we focus on two interesting limiting cases. 
 
 In the \textit{ISS-like} limit, where $\Lambda \gg \mu^\prime$ and the two heavy neutrinos are nearly degenerate, we have 
 \begin{align}
@@ -102,7 +106,7 @@ The Yukawa terms in \refeq{eq:lagrangian} induce {\em neutrino mixing} between t
 
 
 \paragraph{Scalar portal}
-The symmetris of the model allow us to write the following scalar potential
+The symmetries of the model allow us to write the following scalar potential
 \begin{align}
     V(\Phi, H) = &-\mphi^2 |\Phi|^2 + \lphi |\Phi|^4-\mhiggs^2 H^\dagger H + \lhiggs (H^\dagger H)^2+ \lambda\, (H^\dagger H)|\Phi|^2,
 \end{align}
@@ -122,15 +126,16 @@ such that the new degrees of freedom around the minimum are found by performing 
 \end{align}
 where $V_\mathrm{Goldstone}$ contains terms related to the Goldstone bosons.
 The physical mass basis of scalar fields comes from the diagonalisation
-
-\[ \left(\begin{matrix}h & \varphi \end{matrix}\right) \left(\begin{matrix}\lhiggs v_h^2 & \frac{\lambda}{2}v_h v_\varphi \\ \frac{\lambda}{2}v_h v_\varphi & \lphi v_\varphi^2 \end{matrix}\right) \left(\begin{matrix}h \\ \varphi \end{matrix}\right)  =   \left(\begin{matrix}h^\prime & \varphi^\prime \end{matrix}\right) R(\theta) \left(\begin{matrix}\lhiggs v_h^2 & \frac{\lambda}{2}v_h v_\varphi \\ \frac{\lambda}{2}v_h v_\varphi & \lphi v_\varphi^2 \end{matrix}\right) R(-\theta) \left(\begin{matrix}h^\prime \\ \varphi^\prime \end{matrix}\right),\]
+\begin{align}
+ \left(\begin{matrix}h & \varphi \end{matrix}\right) \left(\begin{matrix}\lhiggs v_h^2 & \frac{\lambda}{2}v_h v_\varphi \\ \frac{\lambda}{2}v_h v_\varphi & \lphi v_\varphi^2 \end{matrix}\right) \left(\begin{matrix}h \\ \varphi \end{matrix}\right)  =   \left(\begin{matrix}h^\prime & \varphi^\prime \end{matrix}\right) R(\theta) \left(\begin{matrix}\lhiggs v_h^2 & \frac{\lambda}{2}v_h v_\varphi \\ \frac{\lambda}{2}v_h v_\varphi & \lphi v_\varphi^2 \end{matrix}\right) R(-\theta) \left(\begin{matrix}h^\prime \\ \varphi^\prime \end{matrix}\right),
+\end{align}
 where
 \begin{align}
 R(-\theta) = \left(\begin{matrix} \cos{\theta} &  \sin{\theta} \\  -\sin{\theta} & \cos{\theta} \end{matrix}\right),&\quad \tan{2 \theta} \equiv \frac{\lambda v_h v_\varphi }{\lhiggs v_h^2 - \lphi v_\varphi^2}.
 \end{align}
 The masses of the physical fields are
 \begin{equation}
-    \frac{m_{\varphi^\prime, h^\prime}^2}{2} = \frac{\lphi v_\varphi^2 + \lhiggs v_h^2}{2} \mp \sqrt{(\lphi v_\varphi^2 - \lhiggs v_h^2)^2 + \lambda^2 v_h^2 v_\varphi^2},
+  \frac{m_{\phi^\prime, h^\prime}^2}{2} = \frac{\lphi v_\phi^2 + \lhiggs v_h^2}{2} \pm \frac{\sqrt{(\lphi v_\phi^2 - \lhiggs v_h^2)^2 + \lambda^2 v_h^2 v_\phi^2}}{2}
 \end{equation}
 %
 so that $\varphi^\prime$ is the lightest state and $h^\prime$ is mostly in the Higgs direction.
@@ -150,6 +155,10 @@ where $R(\theta)^i$ is the rotation matrix around the axis $i$, and
 \begin{equation}
 \mu^2 = \frac{(g^\prime)^2 v_\varphi^2}{ c_W^2 M_W^2}, \qquad \tan{2\beta} = \frac{2 s_W s_\chi c_\chi}{c_\chi^2 - s_W^2 s_\chi^2 - \mu^2}.
 \end{equation}
+The physical masses are 
+\begin{equation}
+    \frac{m_Z^2}{\left( M_{Z}^{\rm SM}\right)^2} = 1 - s_W t_\chi t_\beta,\quad \frac{m_{Z^\prime}^2}{\left( M_{Z}^{\rm SM}\right)^2} = \frac{\mu^2}{c_\chi^2} + s_W t_\chi (t_\beta +s_W t_\chi).
+\end{equation}
 
 For a light $Z^\prime$ ($\mu\to0$), the $Z^\prime$ coupling to SM fermions $f$ to first order in the small parameter $\chi$ is given by
 %
@@ -162,10 +171,74 @@ with  $q_f$ the fermion electric charge.
 
 The values of $\chi$ and $\lambda$ are arbitrary and could be expected to be rather large. As such, we treat them as free parameters within their allowed ranges. Here, we merely note that with our current minimal matter content, $\chi$ and $\lambda$ receive contributions at loop level from the $(\overline{L}_\alpha \cdot \widetilde{H})N^c$ and $\overline{N} \nu_D^c \Phi$ terms, which are necessarily suppressed by neutrino mixing ($\chi \propto g^\prime e |U_{\alpha h}|^2$ and $\lambda \propto |U_{\alpha h}|^2$). These values constitute a lower bound and larger values should be expected in a complete model.
 
+\subsection{Neutrino interactions in the mass basis}
+
+We now provide the neutrino interactions in the model in the mass basis. The interaction Lagrangia reads
+%
+\begin{align}
+%
+\mathcal{L}_I = &+ \overline{\nu_i}\gamma^\mu\left((C_Z)_{ij}P_\text{L} - (C_Z)^*_{ij}P_\text{R}\right)\nu_j Z_\mu + \overline{\nu_i}\gamma^\mu\left((C_{Z^\prime})_{ij} P_\text{L} - (C_{Z^\prime})^*_{ij}P_\text{R}\right)\nu_j Z^\prime_\mu, \\
+%
+&- \overline{\nu_i}\gamma^\mu\left((\Delta_h)_{ij}P_\text{L} + (\Delta_h)^*_{ij} P_\text{R}\right)\nu_j h - \overline{\nu_i}\gamma^\mu\left[i(\Delta_h)P_\text{L} - i(\Delta_h)^*_{ij} P_\text{R}\right]\nu_j G_h, \\
+%
+&- \overline{\nu_i}\gamma^\mu\left((\Delta_\varphi)_{ij}P_\text{L} + (\Delta_\varphi)^*_{ij}P_\text{R}\right)\nu_j \varphi - \overline{\nu_i}\gamma^\mu\left[i(\Delta_\varphi)_{ij}P_\text{L} - i(\Delta_\varphi)^*_{ij} P_\text{R}\right]\nu_j G_\varphi.
+%
+\end{align}
+%
+The new matrices of coefficients for the gauge bosons are given by
+%
+\begin{align}
+%
+(C_Z)_{ij} &= \frac{m_Z}{2}\left[\left(\sum_{\alpha =e}^\tau U^*_{\alpha i}U_{\alpha j}\right)\frac{c_\omega }{v} - U^*_{si}U_{sj}\frac{s_\omega}{v_\varphi}\right], \\
+(C_{Z^\prime})_{ij} &=\frac{m_{Z^\prime}}{2} \left[\left(\sum_{\alpha =e}^\tau U^*_{\alpha i}U_{\alpha j}\right)\frac{s_\omega}{v} + U^*_{si}U_{sj}\frac{c_\omega}{v_\varphi}\right].
+\end{align}
+%
+The matrices for the scalar interactions are 
+%
+%
+\begin{align}
+%
+(\Delta_h)_{ij} &=\sum_{\alpha=e}^\tau \frac{y^\alpha_\nu}{2\sqrt{2}}\left(U_{\alpha i}^*U_{Nj}^* + U_{\alpha j}^*U_{Ni}^*\right),\\
+%
+(\Delta_\varphi)_{ij} &= \frac{y_\varphi}{2\sqrt{2}}\left(U_{N i}^*U_{sj}^* + U_{N j}^*U_{si}^*\right).
+%
+\end{align}
+
+Two useful identities between the coupling constants which are used in the calculaton of the radiative mass are
+%
+\begin{equation}\label{eq:relation_vector}
+C_Z\hat{m}C_Z^\text{T} = C_{Z^\prime}\hat{m}C_{Z^\prime}^\text{T} = 0.
+\end{equation} 
+%
+A consequence of spontaneous symmetry breaking is the existence of relationships between gauge bosons and scalar couplings, 
+%
+\begin{align}  
+%
+\Delta_h &= c_\omega \left(\frac{C_Z\hat{m}+\hat{m}C_Z^\text{T}}{m_Z}\right) + s_\omega \left(\frac{C_{Z^\prime}\hat{m}+\hat{m}C_{Z^\prime}^\text{T}}{m_{Z^\prime}}\right),\nonumber\\
+%
+\Delta_\varphi &=  -s_\omega\left(\frac{C_Z\hat{m}+\hat{m}C_Z^\text{T}}{m_Z}\right) +  c_\omega\left(\frac{C_{Z^\prime}\hat{m}+\hat{m}C_{Z^\prime}^\text{T}}{m_{Z^\prime}}\right).\label{eq:Omega}
+ %
+\end{align}
+%
+In the presence of scalar mixing ($\lambda\neq0$ in the scalar potential), we must also relate these to the physical coupling matrices of $h^\prime$ and $\varphi^\prime$. This takes the form of an additional rotation, shifting $\omega \to \omega^\prime \equiv \omega - \theta$,
+%
+\begin{align}
+%
+\Delta^\prime &= c_{\omega^\prime} \left(\frac{C\hat{m}+\hat{m}C^\text{T}}{m_Z}\right) + s_{\omega^\prime} \left(\frac{D\hat{m}+\hat{m}D^\text{T}}{m_{Z^\prime}}\right),\nonumber\\
+%
+\Omega^\prime &=  -s_{\omega^\prime}\left(\frac{C\hat{m}+\hat{m}C^\text{T}}{m_Z}\right) +  c_{\omega^\prime}\left(\frac{D\hat{m}+\hat{m}D^\text{T}}{m_{Z^\prime}}\right),
+\label{eq:relation_scalar}
+\end{align}
+where 
+\begin{equation}
+s_\omega = -s_\beta \frac{m_{Z^\prime}}{c_\textsc{W} M_\textsc{W}}\qquad\text{and}\qquad  c_\omega = c_\beta \frac{m_Z}{c_\textsc{W} M_\textsc{W}},
+\end{equation}
+%
+which satisfy the expected relation $s_\omega^2+c_\omega^2=1$ and $m_Z^0 = gv/(2c_W)$
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Portal phenomenology} \label{sec:portal_pheno}
+\subsection{Portal Phenomenology} \label{sec:portal_pheno}
 
 The interplay between portal couplings and the heavy neutrinos $\nu_h$ ($h=4,5$) leads to a distinct, and possibly richer, phenomenology to what is commonly discussed in the presence of a single portal. We present here some of the most relevant signatures, devolving a longer study to future work.
 
@@ -222,7 +295,23 @@ Finally, the faster decays of $\nu_h$ and its self-interactions can help amelior
 \subsection{Dark Matter} \label{sec:DM}
 Given the presence of a dark sector, we can ask if the model can accommodate a DM candidate. This can be achieved introducing new fermions that do not mix with the neutrinos, in order to preserve their stability. A minimal solution would be to introduce a fermionic field $\psi_L$ which has $U(1)^\prime$ charge $1/2$. The different charges of $\psi$, $\nu_D$ and $N$ would forbid neutrino mixing. A Majorana mass term $\psi_L^T C^\dagger \psi_L$ would emerge after hidden-symmetry breaking leading to a Majorana DM candidate. 
 
-Another minimal realisation has the advantage of being anomaly free. Following Ref.~\cite{Blennow:2019fhy}, we introduce a pair of chiral fermion fields $\psi_L$ and $\psi_R$, and charge only the latter under the $U(1)^\prime$ symmetry with the same charge as $\nu_D$. This choice ensures anomaly cancellation, and allows us to write $y_{\psi} \overline{\psi_L} \psi_R \Phi^\dagger$, which after hidden-symmetry breaking yields a Dirac mass $m_\psi$. In order to avoid $\psi_R-\nu_D$ and $\psi_L-N$ mixing, an additional $\mathbb{Z}_2$ symmetry may be imposed, under which all particles have charge $+1$, except for $\psi_L$ and $\psi_R$, which have charge $-1$.
+Another minimal realisation has the advantage of being anomaly free. Following Ref.~\cite{Blennow:2019fhy}, we introduce a pair of chiral fermion fields $\psi_L$ and $\psi_R$, and charge only the latter under the $U(1)^\prime$ symmetry with the same charge as $\nu_D$. This choice ensures anomaly cancellation, and allows us to write $y_{\psi} \overline{\psi_L} \psi_R \Phi^\dagger$, which after hidden-symmetry breaking yields a Dirac mass $m_\psi$. In order to avoid $\psi_R-\nu_D$ and $\psi_L-N$ mixing, an additional $\mathbb{Z}_2$ symmetry may be imposed, under which all particles have charge $+1$, except for $\psi_L$ and $\psi_R$, which have charge $-1$. In general, this setup leads to the following mass matrix for the DM fermions
+%
+\begin{equation}
+    -\mathscr{L}_{{\rm DM}-{\rm mass}} = \frac{1}{2} \left( \begin{matrix} \overline{\psi^c_R} & \overline{\psi_L} \end{matrix}\right) \left( \begin{matrix} 0 &  m_D^\psi \\ m_D^\psi & \mu_\psi \end{matrix} \right) \left( \begin{matrix} \psi_R \\ \psi_L^c \end{matrix}\right) + {\rm h.c.},
+\end{equation}
+%
+where $\mu_\psi$ is the arbitrary Majorana mass term for $\psi_L$ and $m_D^\psi = y_\psi v_\varphi / \sqrt{2}$ the Dirac mass term. Two limiting cases then appear:
+
+\paragraph{ $\mu_\psi \gg  m_D^\psi$} This is nothing more than the Type-I Seesaw being realised in the DM sector. In this case, $m_{\psi_1} \approx (m_D^\psi)^2/ \mu_\psi$ and   $m_{\psi_2} \approx \mu_\psi$. Since $\mu_\psi$ is arbitrary, we can set it to be much larger than $m_D^\psi$. In this case, $\psi_1$ is our DM candidate, and it can be rather light. For instance, for $y_\psi = 1$, $v_\varphi = 4$ GeV, we find 
+\begin{equation}
+    m_{\psi_1} \approx 20 \, {\rm MeV} \, \left( \frac{ {400 \, {\rm GeV}} }{\mu_\psi} \right).
+\end{equation}
+%
+The mixing is $\tan{2 \theta} = 2 m_D^\psi / \mu_\psi$, such that the physical states are $\psi_1 \approx \psi_R - \theta \psi_L$ and $\psi_1 \approx \theta \psi_R + \psi_L$. In this case, $\psi_1$ interacts most strongly via the dark force, while the interactions of $\psi_2$ are suppressed by $\theta$.
+
+\paragraph{ $\mu_\psi \ll  m_D^\psi$} In this case, we realise a pseudo-Dirac DM scenario. Now, $m_{\psi_1} \approx m_D^\psi - \mu_\psi/2$ and $m_{\psi_2} \approx m_D^\psi + \mu_\psi/2$. In this case, the mixing is $\tan 2 \theta = 2 m_D^\psi/\mu_\psi$ is large, such that $\theta \to \pi/2$. Differently from inelastic DM models, both $\psi_1$ and $\psi_2$ feel the dark force with the same strength. In this scenario, we can choose $g^\prime = 1$ and $m_{Z^\prime} = 1$ GeV, so that $v_{\phi} = 1$ GeV
+
 
 If the scalar and vector portal couplings are small in such scenarios, DM interacts mainly with neutrinos. Direct detection bounds are then evaded, since interactions with matter are loop-suppressed. Indirect detection, on the other hand, is more promising as DM annihilation into neutrinos would dominate. For instance, take the mass of $\psi$ to be smaller than the masses of the $Z^\prime$, $\varphi^\prime$ and of both heavy neutrinos. In this case, the DM annihilation is directly into light neutrinos via $\psi \overline{\psi} \to \nu_i \nu_i$. This yields a mono-energetic neutrino line that can be looked for in large volume neutrino~\cite{Beacom:2006tt,PalomaresRuiz:2007eu} or direct detection experiments~\cite{McKeen:2018pbb}. Alternatively, if $m_\psi$ is larger than the mass of any of our new particles, then the annihilation may be predominantly into such states via $\psi \overline{\psi} \to X X$, where $X=\varphi^\prime, Z^\prime$ or $\nu_h$, which subsequently decay to light neutrinos. In this secluded realisation~\cite{Pospelov:2007mp}, the search strategy for DM can be very different since the neutrino spectrum from such annihilation is continuous~\cite{Escudero:2016ksa}. Nevertheless, neutrino-DM interactions are expected to be large and can be searched for in a variety of ways~\cite{Mangano:2006mp,Wilkinson:2014ksa,Farzan:2014gza,Campo:2017nwh,Arguelles:2017atb}.
 
@@ -230,7 +319,7 @@ If the scalar and vector portal couplings are small in such scenarios, DM intera
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Neutrino portal and mass generation}  
+\section{Neutrino Portal and Mass Generation}  
 
 In this section, we discuss the generation of neutrino masses in our dark neutrino model. Crucially, the new gauge symmetry forbids Majorana mass terms for the $\nu_D$ states and, after symmetry breaking, leads to a mass matrix similar to the one in the so-called minimal radiative ISS~\cite{Dev:2012sg}. As such, this symmetry-enhanced seesaw predicts vanishing light neutrino masses at tree-level. Here, we show that it induces their radiative generation via one-loop diagrams involving the new scalar and vector particles~\cite{Dev:2012sg,Zhang:2013ama,Diaz:2017edh}. After identifying the range of heavy neutrino parameters required to explain the observed light neutrino masses, we point out interesting phenomenological consequences.
 
@@ -243,22 +332,11 @@ In this section, we discuss the generation of neutrino masses in our dark neutri
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%
 
-Let us emphasize the fact that in \refeq{eq:massmatrix}, the zeros in the $\nu_D$-$\nu_D$ and $\nu_\alpha$-$\nu_D$ entries are enforced by the $U(1)^\prime$ symmetry, differently from LSS and ISS models, in which these are generically assumed to be nonzero and small due to the quasi-preservation of lepton number. Here, lepton number violation (LNV) may be large, as the $\mu^\prime$ term breaks it by 2 units. Alternatively, it can be small and technically natural, leading to quasi-degenerate heavy neutrinos, see below. 
-
-After diagonalisation of the mass matrix, the two heavy neutrinos,  $\nu_h$ ($h=4,5$), acquire masses
-\begin{equation}
-m_{4,5} = \frac{\mu^\prime \mp \sqrt{\mu^{\prime\,2} + 4 (\Lambda^2 + m_D^2) } }{2}.
-\end{equation}
-Assuming that $m_D \ll \Lambda$, we focus on two interesting limiting cases. 
-
-The ISS-like scenario is defined by $\Lambda \gg \mu^\prime$: the two heavy neutrinos are nearly degenerate with a mass $\Lambda$ and mass splitting $\mu^\prime$. The relevant mixing parameters are $U_{\alpha 4,5} \sim m_D/\sqrt{2} \Lambda$ and $U_{D4,5} \sim 1/\sqrt{2}$.
-The ESS-like case has $\Lambda \ll \mu^\prime$: one neutral lepton remains very heavy, $m_5 \sim \mu^\prime$, and mainly in the completely neutral direction $N$, and the other acquires a small mass via the seesaw mechanism in the hidden sector with $m_4 \sim - \Lambda^2/\mu^\prime$ and $U_{D5} \sim \Lambda/ \mu^\prime$. The mixing with active neutrinos is given by $U_{\alpha 5} \sim m_D/\mu^\prime \ll U_{\alpha 4} \sim m_D/\Lambda$.
-
-The specific form of the mass matrix in Eq.~\ref{eq:massmatrix} implies vanishing light neutrino masses at tree level, as its determinant is zero~\cite{Dev:2012sg,LopezPavon:2012zg}. This feature holds to all orders in the seesaw expansion~\cite{Grimus:2000vj,Adhikari:2010yt,LopezPavon:2012zg}. The light neutrino masses, however, are not protected by any symmetry and arise from radiative corrections (for a review of radiative neutrino mass models see, \eg, Ref.~\cite{Cai:2017jrq}). 
+Let us emphasize the fact that in \refeq{eq:massmatrix}, the zeros in the $\nu_D$-$\nu_D$ and $\nu_\alpha$-$\nu_D$ entries are enforced by the $U(1)^\prime$ symmetry, differently from LSS and ISS models, in which these are generically assumed to be nonzero and small due to the quasi-preservation of lepton number. Here, lepton number violation (LNV) may be large, as the $\mu^\prime$ term breaks it by 2 units. Alternatively, it can be small and technically natural, leading to quasi-degenerate heavy neutrinos, see below. The specific form of the mass matrix in Eq.~\ref{eq:massmatrix} implies vanishing light neutrino masses at tree level, as its determinant is zero~\cite{Dev:2012sg,LopezPavon:2012zg}. This feature holds to all orders in the seesaw expansion~\cite{Grimus:2000vj,Adhikari:2010yt,LopezPavon:2012zg}. The light neutrino masses, however, are not protected by any symmetry and arise from radiative corrections (for a review of radiative neutrino mass models see, \eg, Ref.~\cite{Cai:2017jrq}). 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Radiative corrections} We now show that our model generically leads to the generation of light neutrino masses at one loop. The calculation of the radiative mass term follows Refs.~\cite{Pilaftsis:1991ug,Kniehl:1996bd} with the addition of the loops with the new boson and scalar particles shown in \reffig{fig:loops}. The self-energy of the Majorana neutrino fields is given by 
+\subsection{Radiative Corrections} We now show that our model generically leads to the generation of light neutrino masses at one loop. The calculation of the radiative mass term follows Refs.~\cite{Pilaftsis:1991ug,Kniehl:1996bd} with the addition of the loops with the new boson and scalar particles shown in \reffig{fig:loops}. The self-energy of the Majorana neutrino fields is given by 
 %
 \begin{equation*}
  \Sigma_{ij}(\slashed{q}) = \slashed{q}P_\text{L}\Sigma^\text{L}_{ij}(\slashed{q}) + \slashed{q}P_\text{R}\Sigma^\text{L*}_{ij}(\slashed{q}) + P_\text{L}\Sigma^\text{M}_{ij}(q^2)+ P_\text{R}\Sigma^{\text{M}*}_{ij}(q^2).
@@ -266,19 +344,19 @@ The specific form of the mass matrix in Eq.~\ref{eq:massmatrix} implies vanishin
 %
 Using the on-shell renormalization scheme, the renormalized mass matrix for the light neutrinos, massless at tree level, emerges at one-loop and is given by~\cite{Kniehl:1996bd}
 %
-\[    m_{ij}^\text{one-loop} = \text{Re}\left[ \Sigma^\text{M}_{ij}(0)\right], \quad  i, j <4. \]
-%
+\begin{equation}
+m_{ij}^\text{one-loop} = \text{Re}\left[ \Sigma^\text{M}_{ij}(0)\right], \quad  i, j <4.
+\end{equation}
 The self energy can be decomposed as
 %
 \begin{align}
-\Sigma_{ij}^\text{M}(0) = \Sigma^Z_{ij}(0)& + \Sigma^{h}_{ij}(0) + \Sigma^{G_h}_{ij}(0) \,+ \nonumber\\ &\Sigma^{Z^\prime}_{ij}(0) +
+\Sigma_{ij}^\text{M}(0) = \Sigma^Z_{ij}(0)& + \Sigma^{h}_{ij}(0) + \Sigma^{G_h}_{ij}(0) \,+ \, \Sigma^{Z^\prime}_{ij}(0) +
 \Sigma^{\varphi^\prime}_{ij}(0) + \Sigma^{G_\varphi}_{ij}(0),
 \end{align}
 where $\Sigma^{Z, h, G_h}$ come from the SM particles, $Z^0$, the Higgs and the associated Goldstone boson, respectively, and $\Sigma^{Z^\prime, \varphi^\prime, G_\varphi}$ are the new terms present in our model, mediated by the new gauge boson and new scalar components. From it, we write the $3\times3$ light neutrino mass matrix 
 %
 \begin{align}\label{eq:masses_general}
- m_{ij} = \frac{1}{4\pi^2}\sum_{k=4}^5 \Big[ & C_{ik} C_{jk} \frac{m_k^3}{m_Z^2}F(m_k^2,m_Z^2,m_h^2)  \,+ 
- \nonumber\\ &D_{ik} D_{jk} \frac{m_k^3}{m_{Z^\prime}^2}F(m_k^2,m_{Z^\prime}^2,m_{\varphi^\prime}^2) \Big], 
+ m_{ij} = \frac{1}{4\pi^2}\sum_{k=4}^5 \Big[ & C_{ik} C_{jk} \frac{m_k^3}{m_Z^2}F(m_k^2,m_Z^2,m_h^2)  \,+\,D_{ik} D_{jk} \frac{m_k^3}{m_{Z^\prime}^2}F(m_k^2,m_{Z^\prime}^2,m_{\varphi^\prime}^2) \Big], 
 \end{align} 
 %
 where we defined coupling matrices corresponding to the SM and new physics interaction terms assuming $\chi=\lambda=0$:
@@ -294,7 +372,7 @@ F(a,b,c) \equiv \frac{3 \, \ln{(a/b)}}{a/b - 1}  + \frac{\ln{(a/c)}}{a/c - 1}.
 %
 Turning off the $g^\prime$ gauge coupling, we recover the expression for the Type-I seesaw case~\cite{Pilaftsis:1991ug}:
  \begin{align}  \label{eq:SM_masses}
- m_{ij} = &\frac{\alpha_W}{16\pi}\sum_{\alpha, \beta = e}^{\tau} U_{\alpha i}^\ast U_{\beta j}^\ast  U_{\alpha 5} U_{\beta 5} \frac{m_5}{m_W^2} \times\nonumber\\ & \left( m_5^2 F(m_5^2,m_Z^2,m_h^2) -  m_4^2 F(m_4^2,m_Z^2,m_h^2)\right).
+ m_{ij} = &\frac{\alpha_W}{16\pi}\sum_{\alpha, \beta = e}^{\tau} U_{\alpha i}^\ast U_{\beta j}^\ast  U_{\alpha 5} U_{\beta 5} \frac{m_5}{m_W^2}  \left( m_5^2 F(m_5^2,m_Z^2,m_h^2) -  m_4^2 F(m_4^2,m_Z^2,m_h^2)\right).
  \end{align}
 %
 These SM corrections to neutrino masses also arise in the Minimal ISS model~\cite{Dev:2012sg,LopezPavon:2012zg}. In the latter, however, no explanation is provided as to why they dominate neutrino masses. Moreover, if we restrict the discussion to scales well below the electroweak one, $ m_5 \ll 10$~GeV, bounds on the mixing angles severely constrain the parameter space viable to generate the observed values of the masses. 
@@ -302,7 +380,7 @@ These SM corrections to neutrino masses also arise in the Minimal ISS model~\cit
 For a light $Z^\prime$, the second term in Eq.~\ref{eq:masses_general} dominates
 %
 \begin{align}\label{eq:BSM_masses}
-m_{ij} \simeq  &\frac{g^{\prime2}}{16\pi^2} U_{D i}^{*} U_{D j}^{*} \,  U_{D5}^2 \frac{m_5}{m_{Z^\prime}^2} \times\nonumber\\  \quad \quad & \big(m_5^2 F(m_5^2,m_{Z^\prime}^2,m_{\varphi^\prime}^2) - m_4^2 F(m_4^2,m_{Z^\prime}^2,m_{\varphi^\prime}^2)\big)~.
+m_{ij} \simeq  &\frac{g^{\prime2}}{16\pi^2} U_{D i}^{*} U_{D j}^{*} \,  U_{D5}^2 \frac{m_5}{m_{Z^\prime}^2} \big(m_5^2 F(m_5^2,m_{Z^\prime}^2,m_{\varphi^\prime}^2) - m_4^2 F(m_4^2,m_{Z^\prime}^2,m_{\varphi^\prime}^2)\big)~.
 \end{align}
 %
 We notice that the resulting mass matrix has only one nonzero eigenvalue. This suggests that a typical prediction of our model is a normal ordering mass spectrum, in which $m_3$ is given by this radiative mechanism and $m_2$ has another origin, for example the loops mediated by the SM gauge bosons or by additional particle content. Our simplifying assumption of one generation of hidden fermions is by no means necessary and more generations of new fermions are possible, leading to a much richer structure for the light neutrino mass matrix. The additional $\mu^\prime$ terms would not be constrained and could be at different scales, while the $\Lambda$ terms arise from the $U(1)^\prime$ breaking and are therefore constrained to be at/below $v_\varphi$. Therefore, the full model could present a combination of relatively light Majorana $\nu_h$, mainly in dark direction, some very heavy nearly-neutral neutrinos and pseudo-Dirac pairs at intermediate scales. A discussion of this extension is beyond our scope, but we note that it has interesting consequences for both the heavy and light neutrino mass spectra and mixing structure.
@@ -345,7 +423,7 @@ In this case, the light neutrino masses are controlled mainly by $\nu_5$, and th
 \end{figure*}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Searching for the mass mechanism} \label{sec:pure_nu_mixing}
+\subsection{Searching for the Mass Mechanism} \label{sec:pure_nu_mixing}
 
 In what follows, we discuss the experimental reach to the heavy neutrinos responsible for neutrino mass generation in our model. Since the vector and scalar portals do not contribute significantly to neutrino masses, we first restrict the study to the case $\chi=\lambda=0$. For the sake of simplicity and concreteness, we work with a single generation of light neutrinos and focus on the mixing with the muon neutrino. We emphasise that our model predicts
 %
@@ -392,6 +470,6 @@ For a larger mass hierarchy, e.g. $m_4/m_5 = 12\%$, see star BP ($\star$), the $
 
 Experimental detection of the $Z^\prime$ and $\varphi^\prime$ particles in the absence of kinetic and scalar mixing is also daunting. Nevertheless, they can be searched for in the kinematics of charged particles from meson decays~\cite{Laha:2013xua,Bakhti:2017jhm}. Another strategy is to search for the neutrino byproducts of the decay of a $Z^\prime$ produced at accelerator neutrino facilities~\cite{Bakhti:2018avv}. 
 
-If the vector (and scalar) portals are non-negligible, the phenomenology could be significantly richer, as discussed in \cite{Ballett:2019pyw}. In particular, $Z^\prime$-mediated decays into $\nu_\alpha e^+ e^-$, and $\nu_\alpha \mu^+ \mu^-$ if kinematically allowed, could dominate even for tiny values of $\chi^2$. For instance, for the circle BP, $\chi^2 $ as low as $10^{-8}$ would make the above decays the main channels. Pseudo-scalar final states are suppressed due to the vector nature of the $Z^\prime$. The scalar portal is expected to give subdominant contributions due to the small Higgs-electron Yukawa coupling, although decay chains with intermediate $\nu_4$ states may become relevant. Finally, cosmological bounds on heavy neutrino in the 10 MeV -- GeV scale may be weakened as they would decay well before Big Bang Nucleosynthesis~\cite{Dolgov:2000jw} (see also the discussion in Ref.~\cite{Hannestad:2013ana,Dasgupta:2013zpn,Mirizzi:2014ama,Chu:2015ipa,Cherry:2016jol,Chu:2018gxk,Song:2018zyl})%The BR would have a very different structure compared to the standard neutrino and vector portals. By looking for the decay channels, one would be able to, at least partially, disentangle the neutrino, vector and scalar contributions.
+If the vector (and scalar) portals are non-negligible, the phenomenology could be significantly richer. In particular, $Z^\prime$-mediated decays into $\nu_\alpha e^+ e^-$, and $\nu_\alpha \mu^+ \mu^-$ if kinematically allowed, could dominate even for tiny values of $\chi^2$. For instance, for the circle BP, $\chi^2 $ as low as $10^{-8}$ would make the above decays the main channels. Pseudo-scalar final states are suppressed due to the vector nature of the $Z^\prime$. The scalar portal is expected to give subdominant contributions due to the small Higgs-electron Yukawa coupling, although decay chains with intermediate $\nu_4$ states may become relevant. Finally, cosmological bounds on heavy neutrino in the 10 MeV -- GeV scale may be weakened as they would decay well before Big Bang Nucleosynthesis~\cite{Dolgov:2000jw} (see also the discussion in Refs.~\cite{Hannestad:2013ana,Dasgupta:2013zpn,Mirizzi:2014ama,Chu:2015ipa,Cherry:2016jol,Chu:2018gxk,Song:2018zyl}) The BR would have a very different structure compared to the standard neutrino and vector portals. By looking for the decay channels, one would be able to, at least partially, disentangle the neutrino, vector and scalar contributions.
 
 We have focused on the mixing with muon neutrinos as these provide one of the most sensitive avenue to test the model. In the electron sector, direct bounds on the active-heavy mixing are similar, with peak searches from $\pi^\pm$ decay being most relevant below $\approx 100$ MeV. For cases with large LNV, heavy neutrinos can dominate neutrinoless double beta decay~\cite{LopezPavon:2012zg}, and this sets the strongest constraints in the parameter space. The tau sector is relatively poorly constrained, so greater freedom exists if such entries are relevant for neutrino mass generation. 

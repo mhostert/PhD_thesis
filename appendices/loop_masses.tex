@@ -16,9 +16,9 @@ The contribution from the scalar fields $s= h^0, \varphi^0$, the goldstones $G =
 \begin{align*}
  -i\,\Sigma^s_{ij} (p^2) &= (-i)^2 \left(\Delta_s P_R + \Delta^*_s P_L \right)_{ik} \times\\&\qquad\qquad \int \frac{d^d k}{(2\pi)^d} \frac{i (\slashed{p} + \slashed{k} + m_k) }{(p+k)^2 - m_k^2} \frac{i}{k^2 - m_s^2} \left( \Delta_s P_R + \Delta^*_s P_L \right)_{kj},\\
  %
- -i\,\Sigma^G_{ij} (p^2) &= (-i)^2 \left(i\,\Delta_G P_R + i\,\Delta^*_G P_L \right)_{ik} \times\\&\qquad\qquad\int \frac{d^d k}{(2\pi)^d} \frac{i (\slashed{p} + \slashed{k} + m_k) }{(p+k)^2 - m_k^2} \frac{i}{k^2 - \xi_V m_V^2} \left( i\,\Delta_G P_R + i\,\Delta^*_G P_L  \right)_{kj},\\
+ -i\,\Sigma^{G_s}_{ij} (p^2) &= (-i)^2 \left(i\,\Delta_s P_R - i\,\Delta^*_s P_L \right)_{ik} \times\\&\qquad\qquad\int \frac{d^d k}{(2\pi)^d} \frac{i (\slashed{p} + \slashed{k} + m_k) }{(p+k)^2 - m_k^2} \frac{i}{k^2 - \xi_V m_V^2} \left( i\,\Delta_s P_R - i\,\Delta^*_s P_L  \right)_{kj},\\
 %
- -i\,\Sigma^G_{ij} (p^2) &= -(-i)^2 \gamma^\mu \left( C_V P_L - C_V^T P_R \right)_{ik} \times \\&\qquad\qquad\int \frac{d^d k}{(2\pi)^d} \frac{i (\slashed{p} + \slashed{k} + m_k) }{(p+k)^2 - m_k^2} \frac{iP_{\mu\nu}}{k^2 - m_V^2} \gamma^\nu \left( C P_L - C^T P_R \right)_{kj},
+ -i\,\Sigma^V_{ij} (p^2) &= -(-i)^2 \gamma^\mu \left( C_V P_L - C_V^T P_R \right)_{ik} \times \\&\qquad\qquad\int \frac{d^d k}{(2\pi)^d} \frac{i (\slashed{p} + \slashed{k} + m_k) }{(p+k)^2 - m_k^2} \frac{iP_{\mu\nu}}{k^2 - m_V^2} \gamma^\nu \left( C_V P_L - C_V^T P_R \right)_{kj},
 \end{align*}
 with no index summation notation. In the latter term, we defined the vector boson propagator numerator, which we rewrite as
 %
@@ -50,12 +50,7 @@ Finally, the scalar loop function is given by
  &= \frac{1}{\epsilon} - \gamma_E + \ln{4 \pi} - \frac{m_a^2}{m_b^2 - m_a^2} \left[ \ln{\frac{m_a^2}{\mu^2}}  - 1 \right] + \frac{m_b^2}{m_b^2 - m_a^2} \left[ \ln{\frac{m_b^2}{\mu^2}}  - 1 \right].
 \end{align*}
 
-The finiteness of our final result and its gauge invariance are a consequence of the two following identities
-\begin{align}
- \Delta_G = \Delta_S = C \frac{\hat{m}}{m_V} + \frac{\hat{m}}{m_V}C^T, \quad \quad C \hat{m} C^T = 0.
-\end{align}
-
-For light neutrinos ($i,j=1,2,3$), the final result reads
+The finiteness of our final result and its gauge invariance are a consequence of the identities in Eqs.~\ref{eq:relation_vector} and~\ref{eq:relation_scalar}. For light neutrinos ($i,j=1,2,3$), the final result reads
 
 \begin{align}
  \Sigma_{ij} P_R  = -\frac{\pi^2}{(2\pi)^4} C \hat{m}\left[ d\, B_0(0,\hat{m}^2,m_V^2) + \frac{\hat{m}^2}{m_V^2} \left( B_0 (0,\hat{m}^2,m_S^2) - B_0(0,\hat{m}^2,m_V^2) \right) \right] C^T P_R.

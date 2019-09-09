@@ -3,9 +3,9 @@
 
 Neutrino trident scattering is a rare process hiding at the level of a per million of the CCQE event rates. This process was the object of study of experiments back in the 80's and 90's, but the high beam luminosity achieved at current neutrino experiments and expected at future facilitites (typically beyond $10^{21}$ protons on target), the relatively large fiducial masses of high-$Z$ materials (typically 100~ton) of modern detectors, and improved particle identification (PID) capabilities allows us to return to this topic at lower energies ($E_\nu =$ few~GeV) with a refreshed approach. We refine previous calculations of the trident cross section, pointing out subtleties about the Equivalent Photon Approximation, and develop a dedicated Montecarlo for neutrino trident events. Our phenomenological analysis is a first assessment of the capabilities of current and future near detectors to measure several trident channels with improved precision, or for the very first time.
 
-\section{Overview of neutrino trident production}
+\section{History of Neutrino Trident Production}
 
-Trident events are processes predicted by the SM as the result of (anti)neutrino-nucleus scattering with the production of a charged lepton pair \cite{Czyz:1964zz,Lovseth:1971vv,Fujikawa:1971nx,Brown:1971qr,Koike:1971tu}, $\pbar{\nu}_{\alpha}+{\cal{H}} \to \pbar{\nu}_{\alpha \,{\rm{or}} \, \kappa(\beta)} + \ell_{\beta}^- + \ell_\kappa^+ +{\cal{H}}$, $\{\alpha,\beta,\kappa\}\in \{e,\mu,\tau\}$\footnote{Throughout the manuscript we will consider ${\alpha,\beta, \kappa}$ as flavour indexes.} where $\cal{H}$ denotes a hadronic target. Depending on the (anti)neutrino and charged lepton flavours in the final-state, the process will be mediated by the $Z^0$ boson, $W$ boson or both. Coherent interactions between (anti)neutrinos and the atomic nuclei are expected to dominate these processes as long as the momentum transferred $Q$ is significantly smaller than the inverse of the nuclear size \cite{Czyz:1964zz}. For larger momentum transfers diffractive elastic and deep-inelastic scattering become increasingly relevant \cite{Magill:2016hgc}.
+Trident events are processes predicted by the SM as the result of (anti)neutrino-nucleus scattering with the production of a charged lepton pair \cite{Czyz:1964zz,Lovseth:1971vv,Fujikawa:1971nx,Brown:1971qr,Koike:1971tu}, $\pbar{\nu}_{\alpha}+{\cal{H}} \to \pbar{\nu}_{\alpha \,{\rm{or}} \, \kappa(\beta)} + \ell_{\beta}^- + \ell_\kappa^+ +{\cal{H}}$, $\{\alpha,\beta,\kappa\}\in \{e,\mu,\tau\}$\footnote{Throughout the manuscript we will consider ${\alpha,\beta, \kappa}$ as flavour indexes.} where $\cal{H}$ denotes a hadronic target. Depending on the (anti)neutrino and charged lepton flavours in the final-state, the process will be mediated by the $Z^0$ boson, $W$ boson or both. Coherent interactions between (anti)neutrinos and the atomic nuclei are expected to dominate these processes as long as the momentum transferred $Q$ is significantly smaller than the inverse of the nuclear size~\cite{Czyz:1964zz}. For larger momentum transfers diffractive elastic and deep-inelastic scattering become increasingly relevant~\cite{Magill:2016hgc}.
 %
 Although this process exists for all combinations of same-flavour or mixed flavour charged-lepton final-states, to this day only the $\nu_\mu$-induced dimuon mode, $\pbar{\nu}_\mu + {\cal{H}} \to \pbar{\nu}_\mu  + \mu^+ + \mu^- + {\cal{H}}$, has been observed. The first measurement of this trident signal performed by CHARM II~\cite{Geiregat:1990gz} is also the one with the largest statistics: 55 signal events in a beam of neutrinos and antineutrinos with $\langle E_\nu \rangle \approx 20$ GeV. Other measurements by CCFR~\cite{Mishra:1991bv} and NuTeV~\cite{Adams:1998yf} at larger energies soon followed.
 
@@ -13,7 +13,7 @@ As the measurement of trident events may provide a sensitive test of the weak se
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Cross section at low energies}\label{sec:xsec}
+\section{Cross Section at Low Energies}\label{sec:xsec}
 
 In this section we consider neutrino trident production in the SM, defined as the process where a (anti)neutrino scattering off a hadronic system ${\cal H}$ produces a pair of same-flavour or mixed flavour charged leptons 
 %
@@ -24,7 +24,7 @@ In this section we consider neutrino trident production in the SM, defined as th
 %
 where $\beta (\kappa)$ corresponds to the flavour index of the negative (positive) charged lepton in both neutrino and antineutrino cases. 
 %
-Neutrino trident scattering can be divided into three regimes depending on the nature of the hadronic target: coherent, diffractive elastic and deep inelastic, when the neutrino scatters off the nuclei, nucleons and quarks, respectively. At the energies relevant for neutrino oscillation experiments, the deep inelastic scattering contribution amounts at most to 1\% of the total trident production cross section \cite{Magill:2016hgc} and we will not consider it further.
+Neutrino trident scattering can be divided into three regimes depending on the nature of the hadronic target: coherent, diffractive elastic and deep inelastic, when the neutrino scatters off the nuclei, nucleons and quarks, respectively. At the energies relevant for neutrino oscillation experiments, the deep inelastic scattering contribution amounts at most to 1\% of the total trident production cross section \cite{Magill:2016hgc} and we will not consider it further. At larger energies, this regime may become important, especially if the production of on-shell vector bosons becomes kinematically accessible.
 
 The cross section for trident production has been calculated before in the literature, both in the context of the $V-A$ theory~\cite{Czyz:1964zz,Lovseth:1971vv,Fujikawa:1971nx} and in the SM~\cite{Brown:1973ih}, while the EPA treatment was developed in Refs.~\cite{Kozhushner:1962aa,Shabalin:1963aa,Belusevic:1987cw}. Most calculations have focused on the coherent channels \cite{Czyz:1964zz,Lovseth:1971vv,Fujikawa:1971nx,Brown:1973ih,Belusevic:1987cw} but the diffractive process has been considered in \cite{Czyz:1964zz,Lovseth:1971vv}. More recently, calculations using the EPA have been performed for coherent scattering with a dimuon final-state \cite{Altmannshofer:2014pba}, and for all combinations of hadronic targets and flavours of final-states in \cite{Magill:2016hgc}. While the EPA is expected to agree reasonably well with the full calculation for coherent channels with dimuon final-states, the assumptions of this approximation are invalid for the coherent process with electrons in the final-state \cite{Kozhushner:1962aa,Shabalin:1963aa,Czyz:1964zz}. 
 %
@@ -38,7 +38,13 @@ We write the total cross section for neutrino trident production off a nucleus $
 where $\sigma_\mathrm{\nu c}$ ($\sigma_\mathrm{\nu d}$) is the coherent (diffractive) part of the cross section. 
 %
 %%%%%%%%%%%% SM DIAGRAMS %%%%%%%%%%%%%%%%
-\input{tridentSM/diagramsSM.tex}
+\unitlength = 0.9mm
+\begin{figure}[t]
+% \centering\includegraphics[width=\textwidth]{tridentSM/figs/SM-trident.pdf}
+\centering\includegraphics[width=\textwidth]{Neutrino_trident_production.pdf}
+\caption[Neutrino trident production with a contact approximation.]{Diagrams contributing to the neutrino trident process in the four-point interaction limit of the Standard Model.  
+\label{fig:Tdiagrams}}
+\end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 The relevant diagrams for these processes in the coherent or diffractive 
@@ -171,7 +177,7 @@ of the nuclear electromagnetic form factor $F(Q^2)$, discussed in more detail in
 \mathrm{H}^{\mu \nu}_\mathrm{c} =  4Z^2 e^2 \left| F (Q^2)\right|^2 \left(P^\mu - \frac{q^\mu}{2}\right) \left(P^\nu - \frac{q^\nu}{2}\right).
 \end{equation}
 %
-From Eq.~\ref{eq:splitting_function}, we find that the transverse and longitudinal flux functions for the coherent regime are
+In this case there is only a spin-independent vertex, corresponding to the electric form factor of the nucleus. In general, magnetic scattering is also possible, and magnetic form factors would be present. Let us emphasize that the current problem is analogous to elastic electron scattering on nuclei, a well studied process (see Ref.~\cite{Donnelly:1975ze} for a thorough review). From Eq.~\ref{eq:splitting_function}, we find that the transverse and longitudinal flux functions for the coherent regime are
 %
 \begin{subequations}\label{eq:hcoh}
 \begin{align}
@@ -185,21 +191,22 @@ Due to this fact, $Q_{\rm min}$, which according to  Eq.\ \eqref{eq:qlimts} depe
 	Q_{\rm min} \approx \frac{\hat{s}}{2E_{\nu}},
 \end{align*}
 which only depends on the incoming neutrino energy. On the other hand, as $Q$ becomes large, the flux functions $h^{T,L}$ become quite similar, $h^{\rm T}_{\rm c}\approx 2 h^{\rm L}_{\rm c}$, and favour small values of $\hat{s}$. After some critical value of the virtuality $Q$, $h^{\rm T, L}_{\rm c}$ become negligible due to the nuclear form factor. The $Q$ value at which this happens depends on the target material, but not on the incoming neutrino energy. For instance, in the case of an Ar target
-the flux functions basically vanish for $Q\gtrsim 250$ MeV.
+the flux functions basically vanish for $Q\gtrsim 250$ MeV. The knowledge of the nuclear form factor and its shape in $Q^2$, therefore, has a significant impact on the total cross section. Here, we use a Woods-Saxon form factor described in more detail in Appendix~\ref{app:formfactors}. Our form factor leads to a difference of $12\%$ on the total cross section of coherent dimuon tridents if compared to the more recent Ref.~\cite{Altmannshofer:2019zhy}.
 
 The final cross sections for coherent neutrino trident production on Argon can be seen in \reffig{fig:coh_xsec}. Despite thresholds being important for the behaviour of these cross sections for GeV neutrino energies, we can see that mixed channels quickly become the most important due to their CC nature. At large energies one can then rank the cross sections from largest to smallest as CC, CC+NC, and NC only channels. Nevertheless, one must be aware of the fact that the cross sections are dominated by low $Q^2$ even at large energies, leading to large effects due to the final-state lepton masses as discussed in \cite{Magill:2016hgc}.
 
+%
 \begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figs/Xsec_4PS_coh.pdf}
 \caption[Coherent neutrino trident production total cross sections.]{Cross sections for coherent neutrino trident production on $^{40}$Ar (left) and  $^{208}$Pb (right) normalized to $\sigma_0 =  Z^2\, 10^{-44}$ cm$^2$. The full (dashed) lines correspond to the scattering of an incoming $\nu_\mu$ ($\nu_e$) produced by the NC (light-blue), CC (purple), and CC+NC (orange) SM interactions. \label{fig:coh_xsec}}
 \end{figure}
-
+%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Diffractive Regime ($\mathrm{H}^{\mu\nu}_\mathrm{d}$)}
 
-At larger $Q^2$, the neutrino interacts with the individual nucleons of the nucleus. In this diffractive (or incoherent) regime $\mathrm{H}^{\mu\nu}_\mathrm{d}$ is given by the sum of the contributions of the two types of nucleons: protons ($\mathrm{N=p}$) and neutrons ($\mathrm{N=n}$), so
+At larger $Q^2$, the neutrino interacts with the individual nucleons of the nucleus. In this diffractive (or incoherent elastic) regime $\mathrm{H}^{\mu\nu}_\mathrm{d}$ is given by the sum of the contributions of the two types of nucleons: protons ($\mathrm{N=p}$) and neutrons ($\mathrm{N=n}$), so
 \begin{equation}
 \mathrm{H}^{\mu \nu}_\mathrm{d} (P, P^\prime) = Z\, \mathrm{H}^{\mu \nu}_\mathrm{p} (P, P^\prime)+
 (A-Z)\,\mathrm{H}^{\mu \nu}_\mathrm{n}(P, P^\prime)\, ,
@@ -354,7 +361,7 @@ On the right panel of \reffig{fig:comparison4PS_EPA} we illustrate what happens 
 Given these problems with both coherent and diffractive cross section calculations due to the breakdown of the EPA for trident production, in what follows we will use the complete four-body calculation.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Coherent versus diffractive Scattering in Trident Production}
+\subsection{Coherent Versus Diffractive Scattering in Trident Production}
 \label{subsec:cohdiff}
 
 %
@@ -369,11 +376,9 @@ Given these problems with both coherent and diffractive cross section calculatio
 
 Let us  now comment on the significance of  the coherent and diffractive contributions to the total cross for the different trident channels. 
 In Fig.\ \ref{fig:RatioCDvsT} we present the ratio of the coherent and the diffractive scattering cross sections to the total cross section for an $^{40}$Ar target for an incoming $\nu_\mu$ (left) and $\nu_e$ (right)  neutrino. We can see that the coherent regime dominates at all neutrino energies when there is an electron in the final-state, especially in the dielectron case. 
-This can be explained by noting that the $Q^2$ necessary to create an electron pair is smaller than the one needed to create a muon; thus, coherent scattering is more likely to occur for this mode. Conversely, 
-as one needs larger momentum transferred to produce a muon (either accompanied by an electron 
+This can be explained by noting that the $Q^2$ necessary to create an electron pair is smaller than the one needed to create a muon; thus, coherent scattering is more likely to occur for this mode. Conversely, as one needs larger momentum transferred to produce a muon (either accompanied by an electron 
 or another muon) the  diffractive regime becomes more likely in these modes, as we can explicitly 
-see in Fig.\ \ref{fig:RatioCDvsT}. 
-Because of this effect the diffractive contribution is $\lesssim$ 10\%, except for the 
+see in Fig.\ \ref{fig:RatioCDvsT}. Because of this effect the diffractive contribution is $\lesssim$ 10\%, except for the 
 dimuon channel where it can be between $30$ and $40$\% in most of the energy region.
 Furthermore, when we compare the two incoming types of neutrinos, we see that for an incoming $\nu_\mu$ the diffractive contribution is larger than the coherent one in the range $0.3\ {\rm GeV}\lesssim E_\nu \lesssim 0.8$ GeV, while for an incoming $\nu_e$ this never happens. 
 This difference can be explained by the fact that CC and NC contributions  are simultaneously present for the scattering of an initial $\nu_\mu$ creating a muon pair, whereas
@@ -381,7 +386,7 @@ for an initial $\nu_e$ creating a muon pair, we will only have the NC contributi
 
 An important difference between the coherent and diffractive regimes will be in their hadronic signatures in the detector. Neutrino trident production is usually associated with zero hadronic energy at the vertex, a feature that proved very useful in reducing backgrounds in previous measurements. Whilst this is a natural assumption for the coherent regime, it need not be the case in the diffractive one. In fact, in the latter it is likely that the struck nucleon is ejected from the nucleus in a significant fraction of events with $Q$ exceeding the nuclear binding energy
 %
-\footnote{The peak of our diffractive $Q^2$ distributions happens at around $Q \approx 300$ MeV, much beyond the typical binding energy for Ar (see \refapp{app:distributions}). Without Pauli suppression, however, we expect this value to drop.}. Since the dominant diffractive contribution comes from scattering on protons, these could then be visible in the detector if their energies are above threshold. On the other hand, the struck nucleon is subject to many nuclear effects which may significantly affect the hadronic signature, such as interactions of the struck nucleon in the nuclear medium as well as reabsorption. Our calculation of Pauli blocking, for example, shows large suppressions ($\sim 50\%$) precisely in the low $Q^2$ region, usually associated with no hadronic activity. This then raises the question of how well one can predict the hadronic signatures of diffractive events given the difficulty in modelling the nuclear environment. We therefore do not commit to an estimate of the number of diffractive events that would have a coherent-like hadronic signature, but merely point out that this might introduce additional uncertainties in the calculation, especially in the $\mu^+ \mu^-$ channel where the diffractive contribution is comparable to the coherent one. Finally, from now on we will refer to the number of trident events with no hadronic activity as coherent-like, where this number can range from coherent only to coherent plus all diffractive events. 
+\footnote{The peak of our diffractive $Q^2$ distributions happens at around $Q \approx 300$ MeV, much beyond the typical binding energy for Ar (see \refapp{app:trident_distributions}). Without Pauli suppression, however, we expect this value to drop.}. Since the dominant diffractive contribution comes from scattering on protons, these could then be visible in the detector if their energies are above threshold. On the other hand, the struck nucleon is subject to many nuclear effects which may significantly affect the hadronic signature, such as interactions of the struck nucleon in the nuclear medium as well as reabsorption. Our calculation of Pauli blocking, for example, shows large suppressions ($\sim 50\%$) precisely in the low $Q^2$ region, usually associated with no hadronic activity. This then raises the question of how well one can predict the hadronic signatures of diffractive events given the difficulty in modelling the nuclear environment. We therefore do not commit to an estimate of the number of diffractive events that would have a coherent-like hadronic signature, but merely point out that this might introduce additional uncertainties in the calculation, especially in the $\mu^+ \mu^-$ channel where the diffractive contribution is comparable to the coherent one. Finally, from now on we will refer to the number of trident events with no hadronic activity as coherent-like, where this number can range from coherent only to coherent plus all diffractive events. 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -400,17 +405,18 @@ The total number of trident events, $N^{\text{\Neptune}}_{\rm X}$, expected for 
 N^{\text{\Neptune}}_{\rm X}={\rm Norm}\times\int dE_\nu \, \sigma_{\nu {\rm X}}(E_\nu) \frac{d\phi_{\nu}(E_\nu)}{dE_\nu}\epsilon(E_\nu)\,,
 \end{eqnarray}
 where $\sigma_{\nu {\rm X}}$ can be the trident total (${\rm X}={\cal N}$), coherent ($\mathrm{X=c}$) or diffractive ($\mathrm{X=d}$) cross sections 
-for a given mode, $\phi_{\nu}$ is the flux of the incoming neutrino and $\epsilon(E_\nu)$ is the efficiency of detection of the charged leptons. In the calculations of this section, we assume an efficiency of $100\%$\footnote{See \refsec{subsec:kine} for a discussion on the detection efficiencies for trident events and backgrounds.}. Two features of the cross sections are important for the event rate calculation: threshold effects, especially for channels involving muons in the final-state,
+for a given mode, $\phi_{\nu}$ is the flux of the incoming neutrino and $\epsilon(E_\nu)$ is the efficiency of detection of the charged leptons. In the calculations of this section, we assume an efficiency of $100\%$\footnote{See \refapp{app:trident_distributions} for a discussion on the detection efficiencies for trident events and backgrounds.}. Two features of the cross sections are important for the event rate calculation: threshold effects, especially for channels involving muons in the final-state,
 and cross section's growth with energy. In particular, we expect higher trident event rates for experiments with higher energy neutrino beams. 
 
 We start our study with the three detectors of the SBN program, one of which, $\mu$BooNE, is already installed and taking data at Fermilab. These three LAr time projection chamber detectors are located along the Booster Neutrino Beam line which is by now a well-understood source, having the focus of active research for over 15 years. 
 %
-Although the number of trident events expected in these detectors is rather low, they may offer one of the first opportunities to study trident events in LAr, as well as to better understand their backgrounds in this medium and to devise improved analysis techniques.
+Although the number of trident events expected in these detectors is rather low, they may offer the first opportunity to develop search techniques and learn more about background processes to tridents in LAr.
 %
 After that we study the proposed near detector for DUNE. This turns out to be the most important LAr detector for trident production since it will provide the highest number of events in both neutrino and antineutrino modes. 
 %
 Finally, having in mind the novel flavour composition of neutrino beams from muon facilities, we investigate trident rates at a 100~t LAr detector for the $\nu$STORM project. This last facility could offer a very well understood neutrino beam with as many electron neutrinos as muon antineutrinos from muon decays, creating new possibilities for trident scattering measurements.
 %%
+\renewcommand{\arraystretch}{1.2}
 \begin{table}[h!]
 \begin{tabular}{|cccccc|}
 \hline
@@ -453,8 +459,7 @@ Finally, having in mind the novel flavour composition of neutrino beams from muo
     \hline
 \end{tabular}
 \caption[Trident rates in LAr detectors.]{\label{tab:LArrates}Total number of \textbf{coherent} (top row) and \textbf{diffractive} (bottom row) trident events expected at different LAr experiments for a given channel.
-The numbers in parentheses are for the antineutrino running mode, when present. These calculations  
-considered a detector efficiency of 100\%. }
+The numbers in parentheses are for the antineutrino running mode, when present. We assume detector efficiencies of 100\%. For the $\nu$STORM ND, we take a fiducial mass of 100t of LAr.}
 \end{table}
 
 
@@ -489,10 +494,7 @@ mode) the collaboration expects $1.83\times 10^{21}$~POT/year with  a plan to up
 assume the total 10-year exposure in our calculations.
 %
  
-The number of trident events for DUNE ND can be found in Tab.~\ref{tab:LArrates}. 
-The numbers in parentheses correspond to antineutrino beam mode.
-Note that although the trident cross sections are the same 
-for neutrinos and antineutrinos, the fluxes are a bit lower for the antineutrino beam, as a consequence we predict a lower event rate for this beam~\footnote{A similar difference will apply to the processes constituting the background to the trident process, although there is an additional suppression in many channels due to the lower antineutrino cross sections.}.
+The number of trident events for DUNE ND can be found in Tab.~\ref{tab:LArrates}. The numbers in parentheses correspond to antineutrino beam mode. Note that although the trident cross sections are the same for neutrinos and antineutrinos, the fluxes are a bit lower for the antineutrino beam, as a consequence we predict a lower event rate for this beam~\footnote{A similar difference will apply to the processes constituting the background to the trident process, although there is an additional suppression in many channels due to the lower antineutrino cross sections.}.
 %
 Due to the much higher energy and wider energy range of the neutrino fluxes at DUNE ND, as compared to the SBN detectors, DUNE can observe a considerable number of trident events, about 300 times the number of trident events expected for SBND just in the neutrino mode. Moreover, the subdominant component of 
 each beam mode will also contribute to the signal. For example, we expect to observe $2051$ trident events in the $\overline{\nu}_\mu\to\overline{\nu}_e e^- \mu^+$ channel in the antineutrino mode. However, we also expect 
@@ -526,7 +528,7 @@ The total number of mixed flavour, dielectron and dimuon channel events is, resp
 %
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Backgrounds to tridents in LAr}
+\section{Backgrounds to Tridents in LAr}
 \label{subsec:bck}
 
 The study of any rare process is a struggle against both systematic uncertainties in the event rates and unavoidable background processes. True dilepton signatures are naturally rare in neutrino scattering experiments, but with modest rates of particle misidentification a non-trivial background arises. In this section we estimate the background to trident processes in LAr and its impact on the trident measurement. We perform our analysis only for DUNE ND, in neutrino and antineutrino mode, but our results are expected to be broadly applicable to other LAr detectors. We have generated a sample of $1.1 \times 10^6$ background events using GENIE~\cite{Andreopoulos2009} for incident electron and muon flavour neutrinos and antineutrinos. It is worth noting, however, that this event sample will in fact be smaller than the total number of neutrino interactions expected in the DUNE ND. 
@@ -538,7 +540,9 @@ To account for misreconstruction in the detector, we implement resolutions as a 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Background Candidates}
 \label{subsubsec:misID}
-We focus on three final-state charged lepton combinations: $\mu^+\mu^-$, $\mu^\pm e^\mp$ and $e^+e^-$. Genuine production of these states is possible in background processes, but usually rare, deriving from meson resonances or other prompt decays. The majority of the background is expected to be from particle misidentification (misID). We assume that protons can always be identified above threshold and that neutrons leave no detectable signature in the detector. In addition, we require no charge ID capabilities from the detector and assume that the interaction vertex can always be reconstructed. Under these assumptions, we have incorporated three misidentifications which will affect our analysis, and give our naive estimates for their rates in Tab.~\ref{tab:misIDlist}. Any other particle pairs are assumed to be distinguishable from each other when needed.
+We focus on three final-state charged lepton combinations: $\mu^+\mu^-$, $\mu^\pm e^\mp$ and $e^+e^-$. Genuine production of these states is possible in background processes, but usually rare, deriving from meson resonances or other prompt decays. The majority of the background is expected to be from particle misidentification (misID). We assume that protons can always be identified above threshold and that neutrons leave no detectable signature in the detector. In addition, we require no charge ID capabilities from the detector and assume that the interaction vertex can always be reconstructed. Under these assumptions, we have incorporated three misidentifications which will affect our analysis, and give our naive estimates for their rates in Tab.~\ref{tab:misIDlist}. Any other particle pairs are assumed to be distinguishable from each other when needed. Of great importance is the misID rate for $\mu/\pi$. Because the typical energy deposition in the detector, $dE/dx$, is very similar between pions and muons, these are indistinguishable if the
+particle escapes the detector. If the pion interacts, however, it may be identified. The pion interaction length in LAr is taken to be around 1m, and travelling a distance
+of around $\lesssim 3$m would occur in $\sim 10\%$ of cases. Increasing this misID rate has a large impact, increasing the number of backgrounds events to dimuon tridents. Additional possibilities to control backgrounds from pion production are tightening cuts on the opening angle of the dimuon pair or increasing the detector volume (see Ref.~\cite{Altmannshofer:2019zhy} for a more recent discussion on this issue).
 %
 \renewcommand{\arraystretch}{1.4}
 \begin{table}[h]
@@ -554,7 +558,7 @@ We focus on three final-state charged lepton combinations: $\mu^+\mu^-$, $\mu^\p
 \caption[Rates for particle misID in LAr.]{\label{tab:misIDlist} Assumed misID rates for various particles in a LAr detector. We take these values to be constant in energy.}
 \end{table}
 
-The requirement of no hadronic activity helps constrain the possible background processes, but one is still left with significant events with invisible hadronic activity and other coherent neutrino-nucleus scatterings. These are then reduced by choosing appropriate cuts on physical observables, exploring the discrepancies between our signal and the background. In our GENIE analysis, we include all events that have final-states identical to trident, or that could be interpreted as a trident final-state considering our proposed misID scenarios. Our dominant sources of background for $\mu^+ \mu^-$ tridents are $\nu_\mu$-initiated charged-current events with an additional charged pion in the final-state ($\nu_\mu$CC$1\pi^\pm$). For $e^+e^-$ tridents, the most important processes are neutral current scattering with a $\pi^0$ (NC$\pi^0$), while for mixed $e^\pm \mu^\mp$ tridents, the $\nu_\mu$-initiated charged-current events with a final-state $\pi^0$ (CC$\pi^0$) dominate the backgrounds. In each case, the pion is misidentified to mimic the true trident final-state. Other relevant topologies include charm production, CC$\gamma$ and $\nu_e$CC$\pi^\pm$. For a detailed discussion of these backgrounds processes we refer the reader to Ref.~\cite{ballet}
+The requirement of no hadronic activity helps constrain the possible background processes, but one is still left with significant events with invisible hadronic activity and other coherent neutrino-nucleus scatterings. These are then reduced by choosing appropriate cuts on physical observables, exploring the discrepancies between our signal and the background. In our GENIE analysis, we include all events that have final-states identical to trident, or that could be interpreted as a trident final-state considering our proposed misID scenarios. Our dominant sources of background for $\mu^+ \mu^-$ tridents are $\nu_\mu$-initiated charged-current events with an additional charged pion in the final-state ($\nu_\mu$CC$1\pi^\pm$). For $e^+e^-$ tridents, the most important processes are neutral current scattering with a $\pi^0$ (NC$\pi^0$), while for mixed $e^\pm \mu^\mp$ tridents, the $\nu_\mu$-initiated charged-current events with a final-state $\pi^0$ (CC$\pi^0$) dominate the backgrounds. In each case, the pion is misidentified to mimic the true trident final-state. Other relevant topologies include charm production, CC$\gamma$ and $\nu_e$CC$\pi^\pm$. For a detailed discussion of these backgrounds processes we refer the reader to Ref.~\cite{Ballett:2018uuc}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{\label{sec:DUNE_bg_rates}Estimates for the DUNE ND}
@@ -563,9 +567,9 @@ In this section we provide estimates for the total background for each trident f
 
 Our estimates are shown in \reftab{tab:DUNE_ND_NU_BG}. We start with the total number of background candidates $\rm N_B^{\mathrm{misID}}$, using only the naive misID rates shown in \reftab{tab:misIDlist}. These are much larger than the trident rates we expect, by at least 2 orders of magnitude. Next, we veto any hadronic activity at the interaction vertex, obtaining $\rm N_B^{\mathrm{had}}$. We emphasize that this veto also affects the diffractive tridents in a non-trivial way, and therefore we remain agnostic about the hadronic signature of these. 
 %
-Finally, one can look at the kinematical distributions of coherent trident in \refsec{subsec:kine} and try to estimate optimal one dimensional cuts for the DUNE ND based on the kinematics of the final-state charged leptons. This is a simple way to explore the striking differences between the peaked nature of our signal and the smoother background. In a real experimental setting it is desirable to have optimization methods for isolating signal from background, preferably with a multivariate analyses. However, even in our simple analysis, cutting on the small angles to the beamline and the low invariant masses of our trident signal can achieve the desired background suppressions. For the $\mu^+\mu^-$ tridents we show the effect of our cuts in \reffig{fig:bkg_flow}. The cuts are defined to be $m^2_{\mu^+ \mu^-} < 0.2 \ \mathrm{GeV}^2$, $\Delta \theta < 20^\circ$, $\theta_\pm < 15^\circ$. The kinematics is very similar in the other trident channels, with slightly less forward distributions for electrons. For the $e^+ e^-$ channel we take  $m^2_{e^+ e^-} < 0.1 \ \mathrm{GeV}^2$, $\Delta \theta < 40^\circ$ and $\theta_\pm < 20^\circ$. 
+Finally, one can look at the kinematical distributions of coherent trident in \refapp{app:trident_distributions} and try to estimate optimal one dimensional cuts for the DUNE ND based on the kinematics of the final-state charged leptons. This is a simple way to explore the striking differences between the peaked nature of our signal and the smoother background. In a real experimental setting it is desirable to have optimization methods for isolating signal from background, preferably with a multivariate analyses. However, even in our simple analysis, cutting on the small angles to the beamline and the low invariant masses of our trident signal can achieve the desired background suppressions. For the $\mu^+\mu^-$ tridents we show the effect of our cuts in \reffig{fig:bkg_flow}. The cuts are defined to be $m^2_{\mu^+ \mu^-} < 0.2 \ \mathrm{GeV}^2$, $\Delta \theta < 20^\circ$, $\theta_\pm < 15^\circ$. The kinematics is very similar in the other trident channels, with slightly less forward distributions for electrons. For the $e^+ e^-$ channel we take  $m^2_{e^+ e^-} < 0.1 \ \mathrm{GeV}^2$, $\Delta \theta < 40^\circ$ and $\theta_\pm < 20^\circ$. 
 %
-The asymmetry between the positive and negative charged leptons is visible in the distributions, where the latter tends to be more energetic. This feature was not explored in our cuts, as it is not significant enough to further improve background discrimination. In the mixed flavour tridents, however, one sees a much more pronounced asymmetry. The muon tends to carry most of the energy and be more forward than the electron, which can make the search for this channel more challenging due to the softness of the electron in the high energy event. Nevertheless, the low invariant masses and forward profiles can still serve as powerful tool for background discrimination, provided the event can be well reconstructed. We assume that is the case here and use the following cuts on the background:  $m^2_{e^\pm \mu^\mp} < 0.1 \  \mathrm{GeV}^2$, $\Delta \theta < 20^\circ$, $\theta_e < 40^\circ$ and $\theta_\mu < 20^\circ$. When performing kinematical cuts, we also include the effects of detection thresholds after smearing. For a discussion on the impact of these thresholds on the trident signal see \refsec{subsec:kine}. 
+The asymmetry between the positive and negative charged leptons is visible in the distributions, where the latter tends to be more energetic. This feature was not explored in our cuts, as it is not significant enough to further improve background discrimination. In the mixed flavour tridents, however, one sees a much more pronounced asymmetry. The muon tends to carry most of the energy and be more forward than the electron, which can make the search for this channel more challenging due to the softness of the electron in the high energy event. Nevertheless, the low invariant masses and forward profiles can still serve as powerful tool for background discrimination, provided the event can be well reconstructed. We assume that is the case here and use the following cuts on the background:  $m^2_{e^\pm \mu^\mp} < 0.1 \  \mathrm{GeV}^2$, $\Delta \theta < 20^\circ$, $\theta_e < 40^\circ$ and $\theta_\mu < 20^\circ$. When performing kinematical cuts, we also include the effects of detection thresholds after smearing. For a discussion on the impact of these thresholds on the trident signal see \refapp{app:trident_distributions}. 
 %
 
 The resulting signal efficiencies due to our cuts and thresholds are shown in the last two columns of \reftab{tab:DUNE_ND_NU_BG}. One can see that these are all $ \approx 50\%$ or greater for our coherent samples, whilst all background numbers remain much below the trident signal. The diffractive samples are also somewhat more affected by our cuts than the coherent ones. If one is worried about the contamination of coherent events by diffractive ones, then the kinematics of the charged leptons alone can help reduce this, independently of the hadronic energy deposition of the events. For instance, in the case where all $\mu^+\mu^-$ diffractive events appear with no hadronic signature, then after our cuts the diffractive contribution is reduced from $41\%$ to $15\%$ of the total trident signal. This reduction is, however, also subject to large uncertainties coming from nuclear effects. In summary, the set of results above are encouraging, suggesting that the signal of coherent-like trident production is sufficiently unique to allow for its search at near detectors despite naively large backgrounds. 
@@ -599,35 +603,13 @@ ${\epsilon_{\mathrm{sig}}^{\mathrm{dif}}}$ \footnotemark\\	\hline
 Finally, we comment on some of the limitations of our analysis. The low rate of trident events calls for a more careful evaluation of other subdominant processes that could be easily be overlooked. For channels involving electrons, it is possible that de-excitation photons and internal bremsstrahlung become a source of background, as these also produce very soft EM showers, none of which are implemented in GENIE. The question of reconstruction of these soft EM showers, accompanied either by a high energy muon or by another soft EM shower also would have to be addressed, especially in the latter case where a trigger for these soft events would have to be in place. A more complete analysis is also needed for treating the decay products of charged pions and muons produced in neutrino interactions, as well as rare meson decay channels (like the Dalitz decay of neutral pions $\pi^0 \to \gamma e^+ e^-$). Cosmic ray events are not expected to be a problem due to the requirement of a vertex and a correlation with the beam for trident events. Perhaps even more exotic processes, such as the production of three final-state charged leptons ($\nu_{\alpha} (\overline{\nu}_{\alpha}) + \mathcal{H} \to  \ell_\alpha^- (\ell_\alpha^+) + \ell_\beta^+ + \ell_{\beta}^- + \mathcal{H^\prime}$), can also become relevant. For instance, radiative trimuon production \cite{Smith:1977nx} can potentially serve as a background to dimuon tridents if one of the muons is undetected. Similarly, $\mu e e$ production would fake a dielectron (mixed) trident signature if the muon (an electron) is missed. We are not aware of any estimates for the rate of these processes at the DUNE ND, but we note that their rate can be comparable to trident production at energies above $30$ GeV \cite{Albright:1978mg}. Improvements on our analysis should come from the collaboration's sophisticated simulations, allowing for a better quantification of hadronic activity, more realistic misID rates and more accurate detector responses.  
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Conclusions}
-
-\label{sec:conc}
+\section{Overview} \label{sec:conc}
 Neutrino trident events are predicted by the SM, however, only $\overline{\nu}_\mu$ initiated dimuon tridents have been observed in small numbers, typically fewer than 100 events. This will change in the near future thanks to the current and future generations of precision neutrino scattering and oscillation experiments, which incorporate state-of-the-art detectors located at short distances from intense neutrino sources. 
 %
-In this work we discuss the calculation of the neutrino trident cross section for all flavours and hadronic targets, and provide estimates for the number and distributions of events at 9 current or future neutrino detectors: five detectors based on the new LAr technology (SBND, $\mu$BooNE, ICARUS, DUNE ND and $\nu$STORM ND) as well as four more conventional detectors (INGRID, MINOS ND, NO$\nu$A ND and MINER$\nu$A). The search for tridents, however, need not be exclusive to near detectors of accelerator neutrino experiments. As pointed out by the authors of Ref.~\cite{Ge2017}, atmospheric neutrino experiments can also look for these processes, benefiting from the increase of the cross section at large energies. 
+Our calculation of the neutrino trident cross section holds for all flavours and hadronic targets, and with it we provided estimates for the number and distributions of events at 5 current and future neutrino detectors: five detectors based on the new LAr technology (SBND, $\mu$BooNE, ICARUS, DUNE ND and $\nu$STORM ND). The search for tridents, however, need not be exclusive to near detectors of accelerator neutrino experiments. As pointed out by the authors of Ref.~\cite{Ge2017}, atmospheric neutrino experiments can also look for these processes, benefiting from the increase of the cross section at large energies. Extending our formalism to DIS regimes would also be interesting and straightforward for larger energies.
 
-We have stressed the need for a full four-body phase space calculation of the trident cross sections without using the EPA. This approximation has been employed in recent calculations and can lead to overestimations of the cross section by 200\% or more at the peak neutrino energies relevant for many accelerator neutrino experiments.
-%
-Moreover, we show why the EPA is not applicable for computing trident cross sections, and provide the first quantitative assessment of this breakdown for coherent and diffractive hadronic regimes. 
-%
-We find that the breakdown of the approximation is most severe for processes with electrons in the final-state and for diffractive scattering of all final state flavours. 
-%
-For coherent dimuon production, the approximation can give a reasonable result at large neutrino energies. This is due to the nuclear form factors that serendipitously suppress those regions of phase space where the EPA is least applicable. We also demonstrated that the best results in this channel are achieved when applying artificial cuts to the phase space.
-%
-However, even in this case, at energies relevant for the above experiments, the EPA can artificially suppress the coherent scattering contribution and increase the diffractive one giving rise to an incorrect rate and distributions of observable quantities. 
-%
-For instance, the invariant mass of the charged lepton pair $m^2_{\ell \ell}$ and their angular separation $\Delta \theta$ are more uniformly distributed for diffractive than for coherent trident scattering. Using the correct distributions is crucial to correctly disentangle the signal from the background by cutting on these powerful discriminators.
-
-Our calculations show that DUNE ND is the future detector with the highest neutrino trident statistics, more than 6000 mixed events, 11\% produced by diffractive scattering, more than 1900 dielectron events, 5\%  produced by diffractive scattering and about 750 dimuon events,
-almost 34\% of those produced by a diffractive process. Making use of our efficiencies (see \reftab{tab:DUNE_ND_NU_BG}), assuming an ideal background suppression and neglecting systematic uncertainties, we quote the statistical uncertainty on the coherent-like flux averaged cross section for the DUNE ND. We do this for coherent only events and, in brackets, for coherent plus diffractive events, yielding
+The DUNE ND is the future detector with the highest neutrino trident statistics, more than 6000 mixed events, 11\% produced by diffractive scattering, more than 1900 dielectron events, 5\%  produced by diffractive scattering and about 750 dimuon events, almost 34\% of those produced by a diffractive process. Making use of our efficiencies (see \reftab{tab:DUNE_ND_NU_BG}), assuming an ideal background rejection and neglecting systematic uncertainties, we quote the statistical uncertainty on the coherent-like flux averaged cross section for the DUNE ND. We do this for coherent only events and, in brackets, for coherent plus diffractive events, yielding
 %
 \[\frac{\delta \langle \sigma^{e^\pm\mu^\mp} \rangle}{\langle \sigma^{e^\pm\mu^\mp} \rangle} =  1.8\% \, (1.6\%), \quad \frac{\delta \langle \sigma^{e^+e^-} \rangle}{\langle \sigma^{e^+e^-} \rangle} =  3.4\% \,(3.3\%) \quad \mathrm{and} \quad \frac{\delta \langle\sigma^{\mu^+\mu^-} \rangle}{\langle \sigma^{\mu^+\mu^-} \rangle} =  5.5\% \,(5.1\%).\]
 %
-In this optimistic framework we expect the true statistical uncertainty on coherent-like tridents to lie between the two numbers quoted, depending on how many diffractive events contribute to the coherent-like event sample. This impressive precision would provide unprecedented knowledge of the trident process and the nuclear effects governing the interplay between coherent and diffractive regimes. We emphasize, however, that given these small values for the relative uncertainties, the trident cross section will likely be dominated by systematic uncertainties from detector response and backgrounds which are not modelled here. 
-
-For DUNE ND, we have studied the distribution of observables which could help distinguish trident events from the background. We have estimated the background for each trident channel via a Monte Carlo simulation using GENIE, and identified the dominant contributions arising primarily from particle misidentification.  
-%
-We conclude that reaching background rates of the order 
-${\cal O}(10^{-6}-10^{-5})$ times the CC rate is necessary to observe trident events at DUNE ND, and given the distinctive kinematic behaviour of the trident signal a simple cut-based GENIE-level analysis suggests that this is an attainable goal in a LAr TPC. 
-
-Existing facilities may also be able to make a neutrino trident measurement at their near detectors. Despite not including reconstruction efficiencies nor an indication of the impact of backgrounds, we find that the largest trident statistics is available at INGRID, the T2K on-axis near detector. We predict about 660 (1700) events for the mixed flavour, 300 (770) events for the dielectron and 50 (130) events for the dimuon channel for T2K-I (T2K-II). The more fine-grained near detector of MINOS and MINOS+ is also expected to have collected a significant numbers of events during its run. As such, the very first measurement of neutrino trident production of mixed and dielectron channels may be at hand.
+In this optimistic framework we expect the true statistical uncertainty on coherent-like tridents to lie between the two numbers quoted, depending on how many diffractive events contribute to the coherent-like event sample. This impressive precision would provide unprecedented knowledge of the trident process. We emphasize, however, that given these small values, the trident cross section will likely be dominated by systematic uncertainties from detector response and backgrounds which are not modeled here. 

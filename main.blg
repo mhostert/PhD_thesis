@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: JHEP.bst
-Reallocated field_info (elt_size=4) to 17840 items from 5000.
+Reallocated field_info (elt_size=4) to 18230 items from 5000.
 Database file #1: introduction/introduction.bib
 Database file #2: theory/theory.bib
 Database file #3: tridentSM/tridentSM.bib
@@ -18,6 +18,10 @@ I'm skipping whatever remains of this entry
 Repeated entry---line 1572 of file Zprime_scattering/Zprime_scattering.bib
  : @article{SBNproposal
  :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1696 of file Zprime_scattering/Zprime_scattering.bib
+ : @article{Altmannshofer:2019zhy
+ :                               ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 1781 of file Zprime_scattering/Zprime_scattering.bib
  : @article{Benvenuti1977
@@ -36,6 +40,7 @@ Repeated entry---line 623 of file dark_nus/three_portals.bib
  : @article{Hannestad:2013ana
  :                           ,
 I'm skipping whatever remains of this entry
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Repeated entry---line 821 of file dark_nus/three_portals.bib
  : @article{Cheng:1980qt
  :                      ,
@@ -72,7 +77,6 @@ Repeated entry---line 945 of file dark_nus/three_portals.bib
  : @article{Schechter:1980gr
  :                          ,
 I'm skipping whatever remains of this entry
-Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Repeated entry---line 1009 of file dark_nus/three_portals.bib
  : @article{Arguelles:2018mtc
  :                           ,
@@ -634,6 +638,10 @@ Repeated entry---line 2622 of file dark_nus/nu_masses.bib
  : @article{Masip:2012ke
  :                      ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 2652 of file dark_nus/nu_masses.bib
+ : @article{AguilarArevalo:2008qa
+ :                               ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 2668 of file dark_nus/nu_masses.bib
  : @article{AguilarArevalo:2008rc
  :                               ,
@@ -651,201 +659,209 @@ Repeated entry---line 1 of file miniboone/miniboone.bib
  : @article{AguilarArevalo:2008rc
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 18 of file miniboone/miniboone.bib
+Repeated entry---line 53 of file miniboone/miniboone.bib
+ : @article{Aliaga:2016oaz
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 108 of file miniboone/miniboone.bib
  : @article{deGouvea:2006hfo
  :                          ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "NIST:2018" isn't style-file defined
---line 99 of file miniboone/miniboone.bib
-Repeated entry---line 102 of file miniboone/miniboone.bib
+--line 176 of file miniboone/miniboone.bib
+Repeated entry---line 179 of file miniboone/miniboone.bib
  : @article{Bauer:2018onh
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 129 of file miniboone/miniboone.bib
+Repeated entry---line 206 of file miniboone/miniboone.bib
  : @article{Lindner:2018kjo
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 143 of file miniboone/miniboone.bib
+Repeated entry---line 220 of file miniboone/miniboone.bib
  : @article{Bellini:2011rx
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 157 of file miniboone/miniboone.bib
+Repeated entry---line 234 of file miniboone/miniboone.bib
  : @article{Deniz:2009mu
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 211 of file miniboone/miniboone.bib
+Repeated entry---line 288 of file miniboone/miniboone.bib
  : @article{Aliaga:2013uqz
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 343 of file miniboone/miniboone.bib
+Repeated entry---line 420 of file miniboone/miniboone.bib
  : @article{Aguilar:2001ty
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 813 of file miniboone/miniboone.bib
+Repeated entry---line 890 of file miniboone/miniboone.bib
  : @article{Esteban:2018azc
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1058 of file miniboone/miniboone.bib
+Repeated entry---line 1135 of file miniboone/miniboone.bib
  : @article{pdg
  :             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1116 of file miniboone/miniboone.bib
+Repeated entry---line 1193 of file miniboone/miniboone.bib
  : @article{Gonzalez-Garcia:2014bfa
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2024 of file miniboone/miniboone.bib
+Repeated entry---line 2101 of file miniboone/miniboone.bib
  : @article{Dib:2011jh
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2057 of file miniboone/miniboone.bib
+Repeated entry---line 2134 of file miniboone/miniboone.bib
  : @article{Gninenko:2010pr
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2072 of file miniboone/miniboone.bib
+Repeated entry---line 2149 of file miniboone/miniboone.bib
  : @article{Gninenko:2009ks
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2339 of file miniboone/miniboone.bib
+Repeated entry---line 2416 of file miniboone/miniboone.bib
  : @article{Hannestad:2013ana
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2356 of file miniboone/miniboone.bib
+Repeated entry---line 2433 of file miniboone/miniboone.bib
  : @article{Dasgupta:2013zpn
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2513 of file miniboone/miniboone.bib
+Repeated entry---line 2590 of file miniboone/miniboone.bib
  : @article{Bertuzzo:2018ftf
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2532 of file miniboone/miniboone.bib
+Repeated entry---line 2609 of file miniboone/miniboone.bib
  : @article{Vilain:1994qy
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2647 of file miniboone/miniboone.bib
+Repeated entry---line 2724 of file miniboone/miniboone.bib
  : @article{Aguilar-Arevalo:2018gpe
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2784 of file miniboone/miniboone.bib
+Repeated entry---line 2861 of file miniboone/miniboone.bib
  : @article{Ballett:2016opr
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2800 of file miniboone/miniboone.bib
+Repeated entry---line 2877 of file miniboone/miniboone.bib
  : @article{Mention:2011rk
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2879 of file miniboone/miniboone.bib
+Repeated entry---line 2956 of file miniboone/miniboone.bib
  : @article{Magill:2017mps
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3221 of file miniboone/miniboone.bib
+Repeated entry---line 3298 of file miniboone/miniboone.bib
  : @article{Mohapatra:1986bd
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3249 of file miniboone/miniboone.bib
+Repeated entry---line 3326 of file miniboone/miniboone.bib
  : @article{Hannestad:2013ana
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3266 of file miniboone/miniboone.bib
+Repeated entry---line 3343 of file miniboone/miniboone.bib
  : @article{Dasgupta:2013zpn
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3322 of file miniboone/miniboone.bib
+Repeated entry---line 3399 of file miniboone/miniboone.bib
  : @article{Gninenko:2012rw
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3351 of file miniboone/miniboone.bib
+Repeated entry---line 3428 of file miniboone/miniboone.bib
  : @article{Masip:2012ke
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3440 of file miniboone/miniboone.bib
+Repeated entry---line 3517 of file miniboone/miniboone.bib
  : @inproceedings{Alexander:2016aln
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3916 of file miniboone/miniboone.bib
+Repeated entry---line 3993 of file miniboone/miniboone.bib
  : @article{Alekhin:2015byh
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4076 of file miniboone/miniboone.bib
+Repeated entry---line 4153 of file miniboone/miniboone.bib
  : @article{Lovseth1971
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4126 of file miniboone/miniboone.bib
+Repeated entry---line 4203 of file miniboone/miniboone.bib
  : @article{Adams:1999mn
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4200 of file miniboone/miniboone.bib
+Repeated entry---line 4277 of file miniboone/miniboone.bib
  : @article{Jentschura2009
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4350 of file miniboone/miniboone.bib
+Repeated entry---line 4427 of file miniboone/miniboone.bib
  : @article{Altmannshofer2014
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4413 of file miniboone/miniboone.bib
+Repeated entry---line 4490 of file miniboone/miniboone.bib
  : @article{McKeen:2010rx
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4748 of file miniboone/miniboone.bib
+Repeated entry---line 4837 of file miniboone/miniboone.bib
  : @phdthesis{Park:2013dax
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4806 of file miniboone/miniboone.bib
+Repeated entry---line 4895 of file miniboone/miniboone.bib
  : @article{Park:2015eqa
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4825 of file miniboone/miniboone.bib
+Repeated entry---line 4914 of file miniboone/miniboone.bib
  : @article{Bertuzzo:2018itn
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4837 of file miniboone/miniboone.bib
+Repeated entry---line 4926 of file miniboone/miniboone.bib
  : @article{Ballett:2018ynz
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4852 of file miniboone/miniboone.bib
+Repeated entry---line 4941 of file miniboone/miniboone.bib
  : @article{Mention:2011rk
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5267 of file miniboone/miniboone.bib
+Repeated entry---line 5000 of file miniboone/miniboone.bib
+ : @article{AguilarArevalo:2008qa
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5381 of file miniboone/miniboone.bib
  : @article{Mohapatra:1986bd
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5295 of file miniboone/miniboone.bib
+Repeated entry---line 5409 of file miniboone/miniboone.bib
  : @article{Hannestad:2013ana
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5312 of file miniboone/miniboone.bib
+Repeated entry---line 5426 of file miniboone/miniboone.bib
  : @article{Dasgupta:2013zpn
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5338 of file miniboone/miniboone.bib
+Repeated entry---line 5452 of file miniboone/miniboone.bib
  : @article{Abazajian:2017tcc
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5426 of file miniboone/miniboone.bib
+Repeated entry---line 5540 of file miniboone/miniboone.bib
  : @inproceedings{Alexander:2016aln
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5915 of file miniboone/miniboone.bib
+Repeated entry---line 6029 of file miniboone/miniboone.bib
  : @article{Alekhin:2015byh
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6075 of file miniboone/miniboone.bib
+Repeated entry---line 6189 of file miniboone/miniboone.bib
  : @article{Lovseth1971
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6125 of file miniboone/miniboone.bib
+Repeated entry---line 6239 of file miniboone/miniboone.bib
  : @article{Adams:1999mn
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6199 of file miniboone/miniboone.bib
+Repeated entry---line 6313 of file miniboone/miniboone.bib
  : @article{Jentschura2009
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6349 of file miniboone/miniboone.bib
+Repeated entry---line 6463 of file miniboone/miniboone.bib
  : @article{Altmannshofer2014
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6450 of file miniboone/miniboone.bib
+Repeated entry---line 6564 of file miniboone/miniboone.bib
  : @article{AguilarArevalo:2007it
  :                               ,
 I'm skipping whatever remains of this entry
@@ -855,73 +871,71 @@ Repeated entry---line 30 of file appendices/loop_masses.bib
  :                       ,
 I'm skipping whatever remains of this entry
 Database file #9: nustorm/nustorm.bib
-Repeated entry---line 26 of file nustorm/nustorm.bib
+Repeated entry---line 51 of file nustorm/nustorm.bib
  : @article{Abazajian:2017tcc
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 114 of file nustorm/nustorm.bib
+Repeated entry---line 139 of file nustorm/nustorm.bib
  : @article{Sorel:2003hf
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 187 of file nustorm/nustorm.bib
+Repeated entry---line 212 of file nustorm/nustorm.bib
  : @article{Adey:2014rfv
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 559 of file nustorm/nustorm.bib
+Repeated entry---line 584 of file nustorm/nustorm.bib
  : @article{Dentler:2018sju
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 771 of file nustorm/nustorm.bib
+Repeated entry---line 796 of file nustorm/nustorm.bib
  : @article{Blennow:2016jkn
  :                         ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Acciarri:2015uup"
-Warning--I didn't find a database entry for ""
 Warning--empty booktitle in Alexander:2016aln
 Warning--empty author in DUNE:flux
 Warning--empty author in DUNE:flux_updated
 Warning--empty author in DUNE:GArOption
 Warning--empty booktitle in Aguilar-Arevalo:2012fmn
 Warning--empty publisher in Leo:1987kd
-You've used 426 entries,
+You've used 441 entries,
             2217 wiz_defined-function locations,
-            3965 strings with 96103 characters,
-and the built_in function-call counts, 131929 in all, are:
-= -- 13649
-> -- 5181
+            4068 strings with 98788 characters,
+and the built_in function-call counts, 136007 in all, are:
+= -- 14070
+> -- 5342
 < -- 1
-+ -- 1529
-- -- 1103
-* -- 11325
-:= -- 18141
-add.period$ -- 429
-call.type$ -- 426
-change.case$ -- 423
++ -- 1577
+- -- 1136
+* -- 11671
+:= -- 18717
+add.period$ -- 445
+call.type$ -- 441
+change.case$ -- 437
 chr.to.int$ -- 0
-cite$ -- 432
-duplicate$ -- 6778
-empty$ -- 11441
-format.name$ -- 1103
-if$ -- 34685
+cite$ -- 447
+duplicate$ -- 6974
+empty$ -- 11804
+format.name$ -- 1136
+if$ -- 35741
 int.to.chr$ -- 0
-int.to.str$ -- 426
-missing$ -- 1566
-newline$ -- 1286
-num.names$ -- 423
-pop$ -- 774
+int.to.str$ -- 441
+missing$ -- 1615
+newline$ -- 1332
+num.names$ -- 438
+pop$ -- 796
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 5540
+skip$ -- 5690
 stack$ -- 0
-substring$ -- 5957
-swap$ -- 3556
+substring$ -- 6161
+swap$ -- 3643
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 921
-width$ -- 429
-write$ -- 4397
-(There were 215 error messages)
+while$ -- 952
+width$ -- 444
+write$ -- 4548
+(There were 219 error messages)
