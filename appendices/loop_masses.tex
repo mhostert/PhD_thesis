@@ -53,13 +53,13 @@ Finally, the scalar loop function is given by
 The finiteness of our final result and its gauge invariance are a consequence of the identities in Eqs.~\ref{eq:relation_vector} and~\ref{eq:relation_scalar}. For light neutrinos ($i,j=1,2,3$), the final result reads
 
 \begin{align}
- \Sigma_{ij} P_R  = -\frac{\pi^2}{(2\pi)^4} C \hat{m}\left[ d\, B_0(0,\hat{m}^2,m_V^2) + \frac{\hat{m}^2}{m_V^2} \left( B_0 (0,\hat{m}^2,m_S^2) - B_0(0,\hat{m}^2,m_V^2) \right) \right] C^T P_R.
+ \Sigma_{ij} P_R  = -\frac{\pi^2}{(2\pi)^4} C_V \hat{m}\left[ d\, B_0(0,\hat{m}^2,m_V^2) + \frac{\hat{m}^2}{m_V^2} \left( B_0 (0,\hat{m}^2,m_S^2) - B_0(0,\hat{m}^2,m_V^2) \right) \right] C^T_V P_R.
 \end{align}
 
 After significant algebra, and checking the cancellation of divergencies, we arrive at 
 %
 \begin{align}\label{eq:masses_general2}
- m_{ij} = \frac{1}{4\pi^2}\sum_{k=4}^5 \Big[ & C_{ik} C_{jk} \frac{m_k^3}{m_Z^2}F(m_k^2,m_Z^2,m_h^2)  \,+\, D_{ik} D_{jk} \frac{m_k^3}{m_{Z^\prime}^2}F(m_k^2,m_{Z^\prime}^2,m_{\varphi^\prime}^2) \Big],
+ m_{ij} = \frac{1}{4\pi^2}\sum_{k=4}^5 \Big[ & (C_Z)_{ik} (C_Z)_{jk} \frac{m_k^3}{m_Z^2}F(m_k^2,m_Z^2,m_h^2)  \,+\, (C_{Z^\prime})_{ik} (C_{Z^\prime})_{jk} \frac{m_k^3}{m_{Z^\prime}^2}F(m_k^2,m_{Z^\prime}^2,m_{\varphi^\prime}^2) \Big],
 \end{align} 
 %
 where
@@ -73,12 +73,12 @@ For the full expression, involving mixing, we find ($B_0(x^2) \equiv B_0(0,\hat{
 %
 \begin{align*}
 %
-    \Sigma^M(0) &= C\hat{m}\left\{ 4B_0(m_Z^2) -
-\frac{\hat{m}^2}{m_Z^2}\left[B_0(m_Z^2) - c_{\omega^\prime}^2B_0(m_{h^\prime}^2)- s_{\omega^\prime}^2B_0(m_{\varphi^\prime}^2)\right] \right\}C^\text{T}\\
+    \Sigma^M(0) &= C_Z\hat{m}\left\{ 4B_0(m_Z^2) -
+\frac{\hat{m}^2}{m_Z^2}\left[B_0(m_Z^2) - c_{\omega^\prime}^2B_0(m_{h^\prime}^2)- s_{\omega^\prime}^2B_0(m_{\varphi^\prime}^2)\right] \right\}C_Z^\text{T}\\
 %
-&~+D\hat{m}\left\{ 4B_0(m_{Z^\prime}^2) -
-\frac{\hat{m}^2}{m_{Z^\prime}^2}\left[B_0(m_{Z^\prime}^2) - c_{\omega^\prime}^2B_0(m_{\varphi^\prime}^2)- s_{\omega^\prime}^2B_0(m_{h^\prime}^2)\right] \right\}D^\text{T}\\
+&~+C_{Z^\prime}\hat{m}\left\{ 4B_0(m_{Z^\prime}^2) -
+\frac{\hat{m}^2}{m_{Z^\prime}^2}\left[B_0(m_{Z^\prime}^2) - c_{\omega^\prime}^2B_0(m_{\varphi^\prime}^2)- s_{\omega^\prime}^2B_0(m_{h^\prime}^2)\right] \right\}C_{Z^\prime}^\text{T}\\
 %
-&~+s_{\omega^\prime} c_{\omega^\prime} \left\{C\hat{m}\left[B_0(m_{h^\prime}^2) -B_0(m_{\varphi^\prime}^2) \right]D^\text{T}+D\hat{m}\left[ B_0(m_{h^\prime}^2) -B_0(m_{\varphi^\prime}^2) \right]C^\text{T}\right\}.
+&~+s_{\omega^\prime} c_{\omega^\prime} \left\{C_Z \hat{m}\left[B_0(m_{h^\prime}^2) -B_0(m_{\varphi^\prime}^2) \right]C_{Z^\prime}^\text{T}+C_{Z^\prime}\hat{m}\left[ B_0(m_{h^\prime}^2) -B_0(m_{\varphi^\prime}^2) \right]C_Z^\text{T}\right\}.
 %
 \end{align*}

@@ -135,7 +135,7 @@ R(-\theta) = \left(\begin{matrix} \cos{\theta} &  \sin{\theta} \\  -\sin{\theta}
 \end{align}
 The masses of the physical fields are
 \begin{equation}
-  \frac{m_{\phi^\prime, h^\prime}^2}{2} = \frac{\lphi v_\phi^2 + \lhiggs v_h^2}{2} \pm \frac{\sqrt{(\lphi v_\phi^2 - \lhiggs v_h^2)^2 + \lambda^2 v_h^2 v_\phi^2}}{2}
+  \frac{m_{\varphi^\prime, h^\prime}^2}{2} = \frac{\lphi v_\varphi^2 + \lhiggs v_h^2}{2} \pm \frac{\sqrt{(\lphi v_\varphi^2 - \lhiggs v_h^2)^2 + \lambda^2 v_h^2 v_\varphi^2}}{2}
 \end{equation}
 %
 so that $\varphi^\prime$ is the lightest state and $h^\prime$ is mostly in the Higgs direction.
@@ -157,7 +157,7 @@ where $R(\theta)^i$ is the rotation matrix around the axis $i$, and
 \end{equation}
 The physical masses are 
 \begin{equation}
-    \frac{m_Z^2}{\left( M_{Z}^{\rm SM}\right)^2} = 1 - s_W t_\chi t_\beta,\quad \frac{m_{Z^\prime}^2}{\left( M_{Z}^{\rm SM}\right)^2} = \frac{\mu^2}{c_\chi^2} + s_W t_\chi (t_\beta +s_W t_\chi).
+    \frac{m_Z^2}{\left( M_{Z}^{\rm SM}\right)^2} = 1 + s_W t_\chi t_\beta,\quad \frac{m_{Z^\prime}^2}{\left( M_{Z}^{\rm SM}\right)^2} = 1 - \frac{s_W t_\chi}{t_\beta}.
 \end{equation}
 
 For a light $Z^\prime$ ($\mu\to0$), the $Z^\prime$ coupling to SM fermions $f$ to first order in the small parameter $\chi$ is given by
@@ -177,11 +177,11 @@ We now provide the neutrino interactions in the model in the mass basis. The int
 %
 \begin{align}
 %
-\mathcal{L}_I = &+ \overline{\nu_i}\gamma^\mu\left((C_Z)_{ij}P_\text{L} - (C_Z)^*_{ij}P_\text{R}\right)\nu_j Z_\mu + \overline{\nu_i}\gamma^\mu\left((C_{Z^\prime})_{ij} P_\text{L} - (C_{Z^\prime})^*_{ij}P_\text{R}\right)\nu_j Z^\prime_\mu, \\
+\mathcal{L}_I = &+ \overline{\nu_i}\gamma^\mu\left((C_Z)_{ij}P_\text{L} - (C_Z)^*_{ij}P_\text{R}\right)\nu_j Z_\mu + \overline{\nu_i}\gamma^\mu\left((C_{Z^\prime})_{ij}P_\text{L} - (C_{Z^\prime})^*_{ij}P_\text{R}\right)\nu_j Z^\prime_\mu, \\
 %
-&- \overline{\nu_i}\gamma^\mu\left((\Delta_h)_{ij}P_\text{L} + (\Delta_h)^*_{ij} P_\text{R}\right)\nu_j h - \overline{\nu_i}\gamma^\mu\left[i(\Delta_h)P_\text{L} - i(\Delta_h)^*_{ij} P_\text{R}\right]\nu_j G_h, \\
+&- \overline{\nu_i}\left((\Delta_h)_{ij}P_\text{R} + (\Delta_h)^*_{ij}P_\text{L}\right)\nu_j h - \overline{\nu_i}\left[ i(\Delta_h)_{ij}^*P_\text{L} -i(\Delta_h)_{ij}P_\text{R}\right]\nu_j G_h, \\
 %
-&- \overline{\nu_i}\gamma^\mu\left((\Delta_\varphi)_{ij}P_\text{L} + (\Delta_\varphi)^*_{ij}P_\text{R}\right)\nu_j \varphi - \overline{\nu_i}\gamma^\mu\left[i(\Delta_\varphi)_{ij}P_\text{L} - i(\Delta_\varphi)^*_{ij} P_\text{R}\right]\nu_j G_\varphi.
+&- \overline{\nu_i}\left((\Delta_\varphi)_{ij} P_\text{R} + (\Delta_\varphi)^*_{ij} P_\text{L} \right)\nu_j \varphi - \overline{\nu_i}\left[i(\Delta_\varphi)_{ij}P_\text{R} - i(\Delta_\varphi)_{ij}^*P_\text{L}\right]\nu_j G_\varphi.
 %
 \end{align}
 %
@@ -189,8 +189,8 @@ The new matrices of coefficients for the gauge bosons are given by
 %
 \begin{align}
 %
-(C_Z)_{ij} &= \frac{m_Z}{2}\left[\left(\sum_{\alpha =e}^\tau U^*_{\alpha i}U_{\alpha j}\right)\frac{c_\omega }{v} - U^*_{si}U_{sj}\frac{s_\omega}{v_\varphi}\right], \\
-(C_{Z^\prime})_{ij} &=\frac{m_{Z^\prime}}{2} \left[\left(\sum_{\alpha =e}^\tau U^*_{\alpha i}U_{\alpha j}\right)\frac{s_\omega}{v} + U^*_{si}U_{sj}\frac{c_\omega}{v_\varphi}\right].
+(C_Z)_{ij} &= \frac{m_Z}{2}\left[\left(\sum_{\alpha =e}^\tau U^*_{\alpha i}U_{\alpha j}\right)\frac{c_\omega }{v} - U^*_{Di}U_{Dj}\frac{s_\omega}{v_\varphi}\right], \\
+(C_{Z^\prime})_{ij} &=\frac{m_{Z^\prime}}{2} \left[\left(\sum_{\alpha =e}^\tau U^*_{\alpha i}U_{\alpha j}\right)\frac{s_\omega}{v} + U^*_{Di}U_{Dj}\frac{c_\omega}{v_\varphi}\right].
 \end{align}
 %
 The matrices for the scalar interactions are 
@@ -200,7 +200,7 @@ The matrices for the scalar interactions are
 %
 (\Delta_h)_{ij} &=\sum_{\alpha=e}^\tau \frac{y^\alpha_\nu}{2\sqrt{2}}\left(U_{\alpha i}^*U_{Nj}^* + U_{\alpha j}^*U_{Ni}^*\right),\\
 %
-(\Delta_\varphi)_{ij} &= \frac{y_\varphi}{2\sqrt{2}}\left(U_{N i}^*U_{sj}^* + U_{N j}^*U_{si}^*\right).
+(\Delta_\varphi)_{ij} &= \frac{y_\varphi}{2\sqrt{2}}\left(U_{N i}^*U_{Dj}^* + U_{N j}^*U_{Di}^*\right).
 %
 \end{align}
 

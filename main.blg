@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: JHEP.bst
-Reallocated field_info (elt_size=4) to 18230 items from 5000.
+Reallocated field_info (elt_size=4) to 18170 items from 5000.
 Database file #1: introduction/introduction.bib
 Database file #2: theory/theory.bib
 Database file #3: tridentSM/tridentSM.bib
@@ -667,8 +667,6 @@ Repeated entry---line 108 of file miniboone/miniboone.bib
  : @article{deGouvea:2006hfo
  :                          ,
 I'm skipping whatever remains of this entry
-Warning--entry type for "NIST:2018" isn't style-file defined
---line 176 of file miniboone/miniboone.bib
 Repeated entry---line 179 of file miniboone/miniboone.bib
  : @article{Bauer:2018onh
  :                       ,
@@ -896,46 +894,45 @@ Warning--empty author in DUNE:flux
 Warning--empty author in DUNE:flux_updated
 Warning--empty author in DUNE:GArOption
 Warning--empty booktitle in Aguilar-Arevalo:2012fmn
-Warning--empty publisher in Leo:1987kd
-You've used 441 entries,
+You've used 439 entries,
             2217 wiz_defined-function locations,
-            4068 strings with 98788 characters,
-and the built_in function-call counts, 136007 in all, are:
-= -- 14070
-> -- 5342
+            4058 strings with 98491 characters,
+and the built_in function-call counts, 135735 in all, are:
+= -- 14050
+> -- 5332
 < -- 1
-+ -- 1577
-- -- 1136
-* -- 11671
-:= -- 18717
-add.period$ -- 445
-call.type$ -- 441
-change.case$ -- 437
++ -- 1573
+- -- 1134
+* -- 11662
+:= -- 18683
+add.period$ -- 443
+call.type$ -- 439
+change.case$ -- 436
 chr.to.int$ -- 0
-cite$ -- 447
-duplicate$ -- 6974
-empty$ -- 11804
-format.name$ -- 1136
-if$ -- 35741
+cite$ -- 444
+duplicate$ -- 6959
+empty$ -- 11763
+format.name$ -- 1134
+if$ -- 35671
 int.to.chr$ -- 0
-int.to.str$ -- 441
-missing$ -- 1615
-newline$ -- 1332
-num.names$ -- 438
-pop$ -- 796
+int.to.str$ -- 439
+missing$ -- 1613
+newline$ -- 1325
+num.names$ -- 436
+pop$ -- 782
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 5690
+skip$ -- 5680
 stack$ -- 0
 substring$ -- 6161
-swap$ -- 3643
+swap$ -- 3642
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 6
-while$ -- 952
-width$ -- 444
-write$ -- 4548
+warning$ -- 5
+while$ -- 950
+width$ -- 442
+write$ -- 4534
 (There were 219 error messages)

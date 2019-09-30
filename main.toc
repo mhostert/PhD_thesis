@@ -1,126 +1,127 @@
 \select@language {british}
 \contentsline {chapter}{Abstract}{2}{section*.1}
 \contentsline {chapter}{List of Figures}{8}{section*.3}
-\contentsline {chapter}{\numberline {1}The Standard Model and Beyond}{16}{chapter.1}
-\contentsline {section}{\numberline {1.1}The Standard Model}{16}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Fields and Symmetries}{17}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Spontaneous Symmetry Breaking}{19}{subsection.1.1.2}
-\contentsline {subsection}{\numberline {1.1.3}Fermion Masses}{22}{subsection.1.1.3}
-\contentsline {section}{\numberline {1.2}Evidence for Beyond the Standard Model Physics}{24}{section.1.2}
-\contentsline {paragraph}{The hierarchy problem}{25}{section*.10}
-\contentsline {paragraph}{The strong-CP problem}{25}{section*.11}
-\contentsline {paragraph}{Matter-antimatter asymmetry}{25}{section*.12}
-\contentsline {paragraph}{Dark matter}{26}{section*.13}
-\contentsline {paragraph}{Neutrino masses}{27}{section*.14}
-\contentsline {section}{\numberline {1.3}Portals to Beyond the Standard Model}{28}{section.1.3}
-\contentsline {paragraph}{Neutrino portal}{30}{section*.17}
-\contentsline {paragraph}{Vector portal}{31}{section*.18}
-\contentsline {paragraph}{Higgs portal}{31}{section*.19}
-\contentsline {paragraph}{Fermionic currents}{32}{section*.21}
-\contentsline {paragraph}{Pseudo-scalar}{33}{section*.22}
-\contentsline {chapter}{\numberline {2}Current Aspects of Neutrino Physics}{34}{chapter.2}
-\contentsline {section}{\numberline {2.1}Mass Mechanisms}{34}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Conventional Seesaw Mechanisms}{37}{subsection.2.1.1}
-\contentsline {paragraph}{Type I}{37}{section*.24}
-\contentsline {paragraph}{Type II}{38}{section*.25}
-\contentsline {paragraph}{Type III}{39}{section*.26}
-\contentsline {subsection}{\numberline {2.1.2}Low-Scale Seesaw Variants}{39}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Radiative Masses}{41}{subsection.2.1.3}
-\contentsline {section}{\numberline {2.2}Neutrino Mixing}{42}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Neutrino Oscillations}{44}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Matter Effects}{48}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}Neutrinos in the Laboratory}{51}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Interactions and Challenges}{53}{subsection.2.3.1}
-\contentsline {chapter}{\numberline {3}Neutrino Trident Production}{55}{chapter.3}
-\contentsline {section}{\numberline {3.1}History of Neutrino Trident Production}{55}{section.3.1}
-\contentsline {section}{\numberline {3.2}Cross Section at Low Energies}{56}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Hadronic Scattering Regimes}{60}{subsection.3.2.1}
-\contentsline {subsubsection}{Coherent Regime (${\rm H}^{\mu \nu }_{\rm c}$)}{61}{section*.35}
-\contentsline {subsubsection}{Diffractive Regime ($\mathrm {H}^{\mu \nu }_\mathrm {d}$)}{63}{section*.37}
-\contentsline {subsection}{\numberline {3.2.2}Breakdown of the EPA }{65}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Coherent Versus Diffractive Scattering in Trident Production}{71}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}Trident Events in LAr Detectors}{73}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Event Rates}{73}{subsection.3.3.1}
-\contentsline {paragraph}{The SBN Program}{74}{section*.43}
-\contentsline {paragraph}{DUNE Near Detector}{75}{section*.44}
-\contentsline {paragraph}{$\nu $STORM}{77}{section*.45}
-\contentsline {section}{\numberline {3.4}Backgrounds to Tridents in LAr}{78}{section.3.4}
-\contentsline {subsubsection}{Background Candidates}{79}{section*.46}
-\contentsline {subsubsection}{Estimates for the DUNE ND}{80}{section*.48}
-\contentsline {section}{\numberline {3.5}Overview}{83}{section.3.5}
-\contentsline {chapter}{\numberline {4}New Fundamental Forces at DUNE}{85}{chapter.4}
-\contentsline {section}{\numberline {4.1}Leptophilic $Z^\prime $ Models}{87}{section.4.1}
-\contentsline {paragraph}{Anomaly freedom.}{88}{section*.51}
-\contentsline {paragraph}{Kinetic mixing.}{90}{section*.52}
-\contentsline {section}{\numberline {4.2}Signatures of Leptonic Neutral Currents}{91}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Neutrino Trident Scattering}{92}{subsection.4.2.1}
-\contentsline {paragraph}{Bethe-Heitler.}{93}{section*.54}
-\contentsline {paragraph}{Dark-Bremsstrahlung.}{93}{section*.55}
-\contentsline {subsubsection}{The Equivalent Photon Approximation }{96}{section*.58}
-\contentsline {subsubsection}{Trident Kinematical Distributions }{96}{section*.59}
-\contentsline {subsection}{\numberline {4.2.2}Neutrino-Electron Scattering}{97}{subsection.4.2.2}
-\contentsline {subsubsection}{Neutrino-Electron Scattering Kinematical Distributions }{99}{section*.62}
-\contentsline {subsection}{\numberline {4.2.3}Interference Effects}{100}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}DUNE Sensitivities}{101}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Analysis Techniques}{102}{subsection.4.3.1}
-\contentsline {paragraph}{Backgrounds ($\nu _\mu \to \nu _\mu \ell ^+\ell ^- $)}{103}{section*.65}
-\contentsline {paragraph}{Backgrounds ($\nu -e$)}{104}{section*.66}
-\contentsline {paragraph}{Statistics.}{105}{section*.67}
-\contentsline {subsection}{\numberline {4.3.2}\relax \mathversion {bold}${L_e - L_\mu }$ }{105}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}\relax \mathversion {bold}$L_\mu - L_\tau $ }{108}{subsection.4.3.3}
-\contentsline {section}{\numberline {4.4}Overview}{111}{section.4.4}
-\contentsline {chapter}{\numberline {5}A Light Dark Neutrino Sector}{113}{chapter.5}
-\contentsline {section}{\numberline {5.1}Neutrinos and Dark Sectors}{113}{section.5.1}
-\contentsline {section}{\numberline {5.2}Interplay of Multiple Portals}{115}{section.5.2}
-\contentsline {paragraph}{Neutrino portal}{116}{section*.74}
-\contentsline {paragraph}{Scalar portal}{117}{section*.75}
-\contentsline {paragraph}{Vector portal}{118}{section*.76}
-\contentsline {subsection}{\numberline {5.2.1}Neutrino Interactions in the Mass Basis}{119}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Portal Phenomenology}{120}{subsection.5.2.2}
-\contentsline {paragraph}{Heavy neutrino searches}{120}{section*.77}
-\contentsline {paragraph}{Dark photon searches}{121}{section*.78}
-\contentsline {paragraph}{Revisiting $\Delta a_\mu $}{122}{section*.79}
-\contentsline {paragraph}{Fake rare meson decays}{122}{section*.80}
-\contentsline {paragraph}{Neutrino scattering}{123}{section*.81}
-\contentsline {paragraph}{MiniBooNE low energy excess}{123}{section*.82}
-\contentsline {paragraph}{Dark scalar searches}{123}{section*.83}
-\contentsline {subsection}{\numberline {5.2.3}Dark Matter}{124}{subsection.5.2.3}
-\contentsline {paragraph}{ $\mu _\psi \gg m_D^\psi $}{124}{section*.84}
-\contentsline {paragraph}{ $\mu _\psi \ll m_D^\psi $}{125}{section*.85}
-\contentsline {section}{\numberline {5.3}Neutrino Portal and Mass Generation}{125}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Radiative Corrections}{126}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Searching for the Mass Mechanism}{129}{subsection.5.3.2}
-\contentsline {chapter}{\numberline {6}Testing Dark Neutrino Explanations of MiniBooNE }{133}{chapter.6}
-\contentsline {section}{\numberline {6.1}Dark Neutrinos at MiniBooNE}{135}{section.6.1}
-\contentsline {section}{\numberline {6.2}Dark Neutrinos in Neutrino-Electron Scattering}{137}{section.6.2}
-\contentsline {section}{\numberline {6.3}Simulation Details}{138}{section.6.3}
-\contentsline {paragraph}{CHARM-II}{139}{section*.91}
-\contentsline {paragraph}{MINER$\nu $A}{139}{section*.92}
-\contentsline {paragraph}{MiniBooNE}{139}{section*.93}
-\contentsline {section}{\numberline {6.4}Kinematics of the Signal}{140}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}MINER$\nu $A and CHARM-II Analyses}{141}{subsection.6.4.1}
-\contentsline {section}{\numberline {6.5}Results and Prospects}{145}{section.6.5}
-\contentsline {chapter}{\numberline {7}Sterile Neutrinos and Stored Muons}{149}{chapter.7}
-\contentsline {section}{\numberline {7.1}Short-Baseline Oscillations}{150}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Localization at Production }{152}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Non-Unitarity from Light and Heavy Sterile Neutrinos}{155}{subsection.7.1.2}
-\contentsline {subsubsection}{Averaged-Out Steriles}{156}{section*.99}
-\contentsline {subsubsection}{Integrated-Out Steriles}{157}{section*.100}
-\contentsline {subsubsection}{Understanding the Gap}{159}{section*.101}
-\contentsline {section}{\numberline {7.2}$\nu $STORM\ }{162}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Treatment of Systematics}{165}{subsection.7.2.1}
-\contentsline {section}{\numberline {7.3}Sensitivity Results}{166}{section.7.3}
-\contentsline {subsubsection}{3+1 Oscillations}{166}{section*.105}
-\contentsline {subsubsection}{3+2 Oscillations}{169}{section*.109}
-\contentsline {subsubsection}{Averaged-out steriles}{171}{section*.112}
-\contentsline {subsubsection}{Integrated-out steriles}{172}{section*.114}
-\contentsline {section}{\numberline {7.4}Overview}{174}{section.7.4}
-\contentsline {chapter}{\numberline {8}Conclusions}{176}{chapter.8}
-\contentsline {chapter}{Appendices}{179}{section*.116}
-\contentsline {chapter}{\numberline {A}Phase Space}{180}{Appendix.1.A}
-\contentsline {paragraph}{Neutrino trident production}{181}{section*.117}
-\contentsline {chapter}{\numberline {B}Form Factors}{183}{Appendix.1.B}
-\contentsline {paragraph}{Electromagnetic form factors}{183}{section*.118}
-\contentsline {paragraph}{Neutral current form factor}{184}{section*.119}
-\contentsline {chapter}{\numberline {C}Trident Distributions}{185}{Appendix.1.C}
-\contentsline {chapter}{\numberline {D}Dark Neutrino Self-Energies}{189}{Appendix.1.D}
+\contentsline {chapter}{\numberline {1}The Standard Model and Beyond}{17}{chapter.1}
+\contentsline {section}{\numberline {1.1}The Standard Model}{17}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Fields and Symmetries}{18}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Spontaneous Symmetry Breaking}{20}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Fermion Masses}{23}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}Evidence for Beyond the Standard Model Physics}{25}{section.1.2}
+\contentsline {paragraph}{The hierarchy problem}{26}{section*.10}
+\contentsline {paragraph}{The strong-CP problem}{26}{section*.11}
+\contentsline {paragraph}{Matter-antimatter asymmetry}{26}{section*.12}
+\contentsline {paragraph}{Dark matter}{27}{section*.13}
+\contentsline {paragraph}{Neutrino masses}{28}{section*.14}
+\contentsline {section}{\numberline {1.3}Portals to Beyond the Standard Model}{29}{section.1.3}
+\contentsline {paragraph}{Neutrino portal}{31}{section*.17}
+\contentsline {paragraph}{Vector portal}{32}{section*.18}
+\contentsline {paragraph}{Higgs portal}{32}{section*.19}
+\contentsline {paragraph}{Fermionic currents}{33}{section*.21}
+\contentsline {paragraph}{Pseudo-scalar}{34}{section*.22}
+\contentsline {chapter}{\numberline {2}Current Aspects of Neutrino Physics}{35}{chapter.2}
+\contentsline {section}{\numberline {2.1}Mass Mechanisms}{35}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Conventional Seesaw Mechanisms}{38}{subsection.2.1.1}
+\contentsline {paragraph}{Type I}{38}{section*.24}
+\contentsline {paragraph}{Type II}{39}{section*.25}
+\contentsline {paragraph}{Type III}{40}{section*.26}
+\contentsline {subsection}{\numberline {2.1.2}Low-Scale Seesaw Variants}{40}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Radiative Masses}{42}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Neutrino Mixing}{43}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Neutrino Oscillations}{45}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Matter Effects}{49}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Neutrinos in the Laboratory}{52}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Interactions and Challenges}{54}{subsection.2.3.1}
+\contentsline {chapter}{\numberline {3}Neutrino Trident Production}{56}{chapter.3}
+\contentsline {section}{\numberline {3.1}History of Neutrino Trident Production}{56}{section.3.1}
+\contentsline {section}{\numberline {3.2}Cross Section at Low Energies}{57}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Hadronic Scattering Regimes}{61}{subsection.3.2.1}
+\contentsline {subsubsection}{Coherent Regime (${\rm H}^{\mu \nu }_{\rm c}$)}{62}{section*.35}
+\contentsline {subsubsection}{Diffractive Regime ($\mathrm {H}^{\mu \nu }_\mathrm {d}$)}{64}{section*.37}
+\contentsline {subsection}{\numberline {3.2.2}Breakdown of the EPA }{66}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Coherent Versus Diffractive Scattering in Trident Production}{72}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Trident Events in LAr Detectors}{74}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Event Rates}{74}{subsection.3.3.1}
+\contentsline {paragraph}{The SBN Program}{75}{section*.43}
+\contentsline {paragraph}{DUNE Near Detector}{76}{section*.44}
+\contentsline {paragraph}{$\nu $STORM}{78}{section*.45}
+\contentsline {section}{\numberline {3.4}Backgrounds to Tridents in LAr}{79}{section.3.4}
+\contentsline {subsubsection}{Background Candidates}{80}{section*.46}
+\contentsline {subsubsection}{Estimates for the DUNE ND}{81}{section*.48}
+\contentsline {section}{\numberline {3.5}Overview}{84}{section.3.5}
+\contentsline {chapter}{\numberline {4}New Fundamental Forces at DUNE}{87}{chapter.4}
+\contentsline {section}{\numberline {4.1}Leptophilic $Z^\prime $ Models}{89}{section.4.1}
+\contentsline {paragraph}{Anomaly freedom.}{90}{section*.51}
+\contentsline {paragraph}{Kinetic mixing.}{92}{section*.52}
+\contentsline {section}{\numberline {4.2}Signatures of Leptonic Neutral Currents}{93}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Neutrino Trident Scattering}{94}{subsection.4.2.1}
+\contentsline {paragraph}{Bethe-Heitler.}{95}{section*.54}
+\contentsline {paragraph}{Dark-Bremsstrahlung.}{95}{section*.55}
+\contentsline {subsubsection}{The Equivalent Photon Approximation }{98}{section*.58}
+\contentsline {subsubsection}{Trident Kinematical Distributions }{98}{section*.59}
+\contentsline {subsection}{\numberline {4.2.2}Neutrino-Electron Scattering}{99}{subsection.4.2.2}
+\contentsline {subsubsection}{Neutrino-Electron Scattering Kinematical Distributions }{101}{section*.62}
+\contentsline {subsection}{\numberline {4.2.3}Interference Effects}{102}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}DUNE Sensitivities}{103}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Analysis Techniques}{104}{subsection.4.3.1}
+\contentsline {paragraph}{Backgrounds ($\nu _\mu \to \nu _\mu \ell ^+\ell ^- $)}{105}{section*.65}
+\contentsline {paragraph}{Backgrounds ($\nu -e$)}{106}{section*.66}
+\contentsline {paragraph}{Statistics.}{107}{section*.67}
+\contentsline {subsection}{\numberline {4.3.2}\relax \mathversion {bold}${L_e - L_\mu }$ }{107}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}\relax \mathversion {bold}$L_\mu - L_\tau $ }{110}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}Overview}{113}{section.4.4}
+\contentsline {chapter}{\numberline {5}A Light Dark Neutrino Sector}{115}{chapter.5}
+\contentsline {section}{\numberline {5.1}Neutrinos and Dark Sectors}{115}{section.5.1}
+\contentsline {section}{\numberline {5.2}Interplay of Multiple Portals}{117}{section.5.2}
+\contentsline {paragraph}{Neutrino portal}{118}{section*.74}
+\contentsline {paragraph}{Scalar portal}{119}{section*.75}
+\contentsline {paragraph}{Vector portal}{120}{section*.76}
+\contentsline {subsection}{\numberline {5.2.1}Neutrino Interactions in the Mass Basis}{121}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Portal Phenomenology}{122}{subsection.5.2.2}
+\contentsline {paragraph}{Heavy neutrino searches}{122}{section*.77}
+\contentsline {paragraph}{Dark photon searches}{123}{section*.78}
+\contentsline {paragraph}{Revisiting $\Delta a_\mu $}{124}{section*.79}
+\contentsline {paragraph}{Fake rare meson decays}{124}{section*.80}
+\contentsline {paragraph}{Neutrino scattering}{125}{section*.81}
+\contentsline {paragraph}{MiniBooNE low energy excess}{125}{section*.82}
+\contentsline {paragraph}{Dark scalar searches}{125}{section*.83}
+\contentsline {subsection}{\numberline {5.2.3}Dark Matter}{126}{subsection.5.2.3}
+\contentsline {paragraph}{ $\mu _\psi \gg m_D^\psi $}{126}{section*.84}
+\contentsline {paragraph}{ $\mu _\psi \ll m_D^\psi $}{127}{section*.85}
+\contentsline {section}{\numberline {5.3}Neutrino Portal and Mass Generation}{127}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Radiative Corrections}{128}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Searching for the Mass Mechanism}{131}{subsection.5.3.2}
+\contentsline {chapter}{\numberline {6}Testing Dark Neutrino Explanations of MiniBooNE }{135}{chapter.6}
+\contentsline {section}{\numberline {6.1}Dark Neutrinos at MiniBooNE}{137}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Signature and region of interest}{138}{subsection.6.1.1}
+\contentsline {section}{\numberline {6.2}Dark Neutrinos in Neutrino-Electron Scattering}{139}{section.6.2}
+\contentsline {section}{\numberline {6.3}Simulation Details}{140}{section.6.3}
+\contentsline {paragraph}{CHARM-II}{141}{section*.91}
+\contentsline {paragraph}{MINER$\nu $A}{142}{section*.92}
+\contentsline {paragraph}{MiniBooNE}{142}{section*.93}
+\contentsline {section}{\numberline {6.4}Kinematics of the Signal}{142}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}MINER$\nu $A and CHARM-II Analyses}{143}{subsection.6.4.1}
+\contentsline {section}{\numberline {6.5}Results and Prospects}{147}{section.6.5}
+\contentsline {chapter}{\numberline {7}Sterile Neutrinos and Stored Muons}{151}{chapter.7}
+\contentsline {section}{\numberline {7.1}Short-Baseline Oscillations}{152}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Localization at Production }{154}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Non-Unitarity from Light and Heavy Sterile Neutrinos}{157}{subsection.7.1.2}
+\contentsline {subsubsection}{Averaged-Out Steriles}{158}{section*.99}
+\contentsline {subsubsection}{Integrated-Out Steriles}{159}{section*.100}
+\contentsline {subsubsection}{Understanding the Gap}{161}{section*.101}
+\contentsline {section}{\numberline {7.2}$\nu $STORM\ }{164}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Treatment of Systematics}{167}{subsection.7.2.1}
+\contentsline {section}{\numberline {7.3}Sensitivity Results}{168}{section.7.3}
+\contentsline {subsubsection}{3+1 Oscillations}{168}{section*.105}
+\contentsline {subsubsection}{3+2 Oscillations}{171}{section*.109}
+\contentsline {subsubsection}{Averaged-out steriles}{173}{section*.112}
+\contentsline {subsubsection}{Integrated-out steriles}{174}{section*.114}
+\contentsline {section}{\numberline {7.4}Overview}{176}{section.7.4}
+\contentsline {chapter}{\numberline {8}Conclusions}{178}{chapter.8}
+\contentsline {chapter}{Appendices}{181}{section*.116}
+\contentsline {chapter}{\numberline {A}Phase Space}{182}{Appendix.1.A}
+\contentsline {paragraph}{Neutrino trident production}{183}{section*.117}
+\contentsline {chapter}{\numberline {B}Form Factors}{185}{Appendix.1.B}
+\contentsline {paragraph}{Electromagnetic form factors}{185}{section*.118}
+\contentsline {paragraph}{Neutral current form factor}{186}{section*.119}
+\contentsline {chapter}{\numberline {C}Trident Distributions}{187}{Appendix.1.C}
+\contentsline {chapter}{\numberline {D}Dark Neutrino Self-Energies}{191}{Appendix.1.D}

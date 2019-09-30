@@ -2308,29 +2308,12 @@ E.~Bertuzzo, S.~Jana, P.~A.~N. Machado and R.~Zukanovich~Funchal,
   Lett.} {\bfseries B791} (2019) 210--214},
   [\href{https://arxiv.org/abs/1808.02500}{{\ttfamily 1808.02500}}].
 
-\bibitem{Abe:2019cer}
-{\scshape T2K} collaboration, K.~Abe et~al., \emph{{Search for neutral-current
-  induced single photon production at the ND280 near detector in T2K}},
-  \href{https://arxiv.org/abs/1902.03848}{{\ttfamily 1902.03848}}.
-
 \bibitem{Auerbach:2001wg}
 {\scshape LSND} collaboration, L.~B. Auerbach et~al., \emph{{Measurement of
   electron - neutrino - electron elastic scattering}},
   \href{https://doi.org/10.1103/PhysRevD.63.112001}{\emph{Phys. Rev.}
   {\bfseries D63} (2001) 112001},
   [\href{https://arxiv.org/abs/hep-ex/0101039}{{\ttfamily hep-ex/0101039}}].
-
-\bibitem{Pospelov:2017kep}
-M.~Pospelov and Y.-D. Tsai, \emph{{Light scalars and dark photons in Borexino
-  and LSND experiments}},
-  \href{https://doi.org/10.1016/j.physletb.2018.08.053}{\emph{Phys. Lett.}
-  {\bfseries B785} (2018) 288--295},
-  [\href{https://arxiv.org/abs/1706.00424}{{\ttfamily 1706.00424}}].
-
-\bibitem{Magill:2018tbb}
-G.~Magill, R.~Plestid, M.~Pospelov and Y.-D. Tsai, \emph{{Millicharged
-  particles in neutrino experiments}},
-  \href{https://arxiv.org/abs/1806.03310}{{\ttfamily 1806.03310}}.
 
 \bibitem{Valencia:2019mkf}
 {\scshape MINERvA} collaboration, E.~Valencia et~al., \emph{{Constraint of the
@@ -2355,6 +2338,23 @@ E.~Valencia-Rodriguez, \emph{{Neutrino - Electron Scattering in MINER$\nu$A for
   \href{https://doi.org/10.1016/0168-9002(93)91010-K}{\emph{Nucl. Instrum.
   Meth.} {\bfseries A325} (1993) 92--108}.
 
+\bibitem{Pospelov:2017kep}
+M.~Pospelov and Y.-D. Tsai, \emph{{Light scalars and dark photons in Borexino
+  and LSND experiments}},
+  \href{https://doi.org/10.1016/j.physletb.2018.08.053}{\emph{Phys. Lett.}
+  {\bfseries B785} (2018) 288--295},
+  [\href{https://arxiv.org/abs/1706.00424}{{\ttfamily 1706.00424}}].
+
+\bibitem{Magill:2018tbb}
+G.~Magill, R.~Plestid, M.~Pospelov and Y.-D. Tsai, \emph{{Millicharged
+  particles in neutrino experiments}},
+  \href{https://arxiv.org/abs/1806.03310}{{\ttfamily 1806.03310}}.
+
+\bibitem{Abe:2019cer}
+{\scshape T2K} collaboration, K.~Abe et~al., \emph{{Search for neutral-current
+  induced single photon production at the ND280 near detector in T2K}},
+  \href{https://arxiv.org/abs/1902.03848}{{\ttfamily 1902.03848}}.
+
 \bibitem{Formaggio:1998zn}
 J.~A. Formaggio, J.~M. Conrad, M.~Shaevitz, A.~Vaitaitis and R.~Drucker,
   \emph{{Helicity effects in neutral heavy lepton decays}},
@@ -2376,6 +2376,11 @@ E.~J. Chun, J.-C. Park and S.~Scopel, \emph{{Dark matter and a new gauge boson
 S.~Parke and M.~Ross-Lonergan, \emph{{Unitarity and the Three Flavour Neutrino
   Mixing Matrix}},  \href{https://arxiv.org/abs/1508.05095}{{\ttfamily
   1508.05095}}.
+
+\bibitem{Jordan:2018qiy}
+J.~R. Jordan, Y.~Kahn, G.~Krnjaic, M.~Moschella and J.~Spitz, \emph{{Severe
+  Constraints on New Physics Explanations of the MiniBooNE Excess}},
+  \href{https://arxiv.org/abs/1810.07185}{{\ttfamily 1810.07185}}.
 
 \bibitem{Vilain:1998uw}
 {\scshape CHARM II} collaboration, P.~Vilain et~al., \emph{{Leading order QCD
@@ -2406,15 +2411,6 @@ L.~Aliaga~Soplin, \emph{{Neutrino Flux Prediction for the NuMI Beamline}},
   Ph.D. thesis, William-Mary Coll., 2016.
 \newblock 10.2172/1250884.
 
-\bibitem{NIST:2018}
-{Berger, M.J. and Coursey, J.S. and Zucker, M.A. and Chang, J.},
-  ``{\url{https://dx.doi.org/10.18434/T4NC7P}}.''
-
-\bibitem{Leo:1987kd}
-W.~R. Leo, \emph{{Techniques for Nuclear and Particle Physics Experiments: A
-  How to Approach}}.
-\newblock 1987.
-
 \bibitem{Tanabashi:2018oca}
 {\scshape Particle Data Group} collaboration, M.~Tanabashi et~al.,
   \emph{{Review of Particle Physics}},
@@ -2426,11 +2422,6 @@ W.~R. Leo, \emph{{Techniques for Nuclear and Particle Physics Experiments: A
   Cross-sections of Charged Current Neutrino and Anti-neutrino Interactions on
   Isoscalar Nuclei}}, \href{https://doi.org/10.1007/BF01584388}{\emph{Z. Phys.}
   {\bfseries C38} (1988) 403--410}.
-
-\bibitem{Jordan:2018qiy}
-J.~R. Jordan, Y.~Kahn, G.~Krnjaic, M.~Moschella and J.~Spitz, \emph{{Severe
-  Constraints on New Physics Explanations of the MiniBooNE Excess}},
-  \href{https://arxiv.org/abs/1810.07185}{{\ttfamily 1810.07185}}.
 
 \bibitem{Adamson:2016hyz}
 {\scshape MINOS} collaboration, P.~Adamson et~al., \emph{{Measurement of single
