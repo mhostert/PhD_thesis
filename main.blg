@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: JHEP.bst
 Reallocated field_info (elt_size=4) to 18170 items from 5000.
@@ -896,7 +896,7 @@ Warning--empty author in DUNE:GArOption
 Warning--empty booktitle in Aguilar-Arevalo:2012fmn
 You've used 439 entries,
             2217 wiz_defined-function locations,
-            4058 strings with 98491 characters,
+            4058 strings with 98489 characters,
 and the built_in function-call counts, 135735 in all, are:
 = -- 14050
 > -- 5332
